@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+*.env
+
+# Model weights and caches: never commit these
+.cache/
+models/
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.onnx
+
+# Raw/large load test output (we commit only summarized CSV/JSON in results/)
+results/raw/
+*.log
+
+# Editors / OS
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+
+# Kubernetes local artifacts
+kubeconfig*

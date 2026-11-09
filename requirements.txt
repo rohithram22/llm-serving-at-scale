@@ -1,0 +1,25 @@
+# Dev environment for the Codespace.
+# NOTE: torch is installed separately (CPU-only) by scripts/post_create.sh.
+# Each serving component will get its own slim requirements file for its Docker image.
+
+# Serving
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.7
+transformers>=4.45
+huggingface_hub>=0.25
+httpx>=0.27
+redis>=5.0
+
+# Load testing
+locust>=2.31
+
+# Analysis + charts
+pandas>=2.2
+matplotlib>=3.9
+
+# Quality eval (quantization comparison)
+datasets>=3.0
+
+# Tooling
+psutil>=6.0

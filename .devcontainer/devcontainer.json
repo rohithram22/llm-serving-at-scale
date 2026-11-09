@@ -1,0 +1,31 @@
+{
+  "name": "llm-serving-at-scale",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "hostRequirements": {
+    "cpus": 2,
+    "memory": "8gb"
+  },
+  "containerEnv": {
+    "HF_HOME": "${containerWorkspaceFolder}/.cache/huggingface",
+    "MODEL_ID": "Qwen/Qwen2.5-0.5B-Instruct",
+    "PIP_DISABLE_PIP_VERSION_CHECK": "1",
+    "PYTHONUNBUFFERED": "1"
+  },
+  "postCreateCommand": "bash scripts/post_create.sh",
+  "forwardPorts": [8000, 8080, 8089],
+  "portsAttributes": {
+    "8000": { "label": "API (FastAPI / gateway)" },
+    "8080": { "label": "llama.cpp server" },
+    "8089": { "label": "Locust UI" }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python", "ms-azuretools.vscode-docker"]
+    }
+  }
+}
