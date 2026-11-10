@@ -1,0 +1,16 @@
+{
+  "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+  "torch_threads": 2,
+  "load_seconds": 16.29,
+  "params_millions": 494.0,
+  "weights_gb_fp32": 1.84,
+  "kv_bytes_per_token_fp16": 12288,
+  "prompt_tokens": 30,
+  "ttft_ms": 1609.8,
+  "decode_tokens_per_s": 7.28,
+  "generated_tokens": 30,
+  "no_cache_total_s": 28.34,
+  "cache_total_s": 5.59,
+  "kv_cache_speedup": 5.07,
+  "outputs_identical": true
+}
