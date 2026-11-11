@@ -7,8 +7,8 @@
     "ghcr.io/devcontainers/features/docker-in-docker:2": {}
   },
   "hostRequirements": {
-    "cpus": 2,
-    "memory": "8gb"
+    "cpus": 4,
+    "memory": "16gb"
   },
   "containerEnv": {
     "HF_HOME": "${containerWorkspaceFolder}/.cache/huggingface",

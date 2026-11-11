@@ -1,0 +1,52 @@
+machine: 4 vCPUs, 15Gi RAM, torch_threads=2
+date: 2026-11-11T02:56:01Z
+
+### serial (MAX_CONCURRENT=1), n=1
+
+1 concurrent requests | server max_concurrent=1
+
+ req  total_s  queue_s  compute_s  tokens
+   0     3.81     0.00       3.78      32
+
+wall time 3.81s | throughput 0.262 req/s | 8.4 tokens/s | errors 0
+
+### serial (MAX_CONCURRENT=1), n=4
+
+4 concurrent requests | server max_concurrent=1
+
+ req  total_s  queue_s  compute_s  tokens
+   0     3.85     0.00       3.82      32
+   1     7.64     3.82       3.81      32
+   3    11.44     7.63       3.80      32
+   2    15.29    11.43       3.85      32
+
+wall time 15.31s | throughput 0.261 req/s | 8.4 tokens/s | errors 0
+
+### parallel threads (MAX_CONCURRENT=4), n=4
+
+4 concurrent requests | server max_concurrent=4
+
+ req  total_s  queue_s  compute_s  tokens
+   2     8.20     0.00       8.18      32
+   3     8.41     0.00       8.40      32
+   1     8.45     0.00       8.44      32
+   0     8.46     0.00       8.42      32
+
+wall time 8.47s | throughput 0.472 req/s | 15.1 tokens/s | errors 0
+
+{
+    "ready": true,
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "max_concurrent": 4,
+    "torch_threads": 2,
+    "worker_threads_before_fix": 2,
+    "waiting": 0,
+    "in_flight": 0,
+    "completed": 4,
+    "errors": 0,
+    "uptime_s": 14.2,
+    "load_s": 2.45,
+    "warmup_s": 1.13,
+    "avg_compute_s": 8.36,
+    "tokens_per_s_while_computing": 3.83
+}
