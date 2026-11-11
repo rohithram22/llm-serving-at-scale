@@ -1,0 +1,4 @@
+label,users,window_s,n_requests,n_ok,error_rate,errors,throughput_rps,goodput_rps,slo_s,p50_s,p95_s,p99_s,mean_s,p99_reliable,tokens_per_s,mean_completion_tokens,mean_queue_s,mean_compute_s,client_ok_total,server_completed,server_waiting_at_end,locust_cpu_pct,timestamp
+version_a,10,208.5,24,0,1.0,"{""timeout"": 24}",0.0,0.0,15.0,,,,,False,0.0,,,,8,35,1,0.0,2026-11-11T22:22:42
+version_a,100,206.2,204,0,1.0,"{""timeout"": 204}",0.0,0.0,15.0,,,,,False,0.0,,,,10,39,268,1.0,2026-11-11T22:26:51
+version_a,1000,201.9,2003,0,1.0,"{""timeout"": 2003}",0.0,0.0,15.0,,,,,False,0.0,,,,8,30,2976,3.0,2026-11-11T22:30:58
