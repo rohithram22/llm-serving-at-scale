@@ -17,8 +17,8 @@ import pandas as pd
 FIELDS = ["label", "users", "window_s", "n_requests", "n_ok", "error_rate", "errors",
           "throughput_rps", "goodput_rps", "slo_s", "p50_s", "p95_s", "p99_s", "mean_s",
           "p99_reliable", "tokens_per_s", "mean_completion_tokens", "mean_queue_s",
-          "mean_compute_s", "client_ok_total", "server_completed", "server_waiting_at_end",
-          "locust_cpu_pct", "timestamp"]
+          "mean_compute_s", "client_ok_total", "server_completed", "server_rejected",
+          "server_cancelled", "server_waiting_at_end", "locust_cpu_pct", "timestamp"]
 
 
 def main() -> None:
@@ -59,6 +59,8 @@ def main() -> None:
             server = json.load(open(args.server_stats))
         except json.JSONDecodeError:
             server = {}
+    rejected = (server.get("rejected_queue_full", 0) or 0) + (server.get("rejected_queue_timeout", 0) or 0)
+    cancelled = (server.get("cancelled_while_queued", 0) or 0) + (server.get("cancelled_mid_generation", 0) or 0)
 
     row = {
         "label": args.label, "users": args.users, "window_s": round(window, 1),
@@ -77,14 +79,19 @@ def main() -> None:
         "mean_compute_s": round(float(ok["compute_ms"].mean()) / 1000, 2) if ok["compute_ms"].notna().any() else None,
         "client_ok_total": int((df["status"] == 200).sum()),
         "server_completed": server.get("completed"),
+        "server_rejected": rejected if server else None,
+        "server_cancelled": cancelled if server else None,
         "server_waiting_at_end": server.get("waiting"),
         "locust_cpu_pct": args.locust_cpu,
         "timestamp": time.strftime("%Y-%m-%dT%H:%M:%S"),
     }
 
+    # Append. If an older summary file has fewer columns, merge instead of corrupting it.
     os.makedirs(os.path.dirname(args.out) or ".", exist_ok=True)
-    new_file = not os.path.exists(args.out)
-    pd.DataFrame([row], columns=FIELDS).to_csv(args.out, mode="a", header=new_file, index=False)
+    new = pd.DataFrame([row], columns=FIELDS)
+    if os.path.exists(args.out):
+        new = pd.concat([pd.read_csv(args.out), new], ignore_index=True)
+    new.to_csv(args.out, index=False)
 
     # ---- human-readable report
     print(f"\n=== {args.label} @ {args.users} users "
@@ -98,8 +105,8 @@ def main() -> None:
     if row["mean_queue_s"] is not None:
         print(f"server timing (ok): mean queue {row['mean_queue_s']}s, mean compute {row['mean_compute_s']}s")
     if server:
-        print(f"server completed {server.get('completed')} vs client received {row['client_ok_total']} "
-              f"| still queued at end: {server.get('waiting')}")
+        print(f"server: completed {server.get('completed')} (client received {row['client_ok_total']}) "
+              f"| rejected {rejected} | cancelled {cancelled} | still queued at end {server.get('waiting')}")
     if args.locust_cpu is not None:
         print(f"locust CPU: {args.locust_cpu:.0f}% of one core")
     print(f"appended -> {args.out}")
