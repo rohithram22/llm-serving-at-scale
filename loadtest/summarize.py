@@ -2,8 +2,8 @@
 
 Usage:
   python loadtest/summarize.py --raw results/raw/version_a_u10.csv --label version_a --users 10 \
-      [--warmup 30] [--slo 15] [--server-stats FILE] [--server-metrics FILE] \
-      [--locust-cpu PCT] [--out results/loadtest_summary.csv]
+      [--warmup 30] [--slo 15] [--server-stats FILE] [--locust-cpu PCT] \
+      [--out results/loadtest_summary.csv]
 """
 import argparse
 import json
@@ -102,7 +102,9 @@ def main() -> None:
         "server_completed": server.get("completed"),
         "server_rejected": rejected if server else None,
         "server_cancelled": cancelled if server else None,
-        "server_waiting_at_end": server.get("waiting", metrics.get("requests_deferred")),
+        # queue length at the end: Version A /stats, llama.cpp "requests_deferred", vLLM "num_requests_waiting"
+        "server_waiting_at_end": server.get("waiting", metrics.get("requests_deferred",
+                                                                   metrics.get("num_requests_waiting"))),
         "avg_batch": round(metrics["n_busy_slots_per_decode"], 2) if "n_busy_slots_per_decode" in metrics else None,
         "locust_cpu_pct": args.locust_cpu,
         "timestamp": time.strftime("%Y-%m-%dT%H:%M:%S"),
@@ -129,7 +131,7 @@ def main() -> None:
     if server:
         print(f"server: completed {server.get('completed')} (client received {row['client_ok_total']}) "
               f"| rejected {rejected} | cancelled {cancelled} | still queued at end {server.get('waiting')}")
-    if metrics:
+    if "n_busy_slots_per_decode" in metrics:          # llama.cpp
         print(f"server metrics: avg batch size {row['avg_batch']} | "
               f"queued (deferred) at end {metrics.get('requests_deferred')} | "
               f"tokens generated {metrics.get('tokens_predicted_total')}")
