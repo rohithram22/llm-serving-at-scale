@@ -1,8 +1,9 @@
 """Fire N identical requests at the same moment and see how they queue.
 
+Works with Version A (reads its "timing" field) and llama.cpp (reads its "timings" field).
 Usage:
     python scripts/concurrency_probe.py -n 4
-    python scripts/concurrency_probe.py -n 4 --url http://localhost:8000 --max-tokens 32
+    python scripts/concurrency_probe.py -n 4 --url http://localhost:8080 --max-tokens 32
 """
 import argparse
 import asyncio
@@ -12,6 +13,18 @@ import time
 import httpx
 
 PROMPT = "Explain what an API is to a beginner."
+
+
+def server_times(body: dict, total_s: float) -> tuple[float | None, float | None]:
+    """Return (queue_ms, compute_ms) from whichever timing format the server uses."""
+    t = body.get("timing") or {}
+    if t.get("compute_ms") is not None:                       # Version A
+        return t.get("queue_ms"), t.get("compute_ms")
+    tm = body.get("timings") or {}
+    if tm.get("predicted_ms") is not None:                    # llama.cpp
+        compute = (tm.get("prompt_ms") or 0) + tm["predicted_ms"]
+        return max(total_s * 1000 - compute, 0.0), compute    # queue = time not spent computing
+    return None, None
 
 
 async def one(client: httpx.AsyncClient, url: str, max_tokens: int, i: int) -> dict:
@@ -24,9 +37,9 @@ async def one(client: httpx.AsyncClient, url: str, max_tokens: int, i: int) -> d
     if r.status_code != 200:
         return {"i": i, "error": f"HTTP {r.status_code}: {r.text[:200]}", "total_s": total_s}
     body = r.json()
-    t = body.get("timing", {})
-    return {"i": i, "total_s": total_s, "queue_ms": t.get("queue_ms"),
-            "compute_ms": t.get("compute_ms"), "tokens": body["usage"]["completion_tokens"]}
+    queue_ms, compute_ms = server_times(body, total_s)
+    return {"i": i, "total_s": total_s, "queue_ms": queue_ms, "compute_ms": compute_ms,
+            "tokens": body["usage"]["completion_tokens"]}
 
 
 async def main() -> None:
@@ -42,11 +55,11 @@ async def main() -> None:
             results = await asyncio.gather(*[one(client, args.url, args.max_tokens, i)
                                              for i in range(args.n)])
         except httpx.ConnectError:
-            sys.exit("Could not connect: is the server running? (ps aux | grep uvicorn)")
+            sys.exit(f"Could not connect to {args.url}: is the server running?")
         wall = time.perf_counter() - t0
         try:
             stats = (await client.get(f"{args.url}/stats")).json()
-        except httpx.HTTPError:
+        except Exception:          # llama.cpp has no /stats
             stats = {}
 
     errors = [r for r in results if "error" in r]
@@ -56,7 +69,8 @@ async def main() -> None:
     if not ok:
         sys.exit(1)
 
-    print(f"\n{args.n} concurrent requests | server max_concurrent={stats.get('max_concurrent')}\n")
+    who = f"server max_concurrent={stats['max_concurrent']}" if "max_concurrent" in stats else args.url
+    print(f"\n{args.n} concurrent requests | {who}\n")
     print(f"{'req':>4} {'total_s':>8} {'queue_s':>8} {'compute_s':>10} {'tokens':>7}")
     for r in sorted(ok, key=lambda r: r["total_s"]):
         q = (r["queue_ms"] or 0) / 1000

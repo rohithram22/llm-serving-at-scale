@@ -52,9 +52,12 @@ fi
 read -r T_REAL T_USER T_SYS < "$TIME_FILE"
 LOCUST_CPU=$(python -c "print(round(100*($T_USER+$T_SYS)/max($T_REAL,1e-9)))")
 
+# Server-side counters: our /stats (Version A) and/or Prometheus /metrics (llama.cpp, vLLM).
 curl -sf "${URL}/stats" > "results/raw/${TAG}_server_stats.json" \
   || echo '{}' > "results/raw/${TAG}_server_stats.json"
+curl -sf "${URL}/metrics" > "results/raw/${TAG}_metrics.txt" || : > "results/raw/${TAG}_metrics.txt"
 
 python loadtest/summarize.py --raw "$RAW_CSV" --label "$LABEL" --users "$USERS" \
   --warmup "$WARMUP_S" --slo "$SLO_S" --locust-cpu "$LOCUST_CPU" \
-  --server-stats "results/raw/${TAG}_server_stats.json"
+  --server-stats "results/raw/${TAG}_server_stats.json" \
+  --server-metrics "results/raw/${TAG}_metrics.txt"

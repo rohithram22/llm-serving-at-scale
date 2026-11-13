@@ -2,8 +2,8 @@
 
 Usage:
   python loadtest/summarize.py --raw results/raw/version_a_u10.csv --label version_a --users 10 \
-      [--warmup 30] [--slo 15] [--server-stats FILE] [--locust-cpu PCT] \
-      [--out results/loadtest_summary.csv]
+      [--warmup 30] [--slo 15] [--server-stats FILE] [--server-metrics FILE] \
+      [--locust-cpu PCT] [--out results/loadtest_summary.csv]
 """
 import argparse
 import json
@@ -18,7 +18,26 @@ FIELDS = ["label", "users", "window_s", "n_requests", "n_ok", "error_rate", "err
           "throughput_rps", "goodput_rps", "slo_s", "p50_s", "p95_s", "p99_s", "mean_s",
           "p99_reliable", "tokens_per_s", "mean_completion_tokens", "mean_queue_s",
           "mean_compute_s", "client_ok_total", "server_completed", "server_rejected",
-          "server_cancelled", "server_waiting_at_end", "locust_cpu_pct", "timestamp"]
+          "server_cancelled", "server_waiting_at_end", "avg_batch", "locust_cpu_pct", "timestamp"]
+
+
+def read_prometheus(path: str | None) -> dict:
+    """Parse Prometheus text format into {metric_name: value}, dropping prefixes like
+    'llamacpp:' and labels. Returns {} if the file is missing or empty."""
+    vals: dict = {}
+    if not path or not os.path.exists(path):
+        return vals
+    for line in open(path):
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        name, _, value = line.rpartition(" ")
+        name = name.split("{")[0].split(":")[-1]
+        try:
+            vals[name] = float(value)
+        except ValueError:
+            pass
+    return vals
 
 
 def main() -> None:
@@ -29,6 +48,7 @@ def main() -> None:
     ap.add_argument("--warmup", type=float, default=30)
     ap.add_argument("--slo", type=float, default=15)
     ap.add_argument("--server-stats")
+    ap.add_argument("--server-metrics")
     ap.add_argument("--locust-cpu", type=float)
     ap.add_argument("--out", default="results/loadtest_summary.csv")
     args = ap.parse_args()
@@ -59,6 +79,7 @@ def main() -> None:
             server = json.load(open(args.server_stats))
         except json.JSONDecodeError:
             server = {}
+    metrics = read_prometheus(args.server_metrics)
     rejected = (server.get("rejected_queue_full", 0) or 0) + (server.get("rejected_queue_timeout", 0) or 0)
     cancelled = (server.get("cancelled_while_queued", 0) or 0) + (server.get("cancelled_mid_generation", 0) or 0)
 
@@ -81,7 +102,8 @@ def main() -> None:
         "server_completed": server.get("completed"),
         "server_rejected": rejected if server else None,
         "server_cancelled": cancelled if server else None,
-        "server_waiting_at_end": server.get("waiting"),
+        "server_waiting_at_end": server.get("waiting", metrics.get("requests_deferred")),
+        "avg_batch": round(metrics["n_busy_slots_per_decode"], 2) if "n_busy_slots_per_decode" in metrics else None,
         "locust_cpu_pct": args.locust_cpu,
         "timestamp": time.strftime("%Y-%m-%dT%H:%M:%S"),
     }
@@ -107,6 +129,10 @@ def main() -> None:
     if server:
         print(f"server: completed {server.get('completed')} (client received {row['client_ok_total']}) "
               f"| rejected {rejected} | cancelled {cancelled} | still queued at end {server.get('waiting')}")
+    if metrics:
+        print(f"server metrics: avg batch size {row['avg_batch']} | "
+              f"queued (deferred) at end {metrics.get('requests_deferred')} | "
+              f"tokens generated {metrics.get('tokens_predicted_total')}")
     if args.locust_cpu is not None:
         print(f"locust CPU: {args.locust_cpu:.0f}% of one core")
     print(f"appended -> {args.out}")

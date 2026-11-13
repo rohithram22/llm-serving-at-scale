@@ -98,9 +98,13 @@ class ChatUser(FastHttpUser):
                 try:
                     data = resp.json()
                     tokens = data["usage"]["completion_tokens"]
-                    timing = data.get("timing") or {}
-                    queue_ms = timing.get("queue_ms", "")
-                    compute_ms = timing.get("compute_ms", "")
+                    timing = data.get("timing") or {}          # Version A
+                    timings = data.get("timings") or {}        # llama.cpp
+                    if timing.get("compute_ms") is not None:
+                        queue_ms, compute_ms = timing.get("queue_ms", ""), timing["compute_ms"]
+                    elif timings.get("predicted_ms") is not None:
+                        compute_ms = (timings.get("prompt_ms") or 0) + timings["predicted_ms"]
+                        queue_ms = max((time.time() - start) * 1000 - compute_ms, 0.0)
                     resp.success()
                 except Exception:
                     status, error = -1, "bad_response"
