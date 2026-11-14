@@ -1,0 +1,11 @@
+Tesla T4, 580.178.04, 15360 MiB
+Tesla T4, 580.178.04, 15360 MiB
+Name: vllm
+Version: 0.18.1
+Name: torch
+Version: 2.10.0
+4
+               total        used        free      shared  buff/cache   available
+Mem:            31Gi       1.6Gi       4.8Gi       1.7Mi        25Gi        29Gi
+vLLM startup to healthy: 187s
+attention backend setting: default (auto)
