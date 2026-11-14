@@ -1,0 +1,4 @@
+baseline,label,n,accuracy,delta_vs_baseline,agreement,only_baseline_correct,only_model_correct,mcnemar_p,verdict
+llamacpp_fp16,llamacpp_fp16,1000,0.669,0.0,1.0,0,0,1.0,(baseline)
+llamacpp_fp16,llamacpp_q8_0,1000,0.643,-0.026,0.911,47,21,0.0022,significantly WORSE
+llamacpp_fp16,llamacpp_q4_k_m,1000,0.663,-0.006,0.774,80,74,0.6871,no significant difference

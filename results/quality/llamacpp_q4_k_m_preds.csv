@@ -1,0 +1,1001 @@
+id,answer,pred,correct,raw,latency_s
+ACTAAP_2007_7_18,D,B,0,B. metals,5.562
+ACTAAP_2007_7_22,A,A,1,A. store bile,6.202
+ACTAAP_2007_7_33,D,D,1,D. Walk or ride a bike instead of driving a car.,12.33
+ACTAAP_2007_7_9,A,A,1,A. percolation,6.649
+ACTAAP_2008_5_13,A,A,1,A. forms in layers,6.65
+ACTAAP_2008_5_14,A,C,0,"C. Earth, Venus, Mercury, Mars",8.724
+ACTAAP_2008_5_5,D,C,0,C. Heat the mineral until it melts,8.621
+ACTAAP_2009_5_1,A,C,0,C. Venus,5.636
+ACTAAP_2009_5_4,D,B,0,B. pulley,3.085
+ACTAAP_2009_7_12,A,A,1,A. for navigation,3.084
+ACTAAP_2009_7_6,B,B,1,B. The alveoli in the lungs,6.773
+ACTAAP_2009_7_9,D,A,0,A. An object in motion eventually stops.,6.469
+ACTAAP_2010_5_12,C,C,1,C. Ecologist,4.94
+ACTAAP_2010_5_13,A,D,0,D. Calculations and conversations,4.497
+ACTAAP_2010_5_15,D,D,1,"D. Wheel and axle, inclined plane, and lever",7.426
+ACTAAP_2010_5_5,C,C,1,C. Sampling fish populations in the lake over several years,7.331
+ACTAAP_2010_5_8,A,A,1,A. It was once underwater.,6.228
+ACTAAP_2010_5_9,A,A,1,A. Large mice will eat more food than smaller mice.,6.489
+ACTAAP_2012_7_14,A,A,1,A. troposphere,2.745
+ACTAAP_2013_5_4,B,B,1,B. consumer and herbivore,4.542
+ACTAAP_2013_5_5,B,B,1,B. refraction,3.035
+ACTAAP_2013_7_1,C,C,1,C. An object will keep moving unless an unbalanced force stops it.,9.265
+ACTAAP_2013_7_14,D,D,1,D. compound,2.121
+ACTAAP_2013_7_4,C,C,1,C. tilt of the Earth's axis,4.542
+ACTAAP_2013_7_8,C,C,1,C. wind patterns,3.028
+ACTAAP_2014_5_13,A,B,0,B. The object bubbles when put into an acid.,6.435
+ACTAAP_2014_5_4,C,C,1,C. contains fossils,3.028
+ACTAAP_2014_5_5,D,B,0,B. streak,2.102
+ACTAAP_2014_5_6,A,B,0,B. desert,2.099
+ACTAAP_2014_7_10,B,B,1,B. nitrogen,2.472
+ACTAAP_2014_7_2,D,D,1,D. integumentary,3.409
+ACTAAP_2014_7_4,A,A,1,A. A single cell becomes many cells.,7.104
+ACTAAP_2015_7_1,D,D,1,D. The amount of carbon dioxide increases.,7.091
+ACTAAP_2015_7_7,B,B,1,B. nervous and endocrine,5.327
+AIMS_2008_4_18,A,A,1,A. oceans,2.871
+AIMS_2008_8_12,B,B,1,B. The breath mint was more soluble than the toothpaste.,8.412
+AIMS_2008_8_7,A,C,0,C. It improves immune system function.,5.671
+AIMS_2009_4_13,A,C,0,C. nose,3.794
+AIMS_2009_4_20,A,C,0,C. the amount of mud in the bottom of the pond,7.673
+AIMS_2009_4_25,C,C,1,C,2.452
+AKDE&ED_2008_4_3,B,C,0,C. Their volumes stay the same in any container.,5.922
+AKDE&ED_2008_8_20,C,C,1,C. They cycle matter by returning carbon and other matter to the ecosystem.,8.034
+AKDE&ED_2008_8_30,A,A,1,A. the tilt of Earth on its axis,4.589
+AKDE&ED_2008_8_38,A,A,1,A. balance,1.915
+AKDE&ED_2008_8_39,C,C,1,"C. logic, evidence, and current knowledge.",4.703
+AKDE&ED_2008_8_43,D,C,0,C. Individual birds of an island finch species have many differences.,7.338
+AKDE&ED_2008_8_5,D,D,1,D. respiratory and circulatory,3.923
+AKDE&ED_2012_4_2,C,B,0,B. Its mass increased.,3.58
+AKDE&ED_2012_4_29,A,B,0,B. Water forms droplets as it falls.,5.311
+AKDE&ED_2012_4_39,D,D,1,D. the weathering of rocks,4.528
+AKDE&ED_2012_8_1,C,C,1,C. meter,2.984
+AKDE&ED_2012_8_15,C,C,1,C. density,2.969
+CSZ20228,C,C,1,C. the equator,3.274
+CSZ20334,A,A,1,A. orbits of the planets around the Sun,6.655
+CSZ20679,C,C,1,C. light-year.,2.497
+CSZ20823,C,C,1,C. a compound.,4.576
+CSZ30499,B,B,1,B. They are nonmetals.,5.922
+CSZ_2004_5_CSZ10100,D,B,0,B. a star.,4.491
+CSZ_2009_8_CSZ30651,A,A,1,A. C?H??O?,5.948
+CSZ_2009_8_CSZ30764,B,B,1,B. increase the mass of the box,5.945
+LEAP_2002_8_10389,D,C,0,C. half as high as the first sample's,7.969
+LEAP_2003_8_10393,A,B,0,B. Plant cells only.,5.743
+LEAP_2004_4_10258,A,A,1,A. They are planting trees to replace the ones that are cut.,6.864
+LEAP_2004_8_10398,C,A,0,A. Both have a cell wall to give them support.,6.086
+LEAP_2005_8_10403,D,D,1,D. Plants,3.445
+LEAP_2006_8_10411,A,A,1,A. tested five kittens on a non-meat diet also,7.644
+LEAP_2008_4_10286,A,B,0,B. Tie two different weights to a string.,6.306
+LEAP_2009_8_10429,A,A,1,A. It decreases soil erosion.,3.945
+LEAP_2012_8_10440,B,C,0,C. The molecules transfer an electric charge to the dust particles.,9.993
+LEAP__4_10226,C,C,1,C. take the cans to be recycled.,6.012
+LEAP__4_10228,D,C,0,C. can make a noise and has a lifelike color.,9.7
+LEAP__5_10319,D,C,0,C,2.351
+LEAP__7_10341,B,B,1,B. How much newly hatched fish in this species gain in the first year without the nutrient in their diet.,13.173
+LEAP__7_10345,B,B,1,B.,4.047
+LEAP__7_10346,B,D,0,D,2.372
+LEAP__8_10366,C,D,0,D. have seeds that stay alive for a long time in the environment.,8.473
+LEAP__8_10369,D,C,0,C. half as high as the first sample's,6.759
+MCAS_1998_8_11,B,A,0,A. The temperature difference between the two groups was not great enough.,7.583
+MCAS_1998_8_19,A,A,1,A. the Moon blocks the Earth from the Sun.,6.103
+MCAS_1998_8_22,A,C,0,C. Flash the lights to simulate a partly cloudy day.,6.105
+MCAS_1999_4_4,C,C,1,C. The heat comes from deep within Earth.,4.22
+MCAS_1999_8_23,C,C,1,C. There is variation among individuals within a species.,4.813
+MCAS_1999_8_32,C,B,0,B. Some of the energy in coal is destroyed by the intense heat required to release its potential energy.,10.111
+MCAS_2000_4_11,A,A,1,A. are living organisms.,3.019
+MCAS_2000_4_23,A,A,1,A. hot and dry.,3.011
+MCAS_2000_4_24,C,C,1,C. They inherited the same characteristics from their parents.,5.803
+MCAS_2000_4_25,C,B,0,B. lower cost.,2.563
+MCAS_2000_4_29,A,B,0,B. stormy.,3.02
+MCAS_2000_4_32,C,C,1,C. Flowers.,3.372
+MCAS_2000_8_19,C,C,1,C. heat.,3.343
+MCAS_2000_8_23,A,B,0,B. sea level to a valley below sea level.,6.047
+MCAS_2000_8_3,D,D,1,D. carry out photosynthesis.,4.833
+MCAS_2000_8_36,B,B,1,B. a tennis ball rolling across the court.,5.943
+MCAS_2001_5_14,B,B,1,B. higher pitched.,3.329
+MCAS_2001_5_19,C,C,1,"C. Food. Plants use sunlight to make food, which is the primary source of energy for all living organisms.",10.853
+MCAS_2001_8_19,C,D,0,D. structure,1.976
+MCAS_2002_5_7,D,B,0,B. diamond.,2.367
+MCAS_2002_8_12,C,C,1,C. cell wall,3.429
+MCAS_2002_8_14,A,B,0,B. torsion.,4.061
+MCAS_2003_5_3,B,B,1,B. Vibrations,3.686
+MCAS_2003_8_17,A,D,0,D. birds eating the insects from the back of a hippopotamus,7.854
+MCAS_2003_8_26,C,D,0,"D. 10°C  To determine the temperature at which the second container of water freezes, we need to understand the freezing",26.349
+MCAS_2003_8_5,A,B,0,B. The Moon must be waxing.,5.351
+MCAS_2004_5_14,A,A,1,A. in a volcano,4.266
+MCAS_2004_5_21,A,A,1,A. to make it easy to carry,3.658
+MCAS_2004_5_25,C,C,1,C. volume of water,2.402
+MCAS_2004_5_32,A,B,0,B. Mechanical energy,2.288
+MCAS_2004_5_36,C,A,0,A. The drops form fog.,3.403
+MCAS_2004_5_8,C,A,0,A. heat energy,2.434
+MCAS_2004_8_22,A,A,1,A. overhunting,4.879
+MCAS_2004_9_20,A,B,0,B. encoder,2.324
+MCAS_2004_9_21,A,A,1,A. casting,2.356
+MCAS_2004_9_6-v1,C,C,1,C,2.715
+MCAS_2004_9_7,C,B,0,B. inertia of the ball.,5.019
+MCAS_2005_5_10,B,B,1,B. Sunlight is reduced.,5.021
+MCAS_2005_5_22,B,B,1,B. Its path bends.,4.888
+MCAS_2005_8_1,C,D,0,D. Protista,4.327
+MCAS_2005_8_17,D,D,1,D. inspecting the finish,4.494
+MCAS_2005_8_27,A,A,1,A. to perform repetitive tasks,2.876
+MCAS_2005_9_19-v1,D,C,0,C. They reduce radiant cooling.,3.908
+MCAS_2006_5_1,A,A,1,A. precipitation.,2.728
+MCAS_2006_5_21,C,C,1,C,1.571
+MCAS_2006_8_21,A,A,1,A. engine,3.906
+MCAS_2006_9_13-v1,A,C,0,C. green,3.902
+MCAS_2006_9_14,B,B,1,B. Formation of cellulose,5.996
+MCAS_2006_9_28,C,C,1,C. induction,3.616
+MCAS_2006_9_29,B,B,1,B. nitrogen,4.107
+MCAS_2006_9_5,B,B,1,B. They are cycled through ecosystems.,6.709
+MCAS_2009_5_6511,D,C,0,C. radio waves,4.436
+MCAS_2010_5_11981,B,B,1,B. heat,3.126
+MCAS_2010_5_11995,D,D,1,D. It creates a habitat for some ocean animals.,6.699
+MCAS_2010_8_12003,B,B,1,B. Cell membrane,4.004
+MCAS_2010_8_12019,B,A,0,A. bending,2.48
+MCAS_2011_5_11,A,A,1,A. to insulate the electrical wire,4.61
+MCAS_2011_5_15,C,B,0,B. grass,2.439
+MCAS_2011_8_17685,D,D,1,D. an increase in the amount of atmospheric carbon dioxide.,6.628
+MCAS_2011_8_17692,B,B,1,B. compound,2.454
+MCAS_2011_8_17696,D,D,1,D. g/cm^3,4.166
+MCAS_2011_8_17697,B,B,1,B. the foundation,2.933
+MCAS_2012_5_22237,C,D,0,D. 1280 millimeters,5.53
+MCAS_2012_5_23619,B,B,1,B. photosynthesis,3.043
+MCAS_2012_5_3,C,C,1,C. It is made of more than one simple machine.,8.494
+MCAS_2012_8_23643,B,B,1,B. custom production,3.046
+MCAS_2012_8_23644,C,D,0,D. mid-ocean ridges,6.659
+MCAS_2012_8_23653,B,B,1,B. the Moon,3.851
+MCAS_2013_8_29417,A,C,0,C. a strong wooden case with lightweight plastic lining,7.64
+MCAS_2013_8_29418,D,C,0,"C. Water, rust, and salt are elements.",8.747
+MCAS_2014_8_19,D,D,1,D. Some individuals have genetic differences that make them more likely to survive and reproduce in their environment.,13.475
+MCAS_2015_5_11,D,D,1,D. magnetic,4.211
+MCAS_2015_8_20,C,B,0,B. Cold energy in the room transforms into heat energy.,8.833
+MCAS_2015_8_6,B,C,0,C. Gravity cools gases and liquids until they become one solid mass.,8.949
+MCAS_8_2014_13,D,D,1,D. respiratory,1.453
+MCAS_8_2015_13,A,C,0,C. moving nutrients to specialized tissues,4.655
+MCAS_8_2015_14,D,D,1,D. The percentage of dark-colored moths in the populations decreased.,10.017
+MCAS_8_2015_4,A,C,0,C. The particles begin to move with a greater force.,8.053
+MDSA_2007_8_4,A,D,0,D. sulfur (S),3.832
+MDSA_2008_5_23,A,D,0,D. wood,2.456
+MDSA_2008_5_29,B,B,1,B. They are solid.,4.606
+MDSA_2008_8_24,C,C,1,C. using renewable power sources,3.974
+MDSA_2008_8_25,C,C,1,C. increasing carbon dioxide levels,6.69
+MDSA_2008_8_29,C,B,0,B. adaptation,4.119
+MDSA_2008_8_38,A,A,1,A. near plate boundaries,6.55
+MDSA_2009_4_24,A,C,0,C. a new plant species,6.838
+MDSA_2009_8_29,C,C,1,C. compounds,4.522
+MDSA_2009_8_37,C,C,1,C. fossil fuel,5.708
+MDSA_2010_5_19,B,B,1,B. The mass of the pieces is the same as the mass of the statue.,12.769
+MDSA_2010_5_3,A,A,1,A. It melts to form liquid water.,7.082
+MDSA_2010_8_22,B,B,1,B. fish populations decrease,4.976
+MDSA_2010_8_38,D,D,1,D. Non-native plants compete with native plants for resources.,6.691
+MDSA_2010_8_43,B,B,1,B. Carbon dioxide levels will increase.,4.757
+MDSA_2010_8_8,C,C,1,C. Human skin,3.86
+MDSA_2011_4_16,D,D,1,D. Food provides energy for growth.,4.695
+MDSA_2011_5_35,C,B,0,B. Feed pets food that produces less waste.,6.052
+MDSA_2011_8_13,D,D,1,D. increasing carbon dioxide levels in the atmosphere.,6.041
+MDSA_2011_8_39,A,A,1,A. heat energy,2.244
+MDSA_2012_8_1,A,A,1,A. air,2.043
+MDSA_2012_8_35,D,D,1,"D. ovaries, uterus, and fallopian tubes",7.804
+MDSA_2013_8_33,D,D,1,D. a compound,3.542
+MDSA_2013_8_7,C,C,1,C. a compound,4.04
+MEAP_2004_8_48,C,C,1,C. milliliters,4.462
+MEAP_2005_8_14,A,B,0,B. restoring wetlands,4.462
+MEAP_2005_8_16,B,B,1,B. An air mass has similar temperature and moisture properties throughout it.,8.033
+MEA_2010_8_15-v1,B,B,1,B. an electric motor,3.969
+MEA_2010_8_2,D,D,1,D. They have the same bones in their limbs.,6.321
+MEA_2010_8_9,D,C,0,C. Collecting rainwater.,4.64
+MEA_2010_8_9-v1,D,D,1,D. sexual reproduction,2.735
+MEA_2011_8_15,D,A,0,A. The Sun would appear larger and brighter.,5.454
+MEA_2013_5_11,A,C,0,C. The same animals that lived long ago also live today.,7.321
+MEA_2013_5_7,A,B,0,B. cow heart,2.323
+MEA_2013_8_19,C,C,1,C. The parasite benefits and the host is harmed.,6.005
+MEA_2013_8_2,B,C,0,C. to remove wastes from a cell.,5.493
+MEA_2014_5_15,B,B,1,B. bacteria,2.215
+MEA_2014_5_3,C,C,1,C. The warm object loses energy and the cool object gains energy until both objects are the same temperature.,12.113
+MEA_2014_5_8,A,A,1,A. The objects are stars.,5.101
+MEA_2016_5_5,A,C,0,C. spring to winter,3.501
+MEA_2016_8_18,D,D,1,D. forests and waterfalls.,4.859
+MEA_2016_8_2,B,D,0,D. Light from Earth illuminates the Moon.,6.928
+MEA_2016_8_20,A,A,1,A. heat energy,2.991
+MSA_2012_5_1,B,B,1,B. a stopwatch,2.991
+MSA_2012_5_16,B,B,1,B. the closest star to Earth,5.077
+MSA_2012_5_28,A,A,1,A. a fossil,3.529
+MSA_2012_5_34,D,C,0,C. burying the tires in a landfill.,5.943
+MSA_2012_8_28,C,C,1,C. turns litmus paper blue,4.48
+MSA_2012_8_34,A,D,0,D. The properties of sodium remain the same but the properties of chlorine change.,9.319
+MSA_2013_5_15,C,C,1,C. the sun,3.845
+MSA_2013_5_6,B,B,1,B. gravity,2.311
+MSA_2015_5_34,D,D,1,D. 80 seconds,4.02
+MSA_2015_5_44,D,D,1,"D. trees, water, fish",5.285
+Mercury_175963,A,A,1,A. treatment of infections.,3.72
+Mercury_176558,A,A,1,A. the sum of the potential and kinetic energy,6.848
+Mercury_177153,D,D,1,D. Alfred Wegener.,4.452
+Mercury_177223,A,B,0,B. physical,3.084
+Mercury_177678,D,D,1,D. parent isotopes,3.521
+Mercury_177730,A,B,0,B. pyroxene,3.234
+Mercury_178535,C,C,1,C. outside the nucleus,3.762
+Mercury_179113,C,C,1,C,1.368
+Mercury_179218,D,D,1,D. The population is large.,5.278
+Mercury_180198,B,B,1,B. seasons,2.478
+Mercury_182263,C,C,1,C,2.294
+Mercury_182928,A,A,1,A. organs,3.479
+Mercury_182945,D,D,1,D. stomach,3.523
+Mercury_183768,B,B,1,B. supports and protects tissues and organs.,6.608
+Mercury_183925,D,C,0,"C. to remove dead wood. Trees like oaks and walnuts depend on squirrels to remove dead wood, which helps them survive an",24.127
+Mercury_184170,C,C,1,C. ozone.,2.985
+Mercury_184328,A,C,0,C. size,2.838
+Mercury_184380,A,B,0,B. fungi,2.905
+Mercury_185238,B,B,1,B. Consumers.,3.388
+Mercury_185500,A,D,0,D. inertia,2.962
+Mercury_186568,D,B,0,B. a piece of wood burning,4.569
+Mercury_187460,C,B,0,B. reverse the current's direction.,4.594
+Mercury_189753,B,A,0,A. The westward deflection of equatorial winds.,6.466
+Mercury_190190,D,C,0,C. Earth's core,3.302
+Mercury_190803,B,B,1,B. protective coloration,2.865
+Mercury_191503,B,B,1,B. fight disease,2.052
+Mercury_192868,C,C,1,C. igneous,2.737
+Mercury_192990,A,A,1,A.,1.346
+Mercury_400158,D,C,0,C. sediments separate,3.159
+Mercury_400203,B,B,1,B. evaporation,2.718
+Mercury_400363,A,A,1,A. coat color,2.477
+Mercury_400396,A,A,1,A. eye color,2.468
+Mercury_400556,D,D,1,D. The fat content of the item is reduced.,5.958
+Mercury_400598,C,C,1,C. insulators.,4.515
+Mercury_400704,A,C,0,C. length of hair,3.454
+Mercury_400752,B,C,0,C. 100% Rr,5.709
+Mercury_400799,C,C,1,C. Activities of predators preying on insects.,5.828
+Mercury_400806,B,B,1,B. 12,3.489
+Mercury_400837,A,A,1,A. physical properties.,3.491
+Mercury_401187,C,D,0,D. 212°C.,4.002
+Mercury_401240,C,C,1,C. an inherited trait.,3.715
+Mercury_401246,B,B,1,B. gravity,2.651
+Mercury_401337,C,C,1,C,1.76
+Mercury_401583,A,C,0,C. by using two differently colored marbles for protons,6.753
+Mercury_401785,B,B,1,B. A bird building a nest.,4.892
+Mercury_402091,C,B,0,B. hair color,3.119
+Mercury_402093,A,A,1,A. learned behavior.,3.633
+Mercury_402144,D,D,1,D. hydrogen and oxygen combining,4.0
+Mercury_402535,B,B,1,"B. thermometer, hot plate, beaker",6.036
+Mercury_404096,B,D,0,D. erosion,2.394
+Mercury_404107,B,C,0,C. gypsum,1.874
+Mercury_404153,D,C,0,C. 25%,3.944
+Mercury_404924,D,D,1,"The correct order in the process of sedimentary rock formation is:  D. weathering, erosion, deposition, compaction  This",23.702
+Mercury_404987,B,B,1,B. hardness,2.704
+Mercury_405056,A,A,1,A. Rocks are made of one or more minerals.,6.485
+Mercury_405140,C,C,1,C. electrical energy.,3.974
+Mercury_405141,B,B,1,B. electrical,2.702
+Mercury_405452,A,A,1,A. decreased production cost,2.877
+Mercury_405461,C,C,1,C. observations,2.207
+Mercury_405469,D,D,1,D. It allows them to edit papers quickly.,6.747
+Mercury_405769,B,B,1,B. tissue,2.225
+Mercury_405771,C,C,1,C. chloroplast,2.533
+Mercury_405772,A,C,0,C. barometers,2.53
+Mercury_405951,A,C,0,C. Bones carry oxygen-rich blood throughout the body.,6.351
+Mercury_405953,B,B,1,B. grass,2.398
+Mercury_406546,B,B,1,B.,2.282
+Mercury_406741,D,D,1,D. to know if there is a risk for harmful side effects.,8.054
+Mercury_406786,B,B,1,B. work together on scientific research.,5.263
+Mercury_406917,B,A,0,A. line graph,3.575
+Mercury_406923,C,C,1,C. motion,2.876
+Mercury_406955,A,D,0,D. 19.3 g  Mercury oxide (HgO) decomposes to form liquid mercury (Hg) and oxygen (O2) when heated. The balanced chemical,22.97
+Mercury_407053,C,C,1,C.,1.606
+Mercury_407129,A,A,1,A. microscope,2.612
+Mercury_407259,B,B,1,B. Wood burning in a fireplace.,4.458
+Mercury_407263,C,C,1,C. Stomach acids dissolve food into nutrients.,5.958
+Mercury_407530,B,B,1,B. 2 tall plants to 2 short plants,6.397
+Mercury_407661,D,B,0,B. The substance changes phases.,4.241
+Mercury_409465,D,D,1,D. test the supplement on a larger sample of women.,6.611
+Mercury_410467,D,D,1,D. work,1.691
+Mercury_410598,B,B,1,B. electrons,2.473
+Mercury_411070,A,B,0,B. 0.21 m/s^2,6.314
+Mercury_412148,A,C,0,"The correct answer is:  C. Kr, Cl, and O  Explanation: - Kr (Calcium) has a high melting point and is a good conductor o",21.869
+Mercury_412714,D,D,1,D. kg/m^3,3.205
+Mercury_412755,D,B,0,B. 20 mL.,3.326
+Mercury_414097,C,C,1,C. North American Plate,2.667
+Mercury_415689,A,A,1,A. Ozone absorbs ultraviolet light.,5.481
+Mercury_416374,C,C,1,C,2.102
+Mercury_416375,A,B,0,B. lightning,3.366
+Mercury_416377,C,D,0,"D. carbon monoxide  Explanation: In the OMZ, dissolved gases like carbon dioxide (CO2) would be expected to be in large ",21.948
+Mercury_416405,C,C,1,C. They allow nutrients through the cell membrane.,5.559
+Mercury_416468,B,B,1,B. The process used to constantly remove excess water.,5.659
+Mercury_416502,D,B,0,B. mitochondrion,3.519
+Mercury_416504,C,C,1,C. ribosomes,2.396
+Mercury_416507,C,B,0,B. Eukaryotic cells make up multicellular organisms.,5.52
+Mercury_416550,B,B,1,B. Turbidity,3.453
+Mercury_416636,D,C,0,C. A euglena can regulate water intake.,6.338
+Mercury_416684,A,C,0,C. downwelling,2.425
+Mercury_417462,C,D,0,D. by looking for young sporophytes inside the seeds.,6.745
+Mercury_417464,C,C,1,C. jointed limbs,3.001
+Mercury_417568,C,C,1,"C. carbon, hydrogen, oxygen",3.587
+Mercury_417569,B,C,0,C. petals on a flower,3.466
+Mercury_417589,C,C,1,C. What is the increase of carbon dioxide in the atmosphere?,5.915
+Mercury_7001278,D,C,0,C. triple beam balance,1.581
+Mercury_7001453,D,D,1,D. number of protons.,3.111
+Mercury_7001575,D,B,0,B. eyesight.,2.451
+Mercury_7001855,B,B,1,B. a chemical reaction.,3.088
+Mercury_7003728,D,C,0,C. kinetic,2.192
+Mercury_7004008,C,A,0,A. mutualism.,2.896
+Mercury_7004760,D,B,0,B. reduce its mass.,3.428
+Mercury_7005058,D,C,0,C. because of the way objects rotate and revolve,5.836
+Mercury_7005513,D,D,1,D. photosynthesis.,3.468
+Mercury_7006108,D,D,1,D. pioneer species.,3.464
+Mercury_7007543,C,C,1,C. amplitude,2.253
+Mercury_7007613,D,C,0,C. electrons in the nucleus.,4.197
+Mercury_7007683,A,B,0,B. protons,3.251
+Mercury_7007770,D,C,0,C. direction and strength of the electron,4.745
+Mercury_7007840,C,B,0,B. cold air penetrating the hot water.,5.248
+Mercury_7007858,A,A,1,A. Heat from the room is absorbed by the ice cube.,7.433
+Mercury_7007928,D,B,0,B. humidity,2.244
+Mercury_7008033,D,B,0,B. a volcano erupting,3.114
+Mercury_7008103,D,C,0,C. distance.,2.534
+Mercury_7008260,C,B,0,"B. a decrease in temperature, causing earlier frosts.",6.887
+Mercury_7008348,D,C,0,C. precipitation.,2.53
+Mercury_7008820,C,C,1,C. an ion.,4.327
+Mercury_7008908,B,B,1,B. increasing surface area.,3.53
+Mercury_7009573,B,B,1,B. remove carbon dioxide.,4.35
+Mercury_7009748,D,B,0,B. wavelength,2.759
+Mercury_7009853,A,C,0,C. contrasting it against nearby stars.,5.457
+Mercury_7010063,D,D,1,D. transferring heat to and from various regions.,6.922
+Mercury_7011235,B,B,1,B. respiratory,2.095
+Mercury_7011288,D,A,0,A. erosion,2.701
+Mercury_7011393,A,C,0,"C. 25% short, 75% tall",8.285
+Mercury_7011760,A,A,1,A. polio.,4.128
+Mercury_7012863,A,A,1,A. It uses renewable natural resources.,4.363
+Mercury_7012950,B,B,1,B. air pressure,2.793
+Mercury_7013370,B,B,1,B. full moon and new moon,4.268
+Mercury_7013685,A,A,1,A. shivering in cold temperatures,3.342
+Mercury_7013843,D,D,1,D. an exothermic reaction.,5.588
+Mercury_7013895,B,B,1,B. Dalton,1.704
+Mercury_7014000,A,A,1,A. nervous,1.696
+Mercury_7015575,B,B,1,B. releases heat and is exothermic.,5.815
+Mercury_7015663,A,A,1,A. rock cycle,3.483
+Mercury_7015680,C,A,0,"The correct answer is:  A. cool and dry  Maritime polar air masses are characterized by being cool and dry, which is a k",24.178
+Mercury_7015733,C,A,0,A. interfering with the water cycle.,5.472
+Mercury_7015803,A,C,0,C. 4 billion kilometers,4.237
+Mercury_7015890,B,B,1,B. red shift of light from distant galaxies,5.805
+Mercury_7015908,D,B,0,B. divergent boundary,2.027
+Mercury_7015925,B,B,1,B. extraction of ground water,3.146
+Mercury_7015978,D,D,1,D. The atom becomes a positive ion.,4.911
+Mercury_7016013,C,C,1,C. sedimentary rocks.,4.022
+Mercury_7016363,C,C,1,C. decrease in frog population as water evaporates,5.184
+Mercury_7016415,C,C,1,C. microscope,3.385
+Mercury_7016695,D,D,1,D. It could lead to the potential extinction of those animals.,6.182
+Mercury_7017728,B,B,1,B. type of material through which the sound travels.,5.471
+Mercury_7017798,C,B,0,B. Heat is radiating in the liquid.,5.06
+Mercury_7017885,A,C,0,C. Mechanical energy.,1.79
+Mercury_7017955,D,D,1,D. balance and graduated cylinder.,3.391
+Mercury_7018060,B,B,1,B. flammability,2.662
+Mercury_7018340,A,A,1,A. heredity.,4.224
+Mercury_7018428,B,B,1,B. incandescent light produces more heat.,5.942
+Mercury_7018498,C,C,1,C. volume.,2.811
+Mercury_7018533,A,D,0,D,1.194
+Mercury_7024203,A,A,1,A. nervous and muscle,3.63
+Mercury_7024780,C,C,1,C. exothermic,3.144
+Mercury_7025025,A,B,0,B. high pressure and heat,3.816
+Mercury_7025095,D,D,1,D. longshore drift,3.333
+Mercury_7025130,A,A,1,A. protons.,4.422
+Mercury_7026425,C,C,1,C,1.038
+Mercury_7026495,C,B,0,B. igneous,3.963
+Mercury_7026618,A,A,1,A. stars,3.846
+Mercury_7026968,A,B,0,B. average rainfall in the area,5.013
+Mercury_7027545,D,B,0,B. placing rubber insulation on wires in the circuit.,6.941
+Mercury_7029313,C,B,0,B. Mendel's experiments with pea plants,6.084
+Mercury_7030783,A,B,0,B. protons.,4.222
+Mercury_7032148,A,A,1,A. Jonas Salk,2.481
+Mercury_7032393,D,D,1,D. graduated cylinder,2.325
+Mercury_7032865,A,A,1,A. Galileo Galilei,3.767
+Mercury_7033373,D,D,1,D. Some pesticides can harm non-targeted species.,6.923
+Mercury_7033600,A,A,1,A. a computer model,3.624
+Mercury_7034773,C,C,1,C. is higher than other common substances.,6.064
+Mercury_7034790,B,B,1,B. Energy,2.467
+Mercury_7034825,C,C,1,C,0.977
+Mercury_7037380,B,B,1,B. herbivores,4.209
+Mercury_7038850,A,C,0,C,1.767
+Mercury_7041265,A,B,0,B. The test tube is warm.,6.423
+Mercury_7041300,D,D,1,D. a change in environmental conditions.,6.462
+Mercury_7041878,C,C,1,C. wave motion,3.289
+Mercury_7042543,B,B,1,B. the big bang,4.682
+Mercury_7042630,B,B,1,B. farming,2.544
+Mercury_7043908,A,A,1,A. wind,3.283
+Mercury_7043943,A,B,0,B. Its height decreases.,5.285
+Mercury_7044083,D,B,0,B. The weight of the depot is too great over the aquifer.,9.354
+Mercury_7044520,B,B,1,B. mass,3.176
+Mercury_7044555,D,D,1,D,2.137
+Mercury_7044713,C,C,1,C. gravity,3.043
+Mercury_7056473,C,B,0,B. Daylight hours would decrease.,5.661
+Mercury_7056490,A,B,0,B. The seasons would be reversed.,5.674
+Mercury_7056543,D,B,0,B. Sand,2.946
+Mercury_7056665,C,C,1,C. a sieve,3.064
+Mercury_7057243,C,B,0,B. particle sizes,3.064
+Mercury_7057960,C,C,1,C. Organic matter is decayed in the soil.,5.983
+Mercury_7058520,C,B,0,B. omnivores,3.181
+Mercury_7068670,D,B,0,B. a coastal beach,3.133
+Mercury_7068705,A,C,0,C. clay,2.587
+Mercury_7069388,C,C,1,C. the same as that of the flat paper.,6.203
+Mercury_7071960,A,B,0,B. silicon,1.942
+Mercury_7071978,B,B,1,B. anaerobic.,3.374
+Mercury_7075110,C,C,1,C. more than one cell.,4.084
+Mercury_7075128,C,C,1,C. Have at least one cell.,5.54
+Mercury_7077490,B,B,1,B. distance and mass,3.194
+Mercury_7077578,B,B,1,B. They spread apart to fill their container.,6.539
+Mercury_7077648,B,B,1,B. atom,2.061
+Mercury_7077665,D,C,0,C. Electrons are inside the nucleus.,5.961
+Mercury_7080955,D,C,0,C. goggles,3.21
+Mercury_7080973,B,B,1,B. drop zones,3.986
+Mercury_7081148,B,B,1,B. a pie chart,4.257
+Mercury_7081288,B,B,1,B. bar graph.,4.257
+Mercury_7081673,B,B,1,B. breathing mask,3.465
+Mercury_7082075,C,A,0,A. diffract and spread out.,4.622
+Mercury_7082478,B,C,0,C. The book probably has a sticky cover.,5.692
+Mercury_7082670,C,C,1,C. a range of colors.,3.641
+Mercury_7083405,A,A,1,A. a tissue.,3.069
+Mercury_7083458,B,B,1,B. A bacterial infection.,3.52
+Mercury_7083563,B,B,1,B. a cell,2.287
+Mercury_7083738,A,D,0,D. They are different mixtures.,4.608
+Mercury_7083790,A,D,0,D. Positive protons and negative neutrons.,4.792
+Mercury_7085383,D,B,0,B. compaction,2.57
+Mercury_7085435,B,B,1,B. coal.,2.926
+Mercury_7085558,C,B,0,B. streak.,2.927
+Mercury_7086765,B,B,1,B. glass,2.487
+Mercury_7086800,C,C,1,C. clay.,2.971
+Mercury_7090563,A,B,0,B. cause erosion.,4.563
+Mercury_7090580,B,B,1,B. subduction zones.,4.135
+Mercury_7090930,D,D,1,D. ground water is being depleted.,6.073
+Mercury_7091858,D,D,1,D. an increase in the greenhouse effect.,6.167
+Mercury_7091875,A,A,1,A. evaporation,3.531
+Mercury_7091893,C,C,1,C. irrigation.,3.53
+Mercury_7092190,A,A,1,A. eating,3.404
+Mercury_7092208,A,B,0,B. Volcanoes will erupt more often.,8.795
+Mercury_7092278,C,C,1,C. agriculturists,2.859
+Mercury_7092400,B,A,0,A. normal faults,2.764
+Mercury_7092488,B,B,1,B. mountains,2.642
+Mercury_7093083,C,C,1,C. groundwater,2.633
+Mercury_7094115,C,D,0,D. nautical chart,5.752
+Mercury_7094605,A,B,0,B. nuclear power plants,5.011
+Mercury_7094938,D,D,1,D. gravitational force,4.909
+Mercury_7099260,D,D,1,D. circulatory system,6.022
+Mercury_7099348,C,B,0,B. the amount of fruit picked after dark,7.678
+Mercury_7100520,C,C,1,C. ability to produce genetically different offspring,7.554
+Mercury_7100643,D,A,0,A. return to their summer feeding area.,7.673
+Mercury_7103548,B,A,0,A. condensation,3.023
+Mercury_7107993,C,C,1,C. Nitrogen atoms can bond to different atoms.,6.795
+Mercury_7108063,B,B,1,B. use of chlorofluorocarbons (CFCs),10.102
+Mercury_7108238,A,A,1,A. vaccination,3.125
+Mercury_7112805,A,A,1,A. changes in the environment,3.887
+Mercury_7115098,A,B,0,B. to keep the cell rigid,5.107
+Mercury_7115255,B,C,0,C. Mutualistic.,3.683
+Mercury_7120820,C,C,1,C. motion.,2.47
+Mercury_7122850,C,B,0,B. protostar,3.565
+Mercury_7122955,C,B,0,B. increases because some energy is created.,6.211
+Mercury_7123305,B,B,1,B. in outer space,4.106
+Mercury_7124093,B,B,1,B. at the top of the highest hill,6.439
+Mercury_7124128,D,C,0,C. radiant to mechanical,4.5
+Mercury_7124268,D,D,1,D. to use the same colors of lights,5.226
+Mercury_7124320,B,B,1,B. The results will be more reliable.,6.615
+Mercury_7126840,C,C,1,C. kinetic energy,3.287
+Mercury_7128240,B,B,1,B. Climate,2.461
+Mercury_7128660,C,C,1,C. use the new information to update the old theory.,9.054
+Mercury_7128853,A,B,0,B. frequency,3.333
+Mercury_7137043,C,C,1,C. sun,3.33
+Mercury_7137078,C,C,1,C,1.822
+Mercury_7137270,A,A,1,A. chemical weathering,4.474
+Mercury_7138863,B,B,1,B. mass,3.656
+Mercury_7139720,D,B,0,B. seafloor spreading,5.392
+Mercury_7141278,A,D,0,D. tissue,3.664
+Mercury_7141418,B,B,1,B. Cats were domesticated earlier than originally thought.,7.016
+Mercury_7141785,A,A,1,A. divide change in velocity by change in time,6.866
+Mercury_7141890,B,B,1,B. are made of cells.,5.334
+Mercury_7144498,A,D,0,D. tree rings indicating the return of a similar climate,8.299
+Mercury_7145215,B,B,1,B. the tilted axis of Earth,4.741
+Mercury_7145583,B,B,1,B. the beans that were not soaked in water,7.607
+Mercury_7146178,C,C,1,C. control group,2.979
+Mercury_7148155,B,C,0,C. the axial tilt of Earth,5.37
+Mercury_7154228,B,B,1,B. bacteria,2.852
+Mercury_7159583,A,B,0,B. experimental,3.708
+Mercury_7160545,B,D,0,D. cloud formations,4.321
+Mercury_7162803,D,C,0,C. by the person who located the item.,8.93
+Mercury_7163363,D,B,0,B. The beetles that eat a variety of grass roots.,10.278
+Mercury_7163415,D,C,0,C. developing an antibiotic to treat infections,7.245
+Mercury_7164920,D,D,1,D. musculoskeletal,4.321
+Mercury_7165043,B,B,1,B. The level of pollution caused by people,6.717
+Mercury_7165200,D,C,0,C. cold air moving south from the North Pole,6.829
+Mercury_7165550,A,C,0,C,3.147
+Mercury_7165813,B,B,1,B. chemical,3.457
+Mercury_7166145,B,B,1,B. releasing hormones and transporting them to cells of the body.,8.421
+Mercury_7166950,A,C,0,C. the distance from the Sun,6.047
+Mercury_7167038,C,C,1,C. Muscle cells,2.639
+Mercury_7168613,C,C,1,C. Muscle,1.975
+Mercury_7170643,A,A,1,A. chemical,2.817
+Mercury_7172865,C,C,1,C. sulfur dioxide from burning fossil fuels,6.431
+Mercury_7173653,B,A,0,A. to enhance the effectiveness of friction,6.43
+Mercury_7176208,B,B,1,B. to release energy from lipids stored throughout the body,10.258
+Mercury_7179253,C,B,0,B. selective membrane transport,4.858
+Mercury_7179865,B,B,1,B. investigating faraway galaxies.,6.314
+Mercury_7180618,A,A,1,A. overgrazing,4.192
+Mercury_7180705,B,B,1,B. transporting oxygen to organs.,3.477
+Mercury_7182158,D,C,0,C. natural selection,4.167
+Mercury_7183523,A,A,1,A. burning fossil fuels in power plants,6.782
+Mercury_7185185,B,B,1,B. a tissue,4.711
+Mercury_7185255,C,C,1,C. bacteria feeding on dead plants,6.018
+Mercury_7188353,A,C,0,C,2.588
+Mercury_7188825,D,C,0,C. They have the same orbital periods around the Sun.,9.599
+Mercury_7188860,D,D,1,D. a star,4.776
+Mercury_7191520,B,B,1,B. Ideas must be communicated to the public,7.006
+Mercury_7193690,A,A,1,A. calories,2.739
+Mercury_7194268,C,C,1,C. mass,3.362
+Mercury_7197890,B,B,1,B. Oxygen,3.362
+Mercury_7197960,A,A,1,A. natural selection,4.264
+Mercury_7198188,B,B,1,B. fish that live in coral reefs in shallow waters,7.842
+Mercury_7198993,C,C,1,C. genetic engineering,4.268
+Mercury_7200060,D,D,1,D. increases in sea level,5.983
+Mercury_7200200,C,C,1,C. The frequency of the sound is too high.,8.55
+Mercury_7200533,A,D,0,D. chemical and electrical,4.697
+Mercury_7200568,C,B,0,B. Saturn and Jupiter,3.568
+Mercury_7202125,C,B,0,B. to discover the scientific principle that causes the increased growth,8.18
+Mercury_7202353,C,B,0,B. migration instinct,3.46
+Mercury_7205328,C,C,1,C. a compound,3.458
+Mercury_7205468,B,B,1,B. white,3.311
+Mercury_7206133,D,B,0,B. Condensing,3.852
+Mercury_7206605,B,B,1,B. made of different materials.,4.842
+Mercury_7207078,C,C,1,C. the greenhouse effect in the atmosphere,6.454
+Mercury_7207113,D,B,0,B. The research team may become famous.,6.591
+Mercury_7207148,D,D,1,D. experimental results that support a revised theory.,8.541
+Mercury_7207183,A,B,0,B. magma that cooled deep below a volcano.,6.503
+Mercury_7210158,B,B,1,B. petroleum,1.921
+Mercury_7210350,B,B,1,B. increased average air temperature,3.795
+Mercury_7210385,B,B,1,"B. the troposphere, which is the lowest layer.",7.763
+Mercury_7210630,C,C,1,C,1.873
+Mercury_7210893,A,A,1,A. stress due to the movement of Earth's crustal plates,7.746
+Mercury_7211260,C,C,1,C. fossil fuels,3.227
+Mercury_7211628,B,C,0,C. an increase in the amount of interspecies cooperation,6.615
+Mercury_7212625,B,B,1,B. an atom,3.246
+Mercury_7213045,B,B,1,B. evaporation,3.243
+Mercury_7213308,C,C,1,C. pie chart,2.668
+Mercury_7213815,C,C,1,C. parasite-host,2.678
+Mercury_7214043,C,C,1,C. pedigree chart,2.795
+Mercury_7214620,C,B,0,B. one hundred million.,4.787
+Mercury_7215478,A,A,1,A. selective breeding,2.751
+Mercury_7216580,C,C,1,C. immune system,3.301
+Mercury_7216615,B,D,0,D. The processes produce genetically unique offspring.,7.231
+Mercury_7216720,C,C,1,C. Pollination,3.293
+Mercury_7216860,C,C,1,C. Muscle,3.168
+Mercury_7216913,D,D,1,D. Disease.,3.789
+Mercury_7216983,C,C,1,C. millimeters,3.783
+Mercury_7217035,C,B,0,B. larger flowers,3.17
+Mercury_7217088,B,B,1,B. The forces acting on the object.,6.214
+Mercury_7217228,C,C,1,C. an electric current,4.151
+Mercury_7217438,D,D,1,D. air pollution,3.648
+Mercury_7217613,C,C,1,C. Water,3.526
+Mercury_7217683,D,D,1,D. Genetic variation.,4.462
+Mercury_7217718,C,C,1,C. Passing the gene for DDT resistance to their offspring.,8.987
+Mercury_7217910,D,C,0,C. Temperature generally decreases with elevation in the stratosphere.,8.988
+Mercury_7218050,D,D,1,D. temperature inversion,2.275
+Mercury_7218243,C,C,1,C. radiometric dating,4.042
+Mercury_7218663,C,C,1,C. density,2.757
+Mercury_7219030,B,B,1,B. sedimentary,3.514
+Mercury_7219118,C,B,0,B. temperature at which the processes occurred,6.225
+Mercury_7219520,C,C,1,C. feather pattern,3.905
+Mercury_7219695,A,A,1,A. the age of the rock,6.114
+Mercury_7219783,B,B,1,B. natural selection.,3.417
+Mercury_7220518,A,A,1,A. the ability to trap heat,5.378
+Mercury_7220955,D,D,1,D. removing viruses and bacteria from the skin.,6.88
+Mercury_7220973,A,C,0,C. a genetic mutation in somatic cells.,6.177
+Mercury_7221393,B,A,0,A. water,2.973
+Mercury_7221445,A,A,1,A. the Doppler effect.,5.445
+Mercury_7222320,D,D,1,D. A smaller weight and the same mass.,7.186
+Mercury_7222758,B,B,1,B. hardness,2.639
+Mercury_7222845,D,C,0,C,1.278
+Mercury_7222863,D,D,1,D. Water,2.622
+Mercury_7223090,D,D,1,D. the layer representing the crust,5.755
+Mercury_7223423,D,B,0,B. volume.,3.583
+Mercury_7228078,C,C,1,C. which mRNA is produced.,5.935
+Mercury_7228113,B,B,1,B. reptiles to birds,4.534
+Mercury_7228305,D,B,0,B. cells,3.288
+Mercury_7228533,C,C,1,C. sequence of nucleotides.,5.587
+Mercury_7230125,B,B,1,B. support through evidence from numerous observations,5.563
+Mercury_7234028,B,C,0,C. They regularly revolve near the Sun.,7.192
+Mercury_7234168,C,C,1,C. radiometric analysis,3.742
+Mercury_7234220,C,C,1,C. the lithosphere,3.553
+Mercury_7234623,D,A,0,A. speed of the car,4.02
+Mercury_7235848,D,D,1,D. ultraviolet light,3.417
+Mercury_7236058,B,B,1,B. high nutrient concentration,3.484
+Mercury_7238893,D,B,0,B. a ribosome,4.275
+Mercury_7238910,B,C,0,C. The Golgi apparatus,4.374
+Mercury_7239313,A,C,0,C. number of births,4.293
+Mercury_7239435,A,A,1,A. electrochemical impulses,3.654
+Mercury_7239890,A,C,0,C. law of segregation,3.653
+Mercury_7241255,A,A,1,A. action potential,3.183
+Mercury_7245123,B,C,0,C. an increase in the number of animal habitats,6.436
+Mercury_7246278,D,B,0,B. rift zones,3.415
+Mercury_7247048,B,B,1,B. soil erosion along with water pollution.,6.838
+Mercury_7247083,C,C,1,C. It was helpful in planning spacecraft trajectories.,7.412
+Mercury_7247100,C,C,1,C. exercising to maintain strength,4.777
+Mercury_7248150,A,A,1,A. microtubule organization of spindle fibers,7.536
+Mercury_7248290,A,A,1,A. repairing the double strand of DNA,6.315
+Mercury_7248308,B,B,1,B. digestion and absorption of fats in the small intestine.,8.905
+Mercury_7250005,C,C,1,C. protein production,3.019
+Mercury_7250128,D,C,0,C. nucleus,3.287
+Mercury_7250285,C,B,0,B. natural selection  Natural selection is the mechanism most likely responsible for the loss of the ability to climb in,24.694
+Mercury_7251720,D,C,0,C. Epithelium insulates the vertebrate from hypothermia.,8.657
+Mercury_7262850,C,B,0,B. All fungi are single-celled heterotrophs.,6.284
+Mercury_7263095,A,C,0,C. The Sun is losing mass and helium.,4.967
+Mercury_7263428,C,B,0,B. Material resources,2.967
+Mercury_7267505,A,A,1,A. floods,2.317
+Mercury_7267908,A,A,1,A. to simulate the air pressure of Earth,4.257
+Mercury_7268783,D,D,1,D. helper T cells,2.252
+Mercury_7271198,C,C,1,C. An ecosystem includes a community and abiotic factors.,6.97
+Mercury_7271355,B,B,1,B. heredity,2.644
+Mercury_7271373,C,C,1,C. DNA molecules,3.673
+Mercury_7271705,C,C,1,C. mercury,3.548
+Mercury_7283343,D,D,1,D. fertilization,3.938
+Mercury_7283465,A,A,1,A. a folded chain of amino acids,5.05
+Mercury_7283885,D,C,0,C. epidemic,3.236
+Mercury_LBS10778,A,B,0,B. One Earth-year would be 14% longer.,8.114
+Mercury_LBS10817,C,C,1,C. supernova,2.608
+Mercury_LBS10976,A,A,1,A. transportation.,2.604
+Mercury_SC_400001,C,B,0,B. Leaf,1.812
+Mercury_SC_400017,D,D,1,D. egg; larva; pupa; adult,6.429
+Mercury_SC_400031,A,A,1,A. the ingredients,2.439
+Mercury_SC_400035,C,C,1,C. microscope,1.948
+Mercury_SC_400040,B,B,1,B. Oxygen,1.948
+Mercury_SC_400041,C,C,1,C,1.713
+Mercury_SC_400048,A,A,1,A. electrical,2.638
+Mercury_SC_400114,A,A,1,A. physical.,3.029
+Mercury_SC_400115,C,C,1,C. moving negative charges.,4.096
+Mercury_SC_400125,A,A,1,A. erosion,2.902
+Mercury_SC_400126,D,D,1,D. fossils.,3.268
+Mercury_SC_400132,D,D,1,D. insulated gloves,3.176
+Mercury_SC_400173,A,C,0,C. makes very tiny objects appear larger.,4.906
+Mercury_SC_400181,C,D,0,D. state of matter.,2.669
+Mercury_SC_400183,D,D,1,D. refraction.,2.543
+Mercury_SC_400186,D,D,1,D. Sound.,2.431
+Mercury_SC_400187,D,A,0,A. deposition,2.066
+Mercury_SC_400192,B,B,1,B. fertile.,2.57
+Mercury_SC_400195,B,B,1,B. gravity,1.472
+Mercury_SC_400217,D,D,1,D. the decay of organic material.,5.873
+Mercury_SC_400224,B,B,1,B. prairie,4.098
+Mercury_SC_400359,C,B,0,B. full moon,4.113
+Mercury_SC_400375,C,B,0,B,3.354
+Mercury_SC_400380,B,B,1,B. wind.,4.112
+Mercury_SC_400406,B,B,1,B. trees can be replanted.,5.237
+Mercury_SC_400518,C,C,1,C. The rock was once sediment at the bottom of an ocean.,7.815
+Mercury_SC_400523,D,C,0,C. recycle oxygen to the air.,4.011
+Mercury_SC_400526,A,A,1,"A. evaporation, condensation, precipitation",4.415
+Mercury_SC_400529,A,B,0,"B. herbivore. Meadow voles are small mouse-like animals that eat plants and insects, making them a herbivore in an ecosy",15.55
+Mercury_SC_400532,A,A,1,A. heat,2.222
+Mercury_SC_400595,D,A,0,A. day.,2.344
+Mercury_SC_400600,C,C,1,C. solution.,2.541
+Mercury_SC_400601,A,A,1,A. the Sun,2.577
+Mercury_SC_400609,D,C,0,C. physical weathering.,4.441
+Mercury_SC_400611,D,B,0,B. animals.,3.086
+Mercury_SC_400663,A,A,1,A. thick fur,3.413
+Mercury_SC_400675,B,D,0,D. a stop watch,3.787
+Mercury_SC_400676,C,C,1,"C. hot, sunny summer weather",4.84
+Mercury_SC_400693,D,B,0,B.,3.036
+Mercury_SC_400702,B,B,1,B. The table vibrates more than the cushion.,6.723
+Mercury_SC_400844,B,B,1,B. copper pipe,3.596
+Mercury_SC_400848,D,D,1,D. microscope,2.367
+Mercury_SC_400857,B,B,1,B. lowers the freezing point.,4.248
+Mercury_SC_400868,C,C,1,"C. thick, white fur",3.18
+Mercury_SC_400923,C,C,1,C. hides it from predators.,3.921
+Mercury_SC_400987,B,B,1,B. helps conserve resources.,3.509
+Mercury_SC_401000,B,B,1,B. have insulation.,2.872
+Mercury_SC_401001,A,A,1,A. soil can be washed away.,5.17
+Mercury_SC_401119,D,D,1,D. astronomy,2.563
+Mercury_SC_401120,C,C,1,C. hand lens,3.286
+Mercury_SC_401126,D,D,1,D. wear appropriate protective clothing and eyewear.,6.208
+Mercury_SC_401128,C,C,1,C. protect their eyes from debris.,5.157
+Mercury_SC_401136,B,B,1,B. evaporation.,3.645
+Mercury_SC_401141,A,D,0,D. carbon dioxide,3.009
+Mercury_SC_401155,A,C,0,C. produce their own food,3.579
+Mercury_SC_401160,B,D,0,D. texture,2.623
+Mercury_SC_401163,C,C,1,C. to identify the boiling point.,5.545
+Mercury_SC_401164,C,C,1,C. chemical,2.988
+Mercury_SC_401166,A,A,1,A. mirror,2.986
+Mercury_SC_401172,C,C,1,C. ask the teacher how to dispose of the liquids,6.644
+Mercury_SC_401219,D,D,1,"D. egg, larva, pupa, adult",6.776
+Mercury_SC_401221,D,C,0,C. convection.,3.77
+Mercury_SC_401257,A,A,1,A. metal,2.899
+Mercury_SC_401269,B,B,1,B. Test a hypothesis.,3.746
+Mercury_SC_401275,C,B,0,B. weather patterns.,2.944
+Mercury_SC_401276,A,A,1,A. lenses.,2.418
+Mercury_SC_401288,A,B,0,B. eggs.,2.351
+Mercury_SC_401296,A,B,0,B. broad wings,2.966
+Mercury_SC_401305,B,B,1,B. A tree root breaks apart a rock.,6.445
+Mercury_SC_401307,C,C,1,C. The climate of the island used to be warmer.,7.848
+Mercury_SC_401316,C,C,1,C. mountains,3.475
+Mercury_SC_401331,A,A,1,A. physical changes.,4.19
+Mercury_SC_401358,C,C,1,C. iron,2.894
+Mercury_SC_401403,A,A,1,A. the carbon cycle,3.885
+Mercury_SC_401642,A,B,0,B. blending in with rocks,4.342
+Mercury_SC_401774,B,B,1,B. The air inside the whistle to vibrate.,5.875
+Mercury_SC_401787,B,B,1,B. they are used to test a hypothesis.,5.016
+Mercury_SC_401789,C,C,1,C. deposition,2.283
+Mercury_SC_401803,D,D,1,D. The sugar dissolves and colors the water.,6.47
+Mercury_SC_401817,B,B,1,B,1.291
+Mercury_SC_401827,D,D,1,D. conductors.,2.703
+Mercury_SC_401838,C,C,1,C. microscope,2.18
+Mercury_SC_402044,C,C,1,C. 28 days,4.635
+Mercury_SC_402064,D,D,1,D. pressure,2.2
+Mercury_SC_402075,D,D,1,D. a Punnett square,3.912
+Mercury_SC_402084,A,B,0,B. Windmill,3.266
+Mercury_SC_402094,B,B,1,B. beach erosion,3.64
+Mercury_SC_402112,C,C,1,C. make a chart or graph.,6.102
+Mercury_SC_402117,A,A,1,A. electric car,4.475
+Mercury_SC_402125,A,C,0,C. week.,4.471
+Mercury_SC_402238,A,B,0,B. stop the experiment immediately,3.829
+Mercury_SC_402241,D,D,1,D. milliliters,3.696
+Mercury_SC_402251,B,B,1,B. to increase the accuracy of the results,6.407
+Mercury_SC_402258,C,A,0,A. filter the salt,3.649
+Mercury_SC_402614,A,A,1,A. heat,2.623
+Mercury_SC_402642,D,C,0,C. Water,1.926
+Mercury_SC_402983,A,A,1,A. read all the directions,4.576
+Mercury_SC_403014,C,C,1,C. Earth to complete one orbit around the Sun.,8.249
+Mercury_SC_404974,D,D,1,D. Heat from the flame is conducted through the metal rod to the thermometer.,9.785
+Mercury_SC_405026,A,A,1,A. black,3.287
+Mercury_SC_405059,A,A,1,A. oil,3.282
+Mercury_SC_405074,C,C,1,C. becoming thin.,5.154
+Mercury_SC_405081,D,D,1,D. find information.,5.153
+Mercury_SC_405090,B,B,1,B. melts.,4.064
+Mercury_SC_405120,C,C,1,C,2.399
+Mercury_SC_405137,C,B,0,B. Diatoms are the original source of energy for oil.,7.89
+Mercury_SC_405154,B,B,1,B. louder.,4.093
+Mercury_SC_405164,C,C,1,C. They are always available to produce energy.,5.494
+Mercury_SC_405231,C,C,1,C. The mountain was covered by water.,4.566
+Mercury_SC_405232,C,B,0,B. fish in a lake,3.46
+Mercury_SC_405444,B,D,0,D. The moth blends in with its surroundings.,5.709
+Mercury_SC_405495,A,A,1,A. weathering.,2.4
+Mercury_SC_405499,A,A,1,A. erosion,1.161
+Mercury_SC_405792,A,A,1,A. chemical,2.471
+Mercury_SC_405838,B,B,1,B. binoculars,5.238
+Mercury_SC_405865,B,C,0,C,1.834
+Mercury_SC_405881,D,D,1,D. is a way of conserving nonrenewable resources.,10.172
+Mercury_SC_405883,D,C,0,C. burning wood in the fireplace,6.376
+Mercury_SC_405999,A,A,1,A. observe the plants and record observations daily,7.134
+Mercury_SC_406012,B,B,1,B. controls body functions,4.413
+Mercury_SC_406016,D,B,0,B. breathing,3.869
+Mercury_SC_406040,D,C,0,C,2.866
+Mercury_SC_406273,A,B,0,B. friction,2.537
+Mercury_SC_406467,A,B,0,B. Cells are alive.,3.928
+Mercury_SC_406653,B,A,0,A. to absorb sunlight,3.82
+Mercury_SC_406663,B,C,0,C,1.761
+Mercury_SC_406672,C,C,1,C. storing food for a new plant.,5.886
+Mercury_SC_406688,D,B,0,B. put the soils into different groups,5.786
+Mercury_SC_406709,D,D,1,D. escape enemies,3.327
+Mercury_SC_406718,B,B,1,B. larva,2.832
+Mercury_SC_406724,A,C,0,C. amount of water used,4.557
+Mercury_SC_406851,C,C,1,C. through decaying matter.,4.667
+Mercury_SC_406885,A,B,0,B. change the number he counted,5.4
+Mercury_SC_407155,C,C,1,C. colors,2.91
+Mercury_SC_407195,C,C,1,C. take fewer car trips,4.527
+Mercury_SC_407370,A,B,0,B. daily tidal cycles.,5.285
+Mercury_SC_407405,D,D,1,D. recording the temperatures at both locations.,6.052
+Mercury_SC_407441,D,D,1,D. A measuring cup and a thermometer,5.95
+Mercury_SC_407507,B,B,1,B. meter stick,3.831
+Mercury_SC_407577,D,D,1,"D. thick, white feathers",4.456
+Mercury_SC_407606,D,D,1,D. a source of nonrenewable energy,7.05
+Mercury_SC_407692,B,B,1,B. Earth is tilted on its axis.,6.216
+Mercury_SC_407796,C,C,1,C. observe hummingbirds at flowers and record the flower color,8.416
+Mercury_SC_408039,D,C,0,C. summer,2.068
+Mercury_SC_408243,D,C,0,C. minerals,2.758
+Mercury_SC_408344,B,B,1,B. light,2.697
+Mercury_SC_408357,D,D,1,D. volume,2.7
+Mercury_SC_408362,B,B,1,B. microscope,2.681
+Mercury_SC_408439,A,A,1,A. the ability to store water,5.576
+Mercury_SC_408556,B,B,1,B. develop a hypothesis,3.552
+Mercury_SC_408620,C,B,0,B. Plants -> Birds -> Fish,5.356
+Mercury_SC_408709,D,A,0,A. Earth rotating on its axis,5.355
+Mercury_SC_408919,D,C,0,C. forces changing the surface of Earth,5.432
+Mercury_SC_408925,C,C,1,C. They recycle nutrients into the soil.,8.387
+Mercury_SC_408991,D,D,1,D. the temperature,3.348
+Mercury_SC_409014,B,B,1,B. gravity,2.484
+Mercury_SC_409038,A,C,0,C. the deep-sea trenches in the ocean,6.501
+Mercury_SC_409149,A,D,0,D. time,2.454
+Mercury_SC_409157,A,A,1,A. The new designs can help save lives.,7.254
+Mercury_SC_409172,A,A,1,A. to obtain data to test a hypothesis,7.114
+Mercury_SC_409251,C,C,1,C. It decreases injuries to passengers in cars.,7.192
+Mercury_SC_409272,C,C,1,C. They provide food for other organisms.,7.11
+Mercury_SC_409563,A,A,1,A. the tilt of Earth,4.043
+Mercury_SC_409676,A,A,1,A. Plants release oxygen.,4.045
+Mercury_SC_409682,C,C,1,C. mixture,0.965
+Mercury_SC_410624,A,A,1,A. It uses less water.,5.786
+Mercury_SC_410835,C,C,1,C. look for current acid rain studies on the Internet,7.675
+Mercury_SC_410877,D,D,1,D. a mixture,4.662
+Mercury_SC_410972,C,A,0,A. Recycling reduces littering.,5.797
+Mercury_SC_413002,A,A,1,A. earthquake,3.457
+Mercury_SC_413004,A,A,1,A. flat lands,2.807
+Mercury_SC_413242,A,B,0,B. The Sun creates water droplets in the clouds.,6.885
+Mercury_SC_414155,D,D,1,D. microorganisms,2.728
+Mercury_SC_414356,B,B,1,B. The young hatch from eggs in both cycles.,6.439
+Mercury_SC_414361,D,C,0,C. craters,3.005
+Mercury_SC_415001,B,B,1,B. during evaporation,3.175
+Mercury_SC_415028,D,B,0,B. to find shelter,3.145
+Mercury_SC_415338,B,B,1,B. The energy makes water vapor from liquid water.,5.95
+Mercury_SC_415350,A,B,0,B. a steel shoe,3.144
+Mercury_SC_415352,A,C,0,C,1.167
+Mercury_SC_415369,A,B,0,"B. egg, nymph, and pupa",4.865
+Mercury_SC_415399,A,A,1,A. an earthquake,2.808
+Mercury_SC_415412,D,C,0,C. The high temperature tomorrow will be 14°C.,7.337
+Mercury_SC_415454,B,B,1,B. biofuel energy,3.599
+Mercury_SC_415455,C,C,1,C. hydropower,3.593
+Mercury_SC_415469,B,B,1,B. food and shelter,3.624
+Mercury_SC_415478,D,C,0,C,0.645
+Mercury_SC_415583,C,C,1,C. The turtle that took the shortest time is fastest.,6.839
+Mercury_SC_415738,A,A,1,A. radiation,3.759
+Mercury_SC_415767,D,C,0,C. pushes the object upward,4.426
+Mercury_SC_415773,A,A,1,A. only objects that have mass,4.802
+Mercury_SC_416096,A,A,1,A. absorbed from the soil through the roots,5.843
+Mercury_SC_416110,D,D,1,D. They both give support to a plant.,5.947
+Mercury_SC_416124,C,C,1,C. circulatory and respiratory,3.842
+Mercury_SC_416131,C,C,1,C. All foods provide nutrients.,3.576
+Mercury_SC_416136,D,B,0,B. Butterfly,2.311
+Mercury_SC_417579,D,B,0,B. The schoolyard has rocks and sand.,6.536
+Mercury_SC_LBS10026,C,B,0,B.,1.742
+Mercury_SC_LBS10064,D,B,0,B. measuring air temperature.,4.14
+Mercury_SC_LBS10266,C,C,1,C,1.767
+Mercury_SC_LBS10267,A,A,1,A. bifocal lens,4.224
+Mercury_SC_LBS10270,A,A,1,A. eye color,3.362
+Mercury_SC_LBS10276,C,C,1,C. Earth is revolving around the Sun.,6.952
+Mercury_SC_LBS10391,D,D,1,D,2.297
+Mercury_SC_LBS10591,A,A,1,A. habitat loss,3.628
+Mercury_SC_LBS10611,C,C,1,C,1.331
+Mercury_SC_LBS10620,A,C,0,C,1.331
+Mercury_SC_LBS10680,A,B,0,B. the light bulb giving electrical energy to the battery,6.94
+Mercury_SC_LBS10688,C,C,1,C. Nuclear fusion.,4.078
+Mercury_SC_LBS10949,C,C,1,C. a mammal.,5.167
+Mercury_SC_LBS11008,D,D,1,D. replacing resources.,4.31
+NAEP_2000_8_S21+3,D,D,1,D. It is liquid at most temperatures on Earth.,6.859
+NAEP_2005_4_S12+7,A,B,0,B. Green plants living in the lake.,5.711
+NAEP_2005_8_S11+3,D,D,1,D. the layers of rocks in which the fossils were found are from the same geologic age,9.688
+NCEOGA_2013_5_27,D,B,0,B. The heat from the fire is conducted through air molecules to the people.,7.044
+NCEOGA_2013_5_32,B,B,1,B. It is a complete organism.,5.548
+NCEOGA_2013_5_39,B,B,1,B. The kittens inherit some of their traits from their mother and some from their father.,8.215
+NCEOGA_2013_5_52,B,B,1,B. digestive,1.525
+NCEOGA_2013_8_29,C,B,0,B. Dinosaurs were eaten by the mammals.,5.284
+NCEOGA_2013_8_36,D,D,1,D. sunlight,2.789
+NCEOGA_2013_8_48,A,A,1,A. Environmental Protection Agency (EPA),5.163
+NCEOGA_2013_8_49,C,B,0,"B. In undisturbed layers of sedimentary rock, the upper rock layers are older than the lower rock layers.",10.876
+NCEOGA_2013_8_53,B,B,1,B. by preventing transmission between people,2.703
+NCEOGA_2013_8_6,A,A,1,A. biomass,1.19
+NYSEDREGENTS_2008_4_20,B,B,1,B. fur gets thicker,2.955
+NYSEDREGENTS_2008_4_21,C,A,0,A. completing its life cycle,3.87
+NYSEDREGENTS_2008_4_23,C,C,1,C. nutrients for animals,2.875
+NYSEDREGENTS_2008_4_5,B,B,1,B. gravity,1.653
+NYSEDREGENTS_2008_4_7,D,C,0,C. light to mechanical,3.877
+NYSEDREGENTS_2008_4_8,A,C,0,C,1.42
+NYSEDREGENTS_2008_8_10,C,C,1,C. selective breeding,3.603
+NYSEDREGENTS_2008_8_12,B,B,1,B. Frogs and toads eating flies.,5.212
+NYSEDREGENTS_2008_8_16,B,B,1,B. Water,3.476
+NYSEDREGENTS_2008_8_2,B,B,1,B. muscular and skeletal,4.306
+NYSEDREGENTS_2008_8_24,C,C,1,C. hardness and streak of the sample.,5.085
+NYSEDREGENTS_2008_8_26,A,A,1,A. structure of Earth's interior,4.066
+NYSEDREGENTS_2008_8_28,C,C,1,C. Evacuate low-lying areas near the coast.,5.76
+NYSEDREGENTS_2008_8_33,C,B,0,B. iron rusting,2.033
+NYSEDREGENTS_2008_8_4,C,C,1,C. endocrine,1.608
+NYSEDREGENTS_2008_8_7,A,A,1,A. Calorie,2.633
+NYSEDREGENTS_2010_4_10,C,C,1,C. heat energy,2.92
+NYSEDREGENTS_2010_4_2,B,B,1,B. gravity,2.818
+NYSEDREGENTS_2010_4_20,D,D,1,D. sweating,2.815
+NYSEDREGENTS_2010_4_22,B,B,1,B. to adapt to environmental changes.,5.565
+NYSEDREGENTS_2010_4_25,C,C,1,C. nutrients and water,3.798
+NYSEDREGENTS_2010_4_7,A,A,1,A. friction,2.477
+NYSEDREGENTS_2010_4_8,C,C,1,C. a star,2.773
+NYSEDREGENTS_2010_8_12,A,A,1,A. abnormal cell division,3.701
+NYSEDREGENTS_2010_8_13,B,B,1,B. DNA,2.748
+NYSEDREGENTS_2010_8_18,A,C,0,C. cytoplasm,3.701
+NYSEDREGENTS_2010_8_27,A,B,0,B. absorbs light from Earth,4.87
+NYSEDREGENTS_2010_8_6,D,D,1,D. disease,2.792
+NYSEDREGENTS_2010_8_7,C,C,1,C. excretory,3.972
+NYSEDREGENTS_2010_8_9,A,A,1,A. pedigree chart,3.14
+NYSEDREGENTS_2012_4_10,B,B,1,B. noon,2.287
+NYSEDREGENTS_2012_4_11,D,D,1,D. conductivity,2.287
+NYSEDREGENTS_2012_4_14,B,B,1,B. exercise regularly,4.184
+NYSEDREGENTS_2012_4_18,D,D,1,D. Move,3.364
+NYSEDREGENTS_2012_4_19,C,C,1,C. migrating,3.363
+NYSEDREGENTS_2012_4_20,D,D,1,D. sunlight,3.245
+NYSEDREGENTS_2012_4_23,B,B,1,B. life cycle,3.375
+NYSEDREGENTS_2012_8_13,D,C,0,C. internal fertilization and external development,5.182
+NYSEDREGENTS_2012_8_16,B,B,1,B. respiration,3.289
+NYSEDREGENTS_2012_8_26,D,B,0,B. a star,3.759
+NYSEDREGENTS_2012_8_27,D,D,1,D. lithosphere,2.972
+NYSEDREGENTS_2012_8_32,A,D,0,D. solubility,3.073
+NYSEDREGENTS_2012_8_43,B,B,1,B. A vacuum,2.966
+NYSEDREGENTS_2013_4_10,A,C,0,C. gravity,1.937
+NYSEDREGENTS_2013_4_13,C,C,1,C. decomposers,4.095
+NYSEDREGENTS_2013_4_20,C,C,1,C. communication,2.762
+NYSEDREGENTS_2013_4_22,B,B,1,B. Growth and development.,4.227
+NYSEDREGENTS_2013_4_24,A,A,1,A. keep the rabbit's body warm,5.513
+NYSEDREGENTS_2013_4_26,A,A,1,A. decrease,2.512
+NYSEDREGENTS_2013_8_12,A,A,1,A. genes,2.89
+NYSEDREGENTS_2013_8_14,C,C,1,C. sexual reproduction,3.268
+NYSEDREGENTS_2013_8_19,D,B,0,B. tissue repair,3.261
+NYSEDREGENTS_2013_8_21,B,B,1,B.,1.935
+NYSEDREGENTS_2013_8_22,A,A,1,A. populations living in an area,5.044
+NYSEDREGENTS_2013_8_26,A,A,1,A. atmosphere,3.001
+NYSEDREGENTS_2013_8_36,D,B,0,B. nonreactive with other substances,5.271
+NYSEDREGENTS_2013_8_41,D,D,1,D. sound,3.03
+NYSEDREGENTS_2013_8_43,A,A,1,A. mechanical,3.029
+NYSEDREGENTS_2013_8_6,A,C,0,C,2.042
+NYSEDREGENTS_2013_8_8,A,B,0,B. recycle nutrients,4.061
+NYSEDREGENTS_2015_4_10,C,B,0,B. solid to liquid,2.851
+NYSEDREGENTS_2015_4_13,B,C,0,C. white,2.647
+NYSEDREGENTS_2015_4_14,C,C,1,C. gravity,2.646
+NYSEDREGENTS_2015_4_16,B,B,1,B. hand lens,3.066
+NYSEDREGENTS_2015_4_17,D,D,1,D. reproducing,3.063
+NYSEDREGENTS_2015_4_19,B,B,1,B. growing,2.645
+NYSEDREGENTS_2015_4_28,D,D,1,D. decomposer,3.416
+NYSEDREGENTS_2015_4_30,B,B,1,B. Recycling plastic bottles,4.362
+NYSEDREGENTS_2015_4_4,D,D,1,D. Air temperature and wind speed.,5.889
+NYSEDREGENTS_2015_8_1,D,C,0,C. tissue -> organ -> organ system -> cell,7.06
+NYSEDREGENTS_2015_8_21,B,B,1,B. fewer predators.,4.376
+NYSEDREGENTS_2015_8_26,D,D,1,D. water,3.433
+NYSEDREGENTS_2015_8_30,D,C,0,C,2.21
+NYSEDREGENTS_2015_8_32,C,C,1,C. battery-powered flashlight,3.975
+NYSEDREGENTS_2015_8_33,D,D,1,D. collide with other molecules,4.362
+OHAT_2007_5_12,B,B,1,B. The kick applies a contact force to the ball.,7.83
+OHAT_2007_5_40,B,B,1,B. rotation of Earth on its axis,5.024
+OHAT_2007_8_42,B,A,0,A. eclipses,2.8
+OHAT_2007_8_44,C,A,0,A. The year would be shorter.,5.508
+OHAT_2008_8_29,B,B,1,B. the tilt of Earth's axis relative to the sun,6.711
+OHAT_2009_8_8,B,B,1,B. light-year,3.391
+OHAT_2010_8_24,B,B,1,B. digestion,2.335
+OHAT_2010_8_29,A,A,1,A. Both ants and aphids benefit.,5.436
+OHAT_2011_5_37,A,D,0,D. to get nutrients through the roots.,5.437
+TAKS_2009_5_20,C,C,1,C. the color of the flowers on the plant.,6.024
+TAKS_2009_8_12,B,B,1,B. Photosynthesis,3.109
+TAKS_2009_8_38,D,C,0,"C. They are made of soft, spongy materials.",6.874
+TAKS_2009_8_39,B,B,1,B. seed distribution,2.608
+TIMSS_1995_8_I10,C,C,1,C. They are rich in minerals and vitamins.,5.183
+TIMSS_1995_8_I14,D,D,1,D. Lever,2.69
+TIMSS_1995_8_L5,B,B,1,B. Mark the bird's territory against the same type of bird.,8.356
+TIMSS_1995_8_P4,E,C,0,C. Its temperature is higher than when it is active.,7.104
+TIMSS_1995_8_Q16,D,C,0,C. About 1 month,3.662
+TIMSS_2003_4_pg12,D,D,1,D. rocks in the ground.,4.09
+TIMSS_2003_4_pg20,A,B,0,B. The height of your brothers and sisters,4.62
+TIMSS_2003_4_pg25,B,D,0,D,0.955
+TIMSS_2003_4_pg35,B,B,1,B. oxygen,2.385
+TIMSS_2003_4_pg81,D,B,0,B,2.157
+TIMSS_2003_4_pg87,C,C,1,C. from rocks,3.443
+TIMSS_2003_8_pg122,C,B,0,"B. solar, oil, and geothermal",6.637
+TIMSS_2003_8_pg33,C,C,1,C. erosion of soil,4.264
+TIMSS_2003_8_pg40,B,B,1,B. To carry oxygen to all parts of the body.,6.676
+TIMSS_2003_8_pg43,C,C,1,C. sedimentary rock,4.363
+TIMSS_2003_8_pg48,A,,0,To determine the order of abundance from greatest to least for the three gases found in Earth's atmosphere - carbon diox,20.998
+TIMSS_2003_8_pg99,C,C,1,C. They are recycled back into the environment.,5.748
+TIMSS_2007_4_pg34,D,C,0,"C. Put the mixture through a sieve, and the sand will remain in the sieve.",9.337
+TIMSS_2007_4_pg64,A,A,1,A. fruits and vegetables,2.968
+TIMSS_2007_4_pg70,D,B,0,B. A boy pushing a box across the floor.,5.501
+TIMSS_2007_8_pg102,A,B,0,B,0.915
+TIMSS_2007_8_pg29,D,C,0,C. carrots,1.601
+TIMSS_2007_8_pg34,C,C,1,C. that are reflected by the object.,4.396
+TIMSS_2007_8_pg63,A,A,1,"A. cell, tissue, organ, organism",4.426
+TIMSS_2007_8_pg77,D,D,1,D. influenza,1.954
+TIMSS_2007_8_pg85,B,B,1,B. Oxygen,1.464
+TIMSS_2011_4_pg15,D,B,0,B. Lumps of clay,2.896
+TIMSS_2011_4_pg24,B,B,1,B. It is cooler at night.   Many desert animals are more active at night due to the cooler temperatures. The cooler temp,14.607
+TIMSS_2011_4_pg42,B,A,0,"A. lizard, frog, snake",4.064
+TIMSS_2011_8_pg101,B,C,0,C,1.658
+TIMSS_2011_8_pg50,A,C,0,C. on the land,3.198
+TIMSS_2011_8_pg66,A,A,1,A. They slow down.,3.305
+TIMSS_2011_8_pg74,B,B,1,B. where tectonic plates meet,5.123
+TIMSS_2011_8_pg98,B,B,1,B. CO2,3.064
+VASoL_2007_5_17,D,C,0,C. Liquid -> gas -> solid,4.326
+VASoL_2007_5_30,D,C,0,C,1.003
+VASoL_2008_3_20,A,A,1,A,1.948
+VASoL_2008_3_21,C,C,1,C,1.944
+VASoL_2008_3_30,D,B,0,B. In a dark room,4.397
+VASoL_2008_5_12,B,B,1,B. dormant,3.726
+VASoL_2008_5_14,B,B,1,B. insulator,2.559
+VASoL_2008_5_16,B,B,1,B. A rotating funnel-shaped cloud with strong winds and thunderstorms,5.729
+VASoL_2008_5_26,C,B,0,B. Continental slopes,2.567
+VASoL_2008_5_34,A,B,0,B. A conclusion,2.562
+VASoL_2008_5_40,A,C,0,C. soil,1.678
+VASoL_2008_5_5,C,C,1,C. Organize a river cleanup program.,4.531
+VASoL_2009_3_28,B,B,1,B. Hiding from predators,3.065
+VASoL_2009_5_12,C,C,1,C. Kinetic energy,2.953
+VASoL_2009_5_24,B,B,1,B. Hurricane,2.405
+VASoL_2009_5_27,C,C,1,C. Friction from the ground,3.52
+VASoL_2009_5_28,C,C,1,C. Sunlight,2.099
+VASoL_2009_5_8,B,B,1,B. Smaller than Earth,1.807
+VASoL_2010_5_15,C,C,1,C. Rain gauge,1.717
+VASoL_2011_5_16,D,D,1,D. water,1.615

@@ -1,0 +1,52 @@
+machine: 4 vCPUs, 15Gi RAM | llama.cpp q4_k_m, threads=2
+date: 2026-11-14T14:30:48Z
+
+### slots=1 (no batching), n=1
+
+1 concurrent requests | http://localhost:8080
+
+ req  total_s  queue_s  compute_s  tokens
+   0     0.72     0.03       0.69      32
+
+wall time 0.72s | throughput 1.384 req/s | 44.3 tokens/s | errors 0
+
+### slots=1 (no batching), n=4
+
+4 concurrent requests | http://localhost:8080
+
+ req  total_s  queue_s  compute_s  tokens
+   0     0.77     0.03       0.74      32
+   1     1.43     0.75       0.68      32
+   3     2.16     1.43       0.74      32
+   2     2.86     2.16       0.70      32
+
+wall time 2.88s | throughput 1.387 req/s | 44.4 tokens/s | errors 0
+
+### slots=4 (continuous batching), n=4
+
+4 concurrent requests | http://localhost:8080
+
+ req  total_s  queue_s  compute_s  tokens
+   1     2.70     0.01       2.69      32
+   3     2.76     0.04       2.72      32
+   2     2.76     0.04       2.72      32
+   0     2.78     0.06       2.72      32
+
+wall time 2.78s | throughput 1.437 req/s | 46.0 tokens/s | errors 0
+
+### slots=8 (continuous batching), n=8
+
+8 concurrent requests | http://localhost:8080
+
+ req  total_s  queue_s  compute_s  tokens
+   0     5.31     0.04       5.27      32
+   5     5.38     0.04       5.35      32
+   2     5.38     0.04       5.35      32
+   7     5.38     0.04       5.35      32
+   1     5.39     0.04       5.35      32
+   6     5.39     0.04       5.35      32
+   4     5.39     0.04       5.35      32
+   3     5.39     0.04       5.35      32
+
+wall time 5.41s | throughput 1.478 req/s | 47.3 tokens/s | errors 0
+

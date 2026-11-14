@@ -1,0 +1,4 @@
+quant,file_mb,container_mem
+fp16,1207,258.1MiB
+q8_0,644,257MiB
+q4_k_m,468,283.5MiB
