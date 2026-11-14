@@ -22,10 +22,12 @@ import httpx
 
 PROMPT = ("Answer the following multiple-choice science question with only the letter "
           "of the correct option.\n\nQuestion: {question}\n{options}\nAnswer:")
-# Parsing, in order of trust (never a bare capital letter in prose: "A thermometer..." is not option A):
-LEADING_RE = re.compile(r"^\W*([A-E])(?=\s*$|[.):*])")                     # "B", "B. metals", "**C**" (not "A thermometer")
-ANSWER_IS_RE = re.compile(r"(?i:answer(?:\s+is)?)\s*[:\-]?\s*\**\(?([A-E])\b")  # "The correct answer is: B"
-LETTER_PUNCT_RE = re.compile(r"(?:^|\s)\(?([A-E])[.):]")                     # "...so (C) is right"
+# STRICT parsing: only two patterns we can trust. Anything else (e.g. a reply that is still
+# "reasoning" when it hits max_tokens) is UNPARSED and counted wrong. An earlier, lenient version
+# also accepted "a letter followed by ." anywhere or a quoted option text; on step-by-step replies
+# ("let's analyze each option: A. ...") that INVENTED answers (73% "A" = chance accuracy).
+LEADING_RE = re.compile(r"^\W*([A-E])(?=\s*$|[.):*])")                          # "B", "B. metals", "**C**"
+ANSWER_IS_RE = re.compile(r"(?i:answer(?:\s+is)?)\s*[:\-]?\s*\**\(?([A-E])(?=\W|$)")  # "The correct answer is: B"
 
 
 def build_prompt(q: dict) -> str:
@@ -34,19 +36,12 @@ def build_prompt(q: dict) -> str:
 
 
 def parse_letter(text: str, choices: list[dict]) -> str:
-    """Which option did the model pick? Tries, in order: reply starts with a letter,
-    'answer is X', the reply quotes exactly one option's text, a letter followed by . ) or :"""
+    """The option letter the model committed to, or '' if it didn't clearly commit to one."""
     valid = {c["label"] for c in choices}
     t = text.strip()
     for rx in (LEADING_RE, ANSWER_IS_RE):
         m = rx.search(t)
         if m and m.group(1) in valid:
-            return m.group(1)
-    quoted = [c["label"] for c in choices if c["text"].strip().lower() in t.lower()]
-    if len(quoted) == 1:
-        return quoted[0]
-    for m in LETTER_PUNCT_RE.finditer(t):
-        if m.group(1) in valid:
             return m.group(1)
     return ""
 

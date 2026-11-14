@@ -1,0 +1,6 @@
+Tesla T4, 580.178.04
+Name: vllm
+Version: 0.18.1
+Name: torch
+Version: 2.10.0
+attention backend setting: default (auto)

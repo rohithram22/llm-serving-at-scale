@@ -4,7 +4,7 @@ ACTAAP_2007_7_22,A,A,1,A. store bile,3.801
 ACTAAP_2007_7_33,D,D,1,D. Walk or ride a bike instead of driving a car.,8.189
 ACTAAP_2007_7_9,A,A,1,A. percolation,4.986
 ACTAAP_2008_5_13,A,A,1,A. forms in layers,4.984
-ACTAAP_2008_5_14,A,A,1,"The correct order of the planets from closest to the Sun to farthest from the Sun is:  A. Mercury, Venus, Earth, Mars  T",15.546
+ACTAAP_2008_5_14,A,,0,"The correct order of the planets from closest to the Sun to farthest from the Sun is:  A. Mercury, Venus, Earth, Mars  T",15.546
 ACTAAP_2008_5_5,D,D,1,D. Drag an edge of the mineral across a tile,7.015
 ACTAAP_2009_5_1,A,D,0,D. Jupiter,3.802
 ACTAAP_2009_5_4,D,B,0,B. pulley,2.191
@@ -251,7 +251,7 @@ Mercury_401240,C,C,1,C. an inherited trait.,1.564
 Mercury_401246,B,B,1,B. gravity,0.96
 Mercury_401337,C,B,0,The correct answer is:  B. a parrot repeating a phrase  Explanation: Parrots are known for their ability to mimic human ,10.362
 Mercury_401583,A,D,0,D. by switching the colors of the marbles,2.465
-Mercury_401785,B,B,1,The best example of an inherited trait is:  B. a bird building a nest  Birds are known for their unique ability to build,9.812
+Mercury_401785,B,,0,The best example of an inherited trait is:  B. a bird building a nest  Birds are known for their unique ability to build,9.812
 Mercury_402091,C,B,0,B. Hair color.,1.676
 Mercury_402093,A,A,1,A. learned behavior.,1.668
 Mercury_402144,D,D,1,D. hydrogen and oxygen combining,1.702
@@ -259,7 +259,7 @@ Mercury_402535,B,B,1,"B. thermometer, hot plate, beaker",2.416
 Mercury_404096,B,D,0,D. erosion,0.693
 Mercury_404107,B,B,1,The correct answer is B. quartz.  Quartz is the most likely mineral to be found in all three major rock types known as m,12.714
 Mercury_404153,D,D,1,D. less than 10%,1.838
-Mercury_404924,D,D,1,"The correct order in the process of sedimentary rock formation is:  D. weathering, erosion, deposition, compaction  This",13.178
+Mercury_404924,D,,0,"The correct order in the process of sedimentary rock formation is:  D. weathering, erosion, deposition, compaction  This",13.178
 Mercury_404987,B,B,1,B. hardness,0.715
 Mercury_405056,A,A,1,A. Rocks are made of one or more minerals.,3.537
 Mercury_405140,C,C,1,C. electrical energy.,2.107
@@ -351,7 +351,7 @@ Mercury_7015575,B,B,1,B. releases heat and is exothermic.,3.536
 Mercury_7015663,A,A,1,A. rock cycle,2.426
 Mercury_7015680,C,A,0,The correct answer is A. cool and dry. Maritime polar air masses are characterized by their low temperatures and lack of,9.926
 Mercury_7015733,C,A,0,A. interfering with the water cycle.,3.033
-Mercury_7015803,A,C,0,The most accurate way to describe the distance between the Sun and its nearest neighboring star is:  C. 4 billion kilome,15.29
+Mercury_7015803,A,,0,The most accurate way to describe the distance between the Sun and its nearest neighboring star is:  C. 4 billion kilome,15.29
 Mercury_7015890,B,B,1,B. red shift of light from distant galaxies.,3.319
 Mercury_7015908,D,B,0,B. divergent boundary,1.569
 Mercury_7015925,B,B,1,B. extraction of ground water.,2.386
@@ -634,7 +634,7 @@ Mercury_LBS10778,A,C,0,C. The Earth would spin at a different rate.,4.64
 Mercury_LBS10817,C,C,1,C. supernova,2.215
 Mercury_LBS10976,A,A,1,A. transportation.,2.242
 Mercury_SC_400001,C,B,0,B. Leaf,1.496
-Mercury_SC_400017,D,D,1,The correct sequence for the stages in the life cycle of a butterfly is:  D. egg; larva; pupa; adult  This sequence accu,15.95
+Mercury_SC_400017,D,,0,The correct sequence for the stages in the life cycle of a butterfly is:  D. egg; larva; pupa; adult  This sequence accu,15.95
 Mercury_SC_400031,A,A,1,A. the ingredients,2.333
 Mercury_SC_400035,C,C,1,C. microscope,1.745
 Mercury_SC_400040,B,B,1,B. Oxygen,1.739
@@ -726,7 +726,7 @@ Mercury_SC_402125,A,D,0,D. month.,2.13
 Mercury_SC_402238,A,B,0,B. STOP THE EXPERIMENT IMMEDIATELY,4.022
 Mercury_SC_402241,D,D,1,D. milliliters,2.344
 Mercury_SC_402251,B,B,1,B. to increase the accuracy of the results.,4.442
-Mercury_SC_402258,C,A,0,The best way to separate the salt from the water in an experiment is:  A. filter the salt  Explanation: When mixing wate,15.776
+Mercury_SC_402258,C,,0,The best way to separate the salt from the water in an experiment is:  A. filter the salt  Explanation: When mixing wate,15.776
 Mercury_SC_402614,A,A,1,A. heat,1.439
 Mercury_SC_402642,D,D,1,D. Silver.,2.013
 Mercury_SC_402983,A,A,1,A. read all the directions,2.756
@@ -915,7 +915,7 @@ NYSEDREGENTS_2013_8_26,A,A,1,A. atmosphere,2.21
 NYSEDREGENTS_2013_8_36,D,B,0,B. nonreactive with other substances,3.464
 NYSEDREGENTS_2013_8_41,D,D,1,D. sound,1.812
 NYSEDREGENTS_2013_8_43,A,A,1,A. mechanical,1.809
-NYSEDREGENTS_2013_8_6,A,A,1,The correct sequence of levels for multicellular organisms is:  A. cell -> tissue -> organ -> organ system  This sequenc,14.79
+NYSEDREGENTS_2013_8_6,A,,0,The correct sequence of levels for multicellular organisms is:  A. cell -> tissue -> organ -> organ system  This sequenc,14.79
 NYSEDREGENTS_2013_8_8,A,B,0,B. recycle nutrients,2.558
 NYSEDREGENTS_2015_4_10,C,B,0,B. solid to liquid,2.162
 NYSEDREGENTS_2015_4_13,B,D,0,D. Yellow,1.577
@@ -926,7 +926,7 @@ NYSEDREGENTS_2015_4_19,B,B,1,B. growing,1.972
 NYSEDREGENTS_2015_4_28,D,D,1,D. decomposer,2.169
 NYSEDREGENTS_2015_4_30,B,B,1,B. Recycling plastic bottles.,2.658
 NYSEDREGENTS_2015_4_4,D,D,1,The correct answer is D. Air temperature and wind speed.,4.133
-NYSEDREGENTS_2015_8_1,D,D,1,The correct sequence of organization of body structures in a human from simplest to most complex is:  D. cell -> tissue ,15.7
+NYSEDREGENTS_2015_8_1,D,,0,The correct sequence of organization of body structures in a human from simplest to most complex is:  D. cell -> tissue ,15.7
 NYSEDREGENTS_2015_8_21,B,B,1,B. fewer predators.,1.78
 NYSEDREGENTS_2015_8_26,D,D,1,D. water,1.322
 NYSEDREGENTS_2015_8_30,D,D,1,D. metals and nonmetals.,2.347

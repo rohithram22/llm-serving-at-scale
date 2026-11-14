@@ -1,0 +1,1001 @@
+id,answer,pred,correct,raw,latency_s
+ACTAAP_2007_7_18,D,A,0,"To determine which elements are found to the right of the zigzag line in the periodic table, let's analyze each option: ",1.234
+ACTAAP_2007_7_22,A,A,1,A. store bile  The gallbladder stores and concentrates bile produced by the liver before it is released into the small i,0.916
+ACTAAP_2007_7_33,D,D,1,D. Walk or ride a bike instead of driving a car. This method directly reduces carbon emissions and helps slow down the g,0.875
+ACTAAP_2007_7_9,A,A,1,The downward movement of water through pores and other spaces in soil due to the force of gravity is known as **percolat,1.019
+ACTAAP_2008_5_13,A,A,1,The correct answer is A. forms in layers. Sedimentary rocks form through the accumulation and cementation of minerals ov,1.02
+ACTAAP_2008_5_14,A,,0,"To determine the correct order of the planets from closest to the Sun to farthest from it, we need to consider their rel",1.15
+ACTAAP_2008_5_5,D,D,1,The correct answer is D. Drag an edge of the mineral across a tile.  To identify the streak of a mineral during an inves,1.125
+ACTAAP_2009_5_1,A,,0,"To determine which planet is fourth from the Sun in our solar system, we need to understand the order of the planets bas",1.145
+ACTAAP_2009_5_4,D,A,0,"To determine which simple machine is the most important part of a windmill in the United States, let's analyze each opti",1.149
+ACTAAP_2009_7_12,A,A,1,"Historically, the compass has been used for navigation. Therefore, the correct answer is:  A. for navigation",0.808
+ACTAAP_2009_7_6,B,B,1,The correct answer is B. The alveoli in the lungs perform a similar function to stomata in plants. Both involve gas exch,1.144
+ACTAAP_2009_7_9,D,A,0,The best conclusion based on Newton's first law of motion (also known as the law of inertia) is:  A. An object in motion,1.152
+ACTAAP_2010_5_12,C,C,1,"C. Ecologist  Ecologists are scientists who focus on understanding and managing ecosystems, including the interactions b",1.148
+ACTAAP_2010_5_13,A,C,0,The correct answer is:  C. Publications and calculations  Explanation: Every scientific theory requires both observation,1.139
+ACTAAP_2010_5_15,D,,0,"To determine which set of simple machines Ana used in her scenario, let's analyze each option step-by-step:  1. **Lever*",1.151
+ACTAAP_2010_5_5,C,A,0,"To determine which method of data collection would provide the most accurate results, let's analyze each option:  A. Mea",1.156
+ACTAAP_2010_5_8,A,A,1,A. It was once underwater.,0.598
+ACTAAP_2010_5_9,A,A,1,The correct answer is A. Large mice will eat more food than smaller mice.  Explanation: - Hypotheses are statements that,1.156
+ACTAAP_2012_7_14,A,A,1,"The correct answer is A. Troposphere. The troposphere is the lowest layer of Earth's atmosphere, containing about 75% of",1.15
+ACTAAP_2013_5_4,B,B,1,The correct answer is B. Consumer and herbivore.  To elaborate on why this is the correct choice:  - **Consumer**: This ,1.137
+ACTAAP_2013_5_5,B,A,0,"The correct answer is A. reflection.  Explanation: When light travels from one medium to another (such as water to air),",1.149
+ACTAAP_2013_7_1,C,C,1,The correct answer is C. An object will keep moving unless an unbalanced force stops it.  This statement aligns with Ari,1.164
+ACTAAP_2013_7_14,D,D,1,"D. Compound  Sodium chloride (NaCl) is a chemical compound composed of two elements, sodium (Na) and chlorine (Cl), bond",1.154
+ACTAAP_2013_7_4,C,C,1,The correct answer is C. Tilt of the Earth's axis. The tilt of the Earth's axis causes seasons and the distribution of s,1.156
+ACTAAP_2013_7_8,C,A,0,The correct answer is:  A. tornadoes  Explanation: Tornadoes are primarily caused by the rotation of the Earth and the m,1.137
+ACTAAP_2014_5_13,A,B,0,The correct answer is:  B. The object bubbles when put into an acid.  Explanation: - **Physical Property**: This refers ,1.165
+ACTAAP_2014_5_4,C,B,0,The correct answer is:  B. glassy texture  Sedimentary rocks are characterized by their glass-like texture due to the pr,1.163
+ACTAAP_2014_5_5,D,D,1,The correct answer is D. fluorescence. Fluorescence is the phenomenon where light from a source (such as an ultraviolet ,1.175
+ACTAAP_2014_5_6,A,A,1,"To determine the ancient environment based on the fossilized wood found in the desert in Arizona, let's analyze each opt",1.162
+ACTAAP_2014_7_10,B,B,1,B. nitrogen,0.548
+ACTAAP_2014_7_2,D,D,1,D. integumentary,0.56
+ACTAAP_2014_7_4,A,C,0,"The correct answer is C. Many cells combine to form one cell.  To elaborate on this:  - **Option A**: ""A single cell bec",1.153
+ACTAAP_2015_7_1,D,D,1,D. The amount of carbon dioxide increases.,0.643
+ACTAAP_2015_7_7,B,B,1,B. nervous and endocrine,0.573
+AIMS_2008_4_18,A,A,1,The correct answer is:  A. oceans  Explanation: Oceans contain saltwater due to the presence of dissolved salts from var,1.174
+AIMS_2008_8_12,B,,0,"To determine which statement best explains why the breath mint was gone the following morning, but the toothpaste was st",1.173
+AIMS_2008_8_7,A,C,0,The correct answer is:  C. It improves immune system function.  Radiation therapy uses high-energy rays or particles to ,1.174
+AIMS_2009_4_13,A,A,1,"To determine which body part fish use to breathe, let's analyze each option:  A. Gills - Fish have gills that allow them",1.198
+AIMS_2009_4_20,A,A,1,The correct answer is A. the shape of the parent ducks' feet. Ducks have evolved to have specific foot shapes that help ,1.17
+AIMS_2009_4_25,C,A,0,"To determine which idea shows scientific thinking, let's analyze each choice:  A. ""We can pick the longest magnet."" - Th",1.196
+AKDE&ED_2008_4_3,B,C,0,The correct answer is:  C. Their volumes stay the same in any container.  Explanation: - Both gases and liquids have fix,1.176
+AKDE&ED_2008_8_20,C,C,1,The correct answer is C. Decomposers play a crucial role in cycling matter by returning carbon and other matter to the e,1.174
+AKDE&ED_2008_8_30,A,A,1,The correct answer is A. the tilt of Earth on its axis. The axial tilt of Earth causes seasons to occur due to the varyi,1.194
+AKDE&ED_2008_8_38,A,A,1,"To determine which tool would best help a student classify a basket of apples into groups based on mass, let's analyze e",1.195
+AKDE&ED_2008_8_39,C,C,1,"The correct answer is:  C. Logic, evidence, and current knowledge.  Explanation: In scientific explanations, it's crucia",1.174
+AKDE&ED_2008_8_43,D,A,0,"To determine which statement is an inference based on Charles Darwin's observations and inferences during his travels, l",1.234
+AKDE&ED_2008_8_5,D,,0,"To determine which two body systems would most directly remove extra fluid from a person's lungs, let's analyze each sys",1.193
+AKDE&ED_2012_4_2,C,B,0,"The correct answer is B. Its mass increased.  Explanation: When liquid cooking oil is poured into a container, its mass ",1.201
+AKDE&ED_2012_4_29,A,A,1,The correct answer is A. Water expands when it freezes. This property makes ice much larger than liquid water and can ca,1.195
+AKDE&ED_2012_4_39,D,D,1,D. The weathering of rocks. Weathering is the natural process by which rocks and other materials break down into smaller,1.196
+AKDE&ED_2012_8_1,C,A,0,To determine which unit of measurement the student should most likely use to accurately measure the distance from the fl,1.204
+AKDE&ED_2012_8_15,C,A,0,To determine which property is best for a student to use when comparing two substances to see if they are made of two di,1.203
+CSZ20228,C,C,1,The correct answer is C. The equator.   The equator is the point on Earth where it is directly overhead at noon througho,1.195
+CSZ20334,A,A,1,The correct answer is:  A. orbits of the planets around the Sun  Gravity is the force that pulls objects towards each ot,1.197
+CSZ20679,C,A,0,To determine the most appropriate unit of measurement for expressing the distance between the Milky Way galaxy and other,1.197
+CSZ20823,C,C,1,C. A compound.,0.567
+CSZ30499,B,B,1,"The correct answer is:  B. They are nonmetals.  Explanation: - Sulfur (S), Nitrogen (N), Phosphorus (P), and Bromine (Br",1.197
+CSZ_2004_5_CSZ10100,D,B,0,B. A star.,0.568
+CSZ_2009_8_CSZ30651,A,A,1,The compound that is most likely to be part of living organisms is:  A. C?H??O?  This is because carbon-hydrogen-oxygen ,1.199
+CSZ_2009_8_CSZ30764,B,A,0,To determine which change would most likely require an additional force to achieve the same result as increasing the spe,1.233
+LEAP_2002_8_10389,D,,0,"To determine the temperature at which the second sample of water started to boil, we need to understand the relationship",1.199
+LEAP_2003_8_10393,A,A,1,The correct answer is A. Both plant and animal cells undergo cellular respiration. This process involves the breakdown o,1.23
+LEAP_2004_4_10258,A,A,1,The correct answer is A. People are planting trees to replace those that are cut down for timber or other uses. Trees pl,1.232
+LEAP_2004_8_10398,C,A,0,The correct answer is A. Both have a cell wall to give them support.   To elaborate on this:  - **Plant Cells**: Plant c,1.233
+LEAP_2005_8_10403,D,D,1,D. Plants  The oxygen cycle is crucial for maintaining Earth's atmosphere and supports life on our planet. Plants play a,0.716
+LEAP_2006_8_10411,A,A,1,"To determine what Raquel should have done to make her conclusion about the best way to help kittens grow more reliable, ",0.712
+LEAP_2008_4_10286,A,A,1,"To determine which investigation would best answer the question ""Does the length of a string change how fast a pendulum ",0.698
+LEAP_2009_8_10429,A,A,1,A. It decreases soil erosion.,0.145
+LEAP_2012_8_10440,B,C,0,The correct answer is C. The molecules transfer an electric charge to the dust particles.  When a very small piece of du,0.697
+LEAP__4_10226,C,C,1,C. Take the cans to be recycled.,0.167
+LEAP__4_10228,D,A,0,"To determine the most appropriate method for identifying a small, strange object on a field trip in a wooded area, let's",0.642
+LEAP__5_10319,D,,0,"To determine which natural event would take the longest time to happen, we need to consider the typical timescales for e",0.605
+LEAP__7_10341,B,B,1,"To determine whether the nutrient is affecting the growth of the fish, we need additional information about the specific",0.601
+LEAP__7_10345,B,B,1,The correct answer is B. Nitrogen is used in making the proteins in the body. Humans require nitrogen for various physio,0.595
+LEAP__7_10346,B,D,0,"The correct answer is D. A deer that eats one kind of plant, which allows another kind of plant to grow in its place, is",0.588
+LEAP__8_10366,C,A,0,"To determine the correct answer, let's analyze each option:  A. Grow taller so that the few remaining honey bees will fi",0.582
+LEAP__8_10369,D,,0,"To determine the temperature at which the second sample of water started to boil, we need to understand the relationship",0.579
+MCAS_1998_8_11,B,A,0,"To determine which characteristic of a properly designed scientific experiment is incorrect, let's analyze each option: ",0.578
+MCAS_1998_8_19,A,A,1,The correct answer is:  A. the Moon blocks the Earth from the Sun.  Explanation: Solar eclipses occur when the Moon pass,0.564
+MCAS_1998_8_22,A,C,0,The correct answer is:  C. Flash the lights to simulate a partly cloudy day.  Explanation: Hypergrow and Supergrow are t,0.612
+MCAS_1999_4_4,C,C,1,The correct answer is C. The heat comes from deep within Earth.  Mount Arenal's volcanic activity releases heat through ,0.611
+MCAS_1999_8_23,C,C,1,The principle that best explains why some flies survived after being sprayed with an insecticide is:  C. There is variat,0.627
+MCAS_1999_8_32,C,B,0,The correct answer is B. Some of the energy in coal is destroyed by the intense heat required to release its potential e,0.625
+MCAS_2000_4_11,A,A,1,A. are living organisms.,0.164
+MCAS_2000_4_23,A,A,1,The correct answer is A. Hot and dry. Cacti are adapted to thrive in arid or semi-arid regions where they can conserve w,1.491
+MCAS_2000_4_24,C,C,1,C. They inherited the same characteristics from their parents.,0.447
+MCAS_2000_4_25,C,C,1,The correct answer is:  C. fewer jobs.  Robots can significantly reduce the number of jobs required for manufacturing ca,0.934
+MCAS_2000_4_29,A,D,0,"The correct answer is:  D. rainy.  When white, fluffy clouds appear in Massachusetts, it typically indicates that there ",0.947
+MCAS_2000_4_32,C,C,1,The parts of plants that make seeds are:  C. Flowers  Flowers are the reproductive organs in flowering plants and are re,1.52
+MCAS_2000_8_19,C,C,1,The correct answer is:  C. Heat  Explanation: The ceramic tiles on the bottom of the space shuttle are designed to withs,0.984
+MCAS_2000_8_23,A,A,1,To determine which scenario best matches the effect of reducing forested area on Earth's atmosphere and its impact on an,1.301
+MCAS_2000_8_3,D,D,1,D. Carry out photosynthesis.,0.597
+MCAS_2000_8_36,B,B,1,The best example of something that has kinetic energy is:  B. a tennis ball rolling across the court  Explanation: - A r,1.322
+MCAS_2001_5_14,B,B,1,"The correct answer is B. Higher pitched. When a string on a musical instrument is tightened, it creates more tension and",1.277
+MCAS_2001_5_19,C,C,1,C. Food. Plants use sunlight to convert carbon dioxide and water into glucose (food) through photosynthesis. This proces,1.337
+MCAS_2001_8_19,C,A,0,To determine which system is more highly developed in liquid fuel rockets compared to solid fuel rockets based on the gi,1.505
+MCAS_2002_5_7,D,A,0,"The correct answer is:  A. quartz  Quartz is a type of mineral that can be found in rocks and minerals, including those ",0.85
+MCAS_2002_8_12,C,C,1,The correct answer is C. Cell wall.  The cell wall provides the plant cell with rigidity and support. It acts as a prote,0.71
+MCAS_2002_8_14,A,A,1,Steel is primarily used for suspending cables in suspension bridges due to its ability to withstand tension and compress,0.658
+MCAS_2003_5_3,B,B,1,B. Vibrations,0.821
+MCAS_2003_8_17,A,A,1,"To determine which of the given options represents a parasitic relationship, let's analyze each one:  A. Ticks feeding o",1.519
+MCAS_2003_8_26,C,C,1,"To determine the freezing point of the second container of water, we need to understand that the freezing point of water",0.73
+MCAS_2003_8_5,A,A,1,"To determine which condition is necessary for a lunar eclipse to occur, let's analyze each option:  A. The Moon must be ",1.487
+MCAS_2004_5_14,A,A,1,A. in a volcano,0.453
+MCAS_2004_5_21,A,A,1,"The main advantage of making a laptop computer lighter is:  A. to make it easy to carry  Therefore, the correct answer i",1.122
+MCAS_2004_5_25,C,A,0,To determine which factor should be varied in the experiment to answer the student's question about whether increasing t,0.953
+MCAS_2004_5_32,A,B,0,B. Mechanical energy  Lightning is an electrical discharge that occurs when thunderstorms produce high voltages and curr,1.392
+MCAS_2004_5_36,C,A,0,The correct answer is A. The drops form fog.  Clouds are indeed formed from tiny drops of water that are light enough to,1.012
+MCAS_2004_5_8,C,A,0,"To determine the correct answer to this question, let's analyze each option in relation to how electricity is converted ",1.491
+MCAS_2004_8_22,A,,0,"To determine which factor most likely caused the extinction of the heath hen, we need to consider the evolutionary histo",0.978
+MCAS_2004_9_20,A,B,0,B. Encoder,0.464
+MCAS_2004_9_21,A,A,1,The correct answer is A. casting. The manufacturing process described in the question involves pouring liquid clay into ,1.112
+MCAS_2004_9_6-v1,C,C,1,The best example of a wave is C. A string vibrating on a guitar. Waves include both mechanical waves (like sound waves) ,1.145
+MCAS_2004_9_7,C,A,0,"To determine which statement about the changes in a ball's properties when it accelerates is certain, let's analyze each",1.483
+MCAS_2005_5_10,B,B,1,"The correct answer is B. Sunlight is reduced.  When trees develop leaves in the spring, they release chlorophyll, which ",1.384
+MCAS_2005_5_22,B,B,1,"The correct answer is B. Its path bends. When a light ray enters a medium (in this case, water) and changes direction du",0.893
+MCAS_2005_8_1,C,D,0,The organism described in the question is most likely a member of the Kingdom Protista. Protists are single-celled organ,1.331
+MCAS_2005_8_17,D,D,1,D. inspecting the finish  The quality control division of a company that manufactures a chair performs several tasks to ,1.327
+MCAS_2005_8_27,A,A,1,"To answer this question accurately, we need to consider the primary functions and capabilities of robots in automating v",1.19
+MCAS_2005_9_19-v1,D,C,0,The primary way that evergreen trees planted on the north and west sides of residences in Massachusetts help reduce wint,1.031
+MCAS_2006_5_1,A,A,1,A. precipitation.,0.429
+MCAS_2006_5_21,C,A,0,The best fastener to use for fastening the sides of a wooden birdhouse is:  A. Bolts  Bolts are commonly used for attach,0.943
+MCAS_2006_8_21,A,A,1,The best example of a part of the propulsion system of a tractor would be:  A. engine  An engine is the primary componen,1.069
+MCAS_2006_9_13-v1,A,,0,"To determine which color of visible light has the longest wavelength, we need to understand the relationship between wav",1.467
+MCAS_2006_9_14,B,A,0,"To determine which process is more likely to occur in a plant cell compared to an animal cell, let's analyze each option",1.154
+MCAS_2006_9_28,C,C,1,The correct answer is C. induction.  Induction occurs when an electric field causes a change in magnetic flux through a ,0.706
+MCAS_2006_9_29,B,A,0,"To determine the nutrient that is increased when using less fertilizer and rotating crops with legumes, let's analyze ea",1.215
+MCAS_2006_9_5,B,B,1,The correct answer is B. They are cycled through ecosystems.  Explanation: Elements like carbon and oxygen are crucial f,1.212
+MCAS_2009_5_6511,D,D,1,"The correct answer is D. Vibrating air. When a bell rings, it creates vibrations in the air that travel through the surr",1.394
+MCAS_2010_5_11981,B,B,1,B. Heat  The process described is heating up the bread through the conversion of electrical energy to thermal energy wit,0.955
+MCAS_2010_5_11995,D,D,1,D. It creates a habitat for some ocean animals.,0.22
+MCAS_2010_8_12003,B,B,1,B. Cell membrane,0.752
+MCAS_2010_8_12019,B,C,0,The correct answer is C. tension.  A stone arch bridge relies primarily on the application of tensile force to support a,1.366
+MCAS_2011_5_11,A,A,1,The correct answer is A. to insulate the electrical wire.  Electrical wires are typically covered with plastic or rubber,1.21
+MCAS_2011_5_15,C,A,0,"To determine which organism gets its food energy solely from consumers, let's analyze each option:  A. Deer - Deer prima",0.717
+MCAS_2011_8_17685,D,D,1,D. An increase in the amount of atmospheric carbon dioxide.,0.229
+MCAS_2011_8_17692,B,B,1,B. Compound,0.675
+MCAS_2011_8_17696,D,D,1,D. g/cm^3  The unit that best represents the density of an object is grams per cubic centimeter (g/cm³). This is because,0.857
+MCAS_2011_8_17697,B,B,1,"B. The foundation  During the construction phase of building construction, workers typically dig round holes in the grou",0.981
+MCAS_2012_5_22237,C,,0,"To determine the length of an earthworm in millimeters, we need to convert the given centimeter measurement into millime",0.819
+MCAS_2012_5_23619,B,B,1,"B. Photosynthesis  Photosynthesis is the process that allows plants, algae, and some bacteria to convert light energy in",1.192
+MCAS_2012_5_3,C,C,1,The statement that best describes a complex machine is:  C. It is made of more than one simple machine.  This choice acc,1.18
+MCAS_2012_8_23643,B,B,1,B. Custom production  Ann's method involves tailoring the hat to the specific needs and preferences of each individual c,0.893
+MCAS_2012_8_23644,C,,0,"The formation of hotspots is primarily associated with plate tectonics and volcanic activity, not with the collision of ",0.945
+MCAS_2012_8_23653,B,B,1,The correct answer is B. The Moon.  Water levels on beaches can vary significantly depending on the position of the Moon,0.929
+MCAS_2013_8_29417,A,C,0,The correct answer is:  C. a strong wooden case with lightweight plastic lining  Explanation: - **Option A**: A hard met,0.808
+MCAS_2013_8_29418,D,D,1,"The correct answer is D. Water, rust, and salt are compounds.  To explain this to you simply: - Water (H₂O) is composed ",0.891
+MCAS_2014_8_19,D,D,1,D. Some individuals have genetic differences that make them more likely to survive and reproduce in their environment. T,0.739
+MCAS_2015_5_11,D,D,1,D. Magnetic  The magnetic force in a compass needle is what causes it to point towards the geographic North Pole. This f,1.017
+MCAS_2015_8_20,C,A,0,To determine which statement best describes the change that occurs when the temperature in the room increases from 15°C ,0.821
+MCAS_2015_8_6,B,C,0,The correct answer is C. Gravity cools gases and liquids until they become one solid mass.  Gravity plays a crucial role,0.93
+MCAS_8_2014_13,D,D,1,D. Respiratory  Carbon dioxide produced by cells is primarily removed from the body through the respiratory system. This,0.852
+MCAS_8_2015_13,A,A,1,"To determine which activity is carried out by both Euglena and Clover, let's analyze each option:  A. Using light energy",0.909
+MCAS_8_2015_14,D,,0,"To determine which statement best describes the change in moth populations due to the decrease in black soot, we need to",0.865
+MCAS_8_2015_4,A,A,1,To determine which statement best describes the effect on the particles in liquid nitrous oxide when its temperature is ,0.805
+MDSA_2007_8_4,A,,0,"To determine which element is most similar to magnesium (Mg), we need to consider the properties and behavior of each el",0.824
+MDSA_2008_5_23,A,A,1,"To determine which natural resource found in Maryland is nonrenewable, let's analyze each option:  A. Coal - This is a f",0.789
+MDSA_2008_5_29,B,B,1,B. They are solid.   Rocks and minerals are typically composed of mineral crystals that are arranged in specific pattern,0.763
+MDSA_2008_8_24,C,A,0,"To determine which action helps reduce global warming, let's analyze each option:  A. Developing highways - While highwa",0.753
+MDSA_2008_8_25,C,A,0,To determine which factor is most likely to contribute to rising sea levels due to increased carbon dioxide emissions fr,0.745
+MDSA_2008_8_29,C,B,0,B. Adaptation  Leaf cells are indeed one type of tree cell and undergo adaptations to support their functions. For examp,0.754
+MDSA_2008_8_38,A,A,1,The correct answer is A. Near plate boundaries. Earthquakes and volcanic eruptions typically occur at or near the bounda,0.754
+MDSA_2009_4_24,A,C,0,"The correct answer is:  C. a new plant species  After one million years, the leaf that was initially covered in mud from",0.754
+MDSA_2009_8_29,C,C,1,C. Compounds  Explanation: The key characteristic shared between cellulose (a type of sugar) and sugar is that they are ,0.747
+MDSA_2009_8_37,C,C,1,C. fossil fuel,0.1
+MDSA_2010_5_19,B,A,0,"To determine the correct answer, let's analyze each option step-by-step:  1. **Option A: The mass of the pieces is great",0.745
+MDSA_2010_5_3,A,A,1,"To determine what happens when a block of ice is heated to 10°C, let's analyze each option step-by-step:  A. **It melts ",0.744
+MDSA_2010_8_22,B,B,1,The correct answer is B. Fish populations decrease.  Excess nitrogen from fertilizers can lead to an overgrowth of algae,0.742
+MDSA_2010_8_38,D,D,1,D. Non-native plants compete with native plants for resources.,0.217
+MDSA_2010_8_43,B,B,1,"The correct answer is B. Carbon dioxide levels will increase.  When rainforests are destroyed, they release large amount",0.741
+MDSA_2010_8_8,C,C,1,The structure that is most similar to tree bark in terms of function and protective nature is:  C. Human skin  Human ski,0.74
+MDSA_2011_4_16,D,D,1,D. Food provides energy for growth.,0.152
+MDSA_2011_5_35,C,B,0,The correct answer is B. Feed pets food that produces less waste.  Explanation: - Option A (Brushing the pet daily) does,0.735
+MDSA_2011_8_13,D,D,1,The correct answer is:  D. Increasing carbon dioxide levels in the atmosphere  This statement aligns with the ecological,0.735
+MDSA_2011_8_39,A,A,1,"A. Heat energy  Explanation: When an electric current flows through a light bulb, it converts electrical energy (in the ",0.735
+MDSA_2012_8_1,A,A,1,A. air,0.084
+MDSA_2012_8_35,D,,0,"To determine which organs are used in reproduction, we need to consider the functions each organ serves within the human",0.744
+MDSA_2013_8_33,D,D,1,"D. A compound  Hydrogen and oxygen combine to form water (H₂O), which is a chemical compound. Therefore, the correct ans",0.585
+MDSA_2013_8_7,C,C,1,C. A compound  Explanation: - **Option A**: A metal refers to a metallic element. - **Option B**: An atom is a fundament,0.745
+MEAP_2004_8_48,C,C,1,The correct answer is C. milliliters. The volume of a liquid is typically measured in milliliters (mL) for scientific an,0.533
+MEAP_2005_8_14,A,,0,To determine which factor has most likely had the greatest effect on erosion of the top layer of soil when European sett,0.74
+MEAP_2005_8_16,B,B,1,The correct answer is B. An air mass has similar temperature and moisture properties throughout it.  To elaborate on thi,0.74
+MEA_2010_8_15-v1,B,B,1,B. An electric motor.,0.131
+MEA_2010_8_2,D,D,1,"The correct answer is D. They have the same bones in their limbs.  Explanation: Donkeys and horses are both mammals, whi",0.736
+MEA_2010_8_9,D,C,0,The correct answer is C. Collecting rainwater.  Rainwater harvesting involves capturing and storing rainwater from natur,0.746
+MEA_2010_8_9-v1,D,D,1,"D. Sexual reproduction  During sexual reproduction, genetic material comes from two parents through the fusion of gamete",0.613
+MEA_2011_8_15,D,,0,"To determine how the Sun would appear to an astronaut on Pluto compared to how it appears from Earth, we need to conside",0.741
+MEA_2013_5_11,A,C,0,The correct answer is:  C. The same animals that lived long ago also live today.  This conclusion aligns with the princi,0.741
+MEA_2013_5_7,A,A,1,The best object to be seen with a microscope is:  A. Human cell  Explanation: Microscopes are primarily used for observi,0.74
+MEA_2013_8_19,C,A,0,"To determine the correct answer, let's analyze each option step-by-step:  1. **Option A: Both the parasite and the host ",0.743
+MEA_2013_8_2,B,B,1,"The primary reason for breaking down food molecules is:  B. to provide energy for a cell  This process, known as cellula",0.743
+MEA_2014_5_15,B,B,1,The correct answer is B. bacteria.   Bacteria are single-celled organisms that are essential for many biological process,0.741
+MEA_2014_5_3,C,A,0,The correct answer is:  A. The warm object loses energy and the cool object gains energy so that both objects stay at di,0.741
+MEA_2014_5_8,A,A,1,"To determine how the objects in constellations are similar to the Sun, let's analyze each option:  A. The objects are st",0.742
+MEA_2016_5_5,A,,0,"To determine which season the student's observations indicate, we need to understand how seasonal changes affect the len",0.739
+MEA_2016_8_18,D,B,0,The correct answer is:  B. forests and nuclear power plants  Explanation: Earth has several natural resources that are e,0.738
+MEA_2016_8_2,B,D,0,The correct answer is D. Light from Earth illuminates the Moon. This is because the Moon's surface is covered in craters,0.738
+MEA_2016_8_20,A,A,1,A. heat energy,0.113
+MSA_2012_5_1,B,A,0,"To determine which tool the student should have used to measure how quickly the car rolled down the hill, let's analyze ",0.739
+MSA_2012_5_16,B,B,1,B. the closest star to Earth  Explanation: The sun is indeed the closest star to Earth in our solar system. It is approx,0.739
+MSA_2012_5_28,A,A,1,A. a fossil  The presence of fossils in the geological record is one of the most direct and reliable ways for scientists,0.739
+MSA_2012_5_34,D,C,0,The best way to dispose of scrap tires is:  C. burying the tires in a landfill  This method is environmentally friendly ,0.739
+MSA_2012_8_28,C,A,0,"To determine which property of a chemical base makes it commonly used as soap, let's analyze each option:  A. Sour taste",0.739
+MSA_2012_8_34,A,,0,"To determine the correct answer, let's analyze the reactions between sodium and chlorine:  1. **Sodium (Na)**:    - Reac",0.739
+MSA_2013_5_15,C,B,0,The answer is B. Gravity.  Water's state changes due to gravitational forces acting upon it. The direction and magnitude,0.734
+MSA_2013_5_6,B,B,1,The correct answer is B. Gravity.  Gravity is the force that attracts objects towards each other due to their mass. When,0.734
+MSA_2015_5_34,D,D,1,D. 80 seconds  The most appropriate measure to represent how long it takes for an ice cube to melt is in seconds (option,0.497
+MSA_2015_5_44,D,A,0,"To determine which group contains only renewable resources found in Maryland, let's analyze each option:  A. Wind, Oil, ",0.749
+Mercury_175963,A,A,1,A. Treatment of infections.,0.156
+Mercury_176558,A,A,1,The correct answer is A. The mechanical energy of a system includes both the potential energy and the kinetic energy. Th,0.743
+Mercury_177153,D,D,1,D. Alfred Wegener.,0.147
+Mercury_177223,A,A,1,"The type of change described in this scenario is a chemical change. When sulfuric acid reacts with sugar, it forms sulfu",0.758
+Mercury_177678,D,D,1,D. parent isotopes  The term used for the original amount of the elemental isotopes being investigated in the context of,0.757
+Mercury_177730,A,,0,"To determine the correct answer to this question, let's analyze the concepts involved:  1. **Magmatic Evolution**: This ",0.758
+Mercury_178535,C,C,1,"The correct answer is:  C. outside the nucleus  Electrons are typically found outside the atomic nucleus, which is respo",0.759
+Mercury_179113,C,A,0,"The disease that is caused by a bacterium is:  A. rabies  Rabies is primarily caused by the virus called Rabies Virus, w",0.759
+Mercury_179218,D,D,1,The Hardy-Weinberg law is only valid when:  D. the population is large.  This law applies to populations that have no hi,0.76
+Mercury_180198,B,B,1,"B. Seasons  Earth's tilt on its axis causes the changing positions of the sun and moon over time, leading to seasonal ch",0.757
+Mercury_182263,C,C,1,"The correct answer is C. An egg hatches, grows into a tadpole and then into a frog.  Explanation: - Option A describes a",0.749
+Mercury_182928,A,A,1,"To determine the correct answer, let's analyze each option in relation to the formation and classification of tissues:  ",0.76
+Mercury_182945,D,D,1,D. stomach  An acid is primarily produced in the stomach. The stomach contains various enzymes that break down food into,0.772
+Mercury_183768,B,B,1,"The skeletal system is designed to support and protect tissues and organs. Therefore, the correct answer is:  B. support",0.756
+Mercury_183925,D,D,1,The correct answer is D. To aid in seed distribution.  Trees that rely on squirrels for seed dispersal include oak and w,0.768
+Mercury_184170,C,C,1,The correct answer is C. Ozone.  Ozone (O₃) is the primary greenhouse gas in the Earth's atmosphere and plays a crucial ,0.769
+Mercury_184328,A,A,1,The correct answer is A. chemical composition. Spectrometers use light to analyze the properties of materials and gases ,0.765
+Mercury_184380,A,A,1,"To determine which group of organisms is most responsible for changing the composition of Earth's early atmosphere, let'",0.757
+Mercury_185238,B,B,1,B. Consumers.,0.115
+Mercury_185500,A,D,0,D. Inertia  Inertia is the fundamental property of matter that causes an object to remain at rest or maintain its state ,0.757
+Mercury_186568,D,B,0,"The correct answer is B. A piece of wood burning. When wood burns, it releases heat energy into its surroundings, which ",0.755
+Mercury_187460,C,B,0,The correct answer is B. Reverse the current's direction.  Explanation: - Option A (increase the amount of current) is i,0.745
+Mercury_189753,B,A,0,The phenomenon that is directly accounted for by the Earth's equator receiving more direct sunlight than other regions i,0.745
+Mercury_190190,D,C,0,The answer is C. Earth's core.  Earth's core plays a crucial role in the movement and rotation of the planet. The core i,0.768
+Mercury_190803,B,B,1,The correct answer is B. Protective coloration.  Explanation: Protective coloration is a type of camouflage that helps a,0.768
+Mercury_191503,B,B,1,B. Fight disease,0.109
+Mercury_192868,C,C,1,"C. igneous  The formation of these large rocks, which are described as ""basalt,"" is primarily due to the cooling and sol",0.771
+Mercury_192990,A,A,1,The correct answer is:  A. minerals  Minerals are non-renewable resources because they are finite and cannot be replenis,0.772
+Mercury_400158,D,C,0,C. Sediments separate.,0.126
+Mercury_400203,B,B,1,The process in the water cycle shown by label 1 is called **evaporation**. Evaporation is the process where liquid water,0.759
+Mercury_400363,A,A,1,A. Coat color,0.1
+Mercury_400396,A,A,1,The correct answer is A. Eye color. Human traits such as eye color are inherited from their parents through genetic inhe,0.385
+Mercury_400556,D,D,1,D. The fat content of the item is reduced.,0.201
+Mercury_400598,C,C,1,C. Insulators.,0.112
+Mercury_400704,A,D,0,The correct answer is D. Language skills. Language skills are typically inherited from both parents through genetics and,0.419
+Mercury_400752,B,,0,"To determine the percentage of each genotype in the offspring when crossing parents with genotypes Rr and rr, we need to",0.757
+Mercury_400799,C,A,0,To determine which additional parameter would most significantly improve the model's accuracy for predicting the insect ,0.757
+Mercury_400806,B,B,1,"To determine how many electrons an atom has in its neutral state when it has a total positive charge of +12 units, we ne",0.757
+Mercury_400837,A,A,1,A. physical properties.,0.116
+Mercury_401187,C,,0,The boiling point of water is **D. 212°C**. This temperature marks the point at which water changes from a liquid to a g,0.607
+Mercury_401240,C,C,1,C. An inherited trait.,0.127
+Mercury_401246,B,B,1,B. Gravity,0.084
+Mercury_401337,C,B,0,The correct answer is:  B. A parrot repeating a phrase  Explanation: - Inherited behavior refers to behaviors that are p,0.752
+Mercury_401583,A,A,1,"To determine how the model can better represent the properties of an atom, let's analyze each option:  A. By using small",0.751
+Mercury_401785,B,B,1,The best example of an inherited trait among the given options is:  B. A bird building a nest  Birds have been observed ,0.751
+Mercury_402091,C,B,0,The characteristic that is typically considered an acquired trait is:  B. Hair color  Hair color can be influenced by va,0.751
+Mercury_402093,A,A,1,The correct answer is:  A. learned behavior.  Explanation: This scenario illustrates a form of learning or conditioning ,0.762
+Mercury_402144,D,D,1,The correct answer is D. hydrogen and oxygen combining. The chemical equation given is H₂ (hydrogen) + O₂ (oxygen) → 2H₂,0.762
+Mercury_402535,B,B,1,The correct answer is B. The students will need a thermometer and a hot plate to conduct their experiment on determining,0.534
+Mercury_404096,B,B,1,The correct answer is B. Cementation. Cementation is the process that causes sand grains to stick together and form sand,0.77
+Mercury_404107,B,B,1,The correct answer is B. quartz.  Quartz is the most common mineral found in all three major rock types: 1. Metamorphic ,0.768
+Mercury_404153,D,,0,"To determine the approximate percentage of the electromagnetic spectrum that is visible light, we need to consider the r",0.768
+Mercury_404924,D,A,0,"The correct order in the process of sedimentary rock formation is:  A. compaction, erosion, cementation, deposition  Thi",0.754
+Mercury_404987,B,A,0,"To determine which property is the most reliable for identifying one mineral from another in a lab investigation, let's ",0.753
+Mercury_405056,A,A,1,A. Rocks are made of one or more minerals.,0.209
+Mercury_405140,C,C,1,C. Electrical energy.,0.119
+Mercury_405141,B,B,1,B. Electrical  Solar panels convert sunlight directly into electricity through photovoltaic (PV) technology. This proces,0.742
+Mercury_405452,A,A,1,The correct answer is A. decreased production cost.  Using technology like robotics in manufacturing can lead to several,0.744
+Mercury_405461,C,C,1,C. Observations  Observation is the most likely way for a scientist to collect data during an experiment. This method in,0.697
+Mercury_405469,D,D,1,D. It allows them to edit papers quickly. Word processors on computers can help students save time and improve their edi,0.759
+Mercury_405769,B,B,1,B. tissue,0.091
+Mercury_405771,C,C,1,C. Chloroplast  Chloroplasts are responsible for photosynthesis in plants and allow them to produce their own food throu,0.762
+Mercury_405772,A,C,0,The invention that has done the most to help predict weather and warn people of approaching storms is:  C. Barometers  B,0.761
+Mercury_405951,A,A,1,The correct answer is A. Bones provide protection for organs in the body. This description accurately reflects the prima,0.751
+Mercury_405953,B,B,1,The correct answer is B. grass.  Cell walls are primarily found in plants and some fungi. Grasses are specifically menti,0.749
+Mercury_406546,B,B,1,The correct answer is:  B. Resulted from asexual reproduction.  Explanation: Sexual reproduction involves two parents co,0.749
+Mercury_406741,D,D,1,The best explanation for why it is important for a doctor's office to keep accurate records of the medicines prescribed ,0.748
+Mercury_406786,B,B,1,B. Work together on scientific research.,0.179
+Mercury_406917,B,A,0,The best way to report students' findings about elevation changes in a large park near their school is:  A. Line graph  ,0.746
+Mercury_406923,C,C,1,"C. Motion  This information describes the cyclist's motion, specifically their movement from one point to another along ",0.49
+Mercury_406955,A,B,0,To determine how many grams of oxygen were formed when 10 grams of mercuric oxide decomposed into 9.3 grams of liquid me,0.76
+Mercury_407053,C,C,1,"The correct answer is:  C. spiral, elliptical, irregular  Explanation: Galaxies are classified based on their shape and ",0.759
+Mercury_407129,A,A,1,"To determine which tool is best for observing and measuring plant cells, let's analyze each option:  A. Microscope - A m",0.76
+Mercury_407259,B,B,1,"The correct answer is B. Wood burning in a fireplace produces a chemical change. When wood burns, it undergoes a chemica",0.762
+Mercury_407263,C,A,0,"To determine which part of digestion is primarily a chemical change, let's analyze each option:  A. **Teeth break food i",0.761
+Mercury_407530,B,,0,To determine the expected ratio of tall plants to short plants when Sam and Julia cross a heterozygous tall (Tt) pea pla,0.751
+Mercury_407661,D,D,1,"The correct answer is D. The substance forms a new substance.  When a substance undergoes a chemical change, it transfor",0.75
+Mercury_409465,D,A,0,"To determine the most appropriate next step for the manufacturer after conducting a small clinical trial, let's analyze ",0.746
+Mercury_410467,D,A,0,"To determine which calculation Jon can make based on the information provided, let's analyze each option:  A. Momentum -",0.746
+Mercury_410598,B,B,1,B. electrons  Electrons are negatively charged particles found in the inner layers of an atom. When Roberto touches a pi,0.741
+Mercury_411070,A,,0,"To determine the average rate of acceleration of the train, we need to use the formula for acceleration:  \[ \text{Accel",0.739
+Mercury_412148,A,A,1,"To determine which set of elements has similar bonding properties, we need to consider the chemical behavior of each ele",0.737
+Mercury_412714,D,D,1,The correct answer is D. kg/m^3. Density is typically measured in kilograms per cubic meter (kg/m^3) to accurately repre,0.618
+Mercury_412755,D,,0,"To determine the final volume of the gas after transferring it from the 20 mL container to the 40 mL container, we need ",0.735
+Mercury_414097,C,C,1,"C. North American Plate  The United States is located in the North American Plate, which is one of the three major plate",0.751
+Mercury_415689,A,A,1,The correct answer is A. Ozone absorbs ultraviolet light.   Ozone (O₃) is a gas found in the stratosphere and plays a cr,0.75
+Mercury_416374,C,C,1,The surgery that is most like the way a transgenic organism is made is:  C. Hector receives a replacement heart valve fr,0.77
+Mercury_416375,A,B,0,The event that can add oxygen from the atmosphere to ocean water during a storm at sea is:  B. lightning  Lightning rele,0.751
+Mercury_416377,C,,0,"To determine the expected concentration of dissolved gases in the ocean minimum zone (OMZ), we need to consider the cond",0.751
+Mercury_416405,C,C,1,The correct answer is C. They allow nutrients through the cell membrane.  Explanation: - Bacterial cells and human cells,0.766
+Mercury_416468,B,A,0,"To determine which life function is the same for an amoeba as for other freshwater protists, let's analyze each option: ",0.756
+Mercury_416502,D,B,0,The correct answer is:  B. mitochondrion  Mitochondria are specialized organelles found in eukaryotic cells that play a ,0.756
+Mercury_416504,C,C,1,"The correct answer is C. ribosomes. Ribosomes are the cellular structures that produce proteins within cells, which alig",0.757
+Mercury_416507,C,A,0,To determine which statement best supports the student's claim that eukaryotic cells require more lipids than prokaryoti,0.77
+Mercury_416550,B,A,0,"To determine which factor the man used to evaluate the safety of the water, let's analyze each option:  A. **pH**: This ",0.771
+Mercury_416636,D,A,0,"To determine the correct answer, let's analyze each statement:  A. A euglena can respond to light. - This is true for bo",0.755
+Mercury_416684,A,C,0,The correct answer is C. Downwelling. Downwelling refers to the process where nutrients and other dissolved substances m,0.751
+Mercury_417462,C,,0,"To determine whether the plant structure was from a flowering plant or a conifer, Mandy should look for characteristics ",0.764
+Mercury_417464,C,B,0,The correct answer is B. Simple eyes.  All members of Arthropoda (invertebrates) and Chordata ( vertebrates ) share the ,0.766
+Mercury_417568,C,A,0,"To determine the correct answer, let's analyze each option in relation to the process of glycogen synthesis and breakdow",0.754
+Mercury_417569,B,C,0,The most accurate model to show how amino acids form proteins is:  C. petals on a flower  Explanation: - Bees in a hive ,0.733
+Mercury_417589,C,A,0,"To determine the correct answer, let's analyze each option:  A. ""What is the mechanism by which carbon dioxide heats Ear",0.724
+Mercury_7001278,D,D,1,The best instrument for measuring the volume of a pebble is:  D. graduated cylinder  A graduated cylinder is specificall,0.724
+Mercury_7001453,D,D,1,D. Number of protons  The number of protons is what determines the position of an element in the periodic table based on,0.742
+Mercury_7001575,D,D,1,D. Social behavior  Wolves are known for their complex social structure and cooperative hunting behaviors. Wolves have a,0.741
+Mercury_7001855,B,B,1,B. A chemical reaction.,0.133
+Mercury_7003728,D,C,0,"The correct answer is:  C. kinetic  Firewood burns due to the chemical reaction between wood and oxygen, which releases ",0.728
+Mercury_7004008,C,,0,The relationship between ticks and dogs is most closely associated with **commensalism**. Commensalism occurs when one o,0.726
+Mercury_7004760,D,A,0,"The correct answer is A. lose a proton.  When an atom gains an electron, it becomes positively charged and has a net pos",0.732
+Mercury_7005058,D,D,1,The correct answer is D. Because of the large distance between objects in space. The light year is a unit of measurement,0.735
+Mercury_7005513,D,D,1,D. Photosynthesis.   Photosynthesis is the process by which plants convert light energy into chemical energy stored in g,0.732
+Mercury_7006108,D,D,1,D. pioneer species.,0.107
+Mercury_7007543,C,C,1,The part of a sound wave that measures its loudness is:  C. amplitude  Amplitude refers to the maximum displacement from,0.731
+Mercury_7007613,D,C,0,The correct answer is C. Electrons in the nucleus.  To elaborate on this:  - **Electron Number**: This refers to the tot,0.729
+Mercury_7007683,A,A,1,The correct answer is:  A. Electrons  Electrons are not typically considered reactive in the context of atomic processes,0.731
+Mercury_7007770,D,D,1,The correct answer is D. Energy and the attraction of the nucleus.  Electrons orbit the nucleus of an atom due to their ,0.729
+Mercury_7007840,C,C,1,The correct answer is:  C. Heat from the water moving into the cooler air.  Explanation: When hot water is placed on a p,0.731
+Mercury_7007858,A,A,1,"The correct answer is A. Heat from the room is absorbed by the ice cube. When an ice cube is placed in a warm room, it a",0.734
+Mercury_7007928,D,D,1,The correct answer is D. Temperature. The amount and type of water vapor present in the atmosphere can influence how muc,0.733
+Mercury_7008033,D,A,0,The correct answer is:  A. a rockslide  Mechanical weathering refers to the process by which rocks break down due to ext,0.733
+Mercury_7008103,D,D,1,The color of a star is primarily determined by its temperature and composition. Stars emit light in different colors due,0.755
+Mercury_7008260,C,D,0,"The correct answer is D. A decrease in temperature, causing shorter growing seasons.  Global warming refers to the long-",0.755
+Mercury_7008348,D,D,1,D. Transpiration.   Transpiration is the process by which plants release water vapor into the atmosphere as a way to coo,0.758
+Mercury_7008820,C,C,1,C. An ion.,0.139
+Mercury_7008908,B,B,1,"The correct answer is B. increasing surface area.  When a skydiver jumps from a plane, the open parachute increases the ",0.755
+Mercury_7009573,B,A,0,"The correct answer is A. maintain blood pressure.  During exercise, the cardiovascular and respiratory systems work toge",0.742
+Mercury_7009748,D,A,0,"To determine which characteristic of sound waves must be known when using sonar to measure distances underwater, let's a",0.737
+Mercury_7009853,A,C,0,The correct answer is:  C. Contrasting it against nearby stars.  Galaxies move through space due to their own motion and,0.732
+Mercury_7010063,D,D,1,D. Transferring heat to and from various regions. Ocean currents play a crucial role in global climate by transferring h,0.728
+Mercury_7011235,B,B,1,B. respiratory,0.092
+Mercury_7011288,D,D,1,"The correct answer is D. deposition.  Deposition refers to the process where sediments are deposited on top of an area, ",0.74
+Mercury_7011393,A,,0,To determine the phenotype of a cross between a homozygous dominant tall plant (Tt) and a homozygous recessive short pla,0.741
+Mercury_7011760,A,A,1,A. polio.,0.118
+Mercury_7012863,A,A,1,The correct answer is A. Hydroelectric power uses renewable natural resources such as water and wind energy. This makes ,0.729
+Mercury_7012950,B,B,1,B. Air pressure,0.104
+Mercury_7013370,B,A,0,"To determine the correct answer to this question about spring tides occurring during specific lunar phases, let's analyz",0.724
+Mercury_7013685,A,D,0,The correct answer is D. Pulling away from hot objects.  Explanation: - Shivering in cold temperatures is an involuntary,0.723
+Mercury_7013843,D,D,1,"D. an exothermic reaction. An active hot pack works by releasing heat through chemical reactions within its components, ",0.723
+Mercury_7013895,B,B,1,B. Dalton,0.105
+Mercury_7014000,A,A,1,The correct answer is:  A. nervous  Muscular systems and nervous systems work together to coordinate body movements and ,0.737
+Mercury_7015575,B,B,1,"The correct answer is:  B. Releases heat and is exothermic.  Explanation: When coal burns, it undergoes a chemical react",0.736
+Mercury_7015663,A,A,1,The correct answer is A. The rock cycle refers to the continuous transformation of rocks through processes such as weath,0.735
+Mercury_7015680,C,A,0,The correct answer is:  A. cool and dry  Maritime polar air masses typically have temperatures that are cooler than thos,0.735
+Mercury_7015733,C,A,0,The correct answer is A. Interfering with the water cycle.  Excessive nitrogen-based fertilizers lead to increased runof,0.735
+Mercury_7015803,A,A,1,To determine which measurement is the most accurate way to describe the distance between the Sun and its nearest neighbo,0.746
+Mercury_7015890,B,B,1,The correct answer is B. Red shift of light from distant galaxies.  Redshift in the spectrum of light emitted by distant,0.734
+Mercury_7015908,D,B,0,The correct answer is B. Divergent boundary.  The formation of isolated volcanic islands like Hawaii occurs along the bo,0.737
+Mercury_7015925,B,B,1,The correct answer is B. Extraction of ground water.  Extraction of groundwater typically leads to soil erosion and can ,0.725
+Mercury_7015978,D,A,0,"To determine what happens to the sodium atom during the formation of a bond between an electron and a chlorine atom, let",0.725
+Mercury_7016013,C,B,0,The correct answer is B. igneous rocks.  When rock particles settle at the bottom of the ocean and continue to be buried,0.741
+Mercury_7016363,C,C,1,The most likely effect of a drought on a population of frogs living in a shallow swamp would be:  C. decrease in frog po,0.742
+Mercury_7016415,C,A,0,"To determine which tool is most useful for studying the living organisms collected from the pond, let's analyze each opt",0.731
+Mercury_7016695,D,D,1,D. It could lead to the potential extinction of those animals.,0.247
+Mercury_7017728,B,B,1,The correct answer is B. The speed at which sound waves travel depends on the type of material through which they travel,0.727
+Mercury_7017798,C,B,0,"The correct answer is B. Heat is radiating in the liquid.  When bubbles form in a liquid that is being heated, heat ener",0.727
+Mercury_7017885,A,C,0,The correct answer is:  C. Mechanical energy.  Atoms and molecules are fundamental particles that make up matter. Their ,0.732
+Mercury_7017955,D,D,1,The correct answer is D. A balance and graduated cylinder.,0.244
+Mercury_7018060,B,B,1,B. Flammability  Flammability refers to a material's ability to ignite or burn when exposed to heat or an ignition sourc,0.746
+Mercury_7018340,A,A,1,A. heredity. Gregor Mendel's contributions in genetics were primarily focused on studying heredity and genetic laws. He ,0.746
+Mercury_7018428,B,,0,"To determine why the apple slices in box A dried faster than those in box B, we need to consider the principles of energ",0.746
+Mercury_7018498,C,C,1,C. Volume.,0.126
+Mercury_7018533,A,D,0,The answer to this question is D. radio wave. Radio waves are not classified as electromagnetic waves; they fall under t,0.745
+Mercury_7024203,A,A,1,"The correct answer is A. nervous and muscle.  When someone stubs their toe, the body responds through both the nervous s",0.745
+Mercury_7024780,C,C,1,C. exothermic  Explanation: The addition of sodium hydroxide (NaOH) to water is an exothermic reaction because it releas,0.747
+Mercury_7025025,A,B,0,"B. High pressure and heat  The rock cycle describes how rocks form over time through processes such as weathering, erosi",0.747
+Mercury_7025095,D,D,1,The correct answer is D. Longshore drift.  Longshore drift refers to the movement of sediment along the shorelines due t,0.747
+Mercury_7025130,A,A,1,"The correct answer is A. Protons. An element's identification characteristic is its atomic number, which represents the ",0.75
+Mercury_7026425,C,C,1,The correct answer is:  C. Avoiding insects that taste bad  This behavior is an example of learned behavior because it i,0.645
+Mercury_7026495,C,B,0,B. igneous  Explanation: The formation of new rock through the process of igneous rock formation involves the cooling an,0.75
+Mercury_7026618,A,A,1,To determine which body in the given options is responsible for the increase in the number of heavier elements in the un,0.747
+Mercury_7026968,A,,0,"To determine the most accurate answer for estimating the number of dandelion plants in a field, the student needs to gat",0.748
+Mercury_7027545,D,B,0,The correct answer is B. Placing rubber insulation on wires in the circuit.  Explanation: - Increasing the current in th,0.741
+Mercury_7029313,C,C,1,The answer is C. Franklin's experiments with electricity. Electricity played a significant role in the development of mo,0.524
+Mercury_7030783,A,B,0,B. Protons.,0.12
+Mercury_7032148,A,A,1,A. Jonas Salk,0.118
+Mercury_7032393,D,D,1,The best tool for measuring out a precise amount of liquid is:  D. graduated cylinder  Graduated cylinders are specifica,0.73
+Mercury_7032865,A,A,1,"To determine which scientist is credited with discovering the first four moons of Jupiter, let's review each option:  A.",0.729
+Mercury_7033373,D,D,1,D. Some pesticides can harm non-targeted species.,0.191
+Mercury_7033600,A,A,1,A. a computer model  A computer model is designed to simulate complex systems and predict outcomes based on data inputs.,0.731
+Mercury_7034773,C,C,1,"The correct answer is:  C. is higher than other common substances.  Water has a high specific heat capacity, which means",0.732
+Mercury_7034790,B,B,1,"The correct answer is:  B. Energy  To change ice into water, you need energy. Ice is solid water at 0°C (32°F), while wa",0.733
+Mercury_7034825,C,C,1,The best example of a chemical reaction is:  C. Oxygen absorbs sunlight forming ozone molecules  Explanation: - Option A,0.744
+Mercury_7037380,B,A,0,To determine which category of organism will be affected first by the invasion of an invasive grass species that outcomp,0.741
+Mercury_7038850,A,A,1,"To determine which material transfers heat energy quickest, we need to consider how each material conducts heat and its ",0.742
+Mercury_7041265,A,B,0,The correct answer is B. The test tube is warm.  Explanation: When two chemicals react endothermically (meaning they abs,0.745
+Mercury_7041300,D,D,1,D. A change in environmental conditions.,0.165
+Mercury_7041878,C,A,0,"To determine the correct answer, let's analyze each option:  A. Heat - While heat is involved in the process of electrom",0.737
+Mercury_7042543,B,D,0,The correct answer is D. Modern decay of unstable atoms. Low-energy background radiation observed in space suggests that,0.74
+Mercury_7042630,B,B,1,B. Farming  Excessive blooms of algae in lakes can be caused by various factors including agricultural practices such as,0.752
+Mercury_7043908,A,A,1,"The correct answer to ""What is the major cause of ocean waves?"" is:  A. Wind  Ocean waves are primarily caused by wind. ",0.742
+Mercury_7043943,A,,0,"When the velocity of an ocean wave decreases as it approaches a shore, the wave's height also decreases. This is because",0.743
+Mercury_7044083,D,B,0,The correct answer is B. The weight of the depot is too great over the aquifer.  To elaborate on this:  1. **Aquifers**:,0.742
+Mercury_7044520,B,A,0,"To determine the correct answer, let's analyze each option in relation to the given information:  A. Size - This is not ",0.742
+Mercury_7044555,D,D,1,D. A millimeter is not considered an instrument to be used to determine weather.,0.289
+Mercury_7044713,C,C,1,"The correct answer is C. Gravity.  When an electric motor pulls a roller coaster down a hill, it applies a force that op",0.742
+Mercury_7056473,C,C,1,"The correct answer is:  C. Seasons would be shorter.  If Earth were to rotate much faster than it does now, it would cau",0.744
+Mercury_7056490,A,A,1,"To determine which scenario is most likely to occur if the Earth were to rotate in the opposite direction, let's analyze",0.76
+Mercury_7056543,D,D,1,The correct answer is:  D. Clay  Clay is known for its ability to hold more water than other types of soil due to its fi,0.759
+Mercury_7056665,C,A,0,"To determine which tool the student should use to best complete separating gravel and sand from a mixture, let's analyze",0.776
+Mercury_7057243,C,A,0,"To determine which property allows the student to separate the components of the mixture into two distinct solutions, le",0.758
+Mercury_7057960,C,C,1,"The correct answer is C. Organic matter is decayed in the soil. Organic matter, such as dead plants and animals, decompo",0.773
+Mercury_7058520,C,C,1,C. Herbivores  Herbivores are organisms that primarily consume plants as their food source. They do not eat other animal,0.763
+Mercury_7068670,D,B,0,"The environment that would most likely have rich, fertile soil is:  B. a coastal beach  Coastal beaches typically receiv",0.754
+Mercury_7068705,A,A,1,"To determine which type of soil content would best benefit plants that require easy drainage, we should consider the cha",0.747
+Mercury_7069388,C,A,0,"To determine the correct answer, let's analyze each option step by step:  1. **Option A: Much more than that of the flat",0.766
+Mercury_7071960,A,A,1,"To determine which element causes soil to appear red, let's analyze each option:  A. Iron - While iron can be present in",0.765
+Mercury_7071978,B,B,1,B. anaerobic.,0.147
+Mercury_7075110,C,C,1,C. More than one cell.,0.154
+Mercury_7075128,C,C,1,C. Have at least one cell.,0.172
+Mercury_7077490,B,B,1,"The correct answer is B. Distance and Mass. To determine the amount of gravitational force between two objects, you need",0.754
+Mercury_7077578,B,B,1,"The correct answer is B. They spread apart to fill their container. In the gaseous state, molecules are free to move aro",0.77
+Mercury_7077648,B,A,0,"To determine which particle type can be identified as belonging to a specific element, let's analyze each option:  A. El",0.773
+Mercury_7077665,D,C,0,The correct answer is C. Electrons are inside the nucleus.  To elaborate on this:  - **Option A (Protons are larger than,0.77
+Mercury_7080955,D,C,0,The equipment that an X-ray technician would most likely use on a regular basis to ensure patient safety is:  C. goggles,0.767
+Mercury_7080973,B,B,1,The correct answer is B. Drop zones. These areas should be designed and maintained so that students can safely fall from,0.519
+Mercury_7081148,B,B,1,The correct answer is B. A pie chart.  A pie chart is ideal for showing the percentage composition of different elements,0.767
+Mercury_7081288,B,B,1,The correct answer is B. bar graph.  Bar graphs are ideal for displaying data on different categories or attributes side,0.768
+Mercury_7081673,B,B,1,The correct answer is B. breathing mask. A breathing mask is specifically designed to protect the wearer's lungs and res,0.769
+Mercury_7082075,C,B,0,The correct answer is:  B. diffract and come to a focal point.  Explanation: When a beam of light passes through a conve,0.771
+Mercury_7082478,B,B,1,The correct answer is:  B. The table pushes up on the book.  Explanation: - Option A (The book is not very heavy) is sub,0.768
+Mercury_7082670,C,C,1,The visible light spectrum is typically divided into different ranges based on their wavelengths and frequencies. Theref,0.52
+Mercury_7083405,A,A,1,A. a tissue.,0.156
+Mercury_7083458,B,B,1,"The correct answer is:  B. a bacterial infection.  When a cut is treated with antiseptic, it helps prevent bacteria from",0.774
+Mercury_7083563,B,B,1,"B. A cell.   Cells are the basic units of life and are found in all living organisms, including plants, animals, fungi, ",0.532
+Mercury_7083738,A,A,1,"To determine the correct answer, let's analyze each option step-by-step:  A. **They are different substances.**    - Thi",0.773
+Mercury_7083790,A,D,0,The correct answer is D. Positive protons and negative neutrons.   To elaborate on this:  - **Positive Protons**: These ,0.762
+Mercury_7085383,D,C,0,The correct answer is:  C. cementation  Explanation: Metamorphic rocks form through processes that involve solidificatio,0.778
+Mercury_7085435,B,B,1,The most common source of nonrenewable resources used to generate electricity in the state of Nevada is:  B. Coal.  Coal,0.778
+Mercury_7085558,C,B,0,"The correct answer is B. streak. When a mineral breaks into small, flat sheets, it forms a streak on a surface. This cha",0.692
+Mercury_7086765,B,B,1,B. glass,0.122
+Mercury_7086800,C,C,1,The correct answer is:  C. clay  Soil that drains slowly typically contains more clay particles compared to sandy or loa,0.759
+Mercury_7090563,A,B,0,B. Cause erosion.   Volcanoes can create new land by eroding existing rock surfaces and creating new pathways for water ,0.686
+Mercury_7090580,B,B,1,The most accurate answer is:  B. subduction zones.  Subduction zones are areas where one tectonic plate moves beneath an,0.756
+Mercury_7090930,D,A,0,The correct answer is:  A. Sediments are being deposited.  Land subsidence typically occurs when there is a decrease in ,0.756
+Mercury_7091858,D,D,1,D. An increase in the greenhouse effect  Explanation: Carbon dioxide (CO2) is primarily released into the atmosphere thr,0.757
+Mercury_7091875,A,A,1,The process that is directly caused by the heat from the Sun in the water cycle is:  A. evaporation  Explanation: - Evap,0.756
+Mercury_7091893,C,C,1,The Great Miami Aquifer is primarily affected by natural processes such as precipitation and groundwater recharge from n,0.757
+Mercury_7092190,A,A,1,A. eating,0.092
+Mercury_7092208,A,B,0,The correct answer is B. Volcanoes will erupt more often.  As the amount of carbon dioxide (CO2) in the atmosphere incre,0.754
+Mercury_7092278,C,C,1,C. agriculturists  The group that would be most concerned with technological developments in insect control is agricultu,0.755
+Mercury_7092400,B,B,1,"The correct answer is B. mountain ranges.  When two continental plates collide, the resulting fracture zones create moun",0.758
+Mercury_7092488,B,B,1,B. mountains  Reverse faults typically result in the formation of mountain ranges and hills due to the movement of tecto,0.772
+Mercury_7093083,C,D,0,"The correct answer is D. Surface water. When radioactive waste is sealed and buried deep underground, it helps to preven",0.772
+Mercury_7094115,C,D,0,The correct answer is D. nautical chart.  A nautical chart typically shows the geographical features and locations of oc,0.774
+Mercury_7094605,A,B,0,The technology that helps a power company use renewable energy for the production of electricity is:  B. Nuclear power p,0.771
+Mercury_7094938,D,D,1,D. Gravitational force  The Moon's orbit around the Earth is primarily maintained due to the gravitational force between,0.761
+Mercury_7099260,D,D,1,"D. Circulatory system  The circulatory system, also known as the cardiovascular system, works with the respiratory syste",0.76
+Mercury_7099348,C,B,0,The correct answer is B. The amount of fruit picked after dark.  This is because the timing of harvesting directly affec,0.764
+Mercury_7100520,C,C,1,The greatest benefit of sexual reproduction is:  C. ability to produce genetically different offspring  Explanation: Sex,0.773
+Mercury_7100643,D,,0,"To determine the correct answer, let's analyze each scenario step-by-step:  1. **Siberian Summer Feeding Area**: Reindee",0.772
+Mercury_7103548,B,A,0,"The correct answer is A. Condensation. During the formation of a hurricane, warm, moist air rises and cools as it moves ",0.772
+Mercury_7107993,C,C,1,The correct answer is C. Nitrogen atoms can bond to different atoms.  To elaborate on this:  - **Option A**: This sugges,0.774
+Mercury_7108063,B,B,1,"The correct answer is B. Use of chlorofluorocarbons (CFCs).  Chlorofluorocarbons (CFCs), also known as hydrochlorofluoro",0.776
+Mercury_7108238,A,A,1,A. vaccination,0.108
+Mercury_7112805,A,A,1,To determine which cause of extinction is most likely to be found in the fossil record associated with ichthyornis fossi,0.791
+Mercury_7115098,A,A,1,"The correct answer is A. To produce glucose.  Chloroplasts play a crucial role in photosynthesis, which is the process b",0.791
+Mercury_7115255,B,B,1,The type of relationship that describes this scenario is:  B. parasitic  Explanation: - Parasitism involves one organism,0.792
+Mercury_7120820,C,C,1,C. Motion.,0.106
+Mercury_7122850,C,C,1,The correct answer is C. red giant.  Red giants are the final stages of stellar evolution for stars that have exhausted ,0.777
+Mercury_7122955,C,C,1,The correct answer is:  C. remains constant throughout the conversion.  Explanation: When one form of energy is converte,0.775
+Mercury_7123305,B,,0,To determine the best location for the types of telescopes used by scientists to obtain the clearest images of distant c,0.774
+Mercury_7124093,B,,0,"To determine the point where the front car of the roller coaster has its greatest potential energy, we need to understan",0.771
+Mercury_7124128,D,C,0,The correct answer is:  C. radiant to mechanical  This statement aligns with the principle of energy transfer during met,0.771
+Mercury_7124268,D,A,0,"To determine the most important procedure to follow when investigating the effect of the color of light on plant growth,",0.773
+Mercury_7124320,B,B,1,B. The results will be more reliable.,0.176
+Mercury_7126840,C,D,0,"The correct answer is:  D. Potential Energy  When a stuntman jumps from a height onto an airbag, his kinetic energy (the",0.771
+Mercury_7128240,B,B,1,The correct answer is B. Climate.  Mangroves are highly sensitive to changes in their environment due to their unique ec,0.774
+Mercury_7128660,C,C,1,The correct answer is C. Use the new information to update the old theory.  This scenario involves the scientific commun,0.774
+Mercury_7128853,A,A,1,"To determine which factor will increase as the loudness of a sound wave increases, let's analyze each option:  A. Amplit",0.774
+Mercury_7137043,C,C,1,The main source of the electromagnetic energy we use is:  C. Sun  Sunlight is primarily composed of electromagnetic radi,0.773
+Mercury_7137078,C,A,0,To determine which substance has a definite volume but takes the shape of the container when placed in it at room temper,0.79
+Mercury_7137270,A,A,1,The term that best describes the process responsible for cave formation resulting from rock being dissolved by groundwat,0.79
+Mercury_7138863,B,A,0,"To determine which physical property is most likely being compared in this scenario, let's analyze each option:  A. Area",0.79
+Mercury_7139720,D,A,0,The process that must occur in the mantle to make the plates move is:  A. Normal faulting  Normal faulting occurs when t,0.788
+Mercury_7141278,A,A,1,"The nutrient that is directly absorbed from the bloodstream is:  A. Cell  Nutrients such as water, glucose, and amino ac",0.783
+Mercury_7141418,B,B,1,The correct answer is B. Cats were domesticated earlier than originally thought.  This discovery provides strong evidenc,0.784
+Mercury_7141785,A,A,1,The correct answer is A. Divide change in velocity by change in time. This formula calculates acceleration as it measure,0.565
+Mercury_7141890,B,B,1,"Based on the organization of living things, tissues refer to groups of related cells that perform specific functions wit",0.638
+Mercury_7144498,A,D,0,The correct answer is D. Tree rings indicating the return of a similar climate can provide strong evidence for the hypot,0.772
+Mercury_7145215,B,B,1,"The correct answer is B. The tilted axis of Earth.  To elaborate, the tilt of Earth's rotational axis causes different s",0.774
+Mercury_7145583,B,,0,To determine which bean would most likely serve as the control group for Elias's study on the effects of soaking beans i,0.773
+Mercury_7146178,C,A,0,"To determine the correct answer, let's analyze each option:  A. Conclusion - This refers to the final statement or resul",0.773
+Mercury_7148155,B,B,1,"The Coriolis Effect is produced by the rotation of the Earth. Therefore, the correct answer is:  B. the rotation of Eart",0.776
+Mercury_7154228,B,A,0,"To determine which organism breaks down and recycles dead organisms in an ocean ecosystem, let's analyze each option:  A",0.783
+Mercury_7159583,A,A,1,"To determine which term best identifies the participants who received a sugar pill in this scenario, let's analyze each ",0.781
+Mercury_7160545,B,A,0,The correct answer is A. Sunspots.  Sunspots are visible features on the surface of the sun and have been observed for c,0.78
+Mercury_7162803,D,C,0,"To determine the history of different people who may have lived at the site, the best method would be:  C. by the person",0.781
+Mercury_7163363,D,B,0,The correct answer is B. The beetles that eat a variety of grass roots.  Explanation: - **Option A (fungi breaking down ,0.781
+Mercury_7163415,D,C,0,The scenario that best illustrates an example of rethinking an existing idea in science is:  C. Developing an antibiotic,0.785
+Mercury_7164920,D,D,1,D. Musculoskeletal,0.151
+Mercury_7165043,B,B,1,B. The level of pollution caused by people  The EPA's primary focus is on addressing environmental issues and promoting ,0.777
+Mercury_7165200,D,C,0,"The correct answer is C. Cold air moving south from the North Pole.  When cold air moves southward from the North Pole, ",0.779
+Mercury_7165550,A,B,0,The correct answer is:  B. chemical energy converted to kinetic energy  Explanation: Hybrid cars use a braking system th,0.78
+Mercury_7165813,B,A,0,"To determine which type of energy is being measured by the calorie unit in the nutritional information provided, let's a",0.768
+Mercury_7166145,B,B,1,The correct answer is B. releasing hormones and transporting them to cells of the body.  To elaborate on this:  - **Taki,0.774
+Mercury_7166950,A,D,0,The correct answer is:  D. the gases that compose the star  Stars emit light due to the interaction between their intern,0.774
+Mercury_7167038,C,C,1,C. Muscle cells  Muscle cells are specialized cells that contract in response to stimuli such as movement or contraction,0.774
+Mercury_7168613,C,C,1,The correct answer is C. Muscle.  Muscle tissue is a type of tissue found in the human body. It consists of specialized ,0.759
+Mercury_7170643,A,A,1,"The correct answer is A. Chemical. During respiration, glucose molecules are broken down into smaller molecules like car",0.629
+Mercury_7172865,C,C,1,C. sulfur dioxide from burning fossil fuels.,0.202
+Mercury_7173653,B,A,0,The correct answer is A. to enhance the effectiveness of friction.  Lubricants like oil serve several purposes in machin,0.753
+Mercury_7176208,B,B,1,The most likely response of the body when more energy is used than the calories consumed provide is:  B. to release ener,0.754
+Mercury_7179253,C,C,1,The correct answer is C. Chemical signaling.  Chemical signaling refers to the process where cells release chemicals int,0.761
+Mercury_7179865,B,A,0,To determine which option best explains why scientists might prefer using the Hubble Space Telescope over a land-based t,0.773
+Mercury_7180618,A,A,1,A. Overgrazing  Lions typically prey on primary consumers such as zebras and gazelles. A sudden decline in lion populati,0.773
+Mercury_7180705,B,B,1,B. Transporting oxygen to organs.,0.183
+Mercury_7182158,D,C,0,The correct answer is C. Natural selection.  Natural selection is the process that leads to the observed color variation,0.757
+Mercury_7183523,A,A,1,The correct answer is A. Burning fossil fuels in power plants is the largest contributor to acid rain among the given op,0.758
+Mercury_7185185,B,B,1,"B. A tissue  Blood is primarily composed of three main components: red blood cells, white blood cells, and platelets. Th",0.754
+Mercury_7185255,C,C,1,The best example of the decomposition process where organic material is recycled in an ecosystem is:  C. bacteria feedin,0.755
+Mercury_7188353,A,A,1,"To determine which form of energy is the least available for reuse in a food web, let's analyze each option:  A. Heat en",0.767
+Mercury_7188825,D,A,0,"To determine the correct answer, let's analyze each statement:  A. ""They are made of the same materials."" - This stateme",0.77
+Mercury_7188860,D,,0,To determine which entity was most likely to have developed first after the Big Bang based on the age of the universe be,0.768
+Mercury_7191520,B,A,0,"To determine how the quote applies to scientific knowledge, let's analyze each option:  A. Famous scientists have the be",0.764
+Mercury_7193690,A,A,1,"To determine which units of measurement can be used to compare the amounts of energy in different foods, let's analyze e",0.764
+Mercury_7194268,C,C,1,"The correct answer is C. Mass. The size, temperature, composition, and density of a star determine its type based on its",0.749
+Mercury_7197890,B,,0,"To determine which molecule is required for animal cells to obtain the most energy possible from a molecule of glucose, ",0.752
+Mercury_7197960,A,A,1,The correct answer is A. natural selection.  Natural selection is a fundamental concept in biology that describes how or,0.752
+Mercury_7198188,B,A,0,"To determine which organism will be most affected by the increase in sea level caused by global warming, we need to cons",0.753
+Mercury_7198993,C,C,1,The correct answer is C. Genetic engineering.  Gel electrophoresis is indeed a technique used in genetics research to se,0.754
+Mercury_7200060,D,D,1,"The correct answer is D. Increases in sea level.  Sea levels rise due to several factors, including natural processes li",0.753
+Mercury_7200200,C,C,1,The correct answer is C. The frequency of the sound is too high.  Explanation: When a whistle produces a sound wave that,0.754
+Mercury_7200533,A,A,1,"To determine which two types of energy travel in waves, let's analyze each option:  A. Light and sound - Both light and ",0.754
+Mercury_7200568,C,,0,"To determine which planets are closest to each other in the solar system, we need to consider their relative distances f",0.753
+Mercury_7202125,C,C,1,The correct answer is:  C. to confirm that the observed differences were caused by the fertilizer  Explanation: In scien,0.753
+Mercury_7202353,C,B,0,"B. Migration instinct  Earthworms exhibit this behavior as an example of their ""migration instinct,"" which is a survival",0.741
+Mercury_7205328,C,C,1,C. A compound.,0.114
+Mercury_7205468,B,B,1,"The correct answer is B. white. When all the colors of visible light in the electromagnetic spectrum are combined, they ",0.754
+Mercury_7206133,D,A,0,"To determine which process was required to form shale, let's analyze each option:  A. Evaporating - This process involve",0.756
+Mercury_7206605,B,A,0,"To determine the correct answer, let's analyze each option step-by-step:  A. Moving at different rates: - If the hammer ",0.755
+Mercury_7207078,C,C,1,The correct answer is C. The greenhouse effect in the atmosphere is most responsible for Earth's surface temperatures. T,0.771
+Mercury_7207113,D,C,0,The correct answer is:  C. The publishing company may make money.  This statement aligns with the potential economic ben,0.771
+Mercury_7207148,D,D,1,D. Experimental results that support a revised theory. Scientists often revise their theories based on new evidence or d,0.46
+Mercury_7207183,A,B,0,The correct answer is:  B. Magma that cooled deep below a volcano.  Explanation: Sandstone and other sedimentary rocks a,0.758
+Mercury_7210158,B,B,1,B. Petroleum  The increasing use of internal combustion engines has led to an increase in the extraction and consumption,0.756
+Mercury_7210350,B,B,1,The correct answer is B. Increased average air temperature.  Explanation: An increase in carbon dioxide (CO2) levels in ,0.757
+Mercury_7210385,B,B,1,"B. The troposphere, which is the lowest layer of the atmosphere, is where most of Earth's weather occurs.",0.404
+Mercury_7210630,C,C,1,The correct answer is:  C. the solar system  Explanation: - The asteroid belt (option A) contains rocky debris between M,0.753
+Mercury_7210893,A,A,1,The correct answer is A. Stress due to the movement of Earth's crustal plates. Earthquakes occur when there is an increa,0.755
+Mercury_7211260,C,C,1,The widely used energy sources that are nonrenewable and also a source of greenhouse gas emissions are:  C. Fossil fuels,0.761
+Mercury_7211628,B,A,0,"To determine which factor most likely led to the rapid warming of North American climates around 14,000 years ago due to",0.774
+Mercury_7212625,B,B,1,The smallest particle of an element that still exhibits all the properties of that element is:  B. An atom  An atom cons,0.774
+Mercury_7213045,B,B,1,B. Evaporation  Explanation: Evaporation is the process where liquid water changes directly into gas (water vapor) witho,0.774
+Mercury_7213308,C,C,1,C. Pie chart,0.116
+Mercury_7213815,C,C,1,"The correct answer is C. parasite-host.  Explanation: In this scenario, a tick (a type of insect) feeds on the blood of ",0.776
+Mercury_7214043,C,C,1,The correct answer is C. pedigree chart.  A pedigree chart is specifically designed for tracing genetic traits and pedig,0.776
+Mercury_7214620,C,B,0,"The correct answer is B. One hundred million.  To provide more context, the Milky Way Galaxy contains approximately 100 ",0.755
+Mercury_7215478,A,A,1,A. Selective breeding,0.118
+Mercury_7216580,C,C,1,C. immune system,0.105
+Mercury_7216615,B,D,0,The correct answer is D. The processes produce genetically unique offspring. Both sexual and asexual reproduction involv,0.756
+Mercury_7216720,C,A,0,The correct answer is:  A. budding  Budging is not typically considered a part of sexual reproduction; it refers to the ,0.766
+Mercury_7216860,C,C,1,The correct answer is C. Muscle. Muscles are specialized tissues that work together in conjunction with other muscles an,0.765
+Mercury_7216913,D,D,1,D. Disease.,0.115
+Mercury_7216983,C,A,0,"To determine which unit of measurement is most appropriate for this investigation, let's analyze each option:  A. Meters",0.768
+Mercury_7217035,C,A,0,"To determine which plant variation is most advantageous for survival in a drier climate, let's analyze each option:  A. ",0.769
+Mercury_7217088,B,B,1,The correct answer is B. The force acting on the object determines its acceleration.   To elaborate: - **Option A**: The,0.768
+Mercury_7217228,C,B,0,The correct answer is B. A large static electric charge.  Explanation: - **Option A (a long piece of copper wire)**: Cop,0.771
+Mercury_7217438,D,D,1,"D. Air pollution  Coal combustion releases pollutants such as sulfur dioxide and nitrogen oxides into the atmosphere, wh",0.77
+Mercury_7217613,C,C,1,The correct answer is:  C. Water  Water is considered an abiotic factor in a river ecosystem because it is essential for,0.781
+Mercury_7217683,D,D,1,D. Genetic variation  Genetic variation is what allows for some organisms in a population to have an increased survival ,0.763
+Mercury_7217718,C,C,1,C. Passing the gene for DDT resistance to their offspring.,0.284
+Mercury_7217910,D,A,0,"To determine which statement best describes temperature as elevation in the atmosphere increases, let's analyze each opt",0.774
+Mercury_7218050,D,D,1,The correct answer is D. Temperature inversion.  Temperature inversion occurs when air temperatures change rapidly acros,0.774
+Mercury_7218243,C,C,1,"To determine the absolute age of a Precambrian igneous rock, scientists typically use **radiometric dating** methods. Ra",0.771
+Mercury_7218663,C,C,1,The correct answer is C. density.  Water has a higher density than ice at room temperature (approximately 0°C or 32°F). ,0.768
+Mercury_7219030,B,B,1,B. sedimentary  Explanation: The formation of rocks through burial and compression involves the accumulation of sediment,0.769
+Mercury_7219118,C,B,0,The correct answer is B. Temperature at which the processes occurred.  Quartz naturally forms in various colors due to i,0.768
+Mercury_7219520,C,A,0,"To determine which feature a birdwatcher should evaluate first when identifying an eastern bluebird, let's analyze each ",0.768
+Mercury_7219695,A,A,1,"To determine what scientists can infer about the rocks based on the trilobite and brachiopod index fossils, let's analyz",0.769
+Mercury_7219783,B,B,1,B. Natural selection.,0.128
+Mercury_7220518,A,A,1,The correct answer is A. the ability to trap heat. Gases that contribute to Earth's greenhouse effect have the property ,0.743
+Mercury_7220955,D,D,1,The correct answer is:  D. Removing viruses and bacteria from the skin.  Having students wash their hands regularly with,0.75
+Mercury_7220973,A,C,0,The condition that is most likely to spread an illness between people is:  C. A genetic mutation in somatic cells  Expla,0.743
+Mercury_7221393,B,A,0,"To determine which substance is composed of only one type of atom, let's analyze each option:  A. Water (H₂O): This comp",0.746
+Mercury_7221445,A,A,1,A. the Doppler effect.,0.179
+Mercury_7222320,D,,0,"To determine the correct answer, let's analyze the given information step by step:  1. **Gravitational Force**: The grav",0.76
+Mercury_7222758,B,A,0,"To determine the correct answer, let's analyze the properties mentioned in the scenario:  1. **Luster**: This refers to ",0.76
+Mercury_7222845,D,C,0,The event that is an example of a change in climate is:  C. An overnight temperature drop causes frost to form.  This sc,0.763
+Mercury_7222863,D,A,0,"To determine which substance in the atmosphere forms the crystals that cause halos when light reflects off them, let's a",0.763
+Mercury_7223090,D,,0,"To determine which layer of the model should be the thinnest, we need to understand the structure and composition of eac",0.763
+Mercury_7223423,D,A,0,The correct answer is A. mass.,0.175
+Mercury_7228078,C,C,1,C. Which mRNA is produced.,0.179
+Mercury_7228113,B,,0,"The discovery of a fossilized animal with teeth, a long bony tail, and feathered wings is most likely associated with th",0.758
+Mercury_7228305,D,A,0,"To determine which structure is missing from organisms in the phylum Porifera, let's analyze each option:  A. Organelles",0.759
+Mercury_7228533,C,C,1,The correct answer is C. Sequence of nucleotides. The sequence of nucleotides in DNA and RNA determines the genetic info,0.619
+Mercury_7230125,B,B,1,The correct answer is B. Support through evidence from numerous observations.  An expanding universe hypothesis requires,0.756
+Mercury_7234028,B,B,1,The correct answer is B. They are composed mostly of ice.  The Oort Cloud is believed to be primarily made up of icy obj,0.748
+Mercury_7234168,C,,0,"To determine if the rock layer has overturned based on the age differences among the fossils, we need to consider which ",0.748
+Mercury_7234220,C,B,0,The correct answer is:  B. the outer core  The outer core is located just outside the Earth's rigid crust and is primari,0.74
+Mercury_7234623,D,A,0,"To determine which quantity must equal zero for a car to be moving at a constant rate along a straight line, let's analy",0.746
+Mercury_7235848,D,D,1,"D. Ultraviolet light  The breakdown of ozone into oxygen occurs due to the electromagnetic absorption spectrum of ozone,",0.746
+Mercury_7236058,B,B,1,The characteristic that results in a large concentration of marine organisms near the coast of Northern California due t,0.745
+Mercury_7238893,D,A,0,"To determine where the carbohydrate is added to the protein during its synthesis process, let's analyze each option:  A.",0.745
+Mercury_7238910,B,A,0,To determine which structure transports the newly synthesized protein from the site of synthesis to the site of modifica,0.745
+Mercury_7239313,A,C,0,The correct answer is:  C. Number of births  An increase in the number of births can lead to a population decline for se,0.746
+Mercury_7239435,A,A,1,The correct answer is A. Electrochemical impulses. Electrochemical impulses are the electrical signals that travel along,0.763
+Mercury_7239890,A,C,0,"The correct answer is:  C. law of segregation  Explanation: The law of segregation states that during meiosis, the allel",0.763
+Mercury_7241255,A,A,1,"To determine which option correctly describes the rapid change in the membrane potential when a neuron is stimulated, le",0.748
+Mercury_7245123,B,A,0,The correct answer is A. A decrease in the erosion of riverbanks.  This occurs because floods can cause significant dama,0.75
+Mercury_7246278,D,B,0,"The correct answer is B. Rift zones. When two continental plates collide, they can form a rift zone, which is a large ga",0.764
+Mercury_7247048,B,B,1,The most serious impact to an ecosystem after a tornado would be:  B. soil erosion along with water pollution  This is b,0.765
+Mercury_7247083,C,C,1,C. It was helpful in planning spacecraft trajectories.,0.208
+Mercury_7247100,C,C,1,The correct answer is C. exercising to maintain strength.  Muscles and bones require physical stress to remain healthy d,0.753
+Mercury_7248150,A,A,1,"To determine the correct answer, let's analyze each option in relation to the effects of colchicine on cell division:  A",0.753
+Mercury_7248290,A,A,1,The correct answer is A. Nucleases play an important role in repairing the double-stranded DNA. They cut and remove spec,0.757
+Mercury_7248308,B,B,1,The correct answer is:  B. digestion and absorption of fats in the small intestine  Bile salts help break down fats into,0.767
+Mercury_7250005,C,A,0,"To determine which function is common to both prokaryotic and eukaryotic cells, let's analyze each option:  A. Aerobic r",0.766
+Mercury_7250128,D,A,0,"To determine which structure a rabbit cell and a bacillus cell share, let's analyze each option:  A. Mitochondrion - A r",0.767
+Mercury_7250285,C,A,0,To determine which mechanism is most likely responsible for the loss of the lizard's climbing ability due to the transfe,0.757
+Mercury_7251720,D,A,0,The correct answer is A. Epithelium provides a rigid shell to prevent punctures. This protective function helps protect ,0.664
+Mercury_7262850,C,A,0,"To determine which statement is true regarding fungi and their nutritional habits, let's analyze each option:  A. ""All f",0.756
+Mercury_7263095,A,A,1,The correct answer is A. The Sun is losing mass and hydrogen.  Explanation: - Nuclear fusion in the Sun's core converts ,0.756
+Mercury_7263428,C,C,1,The correct answer is:  C. Renewable resources  Renewable resources refer to natural resources that can be replenished a,0.753
+Mercury_7267505,A,A,1,The correct answer is A. floods.  Floods can cause significant damage to ecosystems along the Rio Grande River due to th,0.746
+Mercury_7267908,A,A,1,The correct answer is A. to simulate the air pressure of Earth. The spacesuits used during space missions are designed t,0.762
+Mercury_7268783,D,A,0,"To determine which cell HIV infects, let's analyze each option:  A. Natural Killer T cells (NKT cells): These cells play",0.761
+Mercury_7271198,C,C,1,The correct answer is:  C. An ecosystem includes a community and abiotic factors.  Explanation: - **Ecosystem**: This re,0.761
+Mercury_7271355,B,B,1,B. Heredity,0.116
+Mercury_7271373,C,C,1,The correct answer is C. DNA molecules. DNA (deoxyribonucleic acid) is the primary genetic material that stores the gene,0.763
+Mercury_7271705,C,A,0,"To determine which pollutant ultimately contaminates fish after coal is burned, let's analyze each option:  A. Lead - Wh",0.761
+Mercury_7283343,D,D,1,D. fertilization  Meiosis is essential for the process of fertilization in sexual reproduction. Fertilization involves t,0.751
+Mercury_7283465,A,A,1,A. a folded chain of amino acids,0.176
+Mercury_7283885,D,C,0,The correct answer is C. epidemic. AIDS refers to an epidemic because it involves widespread infection and spread of the,0.68
+Mercury_LBS10778,A,A,1,"To determine the correct answer, let's analyze each option step-by-step:  A. There would be no seasons. - This is incorr",0.76
+Mercury_LBS10817,C,C,1,"The answer to the question ""When a star explodes, an intensely bright object is formed. What is the name of this object?",0.774
+Mercury_LBS10976,A,A,1,A. Transportation.,0.12
+Mercury_SC_400001,C,A,0,"To determine which part of a dandelion plant takes in minerals and water, let's analyze each option:  A. Flower - A flow",0.774
+Mercury_SC_400017,D,D,1,The correct sequence for the stages in the life cycle of a butterfly is:  D. egg; larva; pupa; adult  This order represe,0.778
+Mercury_SC_400031,A,A,1,The most helpful information for a person with allergies when selecting food products is:  A. the ingredients  This is b,0.778
+Mercury_SC_400035,C,A,0,"To determine which tool is best for comparing an animal cell to a plant cell, let's consider each option:  A. Balance - ",0.778
+Mercury_SC_400040,B,B,1,"B. Oxygen  Plants use sunlight and water to produce oxygen, which is essential for animal respiration. Therefore, when a",0.776
+Mercury_SC_400041,C,A,0,"To determine which event takes about one year to complete, let's analyze each option:  A. **Earth making a complete rota",0.776
+Mercury_SC_400048,A,A,1,A. electrical,0.108
+Mercury_SC_400114,A,A,1,"The correct answer is A. physical.  When water changes from a liquid to a gas and then returns to a liquid state, it und",0.774
+Mercury_SC_400115,C,C,1,The correct answer is:  C. Moving negative charges  Electrical energy is best described as the flow or movement of elect,0.775
+Mercury_SC_400125,A,A,1,A. erosion,0.096
+Mercury_SC_400126,D,D,1,D. Fossils.,0.162
+Mercury_SC_400132,D,D,1,The correct answer is D. insulated gloves.  Insulated gloves are specifically designed to protect hands from direct cont,0.772
+Mercury_SC_400173,A,C,0,"The correct answer is:  C. makes very tiny objects appear larger.  Explanation: Hand lenses, also known as magnifying gl",0.774
+Mercury_SC_400181,C,D,0,D. state of matter  The state of matter refers to the physical and chemical properties that distinguish one substance fr,0.773
+Mercury_SC_400183,D,D,1,D. Refraction.,0.145
+Mercury_SC_400186,D,D,1,D. Sound.,0.112
+Mercury_SC_400187,D,D,1,D. Weathering  Weathering is the process by which rocks and other materials break down over time due to various factors ,0.763
+Mercury_SC_400192,B,B,1,B. fertile.,0.119
+Mercury_SC_400195,B,B,1,B. Gravity,0.103
+Mercury_SC_400217,D,D,1,D. The decay of organic material.,0.177
+Mercury_SC_400224,B,A,0,"To determine the correct answer, let's analyze each option based on the characteristics of the Russian thistle:  A. Swam",0.776
+Mercury_SC_400359,C,B,0,The event that occurs only twice each year is:  B. Full Moon  Explanation: - A lunar eclipse typically happens once per ,0.775
+Mercury_SC_400375,C,D,0,The correct answer is D. Air passing Earth as it revolves around the Sun.  Explanation: - Option A (rotation of Earth on,0.775
+Mercury_SC_400380,B,B,1,B. Wind.,0.127
+Mercury_SC_400406,B,B,1,B. Trees can be replanted.,0.195
+Mercury_SC_400518,C,C,1,The best conclusion about the rock layer based on the given information would be:  C. The rock was once sediment at the ,0.772
+Mercury_SC_400523,D,C,0,The correct answer is C. Recycle oxygen to the air.  Decaying plants and animals play a crucial role in ecosystems by re,0.772
+Mercury_SC_400526,A,A,1,"The correct answer is A. The water cycle includes evaporation, condensation, and precipitation. This process involves th",0.758
+Mercury_SC_400529,A,B,0,"B. Herbivore. Meadow voles primarily feed on plants, which makes them an herbivore in their ecosystem.",0.445
+Mercury_SC_400532,A,A,1,A. Heat,0.116
+Mercury_SC_400595,D,A,0,"The Moon revolves around Earth about once every 27.3 days. Therefore, the correct answer is:  A. day.",0.456
+Mercury_SC_400600,C,C,1,C. Solution.,0.131
+Mercury_SC_400601,A,A,1,"The correct answer is A. the Sun. The Sun is the primary source of light and heat in our solar system, emitting radiatio",0.596
+Mercury_SC_400609,D,D,1,The correct answer is D. Chemical weathering.  Chemical weathering involves the breakdown and alteration of rocks due to,0.753
+Mercury_SC_400611,D,D,1,The correct answer is:  D. algae  Algae are microscopic plants that can grow in various environments and can be found in,0.759
+Mercury_SC_400663,A,A,1,"To determine which adaptation would best help a large mammal survive in a cold, snowy environment, let's analyze each op",0.76
+Mercury_SC_400675,B,D,0,The correct answer is D. A stop watch. A stop watch is specifically designed to measure time and can be used to determin,0.76
+Mercury_SC_400676,C,C,1,"C. hot, sunny summer weather  This answer is based on typical weather patterns and temperature ranges for different seas",0.76
+Mercury_SC_400693,D,C,0,The correct answer is:  C. revolution of the Earth around the Sun.  Explanation: The phases of the Moon occur due to the,0.762
+Mercury_SC_400702,B,A,0,"To determine the difference between the table and the cushion that accounts for the sound when the spoon hits them, let'",0.763
+Mercury_SC_400844,B,B,1,The correct answer is B. Copper pipe. Copper is an excellent conductor of electricity due to its high electrical conduct,0.748
+Mercury_SC_400848,D,D,1,D. Microscope,0.109
+Mercury_SC_400857,B,A,0,"To determine the correct answer, let's analyze each option in relation to the process of melting ice when salt is added:",0.747
+Mercury_SC_400868,C,C,1,"The characteristic that would best help a rabbit survive in snow is:  C. Thick, white fur  Rabbits have a coat made of s",0.746
+Mercury_SC_400923,C,C,1,C. Hides it from predators  The brown coloration of a bird helps it blend into its environment and make it less visible ,0.764
+Mercury_SC_400987,B,B,1,B. Helps conserve resources.,0.153
+Mercury_SC_401000,B,A,0,"To determine the best conclusion based on the given advertisement, let's analyze each option:  A. **are lightweight**: T",0.769
+Mercury_SC_401001,A,A,1,The correct answer is A. Soil can be washed away.  Pouring water over a sloping tray of soil will cause the soil particl,0.761
+Mercury_SC_401119,D,D,1,D. astronomy  Maria Mitchell's discovery of the comet in 1847 is considered one of the most significant astronomical dis,0.765
+Mercury_SC_401120,C,C,1,The best tool for observing a soil sample is:  C. Hand lens  Hand lenses are specifically designed for viewing objects u,0.765
+Mercury_SC_401126,D,D,1,D. Wear appropriate protective clothing and eyewear.,0.204
+Mercury_SC_401128,C,C,1,C. Protect their eyes from debris.,0.17
+Mercury_SC_401136,B,B,1,B. Evaporation.,0.123
+Mercury_SC_401141,A,D,0,D. Carbon dioxide  Photosynthesis is the process by which plants convert light energy into chemical energy stored in glu,0.747
+Mercury_SC_401155,A,A,1,"The correct answer is:  A. life cycles  Both plants and animals have life cycles, which involves various stages such as ",0.746
+Mercury_SC_401160,B,D,0,D. texture.,0.108
+Mercury_SC_401163,C,A,0,"To determine the best reason for the scientist to heat the liquid, let's analyze each option:  A. **to observe a color c",0.747
+Mercury_SC_401164,C,C,1,C. Chemical,0.091
+Mercury_SC_401166,A,A,1,A. mirror,0.094
+Mercury_SC_401172,C,B,0,The correct answer is:  B. ask another student to identify the liquids  This option involves asking another student to h,0.726
+Mercury_SC_401219,D,D,1,"The correct answer is D. Egg, larva, pupa, adult. This sequence represents the complete metamorphosis cycle in which an ",0.745
+Mercury_SC_401221,D,C,0,The correct answer is:  C. Convection  Convection is the transfer of heat from one part of an object to another due to t,0.745
+Mercury_SC_401257,A,A,1,A. metal,0.1
+Mercury_SC_401269,B,B,1,B. Test a hypothesis.,0.146
+Mercury_SC_401275,C,B,0,The correct answer is B. Weather patterns.  Birds use their sense of smell and hearing to navigate through the complex n,0.754
+Mercury_SC_401276,A,A,1,A. lenses.,0.099
+Mercury_SC_401288,A,C,0,The correct answer is:  C. worms  Eagles have sharp beaks that are most likely adapted for eating worms. These birds hav,0.741
+Mercury_SC_401296,A,B,0,"The trait that gives owls an advantage when hunting at night is:  B. broad wings  Owls have broad wings, which helps the",0.743
+Mercury_SC_401305,B,B,1,The best example of weathering among the given options is:  B. A tree root breaks apart a rock.  Weathering processes in,0.744
+Mercury_SC_401307,C,C,1,C. The climate of the island used to be warmer.   This is because fossils found in rock layers can provide clues about p,0.758
+Mercury_SC_401316,C,D,0,"The correct answer is D. clouds. While clouds exist on Earth due to atmospheric conditions, they do not exist on the Moo",0.757
+Mercury_SC_401331,A,A,1,A. physical changes.,0.125
+Mercury_SC_401358,C,C,1,The correct answer is C. iron. Iron is known for its magnetic properties and ability to conduct heat.,0.367
+Mercury_SC_401403,A,A,1,"The correct answer is:  A. the carbon cycle  Photosynthesis is a process that occurs in plants, algae, and some bacteria",0.755
+Mercury_SC_401642,A,A,1,"To determine which aspect of the marine iguana's tail is improved by its shape, let's analyze each option:  A. Swimming ",0.748
+Mercury_SC_401774,B,B,1,B. The air inside the whistle to vibrate.,0.209
+Mercury_SC_401787,B,B,1,B. They are used to test a hypothesis.,0.196
+Mercury_SC_401789,C,C,1,The formation of the Mississippi Delta is primarily attributed to **deposition**. This geological process involves the a,0.759
+Mercury_SC_401803,D,D,1,"The correct answer is D. The sugar dissolves in water and colors the water. When sugar dissolves in water, it forms a so",0.758
+Mercury_SC_401817,B,B,1,The correct answer is:  B. Attracting birds with birdseed  Explanation: - Charting involves drawing or recording informa,0.759
+Mercury_SC_401827,D,D,1,D. Conductors.,0.129
+Mercury_SC_401838,C,A,0,"To determine which tool is most helpful for a scientist observing very small bacteria, let's analyze each option:  A. Ru",0.762
+Mercury_SC_402044,C,,0,"To determine the length of a lunar cycle, we need to understand that a lunar cycle refers to the time it takes for the M",0.762
+Mercury_SC_402064,D,D,1,The correct answer to this question is D. Pressure. The process of converting prehistoric sea animal remains into natura,0.753
+Mercury_SC_402075,D,D,1,D. A Punnett square,0.13
+Mercury_SC_402084,A,B,0,"The correct answer is:  B. Windmill  Windmills generate electricity through the mechanical motion of wind turbines, whic",0.752
+Mercury_SC_402094,B,B,1,B. Beach erosion  Beach erosion is the process where sand and other materials from the ocean are carried away by waves o,0.751
+Mercury_SC_402112,C,A,0,To determine the best way to communicate the results of the investigation on the students' growth of plants under differ,0.753
+Mercury_SC_402117,A,A,1,The invention that would help lower the effects of global warming and contribute to reducing carbon dioxide levels in th,0.754
+Mercury_SC_402125,A,A,1,The correct answer is A. day.   High tides and low tides occur twice per day at the same location on Earth due to the gr,0.758
+Mercury_SC_402238,A,B,0,"The correct answer is B. Stop the experiment immediately. When a thermometer breaks during a lab experiment, it's crucia",0.757
+Mercury_SC_402241,D,D,1,D. milliliters  The most appropriate unit for measuring the volume of a liquid is milliliters (mL). Milliliters are comm,0.727
+Mercury_SC_402251,B,A,0,"To determine the correct answer, let's analyze each option:  A. To form a good hypothesis: - This option suggests that p",0.766
+Mercury_SC_402258,C,A,0,"To determine the best method for separating salt from water in this scenario, let's analyze each option:  A. Filter the ",0.766
+Mercury_SC_402614,A,A,1,"The answer is A. Heat. Heat can cause objects to expand and become hotter, which changes their state of matter from soli",0.55
+Mercury_SC_402642,D,,0,"To determine which material would be the best conductor of electricity, we need to consider its electrical conductivity ",0.766
+Mercury_SC_402983,A,A,1,"The correct answer is A. Read all the directions. Before starting any scientific experiment, it's crucial to thoroughly ",0.766
+Mercury_SC_403014,C,A,0,To determine which statement correctly describes the time it takes for an object to travel halfway around its own orbit ,0.767
+Mercury_SC_404974,D,D,1,The correct answer is D. Heat from the flame is conducted through the metal rod to the thermometer. This scenario illust,0.768
+Mercury_SC_405026,A,A,1,"To determine the best color for the can to collect the most heat from sunlight, we need to consider how different colors",0.759
+Mercury_SC_405059,A,A,1,"To determine the correct answer to this question, let's analyze each option:  A. Oil - While oil is an important compone",0.769
+Mercury_SC_405074,C,C,1,"The correct answer is:  C. becoming thin.  Deer, being herbivores, typically feed on vegetation and may lose weight due ",0.772
+Mercury_SC_405081,D,D,1,"D. Find information.   Computers are most useful for students in finding information, as they allow them to access vast ",0.77
+Mercury_SC_405090,B,B,1,B. melts.,0.116
+Mercury_SC_405120,C,C,1,C. The time it took to run the race.,0.23
+Mercury_SC_405137,C,A,0,"To determine the correct statement about the relationship between diatoms and oil, let's analyze each option step-by-ste",0.765
+Mercury_SC_405154,B,B,1,B. louder.,0.104
+Mercury_SC_405164,C,C,1,The correct answer is:  C. They are always available to produce energy.  Wind and water are indeed examples of renewable,0.753
+Mercury_SC_405231,C,C,1,The correct answer is:  C. The mountain was covered by water.  Explanation: Oceanic fossils found on a mountain top indi,0.764
+Mercury_SC_405232,C,B,0,The correct answer is B. Fish in a lake. A prolonged drought would most likely harm fish populations first because it di,0.765
+Mercury_SC_405444,B,C,0,The ash borer moth's adaptation is most likely due to C) it aids in attracting a mate. This behavior can help the moth s,0.766
+Mercury_SC_405495,A,A,1,A. Weathering.,0.119
+Mercury_SC_405499,A,A,1,A. erosion  Erosion is the natural process that breaks down rocks and soil into smaller particles over time. As jagged m,0.753
+Mercury_SC_405792,A,A,1,The correct answer is A. chemical. Rust formation involves the transformation of iron into a compound called ferric oxid,0.757
+Mercury_SC_405838,B,B,1,B. binoculars  Binoculars are designed for observing distant objects and can be used to watch birds from a distance. The,0.752
+Mercury_SC_405865,B,A,0,"To determine which object is most likely to roll off the ramp when pushed gently, we need to consider the properties and",0.749
+Mercury_SC_405881,D,D,1,D. is a way of conserving nonrenewable resources.,0.257
+Mercury_SC_405883,D,C,0,The correct answer is C. Burning wood in the fireplace can improve air quality by reducing pollutants such as carbon mon,0.75
+Mercury_SC_405999,A,A,1,"To determine the most effective method for investigating the impact of different types of soil on the growth of plants, ",0.768
+Mercury_SC_406012,B,B,1,B. Controls body functions,0.139
+Mercury_SC_406016,D,D,1,The correct answer is D. Swimming.  Swimming is an activity that humans learn through experience and practice over time.,0.766
+Mercury_SC_406040,D,D,1,The most likely learned behavior in a dog is:  D. barking when it wants to go outside  This is because dogs often bark a,0.752
+Mercury_SC_406273,A,A,1,"The correct answer is A. Electricity. When Bobby pushes the switch on the wall, it generates an electric current that fl",0.751
+Mercury_SC_406467,A,A,1,"To determine why it was difficult to view cells without a microscope, let's analyze each option:  A. **Cells are small**",0.751
+Mercury_SC_406653,B,A,0,The correct answer is:  A. to absorb sunlight  Tree roots play a crucial role in absorbing sunlight through their extens,0.752
+Mercury_SC_406663,B,A,0,"To determine which statement should be left out of the report, let's analyze each option:  A. ""These birds are blue."" - ",0.751
+Mercury_SC_406672,C,C,1,The correct answer is C. Storing food for a new plant. Seeds contain nutrients that can be stored within them until they,0.535
+Mercury_SC_406688,D,A,0,"To determine which action the student should take to answer the question about which type of soil holds the most water, ",0.751
+Mercury_SC_406709,D,D,1,D. escape enemies  The release of black ink by an octopus when feeling threatened is primarily used to deter predators a,0.759
+Mercury_SC_406718,B,,0,"To determine the correct answer, let's analyze each stage of a butterfly's life cycle:  1. **Egg**: The development begi",0.761
+Mercury_SC_406724,A,B,0,"The correct answer is:  B. weight of the soil  To determine whether a plant will grow best in a particular type of soil,",0.754
+Mercury_SC_406851,C,C,1,"The correct answer is:  C. through decaying matter  Explanation: Nutrients like nitrogen, phosphorus, and potassium are ",0.762
+Mercury_SC_406885,A,A,1,"To determine the most appropriate action for Hector to take, let's analyze each option:  A. Keep the result - This would",0.761
+Mercury_SC_407155,C,C,1,C. colors  The students are most likely observing the colors of the rocks they are comparing. Both rocks being described,0.75
+Mercury_SC_407195,C,C,1,The correct answer is C. Take fewer car trips.  Reducing air pollution from cars involves minimizing the number of vehic,0.75
+Mercury_SC_407370,A,B,0,B. Daily tidal cycles.,0.133
+Mercury_SC_407405,D,A,0,"To determine which activity would best help the hiker find out which area is warmer, let's analyze each option:  A. Read",0.747
+Mercury_SC_407441,D,A,0,"To determine which tool is best for measuring both the volume and temperature of the water when preparing the dough, let",0.745
+Mercury_SC_407507,B,B,1,The correct answer is B. meter stick. A carpenter would typically use a meter stick to measure the length of a wooden bo,0.743
+Mercury_SC_407577,D,D,1,"D. Thick, white feathers  Snowy owls have thick, white feathers that help them retain heat and insulation in their snowy",0.716
+Mercury_SC_407606,D,D,1,D. A source of nonrenewable energy.,0.215
+Mercury_SC_407692,B,A,0,To determine which explanation best explains why the Northern Hemisphere receives more daylight than the Southern Hemisp,0.742
+Mercury_SC_407796,C,A,0,To determine which step is necessary for investigating whether hummingbirds are more likely to visit colored flowers or ,0.742
+Mercury_SC_408039,D,B,0,"To determine which season Jamal would experience when the Northern Hemisphere is pointed away from the Sun, we need to u",0.741
+Mercury_SC_408243,D,D,1,"D. Sediments  Erosion refers to the process where rocks break down over time due to various factors such as wind, water,",0.741
+Mercury_SC_408344,B,B,1,B. Light,0.086
+Mercury_SC_408357,D,D,1,D. Volume  Kurt is measuring the volume of the frozen fruit juice in the cup. The volume refers to the amount of space o,0.741
+Mercury_SC_408362,B,A,0,"To determine which tool is best suited for Jessica to use to see cells in an oak tree leaf, let's consider each option: ",0.74
+Mercury_SC_408439,A,A,1,The characteristic of a plant that most likely helps it live in a desert is:  A. the ability to store water  Desert envi,0.739
+Mercury_SC_408556,B,B,1,B. Develop a hypothesis,0.123
+Mercury_SC_408620,C,A,0,"To determine which option best illustrates the energy transfer between animals in a shoreline ecosystem, let's analyze e",0.744
+Mercury_SC_408709,D,A,0,The correct answer is A. Earth rotating on its axis. The rotation of the Earth on its axis causes the same side of the M,0.744
+Mercury_SC_408919,D,D,1,"The correct answer is D. Planets and moons in the solar system. During the early 1600s, scientists used telescopes to ob",0.746
+Mercury_SC_408925,C,C,1,C. They recycle nutrients into the soil. Earthworms play a crucial role in improving soil health through their digestive,0.758
+Mercury_SC_408991,D,D,1,D. The temperature.   The temperature of a slide is directly related to the amount of energy it absorbs from the Sun. As,0.758
+Mercury_SC_409014,B,B,1,B. Gravity  Gravity acts between objects in space and pulls them towards each other due to their mass. When a rocket tra,0.742
+Mercury_SC_409038,A,C,0,The correct answer is:  C. the deep-sea trenches in the ocean  Telescopes were indeed developed to observe and study the,0.753
+Mercury_SC_409149,A,D,0,D. Time  A light year is a unit of measurement for the speed of light in a vacuum. It represents the distance that light,0.754
+Mercury_SC_409157,A,A,1,A. The new designs can help save lives.,0.196
+Mercury_SC_409172,A,A,1,"To determine why astronauts perform experiments during a space mission even when predictions have already been made, let",0.74
+Mercury_SC_409251,C,C,1,C. It decreases injuries to passengers in cars. Seat belts are designed to prevent passengers from being injured if they,0.736
+Mercury_SC_409272,C,C,1,The correct answer is C. They provide food for other organisms.  Sea grasses and palm trees together form an ecosystem t,0.737
+Mercury_SC_409563,A,A,1,The correct answer is A. The tilt of Earth.  To explain this in detail:  1. **Tilt of Earth**: The Earth's axis is tilte,0.736
+Mercury_SC_409676,A,A,1,The correct answer is A. Plants release oxygen.  Plants play a crucial role in the ecosystem by releasing oxygen into th,0.735
+Mercury_SC_409682,C,C,1,"C. mixture  Joey poured milk over dry cereal to create a combination of two substances - milk and cereal. Therefore, the",0.527
+Mercury_SC_410624,A,A,1,"The correct answer is:  A. It uses less water.  Artificial turf is designed to be lightweight and durable, making it eas",0.734
+Mercury_SC_410835,C,A,0,To determine which method is the best way for Mrs. Garry's class to begin researching whether their area has more acid r,0.735
+Mercury_SC_410877,D,D,1,"D. A mixture  Ben's snack consists of three distinct components: raisins, chocolate pieces, and nuts. When Ben picks out",0.735
+Mercury_SC_410972,C,A,0,A. Recycling reduces littering.,0.151
+Mercury_SC_413002,A,A,1,The correct answer is A. earthquake. Seismometers are specifically designed to detect and measure seismic waves generate,0.705
+Mercury_SC_413004,A,A,1,The correct answer is A. flat lands.   A floodplain is a region where water has accumulated and formed a flat surface du,0.746
+Mercury_SC_413242,A,B,0,The correct answer is B. The Sun creates water droplets in the clouds. This process involves the absorption and re-emiss,0.754
+Mercury_SC_414155,D,D,1,"D. Microorganisms  Microorganisms break down materials in a compost pile, adding nutrients to the soil through decomposi",0.715
+Mercury_SC_414356,B,B,1,The correct answer is:  B. The young hatch from eggs in both cycles.  Both ladybugs and frogs undergo metamorphosis duri,0.753
+Mercury_SC_414361,D,C,0,The correct answer is C. craters. Craters on Earth's surface are formed when large rocks or other objects impact the pla,0.745
+Mercury_SC_415001,B,B,1,"B. During evaporation  The water cycle primarily involves processes such as evaporation, condensation, and precipitation",0.743
+Mercury_SC_415028,D,D,1,"D. To find water and food  During a drought, animals typically need to conserve resources as much as possible. This incl",0.742
+Mercury_SC_415338,B,B,1,"The correct answer is B. The energy causes water to vaporize or turn into steam, which then cools down and condenses bac",0.741
+Mercury_SC_415350,A,A,1,The correct answer is:  A. a long mane  Explanation: - A long mane is typically an inherited characteristic in horses. -,0.744
+Mercury_SC_415352,A,A,1,The correct answer is:  A. dimples  Explanation: Inherited traits refer to characteristics that can be passed down from ,0.729
+Mercury_SC_415369,A,C,0,"The correct answer is C. The life cycle of a moth includes three distinct stages: the egg, the nymph (also known as a la",0.725
+Mercury_SC_415399,A,A,1,A. an earthquake,0.12
+Mercury_SC_415412,D,B,0,The correct answer is:  B. The temperature range today was 10°C to 20°C.  Explanation: - Option A states that the averag,0.757
+Mercury_SC_415454,B,B,1,"The correct answer is:  B. biofuel energy  Biofuels, such as ethanol and biodiesel derived from plants or animal fats, r",0.757
+Mercury_SC_415455,C,C,1,The correct answer is C. hydropower. Hydropower is the process of harnessing the kinetic energy of flowing water to gene,0.757
+Mercury_SC_415469,B,B,1,The correct answer is B. Food and shelter. Squirrels rely on trees for food and shelter in their natural habitat. When f,0.717
+Mercury_SC_415478,D,A,0,"To determine which change is most likely to be considered the slowest, we need to consider the typical characteristics a",0.745
+Mercury_SC_415583,C,,0,"To determine which turtle was fastest in the turtle race, we need to consider the speed and distance covered by each tur",0.738
+Mercury_SC_415738,A,A,1,"To determine how heat transfers from the wall to the person, let's analyze each option:  A. Radiation - This involves th",0.741
+Mercury_SC_415767,D,D,1,The correct answer is D. Gravity always pulls an object downward towards the center of the Earth. This force acts as the,0.74
+Mercury_SC_415773,A,A,1,"The correct answer is A. Only objects that have mass are affected by Earth's gravity. Gravity acts on all masses, regard",0.752
+Mercury_SC_416096,A,B,0,The correct answer is:  B. Absorbed from the soil through the stem  Explanation: Plants absorb water and minerals primar,0.754
+Mercury_SC_416110,D,D,1,The correct answer is D. They both give support to a plant.  To elaborate on this:  - The long vine of an ivy plant typi,0.755
+Mercury_SC_416124,C,C,1,The correct answer is C. Circulatory and Respiratory. The circulatory system delivers oxygen-rich blood throughout the b,0.689
+Mercury_SC_416131,C,C,1,C. All foods provide nutrients.,0.148
+Mercury_SC_416136,D,A,0,"To determine which type of pollinator is most likely attracted to the carrion flower, let's analyze each option:  A. Mot",0.744
+Mercury_SC_417579,D,A,0,"To determine which fact best helps Clara claim that her schoolyard is in a desert, let's analyze each option:  A. The sc",0.745
+Mercury_SC_LBS10026,C,,0,"To determine which scenario represents work, we need to understand what work entails. Work is defined as the application",0.742
+Mercury_SC_LBS10064,D,D,1,The correct answer is D. Pouring vinegar. While all activities require some level of physical exertion or exposure to ch,0.74
+Mercury_SC_LBS10266,C,A,0,"To determine which option is least likely to be done if the results of an experiment do not support the hypothesis, let'",0.739
+Mercury_SC_LBS10267,A,B,0,The correct answer is:  B. telescope lens  Benjamin Franklin is credited with inventing the telescope lens in 1769. This,0.753
+Mercury_SC_LBS10270,A,A,1,The correct answer is A. Eye color. Eye color is typically determined by genetic factors and is not influenced by inheri,0.627
+Mercury_SC_LBS10276,C,D,0,"The correct answer is D. The stars are revolving around Earth. This means that as Earth orbits the Sun, it causes the st",0.742
+Mercury_SC_LBS10391,D,,0,"To determine which of the given options is a first-level consumer, we need to understand what constitutes a first-level ",0.742
+Mercury_SC_LBS10591,A,A,1,A. Habitat loss,0.096
+Mercury_SC_LBS10611,C,C,1,C. remains of an extinct organism found in a rock layer.,0.229
+Mercury_SC_LBS10620,A,C,0,The correct answer is:  C. a light ray  Explanation: Telescopes are designed to focus and magnify light from distant obj,0.74
+Mercury_SC_LBS10680,A,B,0,The correct answer is:  B. the light bulb giving electrical energy to the battery  Explanation: When a light bulb is tur,0.74
+Mercury_SC_LBS10688,C,C,1,"The correct answer is C. Nuclear fusion. The Sun generates its energy primarily through nuclear fusion, where hydrogen a",0.741
+Mercury_SC_LBS10949,C,C,1,C. A mammal.,0.129
+Mercury_SC_LBS11008,D,D,1,D.Replacing resources.,0.116
+NAEP_2000_8_S21+3,D,B,0,The property of water that is most important for living organisms is:  B. It does not conduct electricity.  Water molecu,0.745
+NAEP_2005_4_S12+7,A,A,1,"The correct answer is:  A. The sun heating the lake  Water in lakes gets most of its energy from solar radiation, which ",0.746
+NAEP_2005_8_S11+3,D,A,0,"To determine the correct answer, let's analyze each option step-by-step:  A. Glaciers carried the fossils up the mountai",0.746
+NCEOGA_2013_5_27,D,B,0,The correct answer is B. The heat from the fire is conducted through air molecules to the people.  To elaborate on this:,0.747
+NCEOGA_2013_5_32,B,B,1,The correct answer is:  B. It is a complete organism.  Explanation: - Option A states that it contains more than one cel,0.747
+NCEOGA_2013_5_39,B,B,1,B. The kittens inherit some of their traits from their mother and some from their father.,0.313
+NCEOGA_2013_5_52,B,B,1,B. digestive,0.089
+NCEOGA_2013_8_29,C,C,1,The correct answer is:  C. Dinosaurs lived on Earth before the mammals.  Explanation: The presence of both dinosaur foss,0.747
+NCEOGA_2013_8_36,D,D,1,"D. sunlight  Plants require sunlight for photosynthesis, which is the process by which they convert light energy into ch",0.747
+NCEOGA_2013_8_48,A,A,1,The correct answer is A. Environmental Protection Agency (EPA). The EPA is responsible for ensuring the safety of the co,0.646
+NCEOGA_2013_8_49,C,B,0,"The Law of Superposition states that in undisturbed layers of sedimentary rock, the oldest rocks are found at the bottom",0.744
+NCEOGA_2013_8_53,B,B,1,The correct answer is B. By preventing transmission between people.  To explain this in detail:  - **Preventing Transmis,0.745
+NCEOGA_2013_8_6,A,A,1,The correct answer is A. Biomass.  Biomass refers to organic matter that has been converted into energy through biologic,0.744
+NYSEDREGENTS_2008_4_20,B,B,1,The most likely physical change that would most likely help an animal survive during the winter is:  B. Fur gets thicker,0.744
+NYSEDREGENTS_2008_4_21,C,C,1,The correct answer is:  C. Responding to its environment  Leaves changing color in autumn (fall) is an adaptation that h,0.744
+NYSEDREGENTS_2008_4_23,C,C,1,C. nutrients for animals,0.116
+NYSEDREGENTS_2008_4_5,B,B,1,B. Gravity,0.09
+NYSEDREGENTS_2008_4_7,D,D,1,"The correct answer is D. Mechanical to sound. When a person hits a drum with a drumstick, it converts the sound energy f",0.761
+NYSEDREGENTS_2008_4_8,A,,0,"To determine the most effective distance for a magnet to attract a metal paper clip, we need to consider the strength of",0.76
+NYSEDREGENTS_2008_8_10,C,C,1,C. Selective breeding  Selective breeding involves selecting individuals or offspring for desirable traits based on thei,0.748
+NYSEDREGENTS_2008_8_12,B,B,1,The best example of competition between species in a pond environment would be:  B. Frogs and toads eating flies  This s,0.764
+NYSEDREGENTS_2008_8_16,B,B,1,"B. Water  All living things, including humans and animals, require water for survival. Water is essential for maintainin",0.765
+NYSEDREGENTS_2008_8_2,B,D,0,The correct answer is D. Circulatory and Digestive.  Running to escape danger involves coordinated movements in both the,0.756
+NYSEDREGENTS_2008_8_24,C,D,0,The most helpful information for someone trying to identify a mineral sample is:  D. color and size of the sample  This ,0.75
+NYSEDREGENTS_2008_8_26,A,A,1,A. structure of Earth's interior,0.151
+NYSEDREGENTS_2008_8_28,C,C,1,The correct answer is C. Evacuate low-lying areas near the coast.  This statement aligns best with typical safety measur,0.752
+NYSEDREGENTS_2008_8_33,C,B,0,"The correct answer is B. Iron rusting. Iron rusting involves the oxidation of iron into iron oxide (rust), which is a ch",0.653
+NYSEDREGENTS_2008_8_4,C,C,1,C. Endocrine,0.11
+NYSEDREGENTS_2008_8_7,A,A,1,A. Calorie,0.101
+NYSEDREGENTS_2010_4_10,C,C,1,C. Heat energy,0.097
+NYSEDREGENTS_2010_4_2,B,B,1,B. Gravity,0.085
+NYSEDREGENTS_2010_4_20,D,D,1,The most likely human response that would occur when the air temperature reaches 90°F (32°C) is:  D. Sweating  Sweating ,0.738
+NYSEDREGENTS_2010_4_22,B,B,1,B. To adapt to environmental changes. Hibernation is a physiological response that allows animals like bears and bats to,0.727
+NYSEDREGENTS_2010_4_25,C,C,1,"The function of a plant's roots is to take in:  C. nutrients and water  Therefore, the correct answer is C.",0.452
+NYSEDREGENTS_2010_4_7,A,A,1,A. friction,0.104
+NYSEDREGENTS_2010_4_8,C,C,1,C. A star,0.125
+NYSEDREGENTS_2010_8_12,A,A,1,A. abnormal cell division,0.154
+NYSEDREGENTS_2010_8_13,B,B,1,B. DNA,0.138
+NYSEDREGENTS_2010_8_18,A,A,1,"To determine which structure is found in a plant cell but not in an animal cell, let's analyze each option:  A. Cell wal",0.783
+NYSEDREGENTS_2010_8_27,A,D,0,The correct answer is:  D. Transmits sunlight  Explanation: The Moon's surface appears as a bright spot due to the way s,0.777
+NYSEDREGENTS_2010_8_6,D,D,1,D. Disease,0.118
+NYSEDREGENTS_2010_8_7,C,C,1,The correct answer is C. Excretory. The excretory system is responsible for removing waste products from the body throug,0.77
+NYSEDREGENTS_2010_8_9,A,A,1,A. pedigree chart,0.145
+NYSEDREGENTS_2012_4_10,B,,0,"To determine the correct answer, we need to understand the position of the Sun in the sky relative to the observer's loc",0.765
+NYSEDREGENTS_2012_4_11,D,D,1,D. conductivity,0.126
+NYSEDREGENTS_2012_4_14,B,B,1,"B. Exercise regularly  Exercise is crucial for maintaining good health because it helps strengthen muscles and bones, im",0.77
+NYSEDREGENTS_2012_4_18,D,D,1,D. Move  Fish use their fins for movement and propulsion in water. Fins allow them to swim efficiently through aquatic e,0.63
+NYSEDREGENTS_2012_4_19,C,C,1,C. migrating  Migratory behavior refers to the seasonal or long-term movements of animals from one part of their habitat,0.76
+NYSEDREGENTS_2012_4_20,D,D,1,"D. sunlight  Green plants obtain their energy to make food through photosynthesis, which occurs primarily in the chlorop",0.74
+NYSEDREGENTS_2012_4_23,B,B,1,"B. Life cycle  Trees follow a life cycle from seed to mature tree, which includes growth, reproduction, and eventual dea",0.658
+NYSEDREGENTS_2012_8_13,D,A,0,To determine which pair of terms describes the usual location for fertilization and the first stages of development in h,0.733
+NYSEDREGENTS_2012_8_16,B,B,1,B. respiration  Respiration is the process where cells use oxygen to break down organic molecules (like glucose) and pro,0.736
+NYSEDREGENTS_2012_8_26,D,A,0,"To determine which celestial body this scenario describes, let's analyze each option:  A. **Planet**: Planets orbit the ",0.749
+NYSEDREGENTS_2012_8_27,D,D,1,"D. lithosphere  The lithosphere refers to the solid outermost part of the Earth, which includes the crust and the upperm",0.748
+NYSEDREGENTS_2012_8_32,A,D,0,The correct answer is D. Solubility. The solubility of a substance in water determines whether it will form a solution a,0.674
+NYSEDREGENTS_2012_8_43,B,B,1,B. A vacuum,0.145
+NYSEDREGENTS_2013_4_10,A,C,0,The correct answer is C. Gravity.  Gravity plays a significant role in the apparent movement and shape of the Moon as it,0.745
+NYSEDREGENTS_2013_4_13,C,C,1,"C. Decomposers  Decomposers are organisms that break down dead organic matter into simpler forms, such as nutrients for ",0.756
+NYSEDREGENTS_2013_4_20,C,C,1,C. Communication,0.122
+NYSEDREGENTS_2013_4_22,B,B,1,"The correct answer is B. Growth and development. During an animal's entire life span, it undergoes significant physical ",0.744
+NYSEDREGENTS_2013_4_24,A,A,1,"To determine the correct answer, let's analyze each option in relation to the characteristics of rabbits:  A. **Keep the",0.744
+NYSEDREGENTS_2013_4_26,A,A,1,"A. decrease  The presence of an oil spill can have significant impacts on aquatic ecosystems, including changes in plant",0.744
+NYSEDREGENTS_2013_8_12,A,A,1,A. genes,0.107
+NYSEDREGENTS_2013_8_14,C,C,1,C. Sexual reproduction.,0.139
+NYSEDREGENTS_2013_8_19,D,D,1,"D. Cancer  Abnormal cell division can lead to various health issues and diseases, including cancer. This process involve",0.739
+NYSEDREGENTS_2013_8_21,B,B,1,B. Consuming plants,0.138
+NYSEDREGENTS_2013_8_22,A,A,1,The correct answer is:  A. populations living in an area  This statement accurately describes what makes up a biological,0.725
+NYSEDREGENTS_2013_8_26,A,A,1,The correct answer is A. atmosphere. The layered mixture of gases surrounding Earth is known as the atmosphere.,0.354
+NYSEDREGENTS_2013_8_36,D,B,0,B. Nonreactive with other substances  Explanation: Copper is indeed a metal and is known for its electrical conductivity,0.722
+NYSEDREGENTS_2013_8_41,D,D,1,"D. Sound  When a rubber band vibrates, it produces sound waves, which are a type of mechanical wave that can be detected",0.721
+NYSEDREGENTS_2013_8_43,A,A,1,A. mechanical,0.089
+NYSEDREGENTS_2013_8_6,A,A,1,"To determine the correct sequence representing the levels of organization for multicellular organisms, let's analyze eac",0.723
+NYSEDREGENTS_2013_8_8,A,B,0,B. Recycle nutrients,0.117
+NYSEDREGENTS_2015_4_10,C,B,0,"The correct answer is B. Solid to liquid.  When water is poured into a cup and placed in a freezer, it will first freeze",0.723
+NYSEDREGENTS_2015_4_13,B,A,0,"To determine which color baseball cap would absorb the most light on a sunny day, we need to consider how different colo",0.737
+NYSEDREGENTS_2015_4_14,C,C,1,C. Gravity,0.101
+NYSEDREGENTS_2015_4_16,B,B,1,The correct answer is B. Hand lens. A hand lens is specifically designed for examining small objects like spots on a fro,0.737
+NYSEDREGENTS_2015_4_17,D,D,1,"D. reproducing  The reproduction process is a fundamental aspect of all living organisms, making it the most common and ",0.466
+NYSEDREGENTS_2015_4_19,B,B,1,B. Growing,0.096
+NYSEDREGENTS_2015_4_28,D,D,1,D. Decomposer  Decomposers play a crucial role in returning nutrients from dead plant and animal matter back into the so,0.734
+NYSEDREGENTS_2015_4_30,B,B,1,"B. Recycling plastic bottles. By recycling plastic bottles, we can reduce waste and save resources like water and energy",0.665
+NYSEDREGENTS_2015_4_4,D,D,1,The correct answer is D. Air temperature and wind speed. These two terms are commonly used in meteorology to describe va,0.468
+NYSEDREGENTS_2015_8_1,D,A,0,To determine which sequence correctly identifies the levels of organization of body structures in a human from simplest ,0.733
+NYSEDREGENTS_2015_8_21,B,B,1,The correct answer is B. Fewer predators.  Explanation: Rabbits are known for their high reproductive rate and ability t,0.725
+NYSEDREGENTS_2015_8_26,D,D,1,D. Water  The Earth's hydrosphere refers to the portion of the planet that contains liquid water and its components. Thi,0.729
+NYSEDREGENTS_2015_8_30,D,C,0,The correct answer is:  C. Mixtures and Compounds  Elements on the periodic table are typically classified into two main,0.729
+NYSEDREGENTS_2015_8_32,C,C,1,The device that directly converts chemical energy into electrical energy is:  C. Battery-powered flashlight  Explanation,0.727
+NYSEDREGENTS_2015_8_33,D,D,1,D. collide with other molecules  Heat transfer by conduction is primarily caused by collisions between particles in a ma,0.726
+OHAT_2007_5_12,B,B,1,"The correct answer is B. The kick applies a contact force to the ball. When you kick a ball, you apply a force that push",0.725
+OHAT_2007_5_40,B,B,1,"The correct answer is B. Rotation of Earth on its axis. The Earth rotates on its axis from west to east, causing alterna",0.634
+OHAT_2007_8_42,B,A,0,The phenomenon that occurs due to the gravitational attraction between the moon and Earth is:  A. eclipses  Eclipses occ,0.719
+OHAT_2007_8_44,C,A,0,"To determine what change would occur if Earth's rate of rotation significantly increased, let's analyze each option step",0.718
+OHAT_2008_8_29,B,B,1,The correct answer is B. The tilt of Earth's axis relative to the sun.  Explanation: - **Option A**: The rotation of Ear,0.717
+OHAT_2009_8_8,B,B,1,"The correct answer is B. light-year. Astronomers typically measure distances using units such as light-years (ly), which",0.715
+OHAT_2010_8_24,B,B,1,B. digestion  Fungi recycling leaves and releasing chemicals that break down these leaves into smaller particles is an e,0.715
+OHAT_2010_8_29,A,A,1,"To determine the correct answer, let's analyze each option in relation to the given scenario:  1. **Option A: Both ants ",0.711
+OHAT_2011_5_37,A,D,0,The correct answer is D. To get nutrients through the roots. Tomato plants rely on their roots for absorption and uptake,0.708
+TAKS_2009_5_20,C,D,0,The correct answer is D. The nutrients in the soil where the plant grows. This is because plants require specific nutrie,0.708
+TAKS_2009_8_12,B,B,1,B. Photosynthesis  Photosynthesis is the process that uses carbon dioxide and sunlight from the sun to produce chemical ,0.702
+TAKS_2009_8_38,D,D,1,The correct answer is D. They burn up high in Earth's atmosphere.  Explanation: Meteor showers occur when small pieces o,0.698
+TAKS_2009_8_39,B,B,1,"B. Seed distribution  This scenario illustrates the process of seed distribution, where seeds from one plant are carried",0.52
+TIMSS_1995_8_I10,C,C,1,The BEST reason for including fruits and leafy vegetables in a healthy diet is:  C. They are rich in minerals and vitami,0.693
+TIMSS_1995_8_I14,D,D,1,"D. Lever  When you bend your arm at the elbow, the bones and muscles in your arm work together to create a simple machin",0.692
+TIMSS_1995_8_L5,B,B,1,The correct answer is B. Marking the bird's territory against the same type of bird.  Birds often sing to establish and ,0.689
+TIMSS_1995_8_P4,E,C,0,"The correct answer is:  C. Its temperature is higher than when it is active.  When an animal hibernates, it enters a sta",0.689
+TIMSS_1995_8_Q16,D,,0,"To determine how long it takes for light from the nearest star other than the Sun to reach Earth, we need to consider th",0.692
+TIMSS_2003_4_pg12,D,D,1,D. Rocks in the ground.   Fossils of dinosaurs that lived millions of years ago are typically found in sedimentary rock ,0.692
+TIMSS_2003_4_pg20,A,A,1,The correct answer is A. The height of your parents. While genetics play a significant role in determining an individual,0.693
+TIMSS_2003_4_pg25,B,A,0,"To determine which animal does not lay eggs, let's analyze each option:  A. Chickens - Chickens are birds and do lay egg",0.683
+TIMSS_2003_4_pg35,B,B,1,The correct answer is B. Oxygen. Oxygen is the gas that we need to breathe in order to survive and sustain life on Earth,0.682
+TIMSS_2003_4_pg81,D,D,1,"The correct answer is:  D. sugar  Sugar dissolves easily in water because it has a high surface area-to-volume ratio, al",0.673
+TIMSS_2003_4_pg87,C,C,1,C. From rocks.,0.107
+TIMSS_2003_8_pg122,C,A,0,"To determine which group of energy sources is all renewable, let's analyze each option:  A. Coal, oil, and natural gas -",0.663
+TIMSS_2003_8_pg33,C,C,1,C. erosion of soil  Overgrazing by livestock can lead to soil erosion due to the movement and accumulation of vegetation,0.652
+TIMSS_2003_8_pg40,B,B,1,"The correct answer is B. Red blood cells carry oxygen to all parts of the body. They transport hemoglobin, an iron-conta",0.654
+TIMSS_2003_8_pg43,C,C,1,"The correct answer is C. sedimentary rock.  Sedimentary rocks form when sediments (such as sand, silt, or clay) accumula",0.653
+TIMSS_2003_8_pg48,A,,0,"To determine the correct order of abundance for the three gases (carbon dioxide, nitrogen, and oxygen) in Earth's atmosp",0.653
+TIMSS_2003_8_pg99,C,C,1,"The correct answer is C. When animals and plants die, they release their stored chemical elements into the environment t",0.634
+TIMSS_2007_4_pg34,D,A,0,"To determine how Katie can separate her iron filings from the sand, let's analyze each option step-by-step:  A. Shaking ",0.631
+TIMSS_2007_4_pg64,A,A,1,The best source of vitamins and minerals is:  A. fruits and vegetables  Fruits and vegetables are rich in various vitami,0.623
+TIMSS_2007_4_pg70,D,D,1,The correct answer is D. A boy falling from a tree onto the ground experiences gravitational force due to his weight and,0.626
+TIMSS_2007_8_pg102,A,D,0,The correct answer is:  D. Rotting vegetation  Explanation: - **Melting ice**: This process involves the transformation ,0.635
+TIMSS_2007_8_pg29,D,A,0,"To determine which food contains the highest percentage of protein, we need to compare the protein content of each given",0.641
+TIMSS_2007_8_pg34,C,C,1,The correct answer is:  C. That are reflected by the object  Explanation: When light travels through an object and refle,0.633
+TIMSS_2007_8_pg63,A,A,1,"To determine the correct sequence of levels in living organisms from least complex to most complex, let's analyze each o",0.635
+TIMSS_2007_8_pg77,D,D,1,"D. Influenza  Influenza is caused by the influenza virus, which can lead to various respiratory illnesses and complicati",0.635
+TIMSS_2007_8_pg85,B,B,1,B. Oxygen  Oxygen is essential for burning to occur because it provides the energy that allows combustion reactions to p,0.63
+TIMSS_2011_4_pg15,D,B,0,The correct answer is B. Lumps of clay.  Plants require soil that is well-drained and contains sufficient organic matter,0.631
+TIMSS_2011_4_pg24,B,B,1,The correct answer is B. It is cooler at night.  Desert animals typically have adapted to cooler temperatures during the,0.598
+TIMSS_2011_4_pg42,B,A,0,"To determine which group of animals contains ONLY reptiles, we need to identify which options include only reptiles and ",0.588
+TIMSS_2011_8_pg101,B,A,0,"To determine which equation summarizes the process of respiration, let's analyze each option step by step:  A. Water + C",0.59
+TIMSS_2011_8_pg50,A,C,0,C. on the land  Organisms that first appeared on Earth were likely to have lived primarily on land due to the diverse ha,0.591
+TIMSS_2011_8_pg66,A,B,0,"The correct answer is:  B. They speed up.  When a liquid cools, its molecules move more slowly due to the increased kine",0.593
+TIMSS_2011_8_pg74,B,B,1,B. where tectonic plates meet,0.182
+TIMSS_2011_8_pg98,B,B,1,The correct answer is B. CO2. Carbon dioxide (CO2) is the chemical formula for this gas.,0.357
+VASoL_2007_5_17,D,A,0,"To determine which option correctly describes how frozen water changes as the temperature of the air increases, let's an",0.581
+VASoL_2007_5_30,D,A,0,"To determine which observation most likely describes a sedimentary rock, let's analyze each option:  A. Sample 1 has ban",0.581
+VASoL_2008_3_20,A,A,1,The correct answer is A. Taking glass bottles to a place that makes them into new bottles is an example of something bei,0.576
+VASoL_2008_3_21,C,A,0,The most likely item that is made entirely from one material is:  A. A pencil  Pencils are typically made from a single ,0.563
+VASoL_2008_3_30,D,D,1,"The correct answer is:  D. Near a sunny place  For a plant to survive and thrive in an indoor environment, it needs to h",0.563
+VASoL_2008_5_12,B,B,1,B. Dormant,0.108
+VASoL_2008_5_14,B,B,1,B. Insulator  Plastic materials are typically used as insulators to help prevent electrical current from passing through,0.543
+VASoL_2008_5_16,B,B,1,The correct answer is B. A rotating funnel-shaped cloud with strong winds and thunderstorms. Tornadoes are characterized,0.534
+VASoL_2008_5_26,C,A,0,"To determine which of the given options are the deepest parts of the ocean, let's analyze each one:  A. **Continental sh",0.526
+VASoL_2008_5_34,A,B,0,"The correct answer is:  B. a conclusion  Explanation: In scientific inquiry, conclusions are drawn based on observations",0.517
+VASoL_2008_5_40,A,C,0,The correct answer is:  C. soil  Wild turkeys typically live in forests and depend on the soil for their survival. The s,0.477
+VASoL_2008_5_5,C,C,1,The best action to help protect water resources in Virginia would be:  C. Organize a river cleanup program.  This option,0.507
+VASoL_2009_3_28,B,B,1,B. Hiding from predators  Camouflage is most beneficial for animals in hiding from predators. This ability allows them t,0.42
+VASoL_2009_5_12,C,C,1,C. Kinetic energy,0.108
+VASoL_2009_5_24,B,B,1,B. Hurricane,0.095
+VASoL_2009_5_27,C,C,1,"The correct answer is C. Friction from the ground. When a ball rolls on the ground, it experiences friction between its ",0.497
+VASoL_2009_5_28,C,C,1,C. Sunlight  Plants require sunlight to convert light energy into chemical energy stored in glucose or other organic com,0.494
+VASoL_2009_5_8,B,B,1,The correct answer is:  B. Smaller than Earth  Explanation: - The Moon is significantly smaller in size compared to Eart,0.484
+VASoL_2010_5_15,C,C,1,C. Rain gauge,0.088
+VASoL_2011_5_16,D,D,1,"D. Water  When a fossil of an organism with gills is discovered, it suggests that the environment where this organism li",0.47

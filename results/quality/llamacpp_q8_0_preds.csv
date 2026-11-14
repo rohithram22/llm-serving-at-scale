@@ -4,7 +4,7 @@ ACTAAP_2007_7_22,A,A,1,A. store bile,4.774
 ACTAAP_2007_7_33,D,D,1,D. Walk or ride a bike instead of driving a car.,7.991
 ACTAAP_2007_7_9,A,A,1,A. percolation,5.128
 ACTAAP_2008_5_13,A,A,1,A. forms in layers,5.129
-ACTAAP_2008_5_14,A,A,1,"The correct order of the planets from closest to the Sun to farthest from the Sun is:  A. Mercury, Venus, Earth, Mars  T",15.103
+ACTAAP_2008_5_14,A,,0,"The correct order of the planets from closest to the Sun to farthest from the Sun is:  A. Mercury, Venus, Earth, Mars  T",15.103
 ACTAAP_2008_5_5,D,D,1,D. Drag an edge of the mineral across a tile,7.895
 ACTAAP_2009_5_1,A,D,0,D. Jupiter,4.341
 ACTAAP_2009_5_4,D,B,0,B. pulley,2.404
@@ -39,7 +39,7 @@ AIMS_2008_8_7,A,A,1,The correct answer is A. It kills cancer cells. Radiation th
 AIMS_2009_4_13,A,D,0,D. mouth,2.165
 AIMS_2009_4_20,A,D,0,D. The amount of rain that fell before the duck was born.,4.666
 AIMS_2009_4_25,C,C,1,C. We can measure the strength of the magnets.,3.959
-AKDE&ED_2008_4_3,B,C,0,The correct statement that describes both gases and liquids is:  C. Their volumes stay the same in any container.  This ,13.449
+AKDE&ED_2008_4_3,B,,0,The correct statement that describes both gases and liquids is:  C. Their volumes stay the same in any container.  This ,13.449
 AKDE&ED_2008_8_20,C,C,1,C. They cycle matter by returning carbon and other matter to the ecosystem.,3.884
 AKDE&ED_2008_8_30,A,A,1,A. the tilt of Earth on its axis,2.997
 AKDE&ED_2008_8_38,A,A,1,A. balance,1.136
@@ -100,7 +100,7 @@ MCAS_2002_8_12,C,C,1,C. Cell wall,2.715
 MCAS_2002_8_14,A,B,0,B. torsion.,2.822
 MCAS_2003_5_3,B,B,1,B. Vibrations,3.187
 MCAS_2003_8_17,A,D,0,D. birds eating the insects from the back of a hippopotamus.,6.133
-MCAS_2003_8_26,C,C,1,"To determine the temperature at which the second container of water freezes, we need to understand the freezing point of",18.697
+MCAS_2003_8_26,C,,0,"To determine the temperature at which the second container of water freezes, we need to understand the freezing point of",18.697
 MCAS_2003_8_5,A,A,1,A. The Moon must be full.,4.122
 MCAS_2004_5_14,A,A,1,A. in a volcano,3.159
 MCAS_2004_5_21,A,A,1,A. to make it easy to carry,2.818
@@ -236,7 +236,7 @@ Mercury_191503,B,B,1,B. Fight disease,1.658
 Mercury_192868,C,C,1,C. igneous,1.602
 Mercury_192990,A,D,0,D,0.468
 Mercury_400158,D,C,0,C. sediments separate,1.942
-Mercury_400203,B,C,0,The process in the water cycle shown by label 1 is:  C. condensation  Condensation is the process where water vapor in t,11.361
+Mercury_400203,B,,0,The process in the water cycle shown by label 1 is:  C. condensation  Condensation is the process where water vapor in t,11.361
 Mercury_400363,A,A,1,A. coat color,1.849
 Mercury_400396,A,D,0,D. Interest in reading.,2.555
 Mercury_400556,D,D,1,D. The fat content of the item is reduced.,3.859
@@ -251,7 +251,7 @@ Mercury_401240,C,C,1,C. an inherited trait.,2.456
 Mercury_401246,B,B,1,B. gravity,0.974
 Mercury_401337,C,B,0,"The correct answer is B. A parrot repeating a phrase. Parrots are known for their ability to mimic human speech, which i",7.269
 Mercury_401583,A,D,0,D. by switching the colors of the marbles,2.759
-Mercury_401785,B,B,1,The best example of an inherited trait is:  B. a bird building a nest  Birds are known for their complex and intricate n,10.878
+Mercury_401785,B,,0,The best example of an inherited trait is:  B. a bird building a nest  Birds are known for their complex and intricate n,10.878
 Mercury_402091,C,D,0,D. Eye shape.,0.795
 Mercury_402093,A,A,1,A. learned behavior.,1.317
 Mercury_402144,D,D,1,D. hydrogen and oxygen combining,1.572
@@ -259,7 +259,7 @@ Mercury_402535,B,B,1,"B. thermometer, hot plate, beaker",2.31
 Mercury_404096,B,D,0,D. erosion.,0.77
 Mercury_404107,B,B,1,The correct answer is B. quartz.  Quartz is the most likely mineral to be found in all three major rock types known as m,13.464
 Mercury_404153,D,D,1,D. less than 10%,2.276
-Mercury_404924,D,D,1,"The correct order in the process of sedimentary rock formation is:  D. weathering, erosion, deposition, compaction  This",14.264
+Mercury_404924,D,,0,"The correct order in the process of sedimentary rock formation is:  D. weathering, erosion, deposition, compaction  This",14.264
 Mercury_404987,B,B,1,B. hardness.,2.251
 Mercury_405056,A,A,1,A. Rocks are made of one or more minerals.,4.293
 Mercury_405140,C,C,1,C. electrical energy.,2.218
@@ -300,7 +300,7 @@ Mercury_416405,C,D,0,D. They allow nutrients through the nuclear membrane.,2.145
 Mercury_416468,B,D,0,D. The process used to remove waste products from their cytoplasm.,4.588
 Mercury_416502,D,B,0,B. mitochondrion,1.84
 Mercury_416504,C,C,1,C. ribosomes,1.583
-Mercury_416507,C,C,1,The correct statement that provides the BEST support for the student's claim is:  C. Eukaryotic cells contain membrane-b,14.264
+Mercury_416507,C,,0,The correct statement that provides the BEST support for the student's claim is:  C. Eukaryotic cells contain membrane-b,14.264
 Mercury_416550,B,B,1,B. turbidity,2.086
 Mercury_416636,D,D,1,D. A euglena can only reproduce asexually.,4.947
 Mercury_416684,A,C,0,C. Downwelling.,2.68
@@ -351,7 +351,7 @@ Mercury_7015575,B,B,1,B. releases heat and is exothermic.,3.574
 Mercury_7015663,A,A,1,A. rock cycle,1.572
 Mercury_7015680,C,A,0,The correct answer is A. cool and dry. Maritime polar air masses are characterized by their low temperatures and lack of,8.367
 Mercury_7015733,C,A,0,A. interfering with the water cycle.,2.98
-Mercury_7015803,A,C,0,The most accurate way to describe the distance between the Sun and its nearest neighboring star is:  C. 4 billion kilome,13.305
+Mercury_7015803,A,,0,The most accurate way to describe the distance between the Sun and its nearest neighboring star is:  C. 4 billion kilome,13.305
 Mercury_7015890,B,B,1,B. red shift of light from distant galaxies.,2.89
 Mercury_7015908,D,B,0,B. divergent boundary,1.275
 Mercury_7015925,B,A,0,A. eruptions of volcanoes.,2.479
@@ -388,7 +388,7 @@ Mercury_7033373,D,D,1,D. Some pesticides can harm non-targeted species.,4.223
 Mercury_7033600,A,A,1,A. a computer model,1.792
 Mercury_7034773,C,D,0,D. requires little energy for a big temperature change.,3.97
 Mercury_7034790,B,D,0,D. chemicals,1.025
-Mercury_7034825,C,C,1,The best example of a chemical reaction is:  C. oxygen absorbs sunlight forming ozone molecules  Explanation: - Option A,16.505
+Mercury_7034825,C,,0,The best example of a chemical reaction is:  C. oxygen absorbs sunlight forming ozone molecules  Explanation: - Option A,16.505
 Mercury_7037380,B,B,1,B. herbivores,2.609
 Mercury_7038850,A,D,0,D. wood.,2.178
 Mercury_7041265,A,B,0,B. The test tube is warm.,3.586
@@ -493,7 +493,7 @@ Mercury_7148155,B,C,0,C. The axial tilt of Earth.,4.527
 Mercury_7154228,B,B,1,B. bacteria,2.732
 Mercury_7159583,A,D,0,D. independent variable,4.12
 Mercury_7160545,B,D,0,D. Cloud formations,4.268
-Mercury_7162803,D,C,0,The best method to classify the recovered items at an archaeological dig site is:  C. by the person who located the item,20.316
+Mercury_7162803,D,,0,The best method to classify the recovered items at an archaeological dig site is:  C. by the person who located the item,20.316
 Mercury_7163363,D,D,1,D. The caterpillars that eat only one type of plant.,7.156
 Mercury_7163415,D,C,0,C. Developing an antibiotic to treat infections.,4.486
 Mercury_7164920,D,D,1,D. musculoskeletal,3.156
@@ -634,7 +634,7 @@ Mercury_LBS10778,A,C,0,C. The Earth would spin at a different rate.,4.677
 Mercury_LBS10817,C,C,1,C. supernova,1.748
 Mercury_LBS10976,A,A,1,A. transportation.,1.451
 Mercury_SC_400001,C,B,0,B. Leaf,1.336
-Mercury_SC_400017,D,D,1,The correct sequence for the stages in the life cycle of a butterfly is:  D. egg; larva; pupa; adult  This sequence accu,16.557
+Mercury_SC_400017,D,,0,The correct sequence for the stages in the life cycle of a butterfly is:  D. egg; larva; pupa; adult  This sequence accu,16.557
 Mercury_SC_400031,A,A,1,A. the ingredients,2.039
 Mercury_SC_400035,C,C,1,C. microscope,1.543
 Mercury_SC_400040,B,B,1,B. Oxygen,1.541
@@ -726,7 +726,7 @@ Mercury_SC_402125,A,D,0,D. month.,2.619
 Mercury_SC_402238,A,B,0,B. STOP THE EXPERIMENT IMMEDIATELY,4.149
 Mercury_SC_402241,D,D,1,D. milliliters,3.215
 Mercury_SC_402251,B,B,1,B. to increase the accuracy of the results.,4.062
-Mercury_SC_402258,C,A,0,The best way to separate the salt from the water in an experiment is:  A. filter the salt  Explanation: When mixing wate,16.461
+Mercury_SC_402258,C,,0,The best way to separate the salt from the water in an experiment is:  A. filter the salt  Explanation: When mixing wate,16.461
 Mercury_SC_402614,A,A,1,A. heat,1.543
 Mercury_SC_402642,D,D,1,D. Silver.,1.635
 Mercury_SC_402983,A,A,1,A. read all the directions,2.398
@@ -915,7 +915,7 @@ NYSEDREGENTS_2013_8_26,A,A,1,A. atmosphere,2.37
 NYSEDREGENTS_2013_8_36,D,B,0,B. nonreactive with other substances,3.633
 NYSEDREGENTS_2013_8_41,D,D,1,D. sound,1.922
 NYSEDREGENTS_2013_8_43,A,A,1,A. mechanical,1.916
-NYSEDREGENTS_2013_8_6,A,D,0,The correct sequence of levels for multicellular organisms is:  D. cell -> organ -> tissue -> organ system  This sequenc,14.941
+NYSEDREGENTS_2013_8_6,A,,0,The correct sequence of levels for multicellular organisms is:  D. cell -> organ -> tissue -> organ system  This sequenc,14.941
 NYSEDREGENTS_2013_8_8,A,B,0,B. recycle nutrients,2.714
 NYSEDREGENTS_2015_4_10,C,B,0,B. solid to liquid,2.208
 NYSEDREGENTS_2015_4_13,B,D,0,D. Yellow,1.567
@@ -926,7 +926,7 @@ NYSEDREGENTS_2015_4_19,B,B,1,B. growing,2.016
 NYSEDREGENTS_2015_4_28,D,D,1,D. decomposer.,2.574
 NYSEDREGENTS_2015_4_30,B,B,1,B. Recycling plastic bottles.,2.795
 NYSEDREGENTS_2015_4_4,D,D,1,The correct answer is D. Air temperature and wind speed.,4.473
-NYSEDREGENTS_2015_8_1,D,A,0,The correct sequence of organization of body structures in a human from simplest to most complex is:  A. cell -> organ -,14.795
+NYSEDREGENTS_2015_8_1,D,,0,The correct sequence of organization of body structures in a human from simplest to most complex is:  A. cell -> organ -,14.795
 NYSEDREGENTS_2015_8_21,B,B,1,B. fewer predators.,1.854
 NYSEDREGENTS_2015_8_26,D,D,1,D. Water,1.352
 NYSEDREGENTS_2015_8_30,D,D,1,D. Metals and nonmetals.,2.715

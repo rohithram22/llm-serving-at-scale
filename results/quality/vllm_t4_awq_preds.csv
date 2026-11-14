@@ -1,0 +1,1001 @@
+id,answer,pred,correct,raw,latency_s
+ACTAAP_2007_7_18,D,,0,"To determine which elements are found to the right of the zigzag line (which is typically represented as ""right"" or ""abo",1.681
+ACTAAP_2007_7_22,A,A,1,"The function of the gallbladder is to store bile. Therefore, the correct answer is:  Answer A: store bile  So, the final",1.301
+ACTAAP_2007_7_33,D,D,1,The correct answer is D. Walk or ride a bike instead of driving a car. This method can significantly reduce the carbon f,1.35
+ACTAAP_2007_7_9,A,A,1,The correct answer is A. percolation. Percolation refers to the upward movement of water through pores and other spaces ,1.328
+ACTAAP_2008_5_13,A,A,1,The correct answer is A. forms in layers.,0.767
+ACTAAP_2008_5_14,A,,0,"To determine the correct order of the planets from closest to the Sun to farthest from the Sun, we need to understand th",1.658
+ACTAAP_2008_5_5,D,A,0,"To determine which action is appropriate for identifying the streak of a mineral during an investigation, we need to con",1.662
+ACTAAP_2009_5_1,A,B,0,"To determine which planet is fourth from the Sun in our solar system, we need to compare the positions of these planets ",1.659
+ACTAAP_2009_5_4,D,A,0,"To determine which simple machine is the most important part of a windmill, let's analyze each option:  A. Lever: A leve",1.662
+ACTAAP_2009_7_12,A,A,1,"Historically, the compass has been used for navigation. Therefore, the correct answer is:  A. for navigation  So, the fi",1.253
+ACTAAP_2009_7_6,B,B,1,The correct answer is B. The alveoli in the lungs perform a similar function to stomata in plants.,1.075
+ACTAAP_2009_7_9,D,A,0,"To determine the best conclusion based on Newton's first law of motion, let's analyze each option step by step:  1. **Op",1.605
+ACTAAP_2010_5_12,C,A,0,"To determine which scientist is more likely to study the changes in animal populations in nature, let's analyze each opt",1.661
+ACTAAP_2010_5_13,A,A,1,"To determine which items must be used in the development of every theory according to the given options, let's analyze e",1.671
+ACTAAP_2010_5_15,D,,0,"To determine which set of simple machines Ana used in her scenario, let's analyze each option step by step:  1. **Inclin",1.671
+ACTAAP_2010_5_5,C,A,0,"To determine which method gives the most accurate results, let's analyze each option:  A. Measuring oxygen levels in the",1.664
+ACTAAP_2010_5_8,A,A,1,"To determine the meaning of the given information, let's analyze each option step-by-step:  1. **Option A: It was once u",1.664
+ACTAAP_2010_5_9,A,A,1,The correct answer is A. Large mice will eat more food than smaller mice.  Explanation: - Hypothesis refers to a stateme,1.664
+ACTAAP_2012_7_14,A,A,1,"The correct answer is A. troposphere. The troposphere is the lowest layer of Earth's atmosphere, containing about 75% of",1.373
+ACTAAP_2013_5_4,B,A,0,"To determine which category best describes the organism in this scenario, let's analyze each option:  1. **Option A: Pro",1.672
+ACTAAP_2013_5_5,B,A,0,"To determine which property of light explains why Sam's grandfather is correct, let's analyze each option:  1. **Reflect",1.669
+ACTAAP_2013_7_1,C,C,1,The correct answer is C. An object will keep moving unless an unbalanced force stops it.  To explain this in detail:  - ,1.681
+ACTAAP_2013_7_14,D,A,0,"To determine which term best describes sodium chloride, let's analyze each option:  A. Mixture: This term does not accur",1.671
+ACTAAP_2013_7_4,C,C,1,The correct answer is C. The tilt of the Earth's axis.,0.852
+ACTAAP_2013_7_8,C,A,0,"To determine which options are caused by the Coriolis effect, let's analyze each:  1. **Tornadoes**: Tornadoes are forme",1.669
+ACTAAP_2014_5_13,A,B,0,The correct answer is B. The object bubbles when put into an acid.,0.879
+ACTAAP_2014_5_4,C,D,0,The correct answer is D. The characteristics of sedimentary rocks include:  - They have a hard and brittle texture. - Th,1.681
+ACTAAP_2014_5_5,D,A,0,"To determine which property of the mineral can be identified using the ultraviolet light test, let's analyze each option",1.671
+ACTAAP_2014_5_6,A,A,1,"To determine the correct answer, let's analyze each option:  A. Forest - While trees were present, they are not the prim",1.679
+ACTAAP_2014_7_10,B,A,0,"To determine which gas is the most abundant in Earth's atmosphere, we need to consider the composition of the air and th",1.68
+ACTAAP_2014_7_2,D,D,1,The correct answer is D. integumentary. The integumentary system forms a barrier between internal body structures and th,1.397
+ACTAAP_2014_7_4,A,C,0,The correct answer is C. Many cells combine to form one cell.  Explanation: - Option A (a single cell becomes many cells,1.693
+ACTAAP_2015_7_1,D,D,1,The correct answer is D. The amount of carbon dioxide increases. Deforestation leads to an increase in atmospheric carbo,1.698
+ACTAAP_2015_7_7,B,B,1,The correct answer is B. The nervous and endocrine systems work together to send messages.,0.95
+AIMS_2008_4_18,A,A,1,"To determine which option contains salt water, let's analyze each one:  A. Oceans - The ocean is a large body of water t",1.694
+AIMS_2008_8_12,B,,0,To determine which statement best explains why the breath mint was gone the following morning while the toothpaste remai,1.693
+AIMS_2008_8_7,A,C,0,"Radiation is used for treating various diseases and conditions. Therefore, the correct answer is:  C. It improves immune",1.505
+AIMS_2009_4_13,A,A,1,"To determine which body part an animal uses to breathe, let's analyze each option:  - **Option A:** Gills - These are sp",1.694
+AIMS_2009_4_20,A,A,1,"To determine which factor is most important in determining the shape of a baby duck's foot, let's analyze each option:  ",1.695
+AIMS_2009_4_25,C,A,0,"To determine which idea shows scientific thinking, let's analyze each option:  A. We can pick the longest magnet. - This",1.69
+AKDE&ED_2008_4_3,B,A,0,"To determine which statement correctly describes both gases and liquids, let's analyze each option:  A. Their shapes sta",1.691
+AKDE&ED_2008_8_20,C,C,1,The correct answer is C. Decomposers play a crucial role in ecosystems by cycling matter. They break down organic matter,1.697
+AKDE&ED_2008_8_30,A,A,1,The correct answer is A. the tilt of Earth on its axis. The seasons in Alaska are primarily caused by the tilt of Earth ,1.726
+AKDE&ED_2008_8_38,A,A,1,"To determine which tool would best help a student classify a basket of apples into groups based on mass, we need to cons",1.696
+AKDE&ED_2008_8_39,C,D,0,"The correct answer is D. Hypothesis, problem-solving, and lab equipment.",0.95
+AKDE&ED_2008_8_43,D,A,0,"To determine which statement is an inference, we need to analyze each option carefully:  A. Individual birds have differ",1.717
+AKDE&ED_2008_8_5,D,,0,"To determine which two body systems would most directly remove extra fluid from a person's lungs, let's analyze each sys",1.721
+AKDE&ED_2012_4_2,C,A,0,"To determine which statement best describes a property of liquid cooking oil after it was poured into the container, let",1.697
+AKDE&ED_2012_4_29,A,D,0,The correct answer is D. Water takes the shape of its container. This property allows water to form droplets or bubbles ,1.548
+AKDE&ED_2012_4_39,D,A,0,The formation of sand involves several processes:  - The rotation of Earth causes the movement of water and minerals fro,1.718
+AKDE&ED_2012_8_1,C,A,0,To determine which unit of measurement would be most appropriate for measuring the distance from the floor to the ceilin,1.717
+AKDE&ED_2012_8_15,C,A,0,"To determine which property is best for identifying whether two substances are made of two different elements, let's ana",1.719
+CSZ20228,C,C,1,The correct answer is C. The equator. The equator receives the most direct sunlight due to its proximity to the Sun and ,1.756
+CSZ20334,A,A,1,Gravity is responsible for the **orbit** of a planet around the Sun (option A).,0.967
+CSZ20679,C,,0,"To determine which unit of measurement is used to express the distance between the Milky Way galaxy and other galaxies, ",1.759
+CSZ20823,C,A,0,"To determine the correct answer, let's analyze each option:  A. A solution: - Magnesium oxide is not typically considere",1.722
+CSZ30499,B,D,0,The correct answer is D. They have the same number of protons.  Explanation: - Sulfur (S): It has 16 protons. - Nitrogen,1.72
+CSZ_2004_5_CSZ10100,D,A,0,"To determine which of the given options revolves around a planet, let's analyze each one:  A. An asteroid - Asteroids ar",1.721
+CSZ_2009_8_CSZ30651,A,A,1,The answer is A. C?H??O?,0.798
+CSZ_2009_8_CSZ30764,B,,0,"To determine which factor requires additional force for the same result, we need to analyze the given information step-b",1.756
+LEAP_2002_8_10389,D,,0,"To determine the temperature at which the second sample started to boil, we need to understand the relationship between ",1.724
+LEAP_2003_8_10393,A,B,0,"The process of cellular respiration is primarily associated with the mitochondria in eukaryotic cells. Therefore, the co",1.753
+LEAP_2004_4_10258,A,A,1,The correct answer is A. People are planting trees to replace those that are cut. Trees play an important role in mainta,1.742
+LEAP_2004_8_10398,C,A,0,The correct answer is A. Both have a cell wall to give them support.  To explain why the other options are incorrect:  -,1.751
+LEAP_2005_8_10403,D,A,0,"To determine which group of organisms replenishes a large portion of the atmospheric oxygen supply in the oxygen cycle, ",1.179
+LEAP_2006_8_10411,A,A,1,"To determine what Raquel should have done to make her conclusion more reliable, let's analyze each option step-by-step: ",1.182
+LEAP_2008_4_10286,A,,0,"To determine which investigation is most suitable for answering the question ""Does the length of a string change how fas",1.186
+LEAP_2009_8_10429,A,A,1,The correct answer is A. No-till farming helps the environment by decreasing soil erosion.,0.494
+LEAP_2012_8_10440,B,A,0,"To determine the correct answer, let's analyze each option:  A. The molecules briefly form chemical bonds with nearby ob",1.191
+LEAP__4_10226,C,,0,"To determine the correct answer, let's analyze the information provided:  1. The problem states that Carmine's mother dr",1.189
+LEAP__4_10228,D,A,0,"To determine the best way to identify the object seen on a field trip in a wooded area, let's analyze each option:  A. *",1.198
+LEAP__5_10319,D,,0,"To determine which natural event takes the longest time to happen, we need to consider the duration each event takes in ",1.239
+LEAP__7_10341,B,A,0,"To determine whether the nutrient affects the growth of the fish, we need specific data about the amount of the nutrient",1.243
+LEAP__7_10345,B,,0,"The main reason humans need nitrogen to survive is that it is used by nerve cells to conduct impulses.  Therefore, the c",0.849
+LEAP__7_10346,B,A,0,"To determine which relationship is mutualistic, we need to understand the definition of mutualism. Mutualism refers to a",1.241
+LEAP__8_10366,C,,0,"To determine which option is most likely to help the once bee-dependent plants survive, we need to consider how differen",1.243
+LEAP__8_10369,D,,0,"To determine the temperature at which the second sample started to boil, we need to understand the relationship between ",1.239
+MCAS_1998_8_11,B,A,0,"To determine which characteristic of a properly designed scientific experiment is incorrect, let's analyze each option: ",1.239
+MCAS_1998_8_19,A,A,1,"To determine which statement correctly describes a solar eclipse, let's analyze each option:  A. The Moon blocks the Ear",1.236
+MCAS_1998_8_22,A,A,1,"To determine the correct answer, let's analyze each option:  A. Apply the same amount of light to all the plants. - This",1.228
+MCAS_1999_4_4,C,A,0,"To determine the correct answer, let's analyze each option:  A. The heat comes from the Sun. - This statement is incorre",1.227
+MCAS_1999_8_23,C,A,0,To determine which principle best explains why some flies survived while others died after being sprayed with a new inse,1.227
+MCAS_1999_8_32,C,A,0,To determine which explanation best explains why the electrical energy produced from burning coal is less than the poten,1.225
+MCAS_2000_4_11,A,A,1,"To determine which statement is true about roses and birds, let's analyze each option:  A. Roses and birds are living or",1.274
+MCAS_2000_4_23,A,A,1,The correct answer is A. Hot and dry.   Explanation: Cacti are adapted to thrive in environments that are typically hot ,1.348
+MCAS_2000_4_24,C,A,0,"To determine why identical twins usually look alike, let's analyze each option:  A. **They were born on the same day**: ",1.27
+MCAS_2000_4_25,C,D,0,The correct answer is D. More mistakes.  Explanation: Robotics in manufacturing can significantly reduce costs and impro,1.7
+MCAS_2000_4_29,A,,0,"To determine which weather condition is most likely to occur when white, fluffy clouds appear in Massachusetts, we need ",1.777
+MCAS_2000_4_32,C,A,0,"To determine which part of plants makes seeds, let's analyze each option:  A. Roots - While roots play a crucial role in",1.766
+MCAS_2000_8_19,C,A,0,"To determine which factor the ceramic tile covers for the bottom of the space shuttle, let's analyze each option:  A. Mo",1.761
+MCAS_2000_8_23,A,,0,"To determine which scenario is most likely to cause the same effect as moving an organism from one location to another, ",1.694
+MCAS_2000_8_3,D,A,0,"To determine the correct answer, let's analyze each option:  A. Reproduction: Chloroplasts are involved in photosynthesi",1.283
+MCAS_2000_8_36,B,,0,"To determine which option represents the best example of something having kinetic energy, we need to understand what kin",1.605
+MCAS_2001_5_14,B,A,0,"To determine the correct answer to this question, let's analyze each option in the context of how strings on musical ins",1.628
+MCAS_2001_5_19,C,A,0,"To determine which option plants use sunlight for, let's analyze each choice:  A. Soil - Sunlight is not necessary for p",1.355
+MCAS_2001_8_19,C,,0,To determine which system is more highly developed in liquid fuel rockets compared to solid fuel rockets based on the gi,1.755
+MCAS_2002_5_7,D,,0,"To determine which metal the student picked up, we need to consider the properties of each metal and how they would be a",1.517
+MCAS_2002_8_12,C,A,0,"To determine which option gives a plant cell its rigid structure, let's analyze each choice:  A. Cell membrane - The cel",1.761
+MCAS_2002_8_14,A,,0,Steel is used for suspending bridges due to its capacity for **tension**.,0.788
+MCAS_2003_5_3,B,A,0,"To determine which option causes sound, let's analyze each one:  A. Sunlight - Sunlight is visible light and does not pr",1.675
+MCAS_2003_8_17,A,,0,"To determine which of these scenarios represents a symbiotic relationship, we need to understand the concept of symbiosi",1.404
+MCAS_2003_8_26,C,C,1,"To determine the freezing point of the second container of water, we need to understand that the freezing point of water",1.561
+MCAS_2003_8_5,A,A,1,"To determine which condition is necessary for a lunar eclipse to occur, let's analyze each option:  A. The Moon must be ",1.732
+MCAS_2004_5_14,A,,0,"To determine where the igneous rock most likely formed, we need to consider the formation process of igneous rocks and t",1.379
+MCAS_2004_5_21,A,A,1,"The main advantage of making a laptop computer lighter is:  A. to make it easy to carry  Therefore, the correct answer i",1.146
+MCAS_2004_5_25,C,,0,To determine which factor should be varied for the five plants to investigate whether the number of flowers on a plant i,1.721
+MCAS_2004_5_32,A,A,1,"To determine which form of energy lightning appears, we need to understand that lightning is an electrical phenomenon. T",1.566
+MCAS_2004_5_36,C,A,0,"To determine what happens when clouds become too heavy to float in the air, let's analyze each option step-by-step:  1. ",1.589
+MCAS_2004_5_8,C,,0,"To determine the correct answer to this question, let's analyze each option in the context of how an electric fan operat",1.566
+MCAS_2004_8_22,A,A,1,"To determine which factor is most likely to cause the extinction of the heath hen, let's analyze each option:  A. Overhu",1.678
+MCAS_2004_9_20,A,A,1,"To determine which part of a communication system converts binary codes into recognizable characters, let's analyze each",1.616
+MCAS_2004_9_21,A,,0,"To determine the correct answer, let's analyze each option in relation to the manufacturing process described:  1. **Liq",1.613
+MCAS_2004_9_6-v1,C,,0,"To determine which example is the best example of a wave, we need to understand what waves are. Waves are forms of energ",1.451
+MCAS_2004_9_7,C,A,0,"To determine which statement about the ball's state of motion is definitely true when it is accelerating, let's analyze ",1.407
+MCAS_2005_5_10,B,A,0,"To determine why the development of leaves causes changes on the forest floor, let's analyze each option:  A. Rainfall i",1.569
+MCAS_2005_5_22,B,,0,"To determine what happens to the path of a light ray when it passes from air into water at an angle, we need to consider",1.689
+MCAS_2005_8_1,C,C,1,"To determine which kingdom this organism belongs to, let's analyze the characteristics provided:  1. The organism has ce",1.694
+MCAS_2005_8_17,D,A,0,"To determine which activity is performed by the quality control division of a company manufacturing chairs, let's analyz",1.706
+MCAS_2005_8_27,A,A,1,"To determine the best use of a robot in producing an automobile, let's analyze each option:  A. to perform repetitive ta",1.477
+MCAS_2005_9_19-v1,D,A,0,The primary way that evergreen trees planted on the north and west sides of residences in Massachusetts help reduce wint,1.236
+MCAS_2006_5_1,A,A,1,The correct answer is A. precipitation.,0.543
+MCAS_2006_5_21,C,A,0,"To determine which fastener is best for fastening the sides of a wooden birdhouse, let's analyze each option:  A. Bolts ",1.678
+MCAS_2006_8_21,A,A,1,"To determine which option represents the best example of a part of the propulsion system for a tractor, let's analyze ea",1.645
+MCAS_2006_9_13-v1,A,,0,"To determine which color of visible light has the longest wavelength, we need to understand the concept of wavelength in",1.683
+MCAS_2006_9_14,B,A,0,"To determine which of the given options is more likely to occur in a plant cell compared to an animal cell, let's analyz",1.292
+MCAS_2006_9_28,C,A,0,"To determine which factor causes the repulsion of the negative charges in the pieces of paper, let's analyze each option",1.56
+MCAS_2006_9_29,B,A,0,"To determine the correct answer, let's analyze each option:  A. Calcium - While fertilizers contain calcium, they do not",1.591
+MCAS_2006_9_5,B,A,0,"To explain why elements like carbon and oxygen are not permanently removed from the environment, we need to consider the",1.423
+MCAS_2009_5_6511,D,A,0,"To determine which type of wave carries the sound of the bell to the student, let's analyze each option:  A. Electrical ",1.398
+MCAS_2010_5_11981,B,,0,"To determine which form of energy the toaster is converting the electrical energy from the outlet to, we need to underst",1.447
+MCAS_2010_5_11995,D,A,0,"To determine which statement best describes the change in the ocean ecosystem caused by the formation of a coral reef, l",1.449
+MCAS_2010_8_12003,B,A,0,"To determine the correct answer to this question, let's analyze each option in detail:  A. **Nucleus**: The nucleus is t",1.353
+MCAS_2010_8_12019,B,,0,"To determine the correct answer to this question, let's analyze each type of force mentioned:  1. **Compression**: This ",1.322
+MCAS_2011_5_11,A,A,1,To determine which explanation is correct for explaining why electrical wires are usually covered with plastic or rubber,1.32
+MCAS_2011_5_15,C,,0,"To determine which organism gets its food energy solely from consumers, we need to understand the concept of primary and",1.322
+MCAS_2011_8_17685,D,D,1,The correct answer is D. An increase in the amount of atmospheric carbon dioxide.  Explanation: - Option A (an increase ,1.318
+MCAS_2011_8_17692,B,A,0,"To determine which option best describes the concept of ""chemical reactions,"" let's analyze each choice:  A. Atom - An a",1.31
+MCAS_2011_8_17696,D,D,1,The unit that best represents the density of an object is D. g/cm^3.  To explain why: - **kg**: This unit is used for ma,1.311
+MCAS_2011_8_17697,B,A,0,"To determine which part of the building was being constructed during the stage of construction mentioned, let's analyze ",1.32
+MCAS_2012_5_22237,C,,0,"To determine the length of the earthworm in millimeters, we need to convert the given length from centimeters to millime",1.325
+MCAS_2012_5_23619,B,A,0,"To determine which process is responsible for the production of food in plants, let's analyze each option:  A. Metamorph",1.329
+MCAS_2012_5_3,C,A,0,"To determine which statement best describes a complex machine, let's analyze each option in detail:  A. ""It is designed ",1.328
+MCAS_2012_8_23643,B,A,0,"To determine which type of manufacturing system Ann is most likely using to make hats, let's analyze each option:  A. Ma",1.328
+MCAS_2012_8_23644,C,A,0,"To determine which options are formed when two crustal plates collide with each other, let's analyze each option:  A. Ho",1.327
+MCAS_2012_8_23653,B,A,0,"To determine the correct answer, let's analyze each option:  A. The Sun - While the Sun does have an impact on Earth's a",1.327
+MCAS_2013_8_29417,A,A,1,"To determine which case is best for protecting bird eggs, we need to consider the materials and their properties:  1. **",1.332
+MCAS_2013_8_29418,D,,0,"To determine which options share a common property among water, rust, and salt, we need to consider their chemical prope",1.334
+MCAS_2014_8_19,D,D,1,The correct answer is D. Some individuals have genetic differences that make them more likely to survive and reproduce i,1.089
+MCAS_2015_5_11,D,D,1,"The correct answer is D. Magnetic. A compass needle points north because it is attracted to magnets, which are part of t",1.329
+MCAS_2015_8_20,C,A,0,"To determine which statement best describes the change in temperature, let's analyze each option step-by-step:  A. ""Cold",1.33
+MCAS_2015_8_6,B,A,0,"To determine which statement best describes the role of gravity in the formation of stars, let's analyze each option:  A",1.326
+MCAS_8_2014_13,D,D,1,"The process of carbon dioxide removal from the body mainly involves the respiratory system. Therefore, the correct answe",0.791
+MCAS_8_2015_13,A,,0,"To determine which activity is carried out by both Euglena and Clover, let's analyze each option in detail:  1. **Euglen",1.324
+MCAS_8_2015_14,D,A,0,"To determine which statement best describes the changes in moth populations over time, let's analyze each option step-by",1.323
+MCAS_8_2015_4,A,A,1,To determine which statement best describes the effect on the particles in liquid nitrous oxide when its temperature is ,1.322
+MDSA_2007_8_4,A,,0,"To determine which element is most similar to magnesium (Mg), we need to consider the properties of each element listed:",1.323
+MDSA_2008_5_23,A,A,1,"To determine which natural resource found in Maryland is nonrenewable, let's analyze each option:  A. Coal - Coal is a f",1.317
+MDSA_2008_5_29,B,B,1,"The correct answer is B. They are solid.  Explanation: - Rocks and minerals are typically described as being ""solid"" bec",1.313
+MDSA_2008_8_24,C,A,0,"To determine which action helps reduce global warming, let's analyze each option:  A. Developing highways: - Roads can i",1.313
+MDSA_2008_8_25,C,A,0,"To determine which factor is most likely to contribute to rising sea levels due to increased carbon dioxide levels, let'",1.309
+MDSA_2008_8_29,C,A,0,"To determine which process occurs in a growing leaf cell, let's analyze each option:  A. Evolution - This is not a proce",1.306
+MDSA_2008_8_38,A,A,1,"To determine the correct answer to this question, let's analyze each option:  A. Near plate boundaries: - Plate boundari",1.306
+MDSA_2009_4_24,A,,0,"To determine the most likely outcome after one million years, we need to consider how long it takes for plants and anima",1.308
+MDSA_2009_8_29,C,,0,"To determine which category each item belongs to, let's analyze the given information step by step:  1. **Cellulose**: T",1.308
+MDSA_2009_8_37,C,A,0,"To determine which source of energy is used by the power plant, we need to consider the nature of each option and how th",1.307
+MDSA_2010_5_19,B,,0,"To determine the correct answer, let's analyze the given information step by step:  1. **Understanding the Problem**: We",1.307
+MDSA_2010_5_3,A,,0,"To determine what happens when a block of ice is heated to 10°C, we need to consider the states of matter involved:  1. ",1.302
+MDSA_2010_8_22,B,A,0,"To determine how excess nitrogen affects the Chesapeake Bay, let's analyze each option step-by-step:  1. **Option A: Fis",1.301
+MDSA_2010_8_38,D,A,0,"To determine why non-native plants threaten native plants when they are introduced to a new habitat, we need to consider",1.301
+MDSA_2010_8_43,B,D,0,The correct answer is D. The air pollution in the atmosphere will decrease.  Explanation: Trees play a crucial role in m,1.302
+MDSA_2010_8_8,C,A,0,"To determine which structure is most similar to tree bark, let's analyze each option:  A. Bird beak - Birds do not have ",1.301
+MDSA_2011_4_16,D,D,1,The correct answer is D. Food provides energy for growth.,0.439
+MDSA_2011_5_35,C,A,0,"To determine the correct answer, let's analyze each option:  A. Brush the pet daily to remove bacteria. - This method is",1.299
+MDSA_2011_8_13,D,D,1,The answer is D. Increasing carbon dioxide levels in the atmosphere.,0.461
+MDSA_2011_8_39,A,A,1,"To determine which type of energy is transformed from electrical energy in a light bulb, let's analyze each option:  A. ",1.297
+MDSA_2012_8_1,A,A,1,"The correct answer is A. air. The combustion process of fossil fuels produces pollutants such as carbon dioxide, sulfur ",1.068
+MDSA_2012_8_35,D,,0,"To determine which organs are used in reproduction, we need to consider the functions of each organ mentioned in the opt",1.295
+MDSA_2013_8_33,D,A,0,"To determine the correct answer, let's analyze each option:  A. An atom - This is incorrect because hydrogen and oxygen ",1.295
+MDSA_2013_8_7,C,A,0,"To determine which category the element sulfur dioxide belongs to, let's analyze each option:  A. A metal: While sulfur ",1.295
+MEAP_2004_8_48,C,A,0,"To determine the correct answer, let's analyze each option:  A. Degrees Celsius (°C): This is not a standard unit for me",1.29
+MEAP_2005_8_14,A,,0,To determine which factor has most likely had the greatest impact on erosion of the top layer of soil when European sett,1.293
+MEAP_2005_8_16,B,A,0,"To determine which statement about the properties of an air mass is true, let's analyze each option step by step:  A. An",1.293
+MEA_2010_8_15-v1,B,A,0,"To determine which device produces mechanical energy, let's analyze each option:  A. A battery - Batteries generate elec",1.294
+MEA_2010_8_2,D,A,0,"To determine which evidence shows that the two organisms (donkeys and horses) are related, let's analyze each option:  A",1.285
+MEA_2010_8_9,D,D,1,The correct answer is D. wastewater treatment.,0.339
+MEA_2010_8_9-v1,D,A,0,"To determine the correct answer, let's analyze each option in detail:  A. **asexual reproduction**: This is not correct ",1.312
+MEA_2011_8_15,D,,0,To determine which option correctly describes how the Sun appears to an astronaut on Pluto compared to how it appears to,1.302
+MEA_2013_5_11,A,A,1,"To determine the correct answer, let's analyze each option in detail:  A. ""Some ancient animals and some modern animals ",1.34
+MEA_2013_5_7,A,A,1,"To determine which object can be seen clearly under a microscope, we need to consider the magnification capabilities of ",1.305
+MEA_2013_8_19,C,A,0,"To determine the correct answer, let's analyze each option step by step:  1. **Option A: Both the parasite and the host ",1.302
+MEA_2013_8_2,B,C,0,The primary reason for breaking down food molecules is C. to remove wastes from a cell.,0.576
+MEA_2014_5_15,B,A,0,"To determine which type of organism is made of one cell, let's analyze each option:  A. Trees - Trees are multicellular ",1.298
+MEA_2014_5_3,C,A,0,"The correct answer is A. When a warm object is placed inside a cooler object, it will lose energy to the cooler object w",1.333
+MEA_2014_5_8,A,A,1,"To determine the correct answer, let's analyze each option:  A. The objects are stars. - Stars are luminous celestial bo",1.329
+MEA_2016_5_5,A,,0,"To determine which season the student is experiencing, we need to analyze the changes in the student's daily activities ",1.327
+MEA_2016_8_18,D,D,1,"The correct answer is D. The correct options for Earth's natural resources include forests and waterfalls.  Therefore, t",1.108
+MEA_2016_8_2,B,D,0,The correct answer is D. Light from Earth illuminates the Moon.,0.476
+MEA_2016_8_20,A,A,1,"The correct answer is A. heat energy. When gasoline burns in an automobile, it releases a large amount of heat energy in",1.31
+MSA_2012_5_1,B,A,0,"To determine which tool the student should have used to measure how quickly the car rolled down the hill, let's analyze ",1.306
+MSA_2012_5_16,B,A,0,"To determine which description accurately describes the sun, let's analyze each option:  A. A planet close to Earth: - T",1.29
+MSA_2012_5_28,A,A,1,"To determine which type of evidence the scientists most likely found, let's analyze each option:  A. A fossil - Fossils ",1.258
+MSA_2012_5_34,D,D,1,The correct answer is D. Taking the tires to a recycling center is the best way to dispose of scrap tires and minimize e,0.731
+MSA_2012_8_28,C,A,0,"To determine which property of a chemical base is most likely associated with soap, let's analyze each option:  A. Sour ",1.266
+MSA_2012_8_34,A,,0,"To determine how the properties of sodium and chlorine change when they react to form sodium chloride (NaCl), we need to",1.266
+MSA_2013_5_15,C,B,0,"The answer is B. gravity. Gravity affects the state of matter of water, causing it to be in liquid form.",0.661
+MSA_2013_5_6,B,B,1,"To determine which force causes the ball to slow down as it travels up, we need to consider the principles of physics in",1.275
+MSA_2015_5_34,D,D,1,The correct answer is D. The melting process of ice can be represented as follows:  - Ice melts at a temperature known a,1.274
+MSA_2015_5_44,D,A,0,"To determine which group contains only renewable resources found in Maryland, let's analyze each option:  A. Wind, oil, ",1.271
+Mercury_175963,A,A,1,The discovery of penicillin helped in the treatment of infections.,0.388
+Mercury_176558,A,A,1,"The correct answer is A. The sum of the potential and kinetic energy includes all forms of energy present in a system, i",0.97
+Mercury_177153,D,D,1,"The correct answer is D. Alfred Wegener. He introduced the theory of continental drift in 1905, which explains why conti",0.995
+Mercury_177223,A,A,1,The phenomenon described in the question involves a chemical reaction between sulfuric acid and sugar. When sulfuric aci,1.271
+Mercury_177678,D,A,0,"To determine the correct answer, let's analyze each option:  A. **rare earth isotopes**: These are elements that occur n",1.27
+Mercury_177730,A,,0,"To determine the correct answer, let's analyze the concepts involved:  1. **Magmatic Evolution**: This term refers to th",1.27
+Mercury_178535,C,C,1,"Electrons are typically found in the atomic nucleus, which is the center of the atom and contains all the mass of the at",1.269
+Mercury_179113,C,A,0,"To determine which disease is caused by a bacterium, let's analyze each option:  A. Rabies - This is an animal virus tha",1.267
+Mercury_179218,D,A,0,"The Hardy-Weinberg law is not applicable to populations that are small or large. Therefore, the correct answer is:  **A.",1.263
+Mercury_180198,B,A,0,"To determine which option represents a direct result of Earth's tilt on its axis, let's analyze each choice:  A. Tides -",1.272
+Mercury_182263,C,A,0,"To determine which option describes an organism's development, let's analyze each choice:  A. ""A sunflower grows toward ",1.28
+Mercury_182928,A,A,1,"To determine the correct answer, let's analyze each option in relation to the formation of similar types of cells into t",1.28
+Mercury_182945,D,A,0,"To determine in which organ an acid is produced, we need to understand that acids are typically produced in the digestiv",1.279
+Mercury_183768,B,B,1,The correct answer is B. The skeletal system functions to support and protect tissues and organs.,0.546
+Mercury_183925,D,A,0,"To determine the correct answer, let's analyze each option:  A. to control population size - This is incorrect because s",1.28
+Mercury_184170,C,A,0,The correct answer is A. nitrogen.  Explanation: The stratosphere is the region of Earth's atmosphere between 10 kilomet,1.282
+Mercury_184328,A,A,1,"To determine which information can be learned by using a spectrometer, let's analyze each option:  A. Chemical compositi",1.284
+Mercury_184380,A,A,1,"To determine which group of organisms is most responsible for changing the composition of Earth's early atmosphere, let'",1.283
+Mercury_185238,B,B,1,The correct answer is B. Consumers. Humans are considered to be the primary consumers in a food web.,0.635
+Mercury_185500,A,A,1,"To determine which force caused the ball to slow down, let's analyze each option:  A. **Friction**: While friction is in",1.288
+Mercury_186568,D,A,0,"To determine which option will absorb heat energy, we need to consider how each process involves heat absorption:  A. Tw",1.292
+Mercury_187460,C,A,0,"To determine the correct answer, let's analyze each option in the context of electrical circuits:  A. **Increase the amo",1.291
+Mercury_189753,B,A,0,The correct answer is A. The westward deflection of equatorial winds.  To explain this in detail:  1. **Equatorial Wind ,1.292
+Mercury_190190,D,C,0,The answer is C. Earth's core. The Earth's core is responsible for generating the magnetic field that protects life on E,1.265
+Mercury_190803,B,A,0,"To determine which type of adaptation allows an animal to deceive its predator, let's analyze each option:  A. Large siz",1.293
+Mercury_191503,B,B,1,The primary function of white blood cells in humans is B. Fight disease.,0.485
+Mercury_192868,C,A,0,"To determine the type of rock that forms at the large rocky outcroppings in the Four Corners area in the US Southwest, w",1.299
+Mercury_192990,A,,0,"To determine which resource is not renewable, we need to understand that renewable resources can be used and replenished",1.305
+Mercury_400158,D,,0,"To determine how sedimentary rocks form, we need to understand the process of sedimentation and the formation of sedimen",1.305
+Mercury_400203,B,B,1,"The process labeled ""evaporation"" is the answer to this question.",0.464
+Mercury_400363,A,A,1,The correct answer is A. body weight. The body weight of puppies is determined primarily by their genetics and can be in,1.01
+Mercury_400396,A,A,1,"The traits that humans inherit directly from their parents include eye color (option A), and music taste (option B). How",1.305
+Mercury_400556,D,A,0,"To determine which inference can be made from the given information, let's analyze each option step-by-step:  1. **Optio",1.312
+Mercury_400598,C,C,1,The correct answer is C. Conductors. The coating on electrical wires serves to conduct electricity and prevent the wire ,1.312
+Mercury_400704,A,D,0,The correct answer is D. Language skills.,0.332
+Mercury_400752,B,,0,"To determine the percentage of the genotypes in the offspring when crossing parents with genotypes Rr and rr, we need to",1.311
+Mercury_400799,C,,0,To determine which parameter would most significantly improve the model's accuracy for predicting the insect population ,1.312
+Mercury_400806,B,,0,"To determine how many electrons the atom has in its neutral state, we need to understand that the total number of electr",1.31
+Mercury_400837,A,A,1,"The appearance, texture, and density are all examples of physical properties. Therefore, the correct answer is:  A. phys",0.757
+Mercury_401187,C,,0,The boiling point of water is **C**.,0.356
+Mercury_401240,C,,0,"To determine the correct answer, let's analyze each option in relation to the statement ""Most species of ducks have webb",1.309
+Mercury_401246,B,A,0,"To determine which force keeps Earth in orbit around the Sun, let's analyze each option:  A. Friction: While friction ca",1.309
+Mercury_401337,C,A,0,"To determine which event is an example of inherited behavior, let's analyze each option:  A. A dog sitting on command - ",1.308
+Mercury_401583,A,A,1,"To determine which option would change the model into a representation of more properties of an atom, let's analyze each",1.306
+Mercury_401785,B,A,0,"To determine which scenario is the best example of an inherited trait, let's analyze each option:  A. A boy playing with",1.308
+Mercury_402091,C,A,0,"To determine which characteristic is an acquired trait, let's analyze each option:  A. Height - This is a physical chara",1.306
+Mercury_402093,A,A,1,"To determine the correct answer, let's analyze each option in the context of the scenario described:  1. **Option A: Lea",1.305
+Mercury_402144,D,,0,"To determine what the given chemical equation represents, let's analyze it step by step:  1. **Identify the elements inv",1.305
+Mercury_402535,B,A,0,"To determine the boiling points of aqueous solutions, students typically need a combination of equipment and tools that ",1.305
+Mercury_404096,B,A,0,"To determine which process causes sandstones formation, let's analyze each option:  A. Abrasion: This process involves t",1.308
+Mercury_404107,B,,0,"To determine which mineral is most likely to be found in all three major rock types mentioned (metamorphic, igneous, and",1.302
+Mercury_404153,D,,0,"To determine the correct answer to this question, we need to understand the range of wavelengths that make up the electr",1.304
+Mercury_404924,D,,0,"To determine the correct order in the process of sedimentary rock formation, let's analyze each step:  1. **Weathering**",1.307
+Mercury_404987,B,A,0,"To determine which property is the most reliable for identifying minerals, let's analyze each option:  A. Texture - This",1.307
+Mercury_405056,A,A,1,"To determine which statement is true for all rocks, let's analyze each option:  A. Rocks are made of one or more mineral",1.324
+Mercury_405140,C,A,0,"To determine the correct answer, let's analyze each option:  A. Wind energy - This is not a common or widely used method",1.304
+Mercury_405141,B,B,1,"Solar energy is converted into electrical energy.  Therefore, the correct answer is B.",0.506
+Mercury_405452,A,A,1,The correct answer is A. decreased production cost. The use of robotics can reduce the need for human labor and improve ,0.941
+Mercury_405461,C,A,0,"To determine which method a scientist would use to collect data during an experiment, let's analyze each option:  A. Cal",1.32
+Mercury_405469,D,A,0,"To determine which option best describes how word processors can benefit most students, let's analyze each choice:  A. I",1.303
+Mercury_405769,B,A,0,"To determine which structure refers to a group of specialized cells that all perform the same function, let's analyze ea",1.303
+Mercury_405771,C,A,0,"To determine which structure allows plants to make food, let's analyze each option:  A. Cell wall - While important for ",1.298
+Mercury_405772,A,C,0,The invention that has done the most to help predict weather and warn people of approaching storms is the barometer. The,0.897
+Mercury_405951,A,D,0,The correct answer is D. Bones connect the brain and the spinal cord.,0.448
+Mercury_405953,B,,0,"To determine which organism can find cell walls, we need to consider the nature and function of cell walls in different ",1.303
+Mercury_406546,B,A,0,"To determine the correct answer, let's analyze each option in the context of plant reproduction:  A. Resulted from sexua",1.302
+Mercury_406741,D,A,0,To determine which option best explains why a doctor's office keeps accurate records of the medicines prescribed for pat,1.301
+Mercury_406786,B,A,0,"To determine the correct answer, let's analyze each option:  A. Learn how to speak the same language - This is not a mee",1.301
+Mercury_406917,B,A,0,"To determine the best way to report students' findings about elevation changes in a large park near their school, let's ",1.302
+Mercury_406923,C,A,0,"To determine what the given information describes, let's analyze each option step by step:  1. **Option A: Mass**    - T",1.302
+Mercury_406955,A,,0,To determine how many grams of oxygen were formed when 10 grams of mercuric oxide decomposed into liquid mercury and oxy,1.299
+Mercury_407053,C,C,1,"The correct answer is C. The classification of galaxies in the universe is based on their size and shape, which can be d",1.298
+Mercury_407129,A,A,1,"To determine which tool is best for observing and measuring plant cells, let's analyze each option:  A. Microscope: - A ",1.304
+Mercury_407259,B,A,0,"To determine which action results in a chemical change, let's analyze each option:  A. Apples being cut into slices: - C",1.306
+Mercury_407263,C,A,0,"To determine which part of digestion involves a chemical change, let's analyze each option:  A. Teeth break food into sm",1.305
+Mercury_407530,B,,0,To determine the expected ratio of tall plants to short plants when Sam and Julia cross a heterozygous tall (Tt) pea pla,1.308
+Mercury_407661,D,A,0,"To determine which statement must occur when a substance undergoes a chemical change, let's analyze each option:  A. The",1.307
+Mercury_409465,D,A,0,"To determine the correct answer, let's analyze each option:  A. Add a variety of vitamins to the supplement: - This woul",1.302
+Mercury_410467,D,A,0,"To determine which type of calculation Jon can make from the information given about the hydraulic jack's use, let's ana",1.303
+Mercury_410598,B,A,0,"To determine what has been built up on Roberto's body to cause the electric shock, let's analyze each option:  A. Atoms ",1.304
+Mercury_411070,A,,0,"To determine the average rate of acceleration of the train, we need to calculate the change in velocity and divide it by",1.299
+Mercury_412148,A,A,1,"To determine which set of elements has similar bonding properties, we need to understand that these elements belong to d",1.3
+Mercury_412714,D,,0,"To determine which units should be used for the density measurements, we need to understand the relationship between mas",1.3
+Mercury_412755,D,,0,"To determine the final volume of the gas after transferring it from one container to another, we need to consider the pr",1.308
+Mercury_414097,C,C,1,"The United States is located in the western region of North America, and it belongs to the North American Plate. Therefo",1.201
+Mercury_415689,A,A,1,The correct answer is A. Ozone absorbs ultraviolet light.,0.434
+Mercury_416374,C,C,1,The correct answer is C. Hector receives a replacement heart valve from a cow.  Explanation: - Option A (Adelle receives,1.309
+Mercury_416375,A,A,1,"To determine which event can add oxygen from the atmosphere to ocean water during a storm at sea, let's analyze each opt",1.309
+Mercury_416377,C,,0,"To determine the expected concentration levels of dissolved gases in the OMZ, we need to consider the given information ",1.31
+Mercury_416405,C,A,0,"To determine which statement about bacterial cells and human cells is correct, let's analyze each option:  A. ""They allo",1.306
+Mercury_416468,B,A,0,"To determine which life function is the same for an amoeba as for other freshwater protists, let's analyze each option: ",1.308
+Mercury_416502,D,A,0,"To determine which cellular organelle modifies fatty acids, let's analyze each option:  A. Chloroplasts: - Chloroplasts ",1.302
+Mercury_416504,C,A,0,"To determine which organelle is being referred to, let's analyze each option:  A. Chloroplasts - These are green organel",1.299
+Mercury_416507,C,,0,"To determine which statement provides the best support for the student's claim that ""Eukaryotic cells need more lipids t",1.3
+Mercury_416550,B,A,0,"To determine which factor the man used to evaluate the safety of the water, let's analyze each option:  A. **pH**: This ",1.301
+Mercury_416636,D,A,0,"To determine the correct answer, let's analyze each option step by step:  1. **Option A:** ""A euglena can respond to lig",1.299
+Mercury_416684,A,A,1,To determine which wind-water interaction is responsible for cycling nutrient-rich waters from the ocean floor to the se,1.3
+Mercury_417462,C,,0,"To determine whether the object is a flowering plant, we need to look at the characteristics of flowers and their develo",1.303
+Mercury_417464,C,A,0,"To determine which characteristic is shared by all members of Arthropoda and Chordata phyla, let's analyze each option: ",1.297
+Mercury_417568,C,A,0,"To determine the correct answer, let's analyze each option step by step:  1. **Option A: Hydrogen, Nitrogen, Carbon**   ",1.296
+Mercury_417569,B,D,0,"The correct answer is D. Pieces in a jigsaw puzzle. This model accurately depicts how amino acids form proteins, which i",0.987
+Mercury_417589,C,A,0,"To determine the correct answer, let's analyze each option:  A. ""What is the mechanism by which carbon dioxide heats Ear",1.294
+Mercury_7001278,D,A,0,"To determine which instrument is best for measuring the volume of a pebble, let's analyze each option:  A. Metric ruler ",1.295
+Mercury_7001453,D,D,1,The correct answer is D. Number of protons. The atomic number of an element is the number of protons in the nucleus of t,1.29
+Mercury_7001575,D,D,1,"The answer is D. Social behavior. Wolves are known for their complex social structure and communication skills, which ca",1.077
+Mercury_7001855,B,A,0,"To determine the correct answer, let's analyze each option in the context of the given scenario:  1. **Option A: A chang",1.292
+Mercury_7003728,D,D,1,The correct answer is D. Potential.,0.295
+Mercury_7004008,C,D,0,"The relationship between ticks and dogs is best described as **commensalism**.  Therefore, the correct answer is:  D",0.724
+Mercury_7004760,D,A,0,"To determine the correct answer to this question, let's analyze each option in the context of atomic structure and prope",1.291
+Mercury_7005058,D,D,1,The correct answer is D. Because of the large distance between objects in space. The light year is a unit of measurement,1.291
+Mercury_7005513,D,A,0,"To determine which process plants use to obtain carbon dioxide from the atmosphere, let's analyze each option:  A. Respi",1.29
+Mercury_7006108,D,D,1,The correct answer is D. pioneer species.,0.323
+Mercury_7007543,C,A,0,"To determine which part of a sound wave measures loudness, let's analyze each option:  A. **Wavelength**: The distance b",1.293
+Mercury_7007613,D,A,0,"To determine the correct answer, let's analyze each option:  A. Electrons in the outer shell: - This is incorrect becaus",1.295
+Mercury_7007683,A,A,1,"To determine which part of an atom is reactive during a chemical process, let's analyze each option:  A. Electrons - Ele",1.292
+Mercury_7007770,D,D,1,The correct answer is D. Energy and the attraction of the nucleus. The location of an electron around the nucleus of the,1.194
+Mercury_7007840,C,,0,"To determine why the pan becomes cool when it's left on the counter, we need to consider the principles of thermal condu",1.298
+Mercury_7007858,A,A,1,"The correct answer is A. Heat from the room is absorbed by the ice cube. When the ice cube is placed in a warm room, it ",1.296
+Mercury_7007928,D,A,0,"To determine which factor determines whether precipitation will be in the form of rain or snow, we need to consider the ",1.297
+Mercury_7008033,D,B,0,The correct answer is B. A volcano erupting.  Explanation: - Option A (rockslide) involves a sudden movement of rocks du,1.296
+Mercury_7008103,D,D,1,"The color of a star indicates its **temperature**.  Therefore, the correct answer is D.",0.562
+Mercury_7008260,C,D,0,"The correct answer is D. A decrease in temperature, causing shorter growing seasons, leading to droughts.",0.611
+Mercury_7008348,D,,0,Organisms play a crucial role in the water cycle through several processes:  - **Transpiration**: This is the process wh,1.292
+Mercury_7008820,C,A,0,"To determine the correct answer to this question, let's analyze each option in detail:  A. More stable: - Electrons in a",1.293
+Mercury_7008908,B,A,0,"To determine which factor increases the air resistance when a skydiver jumps from a plane, let's analyze each option:  A",1.297
+Mercury_7009573,B,A,0,"To determine the correct answer, let's analyze each option in the context of how the cardiovascular and respiratory syst",1.296
+Mercury_7009748,D,A,0,"To determine which sound wave characteristic must be known when using sonar to measure distances, let's analyze each opt",1.297
+Mercury_7009853,A,,0,"To determine the speed and general direction of motion of a galaxy relative to the Earth, we need to consider several fa",1.297
+Mercury_7010063,D,A,0,"To determine the correct answer, let's analyze each option in the context of ocean currents:  A. Spreading plant and ani",1.297
+Mercury_7011235,B,B,1,The body system that functions by bringing in oxygen and removing carbon dioxide is B. respiratory.,0.528
+Mercury_7011288,D,D,1,The correct answer is D. Deposition.  Explanation: - Erosion and leaching are processes that can cause rivers to erode a,1.295
+Mercury_7011393,A,,0,To determine the phenotype of a cross between a homozygous dominant tall plant (T) and a homozygous recessive short plan,1.292
+Mercury_7011760,A,A,1,Twentieth-century research and development of vaccines significantly reduced the threat of A. polio.,0.531
+Mercury_7012863,A,A,1,The correct answer is A. It uses renewable natural resources.,0.372
+Mercury_7012950,B,A,0,"To determine what a meteorologist measures when they announce that the barometer reading is dropping, we need to underst",1.294
+Mercury_7013370,B,A,0,"To determine the correct answer to this question, let's analyze each option in detail:  A. First quarter and last quarte",1.297
+Mercury_7013685,A,A,1,The correct answer is A. Shivering in cold temperatures. The autonomic nervous system's primary function is to regulate ,1.296
+Mercury_7013843,D,A,0,"To determine what is happening inside an active hot pack, let's analyze each option:  A. Electric current - This is not ",1.291
+Mercury_7013895,B,B,1,The scientist who is best known for research leading to the modern understanding of the atom is B. Dalton.,0.603
+Mercury_7014000,A,D,0,The answer is D. The digestive system is responsible for the absorption and transport of nutrients from food into the bo,1.291
+Mercury_7015575,B,A,0,"To determine the correct answer to this question, let's analyze each option in the context of the combustion process of ",1.293
+Mercury_7015663,A,A,1,The correct answer to this question is A. rock cycle.  The rock cycle refers to the continuous transformation of rocks t,1.292
+Mercury_7015680,C,A,0,"The correct answer is A. cool and dry. The characteristics of maritime polar air masses include being cold and dry, char",1.289
+Mercury_7015733,C,A,0,The correct answer is A. interfering with the water cycle.  Explanation: Nitrogen compounds in nitrogen-based fertilizer,1.291
+Mercury_7015803,A,D,0,The most accurate way to describe the distance between the Sun and its nearest neighboring star is:  D. 400 billion kilo,1.298
+Mercury_7015890,B,B,1,"The correct answer is B. The presence of redshift in distant galaxies indicates that they are moving away from Earth, wh",0.895
+Mercury_7015908,D,B,0,"The correct answer is B. The formation of isolated volcanic islands at the boundaries of tectonic plates is known as a """,1.296
+Mercury_7015925,B,A,0,"To determine which option is most likely to create large areas of land subsidence, let's analyze each option:  A. Erupti",1.296
+Mercury_7015978,D,A,0,"To determine what happens to the sodium atom during the formation of an electron transfer from sodium to chlorine, let's",1.301
+Mercury_7016013,C,A,0,"To determine the correct answer, let's analyze each option in the context of how rock particles settle and become cement",1.301
+Mercury_7016363,C,C,1,The most likely effect of a drought on a population of frogs that live in a shallow swamp would be:  C. decrease in frog,1.302
+Mercury_7016415,C,A,0,"To determine which tool would be most useful for studying the living organisms collected from the pond, let's analyze ea",1.3
+Mercury_7016695,D,D,1,The correct answer is D. It could lead to the potential extinction of those animals.,0.523
+Mercury_7017728,B,A,0,The speed at which sound waves travel depends on the **distance** between the vibration source and the receiver.  Theref,1.094
+Mercury_7017798,C,C,1,The correct answer is C. The boiling point has been reached.  Explanation: When bubbles form in a liquid that is being h,1.298
+Mercury_7017885,A,B,0,The motion of atoms and molecules in a substance is B. Chemical energy.,0.471
+Mercury_7017955,D,D,1,The correct answer is D. Balance and graduated cylinder.,0.356
+Mercury_7018060,B,A,0,"To determine which of the given options is a chemical property of a material, let's analyze each one:  A. Density - This",1.294
+Mercury_7018340,A,A,1,"To determine which concept Gregor Mendel contributed to the study of biology, let's analyze each option:  A. Heredity - ",1.291
+Mercury_7018428,B,,0,"To determine why the apple slices in box A dried faster than those in box B, we need to consider the properties of each ",1.29
+Mercury_7018498,C,,0,"To determine which type of measuring tool is used for each of the given options, let's analyze each:  1. **Mass**: This ",1.29
+Mercury_7018533,A,A,1,The answer is A. sound wave. Explanation: Sound waves are types of mechanical waves that can be detected and recorded us,1.29
+Mercury_7024203,A,A,1,"The correct answer is A. nervous and muscle. When someone stubs their toe, the body's nervous system responds to the inj",1.291
+Mercury_7024780,C,A,0,"To determine which type of chemical process occurred in the given scenario, let's analyze each option step by step:  1. ",1.289
+Mercury_7025025,A,A,1,"To determine which option correctly describes the formation process of an igneous rock, let's analyze each option:  A. C",1.29
+Mercury_7025095,D,A,0,"To determine the correct answer, let's analyze each option in detail:  A. Swash - This term refers to the movement of wa",1.29
+Mercury_7025130,A,A,1,The correct answer is A. protons.,0.32
+Mercury_7026425,C,A,0,"To determine which of the options involves a learned behavior, let's analyze each one:  A. Laying eggs to reproduce - Th",1.291
+Mercury_7026495,C,A,0,"To determine the correct classification for the new rock formed from the broken lava, let's analyze each option:  A. Mag",1.29
+Mercury_7026618,A,A,1,To determine which options best identify the bodies in which the increase in the number of elements heavier than hydroge,1.291
+Mercury_7026968,A,A,1,"To determine the number of dandelion plants growing in a 5 square meter section of the field, the student needs to obtai",1.289
+Mercury_7027545,D,A,0,"To determine which solution will effectively reduce the temperature of the circuit, let's analyze each option:  A. Incre",1.289
+Mercury_7029313,C,D,0,The answer is D. Darwin's research on the Galapagos islands.,0.486
+Mercury_7030783,A,A,1,"To determine which option correctly explains why atoms of the same element can have different atomic masses, let's analy",1.286
+Mercury_7032148,A,A,1,The correct answer is A. Jonas Salk. The polio vaccine was developed by Dr. Jonas Salk in 1952 and is one of the most im,1.207
+Mercury_7032393,D,A,0,"To determine the best tool for measuring out a precise amount of liquid, we need to consider the properties and function",1.286
+Mercury_7032865,A,A,1,The correct answer is A. Galileo Galilei. He was the first to discover and describe the moons of Jupiter using his teles,0.837
+Mercury_7033373,D,A,0,"To determine the most likely reason for enforcing laws that limit pesticide use, let's analyze each option:  A. Some pes",1.286
+Mercury_7033600,A,A,1,"To determine which tool would best help scientists understand relationships between oceans and climate changes, let's an",1.284
+Mercury_7034773,C,A,0,"To determine the correct answer, let's analyze each option:  A. Can only be measured in calories: - This statement is in",1.282
+Mercury_7034790,B,A,0,"To determine what is needed to change ice into water, let's analyze each option:  A. Air - This is not necessary for the",1.28
+Mercury_7034825,C,A,0,"To determine which example represents a chemical reaction, let's analyze each option:  A. Blocked sunlight casts a shado",1.279
+Mercury_7037380,B,A,0,To determine which category of organism will be affected first by the change in the invasive grass species' nutritional ,1.28
+Mercury_7038850,A,A,1,"To determine which material transfers heat energy quickest, we need to consider how each material conducts heat. Let's a",1.285
+Mercury_7041265,A,A,1,"To determine the correct answer, let's analyze each option step by step:  1. **Option A: The test tube is cold.**    - T",1.284
+Mercury_7041300,D,D,1,The correct answer is D. A change in environmental conditions.,0.399
+Mercury_7041878,C,A,0,"To determine the correct answer, let's analyze each option:  A. Heat: While heat can be transferred through electromagne",1.291
+Mercury_7042543,B,A,0,"To determine the correct answer, let's analyze each option:  A. Supernovas - While supernovas do produce light and energ",1.29
+Mercury_7042630,B,B,1,The answer is B. farming.,0.269
+Mercury_7043908,A,D,0,"The correct answer is D. Earth's rotation. Ocean waves are caused by the movement of water masses in the oceans, which i",1.289
+Mercury_7043943,A,,0,"To determine how the velocity of an ocean wave changes when it approaches a shore, we need to understand the relationshi",1.293
+Mercury_7044083,D,A,0,"To determine why placing a fuel depot over an aquifer is not a safe practice, let's analyze each option:  A. **Aquifers ",1.292
+Mercury_7044520,B,A,0,"To determine the correct answer, let's analyze each option in relation to the given information:  1. **Option A: Size** ",1.292
+Mercury_7044555,D,D,1,The correct answer is D. A millimeter is not considered an instrument for determining weather.,0.539
+Mercury_7044713,C,A,0,"To determine which force pulls the roller coaster down the hill during a ride on a roller coaster, let's analyze each op",1.294
+Mercury_7056473,C,,0,"To determine which scenario is most likely if Earth were to revolve at a faster rate, we need to consider how different ",1.294
+Mercury_7056490,A,A,1,"To determine which scenario is most likely if the Earth were to rotate in the opposite direction, let's analyze each opt",1.294
+Mercury_7056543,D,A,0,"To determine which option should be added to soil to increase its water retention, let's analyze each option:  A. Pebble",1.294
+Mercury_7056665,C,A,0,"To determine which tool is best for separating gravel and sand, let's analyze each option:  A. **a scale and weights**: ",1.289
+Mercury_7057243,C,A,0,"To determine which property allows the student to separate the components of the mixture, let's analyze each option:  A.",1.291
+Mercury_7057960,C,D,0,The correct answer is D. The soil is exposed to air.,0.403
+Mercury_7058520,C,A,0,"To determine which organisms eat only plants, let's analyze each option:  A. Producers: Producers include plants and som",1.292
+Mercury_7068670,D,A,0,"To determine which environment is most likely to have rich, fertile soil, let's analyze each option:  A. Desert plain: -",1.294
+Mercury_7068705,A,A,1,"To determine which type of soil content is best for plants that require easy drainage, we should consider the characteri",1.292
+Mercury_7069388,C,,0,"To determine the mass of the crumpled paper when it is compared to the original flat paper, we need to understand the co",1.292
+Mercury_7071960,A,A,1,"To determine which element causes soil to appear red, we need to understand that soil color is influenced by various ele",1.292
+Mercury_7071978,B,A,0,"To determine the correct answer, let's analyze each option:  A. Humus: This is a type of organic matter that forms when ",1.292
+Mercury_7075110,C,A,0,"To determine which statement is correct for organisms classified as multicellular, let's analyze each option:  A. Only o",1.29
+Mercury_7075128,C,A,0,"To determine which statement is correct for carrying out the functions of life, we need to consider the fundamental comp",1.291
+Mercury_7077490,B,,0,"To determine the amount of gravitational force between two objects, we need to consider three key factors:  1. **Distanc",1.295
+Mercury_7077578,B,C,0,"The correct answer is C. They move at the same speed as in a liquid. In the gaseous state, molecules are in constant mot",1.296
+Mercury_7077648,B,A,0,"To determine which particle type can be identified as belonging to a specific element, let's analyze each option:  A. El",1.29
+Mercury_7077665,D,A,0,"To determine which statement is true regarding the parts that make up the atom, let's analyze each option:  A. Protons a",1.301
+Mercury_7080955,D,A,0,"To determine which equipment the X-ray technician most likely says she uses on a regular basis for safety, let's analyze",1.296
+Mercury_7080973,B,D,0,"To ensure the safety of students in an experiment on gravity, the key is to use materials that can withstand the force o",1.297
+Mercury_7081148,B,A,0,To determine which type of graph would best show the information about the elements that make up the atmosphere of Earth,1.298
+Mercury_7081288,B,,0,"To determine the best way to organize the data, let's analyze each type of chart:  - **Pie Graph**: A pie graph is used ",1.299
+Mercury_7081673,B,B,1,The correct answer is B. breathing mask. A breathing mask is specifically designed to protect against inhalation of harm,1.304
+Mercury_7082075,C,A,0,"To determine the correct answer, let's analyze each option in detail:  A. **diffract and spread out**:    - This is inco",1.305
+Mercury_7082478,B,A,0,"To determine which statement best represents a fact based on the given information, let's analyze each option in detail:",1.306
+Mercury_7082670,C,,0,The visible light spectrum is divided into seven main categories based on their wavelengths and characteristics:  - **Re,1.304
+Mercury_7083405,A,A,1,The correct answer is:  A. a tissue  Explanation: - Cells perform functions in different parts of the body (tissue). - T,1.305
+Mercury_7083458,B,B,1,"The correct answer is B. A bacterial infection. When a cut or wound is exposed to bacteria, it can lead to an infection ",1.308
+Mercury_7083563,B,A,0,"To determine which structure is common to all organisms, let's analyze each option:  A. A tissue - Tissues are specializ",1.306
+Mercury_7083738,A,A,1,"To determine which statement is true based on the given information, let's analyze each option step by step:  1. **Optio",1.306
+Mercury_7083790,A,D,0,The charge of the nucleus of an atom is due to the presence of **positive protons** and **negative neutrons**.  Therefor,1.009
+Mercury_7085383,D,A,0,"To determine which step in the rock cycle occurs exclusively during the formation of metamorphic rocks, let's analyze ea",1.316
+Mercury_7085435,B,D,0,The answer is D. hydroelectric. Hydroelectric power generation is one of the main sources of renewable energy and can be,1.249
+Mercury_7085558,C,B,0,The correct answer is B. streak.,0.271
+Mercury_7086765,B,A,0,"To determine the correct answer, let's analyze each option:  A. Tar: While silica sand can be used to make tar, this is ",1.324
+Mercury_7086800,C,,0,"To determine which type of soil is most likely to have a high amount of clay, we need to understand the characteristics ",1.322
+Mercury_7090563,A,A,1,"To determine which statement best describes volcanoes as ""constructive,"" let's analyze each option:  A. Deposit lava - T",1.325
+Mercury_7090580,B,B,1,"The correct answer is B. Subduction zones. The Ring of Fire is a major volcanic region in the Pacific Ocean, and it is f",1.321
+Mercury_7090930,D,D,1,The correct answer is D. The ground water is being depleted.  Explanation: Land subsidence refers to the downward moveme,1.321
+Mercury_7091858,D,A,0,"To determine which effect is most likely associated with releasing carbon dioxide pollution into the atmosphere, let's a",1.322
+Mercury_7091875,A,A,1,"To determine which process in the water cycle is directly caused by the heat from the Sun, let's analyze each option:  A",1.323
+Mercury_7091893,C,B,0,The Great Miami Aquifer is a large underground water supply that lies under much of southwest Ohio. The water level of t,1.322
+Mercury_7092190,A,A,1,"To determine the correct answer, let's analyze each option in relation to the process of animal metabolism:  A. Eating -",1.325
+Mercury_7092208,A,A,1,The correct answer is A. The polar ice caps will melt.  Explanation: As the amount of carbon dioxide in the atmosphere i,1.322
+Mercury_7092278,C,A,0,"To determine which group would be most concerned with technological developments in insect control, let's analyze each o",1.324
+Mercury_7092400,B,B,1,"The correct answer is B. mountain ranges. When two continental plates collide, the edges of the plates are typically upl",1.329
+Mercury_7092488,B,A,0,"To determine the correct answer, let's analyze each option in detail:  A. Deltas: - A delta is formed by the accumulatio",1.328
+Mercury_7093083,C,D,0,The correct answer is D. Surface water.  Explanation: Radioactive waste from nuclear power plants is typically stored de,1.329
+Mercury_7094115,C,A,0,"To determine which type of model best shows the location of underwater ocean ridges, let's analyze each option:  A. Worl",1.336
+Mercury_7094605,A,B,0,The technology that helps a power company use renewable energy is B. nuclear power plants. Nuclear power plants generate,1.335
+Mercury_7094938,D,D,1,The correct answer is D. Gravitational force.   To explain this to you simply:  - The Moon's gravity attracts the Earth.,1.336
+Mercury_7099260,D,,0,"To determine which system works with the respiratory system to distribute oxygen to the body, let's analyze each option:",1.338
+Mercury_7099348,C,A,0,"To determine the most significant factor affecting the size of the tomato harvest, let's analyze each option:  A. **the ",1.34
+Mercury_7100520,C,C,1,The greatest benefit of sexual reproduction is:  **C. ability to produce genetically different offspring**  This is beca,1.34
+Mercury_7100643,D,,0,"To determine the correct answer, let's analyze each scenario step-by-step:  1. **Snowfall during the entire winter in so",1.341
+Mercury_7103548,B,D,0,"The correct answer is D. runoff. During the formation of a hurricane, water vapor in the atmosphere evaporates and preci",1.34
+Mercury_7107993,C,A,0,"To determine which statement explains why nitrogen can exist in many compounds, let's analyze each option:  A. Nitrogen ",1.341
+Mercury_7108063,B,B,1,The correct answer is B. Use of chlorofluorocarbons (CFCs).  Explanation: Chlorofluorocarbons (CFCs) are chemicals that ,1.339
+Mercury_7108238,A,A,1,"To determine the correct answer, let's analyze each option in the context of Jenner's treatment for smallpox:  A. Vaccin",1.338
+Mercury_7112805,A,A,1,To determine which cause of extinction is most likely to be found in the fossil record associated with ichthyornis fossi,1.338
+Mercury_7115098,A,B,0,The correct answer is B. The chloroplasts in plant cells serve as the primary sites for photosynthesis and the productio,1.337
+Mercury_7115255,B,A,0,"To determine the correct answer, let's analyze each option in the context of the given scenario:  1. **Option A: Predato",1.338
+Mercury_7120820,C,C,1,The correct answer is C. Motion.,0.296
+Mercury_7122850,C,A,0,"To determine the correct answer, let's analyze each option:  A. Quasar - This term is not applicable to stars; it refers",1.337
+Mercury_7122955,C,A,0,"To determine the correct answer to this question, let's analyze each option in the context of energy conversion:  A. **V",1.336
+Mercury_7123305,B,,0,"To determine the best location for the types of telescopes that can provide the scientists with the clearest images, we ",1.334
+Mercury_7124093,B,,0,"To determine the point where the front car of the roller coaster has its greatest potential energy, we need to understan",1.334
+Mercury_7124128,D,A,0,"To determine which type of energy transformation is most likely to have occurred during the student's cycling session, l",1.336
+Mercury_7124268,D,A,0,"To determine the most important procedure to follow for the student's experiment, let's analyze each option:  A. to do t",1.335
+Mercury_7124320,B,A,0,"To determine the correct answer, let's analyze each option in the context of the experiment:  A. More bacteria will be d",1.337
+Mercury_7126840,C,A,0,"To determine which factor is increasing during the stuntman's fall, let's analyze each option:  A. Gravity: - Gravity ac",1.336
+Mercury_7128240,B,A,0,"To determine which abiotic factor is contributing to the energy cycle of a mangrove ecosystem, let's analyze each option",1.336
+Mercury_7128660,C,C,1,The answer is C. Use the new information to update the old theory.,0.477
+Mercury_7128853,A,A,1,"To determine which factor will increase as the loudness of a sound wave increases, let's analyze each option:  A. Amplit",1.339
+Mercury_7137043,C,C,1,The main source of the electromagnetic energy we use is C. The sun.,0.473
+Mercury_7137078,C,A,0,To determine which substance fits the description of having a definite volume and taking the shape of the container when,1.34
+Mercury_7137270,A,A,1,The correct answer is A. chemical weathering.   Explanation: - Chemical weathering involves the breakdown of rocks due t,1.338
+Mercury_7138863,B,A,0,"To determine which physical property is being compared in this scenario, let's analyze each option:  1. **Area**: The ar",1.361
+Mercury_7139720,D,A,0,"To determine which process occurs in the mantle to make the plates move, let's analyze each option:  A. Normal faulting ",1.359
+Mercury_7141278,A,D,0,"The correct answer is D. tissue.   Explanation: Nutrients are typically absorbed from the bloodstream in tissues, such a",1.337
+Mercury_7141418,B,,0,To determine the best explanation for why the discovery of the remains of an eight-month-old cat buried with its owner o,1.335
+Mercury_7141785,A,A,1,"To determine which calculation is used to calculate acceleration, let's analyze each option step by step:  1. **Option A",1.334
+Mercury_7141890,B,A,0,"To determine the correct answer to this question, let's analyze each option in the context of tissue formation:  A. **fo",1.337
+Mercury_7144498,A,,0,To determine which evidence would effectively compare with modern-day evidence for the hypothesis that dinosaurs were en,1.337
+Mercury_7145215,B,A,0,"To determine which factor most contributes to the variation in the path of the Sun across the sky, let's analyze each op",1.338
+Mercury_7145583,B,,0,"To determine which beans would most likely be the control group, we need to understand the purpose of the experiment and",1.34
+Mercury_7146178,C,A,0,"To determine which part of the investigation Lea's experiment falls under, let's analyze each option:  A. Conclusion: Th",1.34
+Mercury_7148155,B,A,0,"To determine which factor produces the Coriolis Effect, let's analyze each option:  A. **the gravity of Earth**: Gravity",1.34
+Mercury_7154228,B,A,0,"To determine which organism breaks down and recycles dead organisms in an ocean ecosystem, let's analyze each option:  A",1.341
+Mercury_7159583,A,A,1,"To determine which term best identifies the participants who received the sugar pill, let's analyze each option:  A. **C",1.331
+Mercury_7160545,B,A,0,"To determine the best answer, let's analyze each option:  A. Sunspots: Sunspots are visible changes in the Earth's atmos",1.33
+Mercury_7162803,D,C,0,"To determine the history of the different people who may have lived at the site, the best method to classify the recover",1.331
+Mercury_7163363,D,A,0,"To determine which organism is most likely to be harmed by a loss of native plants, let's analyze each option:  A. **the",1.335
+Mercury_7163415,D,A,0,"To determine which scenario best fits the description of ""rethinking an existing idea,"" let's analyze each option:  A. U",1.335
+Mercury_7164920,D,D,1,"The answer is D. Musculoskeletal. Osteoarthritis affects the joints, which can lead to pain and swelling in the muscles ",1.233
+Mercury_7165043,B,,0,"To determine which issue the EPA is most likely interested in reducing, we need to consider the primary responsibilities",1.329
+Mercury_7165200,D,A,0,To determine which factor contributes to the formation of a low-pressure system that can develop into a hurricane in the,1.329
+Mercury_7165550,A,A,1,"To determine the correct answer, let's analyze each option step by step:  1. **Option A: kinetic energy converted to pot",1.33
+Mercury_7165813,B,,0,To determine which type of energy is being measured by the calorie unit provided in the nutrition information for a sing,1.322
+Mercury_7166145,B,B,1,"The circulatory system and the endocrine system work together in the human body through the process of ""transporting"" nu",1.323
+Mercury_7166950,A,B,0,"Stars appear to be blue, white, yellow, and red because they emit light in these specific wavelengths. The color of the ",1.324
+Mercury_7167038,C,A,0,"To determine which type of specialized cells can contract, let's analyze each option:  A. Bone cells - These cells do no",1.323
+Mercury_7168613,C,A,0,"To determine which example would be an example of a tissue in the human body, let's analyze each option:  A. **Stomach**",1.323
+Mercury_7170643,A,A,1,"To determine the correct answer, let's analyze each option in relation to the process of respiration:  1. **Chemical Ene",1.321
+Mercury_7172865,C,A,0,"To determine which pollutant is responsible for most of the acid rain, we need to consider the sources of each option:  ",1.324
+Mercury_7173653,B,A,0,"To determine why lubricants like oil are necessary in machines, let's analyze each option:  A. **to enhance the effectiv",1.324
+Mercury_7176208,B,A,0,"To determine the most likely response of the body in this scenario, let's analyze each option:  A. To increase blood flo",1.324
+Mercury_7179253,C,A,0,"To determine how animals respond to environmental stimuli and convert them into internal responses, let's analyze each o",1.323
+Mercury_7179865,B,A,0,To determine which option best describes why scientists would prefer using the Hubble Space Telescope over a land-based ,1.324
+Mercury_7180618,A,A,1,To determine the most likely ecological imbalance that would occur if there was a sudden decline in the population of li,1.325
+Mercury_7180705,B,A,0,"To determine the correct answer, let's analyze each option in relation to the circulatory and respiratory systems:  1. *",1.327
+Mercury_7182158,D,A,0,"To determine which process is responsible for the wide color variation observed in parkeet populations, let's analyze ea",1.322
+Mercury_7183523,A,A,1,"To determine which human activity is most likely the largest contributor to acid rain, let's analyze each option:  A. Bu",1.323
+Mercury_7185185,B,A,0,"To determine the correct answer to this question, let's analyze each option in relation to the structure and function of",1.323
+Mercury_7185255,C,A,0,"To determine which scenario represents the decomposition process where organic material is recycled in an ecosystem, let",1.323
+Mercury_7188353,A,A,1,"To determine which form of energy is the least available for reuse in a food web, let's analyze each option:  A. Heat en",1.322
+Mercury_7188825,D,A,0,"To determine the correct answer, let's analyze each statement:  A. ""They are made of the same materials."" - This stateme",1.323
+Mercury_7188860,D,,0,"To determine which option would develop first after the Big Bang, we need to understand the concept of the Big Bang and ",1.325
+Mercury_7191520,B,A,0,"To determine which statement is most accurately reflected in the quote from Sir William Osler, let's analyze each option",1.326
+Mercury_7193690,A,A,1,"To determine which units of measurement can be used to compare the amounts of energy in different foods, let's analyze e",1.322
+Mercury_7194268,C,,0,Stars form from nebulae of dust and gases. The color of stars depends on their temperature and composition. Stars can be,1.321
+Mercury_7197890,B,,0,"To determine which molecule is required for animal cells to obtain the most energy possible from a molecule of glucose, ",1.319
+Mercury_7197960,A,A,1,The correct answer is A. Natural selection.   Natural selection involves organisms in a population facing different leve,1.319
+Mercury_7198188,B,A,0,"To determine which organisms will be affected most by the change in sea level caused by global warming, we need to consi",1.319
+Mercury_7198993,C,A,0,The correct answer is A. selective breeding.  Gel electrophoresis is indeed used in selective breeding applications. It ,1.322
+Mercury_7200060,D,A,0,"To determine which factor is most likely to cause changes to estuary habitats on a global scale, let's analyze each opti",1.322
+Mercury_7200200,C,,0,"To determine which statement best describes why humans cannot hear the sound made by the whistle, let's analyze each opt",1.317
+Mercury_7200533,A,A,1,"To determine which two types of energy travel in waves, let's analyze each option:  A. Light and sound - These are not c",1.317
+Mercury_7200568,C,,0,"To determine which planets are closest to each other, we need to compare their distances from the Sun. The order of the ",1.317
+Mercury_7202125,C,A,0,"To solve this problem, let's analyze each option in detail:  A. To ensure that the cabbages are safe for human consumpti",1.316
+Mercury_7202353,C,A,0,"To determine the correct answer, let's analyze each option:  A. Learned behavior - Earthworms do not exhibit learned beh",1.317
+Mercury_7205328,C,A,0,"To determine which result is obtained when hydrogen and chlorine chemically bond to form hydrogen chloride, let's analyz",1.32
+Mercury_7205468,B,,0,To determine which color of light is produced when all the colors of visible light in the electromagnetic spectrum are c,1.32
+Mercury_7206133,D,A,0,"To determine which process is required for shale formation, let's analyze each option:  A. Evaporating - This process in",1.32
+Mercury_7206605,B,A,0,"To determine which factor explains why the hammer is hotter than the screwdriver after one hour, let's analyze each opti",1.322
+Mercury_7207078,C,A,0,"To determine which factor is most responsible for Earth's surface temperatures, let's analyze each option:  A. Solar rad",1.319
+Mercury_7207113,D,A,0,"To determine which statement best describes the value of publishing the discoveries of a research team, let's analyze ea",1.318
+Mercury_7207148,D,D,1,The correct answer is D. Experimental results that support a revised theory.,0.438
+Mercury_7207183,A,A,1,"To determine the correct answer, let's analyze each option:  A. Fragments that broke off of older rocks - This is incorr",1.318
+Mercury_7210158,B,B,1,The correct answer is B. petroleum. Explanation: Internal combustion engines rely on gasoline or diesel fuel to generate,1.317
+Mercury_7210350,B,B,1,The correct answer is B. Increased average air temperature.,0.366
+Mercury_7210385,B,B,1,"The correct answer is B. The troposphere, which is the lowest layer in the Earth's atmosphere, is where most of Earth's ",0.866
+Mercury_7210630,C,A,0,"To determine which of the given options include Earth, let's analyze each one step by step:  1. **Option A: The asteroid",1.315
+Mercury_7210893,A,A,1,"The correct answer is A. Stress due to the movement of Earth's crustal plates. When an earthquake occurs, it usually inv",1.315
+Mercury_7211260,C,A,0,To determine which options are widely used energy sources that are not renewable and also contribute to greenhouse gas e,1.32
+Mercury_7211628,B,A,0,To determine which factor is most likely resulting from the combination of the two mentioned events (climate warming and,1.32
+Mercury_7212625,B,B,1,"The smallest particle of an element that still exhibits all the properties of that element is an atom.  Therefore, the c",0.793
+Mercury_7213045,B,A,0,To determine which process is responsible for increasing the amount of water vapor in the atmosphere as temperatures inc,1.32
+Mercury_7213308,C,A,0,"To determine which method is best for showing the percent gas composition in Earth's atmosphere, let's analyze each opti",1.322
+Mercury_7213815,C,A,0,"To determine the correct answer, let's analyze each option in relation to the scenario described:  1. **Option A: Predat",1.321
+Mercury_7214043,C,A,0,To determine which type of display would best help the researcher organize the information for tracing a particular trai,1.32
+Mercury_7214620,C,B,0,The correct answer is B. One hundred million stars.  Explanation: Stars are typically categorized into different types b,1.321
+Mercury_7215478,A,A,1,"To determine which process is most likely to help dairy farmers develop cows with greater milk production, let's analyze",1.32
+Mercury_7216580,C,C,1,"The immune system is responsible for protecting the body by responding to the presence of viruses. Therefore, the correc",1.32
+Mercury_7216615,B,A,0,"To determine which statement describes a characteristic of both sexual and asexual reproduction, let's analyze each opti",1.324
+Mercury_7216720,C,D,0,"The correct answer is D. fragmentation.  Explanation: - Browsing through options, we find that ""fragmentation"" does not ",1.323
+Mercury_7216860,C,C,1,"The correct answer is C. Muscle. The skeletal muscles in the human body can contract and relax to move the bones, which ",1.009
+Mercury_7216913,D,A,0,"The condition described in the question is most likely caused by **pollination**.  Therefore, the correct answer is: A. ",0.827
+Mercury_7216983,C,A,0,To determine which unit of measurement is most appropriate for measuring the growth rates of the roots of basil plants o,1.321
+Mercury_7217035,C,,0,"To determine which plant variation is most advantageous for survival under a drier climate, we need to consider how plan",1.323
+Mercury_7217088,B,D,0,The correct answer is D. The change in kinetic energy of the object determines its rate of acceleration.,0.605
+Mercury_7217228,C,D,0,"To determine which option will always produce a magnetic force on a nearby iron nail, we need to understand the concept ",1.32
+Mercury_7217438,D,D,1,"The burning of coal contributes to air pollution, which is one of the direct environmental issues mentioned in the quest",0.95
+Mercury_7217613,C,A,0,"To determine which of the given options is an abiotic factor in a river ecosystem, let's analyze each one:  A. Dragonfly",1.319
+Mercury_7217683,D,D,1,The correct answer is D. Genetic variation.  Explanation: - Genetic variation refers to differences between individuals ,1.323
+Mercury_7217718,C,A,0,"To determine the correct answer, let's analyze each option in the context of the use of pesticides like DDT:  - **Option",1.321
+Mercury_7217910,D,,0,"To determine which statement best describes temperature as elevation in the atmosphere increases, we need to understand ",1.324
+Mercury_7218050,D,D,1,The correct answer is D. Temperature inversion.  Explanation: Temperature inversion occurs when air temperatures in one ,1.315
+Mercury_7218243,C,C,1,"To determine the absolute age of a Precambrian igneous rock, the most reliable and accurate method is:  **Radiometric da",1.318
+Mercury_7218663,C,,0,"To determine which difference between water and ice leads to ice floating on cold water, let's analyze each option step ",1.318
+Mercury_7219030,B,,0,"The formation of rocks depends on various geological processes such as erosion, weathering, and compaction. The most com",1.319
+Mercury_7219118,C,A,0,The correct answer is A. pressure at which the processes occurred.  Explanation: Quartz is formed through a process call,1.318
+Mercury_7219520,C,A,0,"To determine which feature a birdwatcher should evaluate first to identify an eastern bluebird, let's analyze each optio",1.318
+Mercury_7219695,A,A,1,"To determine what scientists can infer about the rocks based on the information provided, let's analyze each option step",1.317
+Mercury_7219783,B,A,0,"To determine the correct answer, let's analyze each option:  A. Limited resources: - This option suggests that the popul",1.316
+Mercury_7220518,A,A,1,The correct answer is A. The ability to trap heat.   Explanation: Gases play a crucial role in Earth's greenhouse effect,1.312
+Mercury_7220955,D,D,1,The correct answer is D. Removing viruses and bacteria from the skin.  Explanation: Washing hands regularly with soap an,1.312
+Mercury_7220973,A,A,1,The answer is A. A virus suspended in the air.,0.412
+Mercury_7221393,B,A,0,"To determine which substance is composed of only one type of atom, let's analyze each option:  A. Water (H₂O) - Water co",1.311
+Mercury_7221445,A,,0,The Doppler effect occurs when the frequency of sound waves changes based on the relative motion between the source and ,1.31
+Mercury_7222320,D,,0,"To determine the correct answer, let's analyze the information given:  1. The gravitational force at the surface of Mars",1.311
+Mercury_7222758,B,A,0,"To determine the correct answer, let's analyze each option:  A. **luster**: This refers to the appearance or reflection ",1.306
+Mercury_7222845,D,A,0,"To determine which event is an example of a change in climate, we need to consider how each event relates to changes in ",1.306
+Mercury_7222863,D,A,0,"To determine which substance forms the crystals that create the halos when light reflects off them, let's analyze each o",1.3
+Mercury_7223090,D,,0,"To determine which layer of the model is the thinnest, we need to understand the structure of Earth and how it is divide",1.296
+Mercury_7223423,D,,0,"To determine which option is correct for two samples of gold to have the same mass, we need to understand the concept of",1.297
+Mercury_7228078,C,D,0,The correct answer is D.   Gene regulation involves the direct impact on which type of RNA molecule. Gene regulation ref,1.3
+Mercury_7228113,B,A,0,"To determine the correct answer, let's analyze each option step by step:  1. **Option A: Rodents to bats**    - Rodents ",1.299
+Mercury_7228305,D,A,0,"To determine which structure is missing from organisms in the phylum Porifera, let's analyze each option:  A. Organelles",1.3
+Mercury_7228533,C,D,0,The correct answer is D. Type of bond between bases.,0.403
+Mercury_7230125,B,B,1,The hypothesis of an expanding universe required **a supported by evidence from numerous observations** (option B) to be,0.874
+Mercury_7234028,B,D,0,The correct answer is D. They regularly replenish water on Earth. The Oort Cloud is known for its composition primarily ,1.297
+Mercury_7234168,C,A,0,"To determine which dating method is best for confirming the rock layer has overturned based on the information provided,",1.302
+Mercury_7234220,C,A,0,"To determine which part of Earth's structure is located in the solid phase due to low temperatures, let's analyze each o",1.301
+Mercury_7234623,D,A,0,"To determine which quantity must equal zero when a car is moving at a constant rate, let's analyze each option:  A. Spee",1.302
+Mercury_7235848,D,A,0,"To determine the correct answer, let's analyze each option:  A. Radio waves - These are not typically used for ozone pro",1.299
+Mercury_7236058,B,D,0,The correct answer is D. Increased availability of dissolved oxygen.  Explanation: Cold waters near the coast of Norther,1.299
+Mercury_7238893,D,A,0,"To determine the correct answer, let's analyze each option:  A. The nucleus - While the nucleus contains DNA and RNA, it",1.299
+Mercury_7238910,B,A,0,"To determine which structure transports the protein from the site of synthesis to the site of modification, let's analyz",1.296
+Mercury_7239313,A,A,1,"To determine the correct answer, let's analyze each option:  A. **emigration** - This term refers to the movement out of",1.296
+Mercury_7239435,A,A,1,"To determine which option represents information transmission through neurons, let's analyze each choice:  A. Electroche",1.291
+Mercury_7239890,A,A,1,The correct answer is A. Law of Independent Assortment (A). This law states that traits inherited from one parent will n,1.128
+Mercury_7241255,A,A,1,To determine which option correctly describes the rapid change in the membrane potential during a neuron's response to s,1.293
+Mercury_7245123,B,A,0,"To determine which event will occur in an area after a major flood, let's analyze each option:  A. A decrease in the ero",1.292
+Mercury_7246278,D,A,0,"To determine which crustal feature forms when two continental plates collide, let's analyze each option:  A. Trenches - ",1.293
+Mercury_7247048,B,A,0,"To determine which impact is the most serious to an ecosystem after a tornado, let's analyze each option:  A. **an incre",1.293
+Mercury_7247083,C,A,0,"To determine the correct answer, let's analyze each option:  A. It gave spacecraft a timed trajectory. - This is incorre",1.293
+Mercury_7247100,C,A,0,"To determine which activity was necessary for maintaining muscle and bone health during manned space flights, let's anal",1.293
+Mercury_7248150,A,A,1,"To determine the correct answer, let's analyze each option in the context of cell division and mitosis:  A. Microtubule ",1.296
+Mercury_7248290,A,A,1,The correct answer is A. The activity that is an important function of nucleases is repairing the double strand of DNA.,0.694
+Mercury_7248308,B,A,0,"To determine which phrase accurately describes the role of bile salts in gastrointestinal function, let's analyze each o",1.292
+Mercury_7250005,C,D,0,The correct answer is D. Nitrogen fixation.  Nitrogen fixation occurs in both prokaryotic and eukaryotic cells. Prokaryo,1.293
+Mercury_7250128,D,C,0,"To determine which structures a rabbit cell and a bacillus cell share, let's analyze each:  1. **Mitochondria**: Rabbit ",1.292
+Mercury_7250285,C,A,0,To determine which mechanism is most likely responsible for the loss of the lizard's climbing ability after 200 generati,1.293
+Mercury_7251720,D,A,0,"The epithelium is responsible for protecting the body against various environmental factors that can harm it. Therefore,",0.822
+Mercury_7262850,C,A,0,"To determine which statement is true, let's analyze each option in detail:  A. **All fungi are multicellular heterotroph",1.293
+Mercury_7263095,A,C,0,"The Sun's transformation process involves nuclear fusion, which requires hydrogen to undergo fusion reactions. This mean",1.291
+Mercury_7263428,C,A,0,The correct answer is A. Energy resources.,0.315
+Mercury_7267505,A,A,1,"To determine which options are likely to do the most damage to ecosystems along the Rio Grande River, we need to conside",1.28
+Mercury_7267908,A,A,1,"To determine why a spacesuit is inflated like a balloon, let's analyze each option:  A. To simulate the air pressure of ",1.281
+Mercury_7268783,D,A,0,"To determine which cells HIV infects, let's analyze each option:  A. Natural killer T cells (NKT cells): These cells are",1.279
+Mercury_7271198,C,A,0,"To determine the correct answer, let's analyze each option in relation to ecosystems and communities:  A. **Community** ",1.28
+Mercury_7271355,B,A,0,"To determine which option best fits the definition of ""genetic instructions passing from one generation to the next,"" le",1.28
+Mercury_7271373,C,A,0,To determine which part stores genetic instructions for the entire organism and transfers them from one generation to th,1.28
+Mercury_7271705,C,A,0,"To determine which pollutant ultimately contaminates fish after coal is burned, we need to consider the environmental im",1.282
+Mercury_7283343,D,A,0,"To determine the correct answer, let's analyze each option in detail:  A. Vegetative budding: - This process involves th",1.282
+Mercury_7283465,A,A,1,"To determine which option best fits the description of proteins, let's analyze each option:  A. A folded chain of amino ",1.282
+Mercury_7283885,D,A,0,"To determine which term best describes AIDS, let's analyze each option:  A. Isolated cases: This term refers to cases th",1.281
+Mercury_LBS10778,A,A,1,"To determine which statement is true if the Earth did not tilt on its axis relative to the sun, let's analyze each optio",1.281
+Mercury_LBS10817,C,A,0,"To determine the correct answer, let's analyze each option in detail:  A. Nova - This term refers to the formation of a ",1.281
+Mercury_LBS10976,A,A,1,"The Wright Brothers' invention is considered to have had the greatest impact on **transportation**.  Therefore, the corr",0.855
+Mercury_SC_400001,C,A,0,"To determine which part of a dandelion plant takes in minerals and water, we need to consider the function each part ser",1.28
+Mercury_SC_400017,D,D,1,"The correct sequence for the stages in the life cycle of a butterfly is:  **D. egg; larva; pupa; adult**  Therefore, the",1.102
+Mercury_SC_400031,A,A,1,"To determine the best answer for the question ""What information would be most helpful to a person with allergies when se",1.284
+Mercury_SC_400035,C,C,1,"To compare an animal cell to a plant cell, we should use a microscope. Therefore, the correct answer is:  **C. microscop",1.282
+Mercury_SC_400040,B,A,0,"To determine the correct answer, let's analyze each option:  A. Heat - Plants require heat for photosynthesis, but this ",1.283
+Mercury_SC_400041,C,A,0,"To determine which event takes about one year to complete, let's analyze each option:  A. Earth making a complete rotati",1.282
+Mercury_SC_400048,A,A,1,"To determine which form of energy is required for a television set to work, let's analyze each option:  A. Electrical - ",1.282
+Mercury_SC_400114,A,,0,"When water changes from a liquid to a gas, it is an example of **physical** change. This type of change involves the mov",1.283
+Mercury_SC_400115,C,D,0,The correct answer is D. Developing radiation.,0.305
+Mercury_SC_400125,A,A,1,The shape of a riverbed changes over time due to the action of erosion. This is because rivers move through the land and,1.287
+Mercury_SC_400126,D,D,1,The correct answer is D. Fossils.  Explanation: Fossils are preserved remains or remnants of ancient life forms that hav,1.289
+Mercury_SC_400132,D,A,0,"To determine which tool is best for conducting a safe investigation on a material's effectiveness as a heat insulator, l",1.287
+Mercury_SC_400173,A,A,1,"To determine the correct answer, let's analyze each option in the context of the advantages of a hand lens compared to a",1.287
+Mercury_SC_400181,C,D,0,The correct answer is D. state of matter. A pure substance has a fixed composition and properties throughout its entire ,0.931
+Mercury_SC_400183,D,,0,"To determine the correct answer, let's analyze each option in the context of how glasses work to improve vision:  1. **A",1.285
+Mercury_SC_400186,D,D,1,The correct answer is D. Sound.,0.286
+Mercury_SC_400187,D,A,0,"To determine which process turns a large rock into a pile of smaller stones, let's analyze each option:  A. Deposition: ",1.281
+Mercury_SC_400192,B,A,0,The deposition of sediment during floods makes the land near some rivers:  A. acidic  Explanation: - Floodwaters carry m,1.282
+Mercury_SC_400195,B,A,0,"To determine which force keeps the planets in orbit around the Sun, let's analyze each option:  A. Inertia - This force ",1.285
+Mercury_SC_400217,D,D,1,The correct answer is D. The decay of organic material.,0.395
+Mercury_SC_400224,B,A,0,"To determine the correct answer, let's analyze each option:  A. Swamp - Thistles typically grow in wetlands or marshes, ",1.285
+Mercury_SC_400359,C,A,0,"To determine which event occurs only twice each year, let's analyze each option:  A. Lunar eclipse - This event typicall",1.286
+Mercury_SC_400375,C,A,0,"To determine which action causes wind, let's analyze each option:  A. Rotation of Earth on its axis: - This is the prima",1.284
+Mercury_SC_400380,B,B,1,The correct answer is B. wind.  Wind power is a form of renewable energy that involves harnessing the kinetic energy of ,1.289
+Mercury_SC_400406,B,A,0,"To determine which statement best describes wood as a renewable resource, let's analyze each option:  A. Oxygen is relea",1.286
+Mercury_SC_400518,C,A,0,"To determine the best conclusion about the rock layer based on the information provided, let's analyze each option:  A. ",1.286
+Mercury_SC_400523,D,D,1,The correct answer is D. The recycling of nutrients back into the soil is crucial for maintaining ecological balance and,1.287
+Mercury_SC_400526,A,,0,The process of the water cycle is as follows:  1. Evaporation - Water from oceans and rivers rises to the surface. 2. Co,1.287
+Mercury_SC_400529,A,A,1,"To determine the correct answer, let's analyze each option:  - **Option A: Omnivore** - This term refers to animals that",1.287
+Mercury_SC_400532,A,A,1,"To determine which type of energy a radiator gives off, let's analyze each option:  A. Heat - This is the primary functi",1.287
+Mercury_SC_400595,D,B,0,The correct answer is B. Year.  Explanation: - A year is approximately 365 days long on average (not exactly). - However,1.287
+Mercury_SC_400600,C,C,1,The correct answer is C. Solution.,0.299
+Mercury_SC_400601,A,A,1,The correct answer is A. The Sun.   Explanation: - The Sun is the primary source of light in our solar system. - It gene,1.286
+Mercury_SC_400609,D,,0,The formation process described in the question involves acidic rainwater seeping through the rock and then dissolving i,1.293
+Mercury_SC_400611,D,,0,"To determine which option is correct for forming oil over a long time, we need to consider the formation process of oil ",1.293
+Mercury_SC_400663,A,A,1,"To determine which adaptation is best suited for survival in a cold, snowy environment, let's analyze each option:  A. T",1.293
+Mercury_SC_400675,B,A,0,"To determine which tool would best measure the distance an object travels after it is thrown, let's analyze each option:",1.293
+Mercury_SC_400676,C,A,0,"To determine the most likely weather conditions for the given temperature, let's analyze each option:  A. Cool, rainy fa",1.29
+Mercury_SC_400693,D,D,1,The correct answer is D. The revolution of the Moon around the Earth causes the phases of the Moon.,0.619
+Mercury_SC_400702,B,A,0,"To determine the correct answer, let's analyze each option in relation to the description of the sound made when the spo",1.301
+Mercury_SC_400844,B,A,0,"To determine which material best conducts electricity, we need to consider how each material interacts with electric cur",1.302
+Mercury_SC_400848,D,A,0,"To determine which tool is used to observe the cell wall of a leaf, let's analyze each option:  A. ruler - A ruler is no",1.301
+Mercury_SC_400857,B,A,0,"To determine which factor causes the ice to begin melting when salt is added, let's analyze each option:  A. **raises th",1.302
+Mercury_SC_400868,C,C,1,"The characteristics that would best help a rabbit survive in snow include:  C. Thick, white fur  Explanation: - The whit",1.301
+Mercury_SC_400923,C,A,0,"To determine how the brown-colored bird's brown color helps it survive in the forest, let's analyze each option:  A. att",1.301
+Mercury_SC_400987,B,A,0,"To determine the correct answer, let's analyze each option in the context of recycling newspapers:  A. Increases the nee",1.299
+Mercury_SC_401000,B,A,0,"To determine the best conclusion based on the given information, let's analyze each option:  A. **are lightweight**:    ",1.301
+Mercury_SC_401001,A,A,1,The correct answer is A. Soil can be washed away.  Explanation: Water poured over a sloping tray of soil would cause it ,1.302
+Mercury_SC_401119,D,A,0,"To determine the correct answer, let's analyze each option:  A. Biology - While biology is related to the study of livin",1.303
+Mercury_SC_401120,C,A,0,"To determine which tool is best suited for observing a soil sample, let's analyze each option:  A. Camera - A camera can",1.304
+Mercury_SC_401126,D,A,0,"To determine the correct answer, let's analyze each option in the context of fire safety:  A. Turn out the lights to see",1.305
+Mercury_SC_401128,C,A,0,"To determine the correct answer, let's analyze each option in the context of the students' use of hammers for breaking a",1.305
+Mercury_SC_401136,B,C,0,The correct answer is C. condensation.,0.306
+Mercury_SC_401141,A,D,0,"The correct answer is D. Carbon dioxide. During photosynthesis, plants convert light energy into chemical energy stored ",1.309
+Mercury_SC_401155,A,D,0,"The correct answer is D. reproduce using seeds.  Explanation: - Option A (life cycles) refers to the process of growth, ",1.31
+Mercury_SC_401160,B,D,0,The answer is D. texture.,0.254
+Mercury_SC_401163,C,A,0,"To determine the best answer, let's analyze each option in relation to the purpose of heating the liquid:  A. To observe",1.311
+Mercury_SC_401164,C,A,0,"To determine which form plants store energy, let's analyze each option:  A. Heat - Plants do not produce heat; they abso",1.309
+Mercury_SC_401166,A,A,1,"To determine which object works best for reflecting light, we need to consider how each object reflects light and its su",1.311
+Mercury_SC_401172,C,A,0,"To determine the correct answer, let's analyze each option step by step:  1. **Option A: Try to identify the liquids by ",1.311
+Mercury_SC_401219,D,,0,"To determine which series correctly represents the stages of complete metamorphosis in insects, we need to understand th",1.307
+Mercury_SC_401221,D,A,0,"To determine which type of transfer of heat is occurring in this scenario, let's analyze each option:  A. Radiation: Thi",1.311
+Mercury_SC_401257,A,D,0,The correct answer is D. Plastic.,0.289
+Mercury_SC_401269,B,A,0,"To determine the correct answer, let's analyze each option:  A. Change a theory - This is not a standard part of a scien",1.312
+Mercury_SC_401275,C,A,0,"To determine which option best explains why birds migrate to the same location each year, let's analyze each option:  A.",1.311
+Mercury_SC_401276,A,A,1,"Galileo's need to build a telescope was primarily due to the invention of the telescope, which required specific compone",1.314
+Mercury_SC_401288,A,A,1,The correct answer is A. Fish.  Eagles have sharp beaks designed for catching small prey like fish.,0.676
+Mercury_SC_401296,A,A,1,"To determine which trait gives owls an advantage in hunting at night, let's analyze each option:  A. Large eyes - Owls h",1.314
+Mercury_SC_401305,B,B,1,The best example of weathering is:  B. A tree root breaks apart a rock.  Explanation: - Option A (cloud release of freez,1.314
+Mercury_SC_401307,C,A,0,"To determine the correct answer, let's analyze each option in relation to the geological evidence provided:  A. The plan",1.315
+Mercury_SC_401316,C,D,0,The correct answer is D. clouds.  Clouds exist both on Earth and on the Moon due to the same physical phenomenon - atmos,1.315
+Mercury_SC_401331,A,A,1,The correct answer is A. Physical changes.,0.309
+Mercury_SC_401358,C,A,0,"To determine which substance is magnetic and conducts heat, we need to consider the properties of each option:  - **Opti",1.313
+Mercury_SC_401403,A,A,1,"To determine which cycle includes photosynthesis, let's analyze each option:  A. The carbon cycle: This cycle involves t",1.315
+Mercury_SC_401642,A,A,1,"To determine which aspect of the marine iguana's tail is improved by the shape, let's analyze each option:  A. Swimming ",1.316
+Mercury_SC_401774,B,A,0,"To determine the correct answer, let's analyze each option:  A. The whistle material shakes - This is incorrect because ",1.327
+Mercury_SC_401787,B,B,1,The correct answer is B. They are used to test a hypothesis.  Explanation: Observation and measurement are crucial in sc,1.328
+Mercury_SC_401789,C,C,1,The formation of the Mississippi Delta is primarily due to **C. deposition**. The Mississippi River delta is formed when,1.277
+Mercury_SC_401803,D,D,1,The correct answer is D. The sugar dissolves in water and colors the water.,0.539
+Mercury_SC_401817,B,D,0,The correct answer is D.,0.233
+Mercury_SC_401827,D,D,1,The correct answer is D. Conductors.,0.308
+Mercury_SC_401838,C,A,0,"To determine which tool is most helpful for observing very small bacteria, let's analyze each option:  A. **ruler**: A r",1.323
+Mercury_SC_402044,C,,0,"The length of a lunar cycle varies depending on the specific location and time of year. However, generally speaking:  - ",1.318
+Mercury_SC_402064,D,A,0,"To determine which factor is responsible for changing the remains of prehistoric sea animals into natural gas, we need t",1.319
+Mercury_SC_402075,D,D,1,"To determine the percent chance of a trait passing down from a parent to its offspring, students should use a **Punnett ",1.343
+Mercury_SC_402084,A,D,0,The correct answer is D. Sound waves.,0.315
+Mercury_SC_402094,B,A,0,"To determine the correct answer, let's analyze each option in detail:  A. Plant growth: - Plants grow to fill up the spa",1.326
+Mercury_SC_402112,C,A,0,"To determine the best way to communicate the results of the investigation, let's analyze each option:  A. Draw a picture",1.326
+Mercury_SC_402117,A,A,1,"To determine the correct answer, let's analyze each option in the context of reducing global warming:  A. Electric car -",1.326
+Mercury_SC_402125,A,A,1,The correct answer is A. day.  Explanation: - High tides typically occur at the highest points of the ocean's surface. -,1.332
+Mercury_SC_402238,A,B,0,"The correct answer is B. STOP THE EXPERIMENT IMMEDIATELY. When a thermometer breaks during a lab experiment, it's crucia",1.334
+Mercury_SC_402241,D,A,0,"To determine which unit can be used to record the volume of the liquid measured using a graduated cylinder, let's analyz",1.331
+Mercury_SC_402251,B,A,0,"To determine why a student should perform the experiment in three trials, let's analyze each option:  A. to form a good ",1.337
+Mercury_SC_402258,C,A,0,"To determine the best method for separating salt from water in this scenario, let's analyze each option:  A. Filter the ",1.338
+Mercury_SC_402614,A,D,0,"The answer is D. Sound. Sound waves can change the state of matter, causing objects to vibrate and produce different typ",1.165
+Mercury_SC_402642,D,,0,"To determine which material would be the best conductor of electricity, we need to consider how well each material can c",1.34
+Mercury_SC_402983,A,A,1,"The correct answer is A. read all the directions.  Before starting any experiment, it's important to carefully read and ",1.34
+Mercury_SC_403014,C,,0,To determine which statement correctly describes the time it takes for an object to travel halfway around the Sun or the,1.342
+Mercury_SC_404974,D,A,0,"To determine the correct answer, let's analyze each option in detail:  A. Convection carries heat to the thermometer. - ",1.342
+Mercury_SC_405026,A,,0,"To determine which color would best help the class make the most heat from their solar cooker, we need to consider how c",1.343
+Mercury_SC_405059,A,A,1,"To determine the correct answer to this question, let's analyze each option:  A. Oil - While gasoline does contain some ",1.34
+Mercury_SC_405074,C,A,0,"To determine the correct answer, let's analyze each option in relation to the information provided:  1. **Option A: Shed",1.34
+Mercury_SC_405081,D,D,1,"The answer is D. Find information. Computers can help students find information by providing access to databases, search",1.041
+Mercury_SC_405090,B,A,0,"To determine which process snow undergoes from solid to liquid state, let's analyze each option:  A. **Freezing**: This ",1.34
+Mercury_SC_405120,C,A,0,"To determine which option the coach is most likely measuring with the stopwatch, let's analyze each choice:  A. The time",1.343
+Mercury_SC_405137,C,A,0,"To determine the correct statement based on the given information, let's analyze each option step by step:  1. **Option ",1.343
+Mercury_SC_405154,B,A,0,"To determine the correct answer, let's analyze each option step by step:  1. **Option A: Quieter**    - The sound is pro",1.346
+Mercury_SC_405164,C,A,0,"To determine which statement correctly describes wind and water as examples of renewable energy sources, let's analyze e",1.342
+Mercury_SC_405231,C,A,0,"To determine the correct answer, let's analyze each option in relation to the information provided:  A. The climate was ",1.342
+Mercury_SC_405232,C,A,0,"To determine which population would be harmed first by a long period of drought, we need to consider the impact of water",1.346
+Mercury_SC_405444,B,A,0,"To determine the correct answer, let's analyze each option:  A. It makes food easier to find. - While this is true, it d",1.344
+Mercury_SC_405495,A,A,1,"The process of water freezing and expanding into cracks in rocks is known as **weathering**. Therefore, the correct answ",0.869
+Mercury_SC_405499,A,A,1,"To determine the correct answer, let's analyze each process:  A. Erosion: - Erosion involves the removal of rocks and so",1.341
+Mercury_SC_405792,A,A,1,"To determine which type of change occurs for rust formation, we need to understand the process of rusting in nature. Rus",1.341
+Mercury_SC_405838,B,A,0,"To determine which object the scientist is most likely using to watch the birds, let's analyze each option:  A. Goggles ",1.342
+Mercury_SC_405865,B,A,0,"To determine which object is most likely to roll off the ramp when pushed gently, we need to consider the properties and",1.339
+Mercury_SC_405881,D,D,1,The correct answer is D. Recycling is an effective way of conserving nonrenewable resources.,0.607
+Mercury_SC_405883,D,D,1,The correct answer is D. Using solar energy to produce electricity. Solar energy is a clean and renewable source of ener,1.228
+Mercury_SC_405999,A,A,1,"To determine which method is most effective for observing the growth of plants under different types of soil, let's anal",1.338
+Mercury_SC_406012,B,B,1,"The nervous system consists of the brain, spinal cord, and nerves that run throughout the entire body. Therefore, the fu",1.266
+Mercury_SC_406016,D,D,1,The correct answer is D. Swimming.  Explanation: - Blinking occurs when the eyes move from side to side. - Breathing inv,1.329
+Mercury_SC_406040,D,D,1,The correct answer is D. Barking when it wants to go outside.  Explanation: - A. Sniffing to find food - This is an inst,1.328
+Mercury_SC_406273,A,A,1,"To determine what makes the light turn on when Bobby pushes the switch, let's analyze each option:  A. Electricity - Whi",1.328
+Mercury_SC_406467,A,A,1,"To determine why it was difficult to view cells without a microscope, let's analyze each option:  A. Cells are small - T",1.329
+Mercury_SC_406653,B,A,0,"To determine the correct answer, let's analyze each option in detail:  A. To absorb sunlight - Trees do not have the abi",1.328
+Mercury_SC_406663,B,A,0,"To determine which statement the student should leave out of the report, let's analyze each option:  A. ""These birds are",1.328
+Mercury_SC_406672,C,B,0,The correct answer is B. Making pollen.,0.311
+Mercury_SC_406688,D,A,0,"To determine which type of soil holds the most water, the best action for the student would be to **compare how the soil",1.328
+Mercury_SC_406709,D,A,0,"To determine the correct answer, let's analyze each option in the context of what an octopus might release to help it:  ",1.329
+Mercury_SC_406718,B,,0,"To determine the correct answer, let's analyze each stage of the bird's life cycle:  1. **Egg**: Eggs are the initial fo",1.329
+Mercury_SC_406724,A,C,0,"To determine which type of soil a plant will grow best, the student should measure the **amount of water used**. This is",1.33
+Mercury_SC_406851,C,D,0,"The correct answer is D. By rocks eroding. Rocks erode when they break down and lose their organic material, which can c",1.328
+Mercury_SC_406885,A,A,1,"To determine which action Hector should most likely perform, let's analyze each option:  A. Keep the result: - This woul",1.33
+Mercury_SC_407155,C,A,0,"To determine which property the students are most likely observing, let's analyze each option:  A. Layers - Rocks typica",1.329
+Mercury_SC_407195,C,A,0,"To determine which action would most likely reduce air pollution caused by cars, let's analyze each option:  A. Drive a ",1.329
+Mercury_SC_407370,A,B,0,"The correct answer is B. Daily tidal cycles.  Earth's orbit around the Sun creates daily tidal cycles, which include:  1",1.328
+Mercury_SC_407405,D,A,0,"To determine which activity will best help the hiker find out which area is warmer, let's analyze each option:  A. Readi",1.328
+Mercury_SC_407441,D,A,0,"To determine which tool is best for measuring both the volume and temperature of the water in the baker's recipe, let's ",1.328
+Mercury_SC_407507,B,A,0,"To determine which tool a carpenter would use to measure the length of a wooden board, let's analyze each option:  A. Ba",1.328
+Mercury_SC_407577,D,A,0,"To determine which adaptation is most likely a result of snowy owls living in very cold environments, let's analyze each",1.326
+Mercury_SC_407606,D,A,0,"To determine which term best describes a fossil fuel, let's analyze each option in detail:  A. A source of solar power: ",1.325
+Mercury_SC_407692,B,A,0,To determine which explanation best explains why the Northern Hemisphere receives more daylight than the Southern Hemisp,1.325
+Mercury_SC_407796,C,A,0,"To determine which step is necessary for the students to take first when observing hummingbirds, let's analyze each opti",1.326
+Mercury_SC_408039,D,,0,"To determine which season Jamal will be in when the Northern Hemisphere is pointed away from the Sun, we need to underst",1.325
+Mercury_SC_408243,D,A,0,"To determine which option best fits the description of rocks breaking into small pieces, let's analyze each option:  A. ",1.325
+Mercury_SC_408344,B,,0,"To determine the correct answer, let's analyze each option in relation to the process of photosynthesis:  1. **Electrica",1.315
+Mercury_SC_408357,D,A,0,"To determine which property Kurt is measuring, let's analyze each option:  A. Density: This refers to the mass per unit ",1.315
+Mercury_SC_408362,B,A,0,"To determine which tool is best for Jessica to use to see cells in an oak tree leaf, let's analyze each option:  A. Bino",1.315
+Mercury_SC_408439,A,A,1,"To determine which characteristic best explains why plants can survive in a desert, let's analyze each option:  A. The a",1.329
+Mercury_SC_408556,B,A,0,"To determine the correct answer, let's analyze each option in relation to the process of conducting an investigation:  A",1.339
+Mercury_SC_408620,C,A,0,"To determine which option correctly shows the energy transfer between animals in a shoreline ecosystem, let's analyze ea",1.346
+Mercury_SC_408709,D,A,0,"To determine which factor is responsible for the changing appearance of the Moon over time, let's analyze each option:  ",1.345
+Mercury_SC_408919,D,A,0,"To determine the correct answer, let's analyze each option:  A. The shape of continents of Earth - This is not a scienti",1.346
+Mercury_SC_408925,C,C,1,The correct answer is C. They recycle nutrients into the soil.  Earthworms improve soil health through several mechanism,1.345
+Mercury_SC_408991,D,A,0,"To determine which property of the slide tells Carlos how much energy it absorbed from the Sun, we need to understand th",1.344
+Mercury_SC_409014,B,A,0,"To determine which force the rocket must act against to move away from Earth, let's analyze each option:  A. Inertia: Th",1.344
+Mercury_SC_409038,A,D,0,The correct answer is D. The parts of a plant that perform photosynthesis. This discovery was made possible through the ,1.179
+Mercury_SC_409149,A,A,1,"To determine what a light year is used to measure in space, let's analyze each option:  A. Distance - This is not a unit",1.342
+Mercury_SC_409157,A,A,1,"To determine the correct answer, let's analyze each option in the context of earthquake-resistant design principles:  A.",1.34
+Mercury_SC_409172,A,A,1,"To determine the correct answer, let's analyze each option in the context of the given scenario:  1. **Option A:** ""to o",1.335
+Mercury_SC_409251,C,A,0,"To determine the correct answer, let's analyze each option:  A. It decreases the cost of cars. - While having seat belts",1.334
+Mercury_SC_409272,C,A,0,"To determine the correct answer, let's analyze each option in relation to the given scenario:  1. **Option A:** ""They ge",1.332
+Mercury_SC_409563,A,,0,To determine which factor best explains why a particular place on Earth receives more energy during summer months than w,1.332
+Mercury_SC_409676,A,A,1,To determine which option best describes how plants most likely change the atmosphere in a way that is beneficial for an,1.333
+Mercury_SC_409682,C,A,0,"To determine which option best describes what Joey made for breakfast, let's analyze each option in relation to the give",1.333
+Mercury_SC_410624,A,D,0,The correct answer is D. It absorbs more carbon dioxide.  Explanation: Artificial turf is made from fibers that resemble,1.334
+Mercury_SC_410835,C,A,0,To determine which method is the best for researching whether Mrs. Garry's class can identify that their area has more a,1.332
+Mercury_SC_410877,D,A,0,"To determine which type of snack Ben is eating, let's analyze each option:  A. A compound: This means that the snack con",1.333
+Mercury_SC_410972,C,A,0,"To determine which answer best fits the context of recycling, let's analyze each option:  A. Recycling reduces littering",1.333
+Mercury_SC_413002,A,A,1,"To determine which instrument belongs to the category of seismometers, we need to understand what seismometers do and th",1.336
+Mercury_SC_413004,A,A,1,"To determine which word best describes a floodplain, let's analyze each option in relation to the description of a flood",1.334
+Mercury_SC_413242,A,,0,"The Sun's influence on the water cycle is primarily through its direct energy and heat transfer. When the Sun heats up, ",1.331
+Mercury_SC_414155,D,A,0,"To determine which part of a compost pile breaks down materials and adds nutrients to the soil, let's analyze each optio",1.329
+Mercury_SC_414356,B,A,0,"To determine which statement is correct about the life cycles of a ladybug and a frog, let's analyze each option step by",1.329
+Mercury_SC_414361,D,D,1,"The correct answer is D. Water. The surface of Earth is covered by oceans and lakes, which are made up of water. The oth",1.33
+Mercury_SC_415001,B,,0,"To determine which phase of the water cycle involves the most energy transfer from the Sun to water, we need to understa",1.329
+Mercury_SC_415028,D,A,0,"To determine the correct answer, let's analyze each option in the context of drought conditions:  A. **to find mates**: ",1.33
+Mercury_SC_415338,B,B,1,"The correct answer is B. The energy causes water vapor from liquid water to condense into clouds, which then release rai",1.086
+Mercury_SC_415350,A,A,1,The correct answer is A. a long mane.,0.343
+Mercury_SC_415352,A,A,1,The answer is A. dimples.,0.305
+Mercury_SC_415369,A,A,1,"To determine the correct answer, let's analyze each stage mentioned in the options:  - **Option A:** ""egg, larva, and pu",1.324
+Mercury_SC_415399,A,A,1,The correct answer is A. an earthquake.,0.303
+Mercury_SC_415412,D,D,1,The correct answer is D. The average high temperature in May is 20°C.,0.533
+Mercury_SC_415454,B,B,1,The correct answer is B. biofuel energy. Biofuel energy refers to renewable energy sources that are derived from biologi,1.321
+Mercury_SC_415455,C,D,0,The correct answer is D. biofuel energy. Biofuel energy refers to renewable energy sources that are derived from biologi,1.327
+Mercury_SC_415469,B,D,0,The correct answer is D. Water and shelter. Squirrels require water and shelter to survive in forests.,0.652
+Mercury_SC_415478,D,,0,"To determine which change is most likely to be slow, we need to consider the nature and duration of each event:  - Fire:",1.319
+Mercury_SC_415583,C,,0,"To determine which turtle was fastest in the turtle race, we need to consider the distance each turtle walked and compar",1.319
+Mercury_SC_415738,A,,0,"To determine how heat transfers from the wall to the person, we need to consider the three types of heat transfer: radia",1.321
+Mercury_SC_415767,D,C,0,Gravity is the force that attracts objects towards each other. It always has the same direction and magnitude at all poi,1.322
+Mercury_SC_415773,A,A,1,The correct answer is A. Only objects that have mass are affected by Earth's gravity.,0.551
+Mercury_SC_416096,A,,0,"To determine how plants get water and minerals, we need to consider the different ways they can access these resources: ",1.317
+Mercury_SC_416110,D,D,1,The answer is D. They both give support to a plant.,0.415
+Mercury_SC_416124,C,D,0,"The answer is D. Respiratory and digestive. The respiratory system takes in oxygen from the air we breathe in, while the",1.239
+Mercury_SC_416131,C,C,1,The correct answer is C. All foods provide nutrients.,0.374
+Mercury_SC_416136,D,A,0,"To determine which type of pollinator is most likely attracted to the carrine flower, let's analyze each option:  A. Mot",1.315
+Mercury_SC_417579,D,A,0,"To determine which fact best helps Clara claim that her schoolyard is in a desert, let's analyze each option:  A. The sc",1.314
+Mercury_SC_LBS10026,C,,0,"To determine which scenario represents work, we need to understand what work entails:  1. **Work**: This refers to the e",1.313
+Mercury_SC_LBS10064,D,A,0,"To determine which activity requires the use of safety goggles for protection against eye injuries, let's analyze each o",1.311
+Mercury_SC_LBS10266,C,A,0,"To determine which option is least likely when the results of an experiment do not support the hypothesis, let's analyze",1.311
+Mercury_SC_LBS10267,A,A,1,"To determine which invention was invented by Benjamin Franklin, let's analyze each option:  A. Bifocal lens - This is a ",1.302
+Mercury_SC_LBS10270,A,A,1,The answer is A. eye color.,0.294
+Mercury_SC_LBS10276,C,D,0,The correct answer is D. The stars are revolving around Earth. This means that the stars are not fixed in their position,1.305
+Mercury_SC_LBS10391,D,,0,"To determine which of the given options is a first-level consumer, we need to understand the concept of ""first-level con",1.305
+Mercury_SC_LBS10591,A,A,1,The answer is A. habitat loss. Habitat loss can lead to the extinction of species due to the destruction and degradation,0.84
+Mercury_SC_LBS10611,C,A,0,"To determine which description best describes a fossil, let's analyze each option:  A. A geometric pattern formed by a m",1.304
+Mercury_SC_LBS10620,A,A,1,"To determine which option would be best seen through a telescope, let's analyze each one:  A. A moon - The moon is not v",1.304
+Mercury_SC_LBS10680,A,D,0,The correct answer is D. The battery pushing light through the wire.,0.464
+Mercury_SC_LBS10688,C,,0,The Sun produces energy through **C. nuclear fusion**.,0.406
+Mercury_SC_LBS10949,C,A,0,"To determine which category best fits the description ""a warm-blooded organism that nurses its young,"" we need to consid",1.304
+Mercury_SC_LBS11008,D,D,1,The correct answer is D. Recycling resources.  Explanation: - Planting new trees in a place that has been used for many ,1.199
+NAEP_2000_8_S21+3,D,D,1,The answer to this question is D. It is liquid at most temperatures on Earth.  To explain why the other options are inco,1.308
+NAEP_2005_4_S12+7,A,A,1,"The correct answer is A. The sun heating the lake. Explanation: Water in lakes gets most of its energy from the sun, whi",1.308
+NAEP_2005_8_S11+3,D,A,0,"To solve this problem, we need to understand the geological principles involved in identifying fossils and their origins",1.306
+NCEOGA_2013_5_27,D,A,0,"To determine which statement correctly explains how people can feel the heat from the fire without directly touching it,",1.306
+NCEOGA_2013_5_32,B,A,0,"To determine which statement best describes a bacterial cell, let's analyze each option in detail:  A. It contains more ",1.311
+NCEOGA_2013_5_39,B,A,0,"To determine which explanation best fits the scenario described, let's analyze each option:  A. The kittens are provided",1.31
+NCEOGA_2013_5_52,B,B,1,The correct answer is B. digestive. The digestive system processes foods into a useable source of energy for the body's ,0.968
+NCEOGA_2013_8_29,C,A,0,"To determine which conclusion can best be drawn from the given evidence, let's analyze each option step-by-step:  1. **O",1.308
+NCEOGA_2013_8_36,D,D,1,"The correct answer is D. sunlight.  Explanation: Plants require sunlight for photosynthesis, which converts light energy",1.224
+NCEOGA_2013_8_48,A,A,1,The correct answer is A. Environmental Protection Agency (EPA).,0.444
+NCEOGA_2013_8_49,C,B,0,"The correct answer is B. The Law of Superposition states that in undisturbed layers of sedimentary rock, the upper rock ",1.306
+NCEOGA_2013_8_53,B,B,1,The correct answer is B. Prevention of transmission between people.,0.414
+NCEOGA_2013_8_6,A,D,0,The correct answer is D. oil.  Oil is not considered a renewable energy resource because it is finite and cannot be repl,1.3
+NYSEDREGENTS_2008_4_20,B,B,1,The physical change that would most likely help an animal survive during the winter is:  B. Fur gets thicker  Explanatio,1.296
+NYSEDREGENTS_2008_4_21,C,A,0,"To determine the correct answer, let's analyze each option:  A. **Completing its life cycle**: Trees do not complete the",1.295
+NYSEDREGENTS_2008_4_23,C,A,0,"To determine the correct answer, let's analyze each option:  A. Water for plants: Water is essential for plant growth an",1.295
+NYSEDREGENTS_2008_4_5,B,A,0,"To determine which force causes objects to be pulled toward Earth, let's analyze each option:  A. Friction: While fricti",1.297
+NYSEDREGENTS_2008_4_7,D,A,0,"To determine which energy transformation occurs when a person hits a drum with a drumstick, let's analyze each option:  ",1.298
+NYSEDREGENTS_2008_4_8,A,,0,"To determine the distance at which a magnet and a metal paper clip will have the strongest magnetic attraction, we need ",1.297
+NYSEDREGENTS_2008_8_10,C,A,0,"To determine which concept best describes the scenario described in the question, let's analyze each option:  A. Competi",1.297
+NYSEDREGENTS_2008_8_12,B,A,0,"To determine which event represents the best example of competition between species in a pond environment, let's analyze",1.298
+NYSEDREGENTS_2008_8_16,B,B,1,The correct answer is B. Water. All living things require water to survive.,0.499
+NYSEDREGENTS_2008_8_2,B,A,0,"To determine the correct answer, let's analyze each option in detail:  A. Digestive and endocrine: - The digestive syste",1.298
+NYSEDREGENTS_2008_8_24,C,A,0,"To determine which piece of information is likely to be most useful for identifying a mineral sample, let's analyze each",1.303
+NYSEDREGENTS_2008_8_26,A,A,1,The answer is A. studies of earthquake waves help scientists determine the structure of Earth's interior.,0.572
+NYSEDREGENTS_2008_8_28,C,C,1,The correct answer is C. Evacuate low-lying areas near the coast.  Explanation: Option A (Open the windows to equalize a,1.303
+NYSEDREGENTS_2008_8_33,C,A,0,"To determine which process is an example of a physical change, let's analyze each option:  A. Wood burning - This proces",1.31
+NYSEDREGENTS_2008_8_4,C,A,0,"To determine which system produces most of the hormones in the human body, let's analyze each option:  A. Circulatory - ",1.309
+NYSEDREGENTS_2008_8_7,A,A,1,"To determine which unit is used to express the amount of energy in food, let's analyze each option:  A. **Calorie**: Thi",1.308
+NYSEDREGENTS_2010_4_10,C,A,0,"To determine the correct answer to this question, let's analyze each option in the context of how light bulbs work:  1. ",1.307
+NYSEDREGENTS_2010_4_2,B,,0,"To determine which force causes the ball to fall to the ground when it is thrown up, we need to understand the basic pri",1.309
+NYSEDREGENTS_2010_4_20,D,A,0,"To determine which human response is most likely to occur when the air temperature is 90°F, let's analyze each option:  ",1.308
+NYSEDREGENTS_2010_4_22,B,A,0,"To determine the correct answer, let's analyze each option:  A. **to find food for their young** - This is incorrect bec",1.308
+NYSEDREGENTS_2010_4_25,C,C,1,"The function of a plant's roots is to take in nutrients and water.  Therefore, the correct answer is: C",0.652
+NYSEDREGENTS_2010_4_7,A,A,1,"To determine which factor is responsible for the warmth in the student's hands, let's analyze each option:  A. Friction:",1.31
+NYSEDREGENTS_2010_4_8,C,A,0,"To determine which category the Sun belongs to, let's analyze each option:  A. An organism: The Sun is not a living orga",1.312
+NYSEDREGENTS_2010_8_12,A,A,1,"To determine the correct answer to this question, let's analyze each option in detail:  A. **Abnormal cell division**: T",1.31
+NYSEDREGENTS_2010_8_13,B,A,0,"To determine what genes are composed of, let's analyze each option:  A. Offspring - This is incorrect because genes are ",1.309
+NYSEDREGENTS_2010_8_18,A,A,1,"To determine which structure is found in a plant cell but not in an animal cell, let's analyze each option:  A. Cell wal",1.309
+NYSEDREGENTS_2010_8_27,A,B,0,"The correct answer is B. The Moon reflects light from Earth, making it visible to observers on Earth.",0.597
+NYSEDREGENTS_2010_8_6,D,A,0,"To determine the correct answer, let's analyze each option in the context of a balanced diet:  A. Selective breeding: - ",1.308
+NYSEDREGENTS_2010_8_7,C,C,1,"The correct answer is C. excretory. The excretory system is responsible for removing waste products from the body, inclu",1.219
+NYSEDREGENTS_2010_8_9,A,A,1,"To determine which model is used to show the pattern of traits passed from one generation to the next in a family, let's",1.309
+NYSEDREGENTS_2012_4_10,B,,0,"To determine the correct answer, we need to understand that the Sun's position in the sky can vary depending on the time",1.308
+NYSEDREGENTS_2012_4_11,D,D,1,"The property that describes how easily electricity travels through an object is conductivity. Therefore, the correct ans",0.621
+NYSEDREGENTS_2012_4_14,B,B,1,"To maintain good health, humans should choose option B, ""exercise regularly."" Regular physical activity helps keep the b",0.942
+NYSEDREGENTS_2012_4_18,D,D,1,"The main function of a fish's fins is to help it move. Therefore, the correct answer is D. Move.  To explain in detail: ",1.317
+NYSEDREGENTS_2012_4_19,C,A,0,"To determine the correct answer, let's analyze each option in the context of whale behavior:  A. Nest building - Whales ",1.317
+NYSEDREGENTS_2012_4_20,D,A,0,"To determine which option is correct for green plants to obtain the energy needed to make food, let's analyze each optio",1.318
+NYSEDREGENTS_2012_4_23,B,A,0,"To determine the correct answer, let's analyze each option in relation to the described pattern:  A. Food chain: - A foo",1.316
+NYSEDREGENTS_2012_8_13,D,A,0,The correct answer is A. External fertilization and external development.,0.4
+NYSEDREGENTS_2012_8_16,B,A,0,"To determine the correct answer, let's analyze each option in detail:  A. Photosynthesis: - Photosynthesis is the proces",1.316
+NYSEDREGENTS_2012_8_26,D,A,0,"To determine which type of celestial body fits the description of a ""bright object with a long tail of glowing gases"" or",1.318
+NYSEDREGENTS_2012_8_27,D,D,1,"The lithosphere is the thin layer of rock that covers the Earth's surface and includes the landmasses, oceans, and other",1.321
+NYSEDREGENTS_2012_8_32,A,D,0,The correct answer is D. Solubility. The solubility of a substance refers to its ability to dissolve in another substanc,1.323
+NYSEDREGENTS_2012_8_43,B,D,0,"The correct answer is D. Water.   Explanation: Sound waves can travel through liquids like water, air, and even metals (",1.324
+NYSEDREGENTS_2013_4_10,A,D,0,The correct answer is D. Temperature. The Moon appears to change its shape and size due to the gravitational pull it exp,1.32
+NYSEDREGENTS_2013_4_13,C,A,0,"To determine which organisms break down and recycle dead plants and animals, we need to understand the roles of differen",1.345
+NYSEDREGENTS_2013_4_20,C,C,1,The answer is C. Communication.,0.281
+NYSEDREGENTS_2013_4_22,B,B,1,"The correct answer is B. Growth and development. During an animal's life span, it goes through several stages of growth ",1.347
+NYSEDREGENTS_2013_4_24,A,A,1,"To determine the correct answer, let's analyze each option in the context of rabbits' adaptations:  A. Keep the rabbit's",1.345
+NYSEDREGENTS_2013_4_26,A,,0,"To determine how the number of plants and animals living in the area will change due to the oil spill, we need to consid",1.332
+NYSEDREGENTS_2013_8_12,A,A,1,"To determine which option correctly describes the cells' chromosomes, let's analyze each choice:  A. Genes - This is inc",1.328
+NYSEDREGENTS_2013_8_14,C,D,0,The correct answer is D. Regulation.,0.299
+NYSEDREGENTS_2013_8_19,D,D,1,The correct answer is D. Cancer.,0.299
+NYSEDREGENTS_2013_8_21,B,A,0,"To determine the correct answer to this question, let's analyze each option in relation to the concept of energy acquisi",1.329
+NYSEDREGENTS_2013_8_22,A,B,0,The correct answer is B. Natural resources present in an area.,0.421
+NYSEDREGENTS_2013_8_26,A,A,1,The correct answer is A. Atmosphere.,0.314
+NYSEDREGENTS_2013_8_36,D,A,0,"To determine the correct answer, let's analyze each option in relation to the properties of metals:  A. Liquid at room t",1.331
+NYSEDREGENTS_2013_8_41,D,D,1,"The correct answer is D. Sound. When a rubber band vibrates, it produces sound waves that can be detected and perceived ",1.332
+NYSEDREGENTS_2013_8_43,A,A,1,"The type of energy that is transferred from one object to another by simple machines is mechanical.  Therefore, the corr",0.846
+NYSEDREGENTS_2013_8_6,A,A,1,"To determine which sequence represents the correct levels of organization for multicellular organisms, let's analyze eac",1.325
+NYSEDREGENTS_2013_8_8,A,A,1,"To determine the correct answer, let's analyze each option in the context of human immunity:  A. Destroy microbes: While",1.323
+NYSEDREGENTS_2015_4_10,C,A,0,"To determine the correct answer, let's analyze each option step by step:  1. **Option A: Water changes from solid to gas",1.324
+NYSEDREGENTS_2015_4_13,B,A,0,"To determine which color baseball cap would absorb the most light on a sunny day, we need to consider how each color ref",1.322
+NYSEDREGENTS_2015_4_14,C,A,0,"To determine which force causes a soccer ball to fall to the ground after being kicked up in the air, let's analyze each",1.319
+NYSEDREGENTS_2015_4_16,B,A,0,"To determine which tool a student should use to examine spots on a frog, let's analyze each option:  A. Thermometer - A ",1.32
+NYSEDREGENTS_2015_4_17,D,D,1,The answer is D. reproducing.,0.297
+NYSEDREGENTS_2015_4_19,B,A,0,"To determine the correct answer, let's analyze each option:  A. Breathing - This is an external process that occurs duri",1.317
+NYSEDREGENTS_2015_4_28,D,D,1,The correct answer is D. Decomposer.,0.328
+NYSEDREGENTS_2015_4_30,B,B,1,The correct answer is B. Recycling plastic bottles. Explanation: A. Leaving the television on all day does not directly ,1.317
+NYSEDREGENTS_2015_4_4,D,D,1,The correct answer is D. Air temperature and wind speed.,0.412
+NYSEDREGENTS_2015_8_1,D,A,0,To determine which sequence correctly identifies the levels of organization of body structures in a human from simplest ,1.313
+NYSEDREGENTS_2015_8_21,B,A,0,"To determine which factor is most likely to cause the number of rabbits living in an area to increase, let's analyze eac",1.314
+NYSEDREGENTS_2015_8_26,D,A,0,"To determine which option correctly describes the hydrosphere, let's analyze each option:  A. Rock - Rocks are solid mat",1.315
+NYSEDREGENTS_2015_8_30,D,A,0,"To determine which category elements are typically classified in the periodic table, let's analyze each option:  A. Rock",1.317
+NYSEDREGENTS_2015_8_32,C,A,0,"To determine which device directly converts chemical energy into electrical energy, let's analyze each option:  A. Solar",1.315
+NYSEDREGENTS_2015_8_33,D,A,0,"To determine which statement correctly describes heat transfer by conduction, let's analyze each option:  A. Flowing as ",1.313
+OHAT_2007_5_12,B,,0,"To determine why the ball moves, we need to consider the forces involved in the scenario:  1. **Kick**: The student kick",1.312
+OHAT_2007_5_40,B,B,1,The correct answer is B. The rotation of Earth on its axis causes day and night on Earth.,0.624
+OHAT_2007_8_42,B,A,0,The phenomenon that occurs as a result of the gravitational attraction between the moon and Earth is:  A. eclipses  Ecli,1.309
+OHAT_2007_8_44,C,A,0,"To determine which option correctly describes the effect of increasing Earth's rotation speed on the length of days, let",1.307
+OHAT_2008_8_29,B,B,1,The correct answer is B. The tilt of Earth's axis relative to the sun explains the relationship between hours of sunligh,0.777
+OHAT_2009_8_8,B,A,0,"To determine which unit of measurement astronomers use for measuring distances between stars in the Milky Way, let's ana",1.308
+OHAT_2010_8_24,B,A,0,"To determine which process allows fungi to obtain the nutrients they need from dead leaves, let's analyze each option:  ",1.307
+OHAT_2010_8_29,A,A,1,"To determine the correct answer, let's analyze each statement in relation to the information provided:  1. **Statement A",1.3
+OHAT_2011_5_37,A,A,1,"To determine how the tomato plants use sunlight, let's analyze each option:  A. To make sugar in the leaves: - Leaves ar",1.3
+TAKS_2009_5_20,C,D,0,The correct answer is D. The nutrients in the soil where the plant grows.,0.517
+TAKS_2009_8_12,B,A,0,"To determine which process uses carbon dioxide and the sun's radiant energy to produce chemical energy, let's analyze ea",1.29
+TAKS_2009_8_38,D,D,1,The correct answer is D. They burn up high in Earth's atmosphere.  Explanation: Meteor showers occur when Earth passes t,1.285
+TAKS_2009_8_39,B,A,0,"To determine which option best describes the scenario described in the question, let's analyze each choice:  A. Predatio",1.284
+TIMSS_1995_8_I10,C,C,1,The BEST reason for including fruits and leafy vegetables in a healthy diet is C. They are rich in minerals and vitamins,0.731
+TIMSS_1995_8_I14,D,A,0,"To determine which simple machine represents the system described when bending the arm at the elbow, let's analyze each ",1.271
+TIMSS_1995_8_L5,B,A,0,"To determine the correct answer, let's analyze each option:  A. **Frighten away other types of birds**: Birds often sing",1.27
+TIMSS_1995_8_P4,E,B,0,"The correct answer is B. When an animal hibernates, it stops breathing and its body temperature decreases significantly ",1.015
+TIMSS_1995_8_Q16,D,D,1,The answer is D. The time it takes for light from the nearest star other than the Sun to reach Earth varies depending on,1.264
+TIMSS_2003_4_pg12,D,D,1,"The correct answer is D. Rocks in the ground.  Explanation: - Dinosaurs lived millions of years ago, which means they li",1.26
+TIMSS_2003_4_pg20,A,D,0,The correct answer is D. Your weight.,0.322
+TIMSS_2003_4_pg25,B,A,0,"To determine which animal does not lay eggs, let's analyze each option:  A. Chickens - Chickens are birds and they lay e",1.26
+TIMSS_2003_4_pg35,B,A,0,"To determine which gas is needed for life, let's analyze each option:  A. Nitrogen - While nitrogen is essential for hum",1.258
+TIMSS_2003_4_pg81,D,A,0,"To determine which items will dissolve in water, we need to consider how each item reacts with water and what properties",1.251
+TIMSS_2003_4_pg87,C,A,0,"To determine where we get the minerals needed to make jewelry, chalk, and concrete, let's analyze each option:  A. From ",1.244
+TIMSS_2003_8_pg122,C,,0,"To determine which group of energy sources is all renewable, we need to understand what renewable energy means. Renewabl",1.245
+TIMSS_2003_8_pg33,C,C,1,"The correct answer is C. Erosion of soil. Overgrazing by livestock can lead to soil erosion, which results in the loss o",1.234
+TIMSS_2003_8_pg40,B,A,0,"To determine the correct answer, let's analyze each option:  A. To fight disease in the body - This is incorrect because",1.234
+TIMSS_2003_8_pg43,C,A,0,"To determine which type of rock fits the description given in the question, let's analyze each option step by step:  1. ",1.234
+TIMSS_2003_8_pg48,A,,0,To determine the order of abundance from greatest to least for the three gases found in Earth's atmosphere (carbon dioxi,1.234
+TIMSS_2003_8_pg99,C,A,0,"To determine the correct answer, let's analyze each option in detail:  A. **They die with the animal or plant**:    - Th",1.228
+TIMSS_2007_4_pg34,D,A,0,"To solve this problem, we need to understand how different materials behave when mixed together. Let's analyze each opti",1.228
+TIMSS_2007_4_pg64,A,A,1,"To determine which source of vitamins and minerals is the best, let's analyze each option:  A. Fruits and vegetables: - ",1.189
+TIMSS_2007_4_pg70,D,A,0,"To determine which example involves an object moving due to the force of gravity, let's analyze each option:  A. A girl ",1.189
+TIMSS_2007_8_pg102,A,A,1,"To determine which example does not represent a chemical change, let's analyze each option:  A. Melting ice: - Ice is a ",1.185
+TIMSS_2007_8_pg29,D,,0,"To determine which food contains the highest percentage of protein, we need to compare the protein content of each optio",1.176
+TIMSS_2007_8_pg34,C,A,0,"To determine the correct answer to this question, let's analyze each option in relation to the properties of light and o",1.168
+TIMSS_2007_8_pg63,A,A,1,"To determine the correct order of levels from least complex to most complex in living organisms, let's analyze each opti",1.169
+TIMSS_2007_8_pg77,D,A,0,"To determine which of the options listed is caused by a virus, let's analyze each one:  A. Ulcer - An ulcer is a type of",1.164
+TIMSS_2007_8_pg85,B,A,0,"To determine which substance is necessary for burning to take place, let's analyze each option:  A. Ozone (O₃): While oz",1.163
+TIMSS_2011_4_pg15,D,D,1,"The correct answer is D. Decaying plants and animals.  Explanation: Plants require loose, well-drained soil to thrive. T",1.164
+TIMSS_2011_4_pg24,B,A,0,"To determine why many desert animals are more active at night, let's analyze each option:  A. It is drier at night. - De",1.165
+TIMSS_2011_4_pg42,B,A,0,"To determine which group of animals contains ONLY reptiles, we need to identify the groups that include both reptiles an",1.153
+TIMSS_2011_8_pg101,B,A,0,"To determine which equation summarizes the process of respiration, let's analyze each option step by step:  **Option A:*",1.133
+TIMSS_2011_8_pg50,A,C,0,"Organisms lived on the land when they first appeared on Earth.  Therefore, the correct answer is C.",0.604
+TIMSS_2011_8_pg66,A,A,1,"To determine what happens to the molecules of a liquid when it cools, let's analyze each option step-by-step:  1. **Opti",1.112
+TIMSS_2011_8_pg74,B,B,1,The correct answer is B. where tectonic plates meet. Explanation: Tectonic plates meeting typically results in volcanic ,1.102
+TIMSS_2011_8_pg98,B,B,1,The correct answer is B. CO2.,0.307
+VASoL_2007_5_17,D,A,0,"To determine which option correctly describes the process of freezing water as the temperature of the air increases, let",1.092
+VASoL_2007_5_30,D,A,0,"To determine which observation most likely describes a sedimentary rock, let's analyze each option:  A. Sample 1 has ban",1.092
+VASoL_2008_3_20,A,A,1,"To determine which option represents something being recycled, we need to consider how different materials and objects a",1.093
+VASoL_2008_3_21,C,A,0,"To determine which item is most likely to be made from only one material, let's analyze each option:  A. **Pencil**: Pen",1.091
+VASoL_2008_3_30,D,A,0,"To determine the correct answer, let's analyze each option in detail:  A. **In a dry area**: Plants require moisture for",1.084
+VASoL_2008_5_12,B,A,0,"To determine the correct answer, let's analyze each option:  A. **Pollen**: This is incorrect because seeds do not produ",1.068
+VASoL_2008_5_14,B,A,0,"To determine which category best describes the function of plastic in wrapping copper wires, let's analyze each option: ",1.061
+VASoL_2008_5_16,B,B,1,The correct answer is B. A rotating funnel-shaped cloud with strong winds and thunderstorms.,0.505
+VASoL_2008_5_26,C,A,0,"To determine which options belong to the deepest parts of the ocean, let's analyze each type of sea:  1. **Continental s",1.048
+VASoL_2008_5_34,A,A,1,"To determine the correct answer, let's analyze each option:  A. An observation: This involves observing something and re",1.04
+VASoL_2008_5_40,A,A,1,"To determine which options best fit the description of a wild turkey's forest community, let's analyze each option:  A. ",1.041
+VASoL_2008_5_5,C,C,1,"To protect water resources in Virginia, the best action would be:  C. Organize a river cleanup program.  This option dir",1.035
+VASoL_2009_3_28,B,A,0,"To determine the correct answer, let's analyze each option in relation to the life needs mentioned:  A. **Finding shelte",1.027
+VASoL_2009_5_12,C,C,1,"The correct answer is C. Kinetic energy. All moving objects, including cars, airplanes, and even the Earth itself, posse",0.707
+VASoL_2009_5_24,B,A,0,"To determine which type of storm causes the most flooding in areas located near an ocean coastline, we need to consider ",1.017
+VASoL_2009_5_27,C,A,0,"To determine which factor causes the ball to slow down and then stop, let's analyze each option:  A. The motion of the b",1.008
+VASoL_2009_5_28,C,A,0,"To determine which option plants need to make their own food, let's analyze each option:  A. Flowers - Plants don't requ",0.999
+VASoL_2009_5_8,B,B,1,"The correct answer is B. Smaller than Earth. The Moon is smaller in size compared to Earth, making it less massive and h",0.782
+VASoL_2010_5_15,C,C,1,The correct answer is C. Rain gauge. A rain gauge is used to measure the amount of precipitation that falls during a sto,0.62
+VASoL_2011_5_16,D,A,0,"To determine the correct answer, let's analyze each option:  A. Forest - While forests do have gills, they are not typic",0.977
