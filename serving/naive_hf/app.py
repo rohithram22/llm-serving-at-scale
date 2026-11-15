@@ -15,6 +15,9 @@ Admission control (Step 4b). All OFF by default, so the baseline stays reproduci
     MAX_QUEUE             max requests waiting for a slot; more -> 503 immediately (0 = unlimited)
     QUEUE_TIMEOUT_S       max seconds a request may wait for a slot -> 503 (0 = wait forever)
     CANCEL_ON_DISCONNECT  1 = stop work for clients that hung up (while queued or mid-generation)
+
+Batch endpoint (Step 8): POST /v1/batch/chat/completions {"requests": [...]} runs several greedy
+requests in ONE generate() call (static batching, left-padded). Used by the gateway's micro-batcher.
 """
 import os
 
@@ -61,6 +64,10 @@ class ChatRequest(BaseModel):
     temperature: float = Field(default=0.0, ge=0.0, le=2.0)
 
 
+class BatchRequest(BaseModel):
+    requests: list[ChatRequest] = Field(min_length=1, max_length=64)
+
+
 # ------------------------------------------------------------------- state
 class Stats:
     def __init__(self) -> None:
@@ -75,6 +82,8 @@ class Stats:
         self.cancelled_mid_generation = 0  # client hung up while we were generating
         self.total_compute_s = 0.0
         self.total_completion_tokens = 0
+        self.batches = 0                   # batch-endpoint calls
+        self.batched_requests = 0          # requests served inside those calls
 
 
 STATE: dict = {"ready": False, "failed": False}
@@ -94,6 +103,11 @@ class StopWhenSet(StoppingCriteria):
 
 def load_model():
     tok = AutoTokenizer.from_pretrained(MODEL_ID)
+    # Batches must be LEFT-padded for decoder-only models: every row's last real token must sit in the
+    # same (final) column, because generation appends new tokens on the right.
+    tok.padding_side = "left"
+    if tok.pad_token_id is None:
+        tok.pad_token = tok.eos_token
     model = AutoModelForCausalLM.from_pretrained(MODEL_ID, dtype=torch.float32)
     model.eval()
     # The model ships sampling defaults (temperature/top_p/top_k). Clear them so
@@ -130,6 +144,38 @@ def generate_blocking(messages: list[dict], max_tokens: int, temperature: float,
     new_ids = out[0, prompt_len:]
     text = tok.decode(new_ids, skip_special_tokens=True)
     return text, prompt_len, int(new_ids.shape[-1]), bool(cancel is not None and cancel.is_set())
+
+
+def stop_ids(model, tok) -> set[int]:
+    ids = {tok.pad_token_id}
+    for v in (model.generation_config.eos_token_id, tok.eos_token_id):
+        ids.update(v if isinstance(v, (list, tuple)) else [v])
+    return {i for i in ids if i is not None}
+
+
+def generate_batch_blocking(reqs: list[dict]) -> list[tuple[str, int, int]]:
+    """Static batching: N greedy requests in ONE generate() call.
+    Returns [(text, prompt_tokens, completion_tokens)] in the SAME order as `reqs`."""
+    if torch.get_num_threads() != TORCH_THREADS:
+        torch.set_num_threads(TORCH_THREADS)
+    tok, model = STATE["tok"], STATE["model"]
+    prompts = [tok.apply_chat_template(r["messages"], tokenize=False, add_generation_prompt=True) for r in reqs]
+    enc = tok(prompts, return_tensors="pt", padding=True)            # left-padded (see load_model)
+    max_new = max(r["max_tokens"] for r in reqs)                     # the whole batch runs this long
+    with torch.inference_mode():
+        out = model.generate(**enc, max_new_tokens=max_new,
+                             pad_token_id=tok.pad_token_id or tok.eos_token_id)
+    width, stops = enc["input_ids"].shape[-1], stop_ids(model, tok)
+    results = []
+    for i, r in enumerate(reqs):
+        ids = []
+        for t in out[i, width:].tolist()[: r["max_tokens"]]:          # this request's own limit
+            if t in stops:                                           # finished early -> rest is padding
+                break
+            ids.append(t)
+        results.append((tok.decode(ids, skip_special_tokens=True),
+                        int(enc["attention_mask"][i].sum()), len(ids)))
+    return results
 
 
 async def startup() -> None:
@@ -247,6 +293,8 @@ async def stats():
         "cancelled_mid_generation": STATS.cancelled_mid_generation,
         "uptime_s": round(time.time() - STATS.started, 1),
         "load_s": STATE.get("load_s"), "warmup_s": STATE.get("warmup_s"),
+        "batches": STATS.batches, "batched_requests": STATS.batched_requests,
+        "avg_batch_size": round(STATS.batched_requests / STATS.batches, 2) if STATS.batches else None,
         "avg_compute_s": round(avg_compute, 3),
         "tokens_per_s_while_computing": round(tps, 2),
     }
@@ -341,3 +389,47 @@ async def chat_completions(req: ChatRequest, request: Request, response: Respons
             "tokens_per_s": round(c_tok / (compute_ms / 1000), 2) if compute_ms else None,
         },
     }
+
+
+@app.post("/v1/batch/chat/completions")
+async def batch_chat_completions(req: BatchRequest):
+    """Several requests, one forward pass per step. Greedy only (the gateway batches temperature=0
+    requests). Admission control is the caller's job (the gateway); this just takes the slot."""
+    if not STATE["ready"]:
+        raise HTTPException(status_code=503, detail="model not ready")
+    if any(r.temperature > 0 for r in req.requests):
+        raise HTTPException(status_code=400, detail="batch endpoint is greedy-only (temperature=0)")
+    sem: asyncio.Semaphore = STATE["sem"]
+    t_arrive = time.perf_counter()
+    async with sem:
+        t_start = time.perf_counter()
+        STATS.in_flight += 1
+        try:
+            outs = await asyncio.to_thread(generate_batch_blocking, [r.model_dump() for r in req.requests])
+        except Exception as e:
+            STATS.errors += 1
+            log.exception("batch failed")
+            raise HTTPException(status_code=500, detail=str(e))
+        finally:
+            STATS.in_flight -= 1
+    compute_s = time.perf_counter() - t_start
+    queue_ms = (t_start - t_arrive) * 1000
+    n = len(outs)
+    STATS.batches += 1
+    STATS.batched_requests += n
+    STATS.completed += n
+    STATS.total_compute_s += compute_s
+    STATS.total_completion_tokens += sum(o[2] for o in outs)
+    log.info("batch of %d: queue=%.0fms compute=%.0fms", n, queue_ms, compute_s * 1000)
+    responses = []
+    for r, (text, p_tok, c_tok) in zip(req.requests, outs):
+        responses.append({
+            "id": f"chatcmpl-{uuid.uuid4().hex[:12]}", "object": "chat.completion",
+            "created": int(time.time()), "model": MODEL_ID,
+            "choices": [{"index": 0, "message": {"role": "assistant", "content": text},
+                         "finish_reason": "length" if c_tok >= r.max_tokens else "stop"}],
+            "usage": {"prompt_tokens": p_tok, "completion_tokens": c_tok, "total_tokens": p_tok + c_tok},
+            "timing": {"queue_ms": round(queue_ms, 1), "compute_ms": round(compute_s * 1000, 1),
+                       "batch_size": n},
+        })
+    return {"responses": responses}

@@ -7,7 +7,7 @@ import sys
 import pandas as pd
 
 COLS = ["label", "users", "n_ok", "error_rate", "p50_s", "p95_s", "throughput_rps",
-        "goodput_rps", "tokens_per_s", "avg_batch", "server_completed", "client_ok_total",
+        "goodput_rps", "tokens_per_s", "avg_batch", "cache_hit_rate", "server_completed", "client_ok_total",
         "server_rejected", "server_waiting_at_end"]
 
 df = pd.read_csv("results/loadtest_summary.csv")

@@ -18,7 +18,7 @@ FIELDS = ["label", "users", "window_s", "n_requests", "n_ok", "error_rate", "err
           "throughput_rps", "goodput_rps", "slo_s", "p50_s", "p95_s", "p99_s", "mean_s",
           "p99_reliable", "tokens_per_s", "mean_completion_tokens", "mean_queue_s",
           "mean_compute_s", "client_ok_total", "server_completed", "server_rejected",
-          "server_cancelled", "server_waiting_at_end", "avg_batch", "locust_cpu_pct", "timestamp"]
+          "server_cancelled", "server_waiting_at_end", "avg_batch", "cache_hit_rate", "locust_cpu_pct", "timestamp"]
 
 
 def read_prometheus(path: str | None) -> dict:
@@ -105,7 +105,10 @@ def main() -> None:
         # queue length at the end: Version A /stats, llama.cpp "requests_deferred", vLLM "num_requests_waiting"
         "server_waiting_at_end": server.get("waiting", metrics.get("requests_deferred",
                                                                    metrics.get("num_requests_waiting"))),
-        "avg_batch": round(metrics["n_busy_slots_per_decode"], 2) if "n_busy_slots_per_decode" in metrics else None,
+        # batch size actually achieved: llama.cpp metric, or the gateway's micro-batcher
+        "avg_batch": (round(metrics["n_busy_slots_per_decode"], 2) if "n_busy_slots_per_decode" in metrics
+                      else server.get("avg_batch_size")),
+        "cache_hit_rate": server.get("cache_hit_rate"),             # gateway only
         "locust_cpu_pct": args.locust_cpu,
         "timestamp": time.strftime("%Y-%m-%dT%H:%M:%S"),
     }
@@ -114,7 +117,8 @@ def main() -> None:
     os.makedirs(os.path.dirname(args.out) or ".", exist_ok=True)
     new = pd.DataFrame([row], columns=FIELDS)
     if os.path.exists(args.out):
-        new = pd.concat([pd.read_csv(args.out), new], ignore_index=True)
+        # drop this row's empty columns before concat (avoids pandas' all-NA FutureWarning)
+        new = pd.concat([pd.read_csv(args.out), new.dropna(axis=1, how="all")], ignore_index=True)
     new.to_csv(args.out, index=False)
 
     # ---- human-readable report
@@ -131,6 +135,9 @@ def main() -> None:
     if server:
         print(f"server: completed {server.get('completed')} (client received {row['client_ok_total']}) "
               f"| rejected {rejected} | cancelled {cancelled} | still queued at end {server.get('waiting')}")
+    if server.get("cache_hits") is not None:          # gateway
+        print(f"gateway: cache hit rate {server.get('cache_hit_rate')} | coalesced {server.get('coalesced')} | "
+              f"backend calls {server.get('backend_calls')} | avg batch {server.get('avg_batch_size')}")
     if "n_busy_slots_per_decode" in metrics:          # llama.cpp
         print(f"server metrics: avg batch size {row['avg_batch']} | "
               f"queued (deferred) at end {metrics.get('requests_deferred')} | "
