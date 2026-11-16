@@ -17,6 +17,7 @@ Env:
   BACKEND_URL         default http://localhost:8080      BACKEND_READY_PATH  default /health
   MAX_INFLIGHT        0 = no admission control           MAX_QUEUE / QUEUE_TIMEOUT_S  (0 = off)
   REDIS_URL           e.g. redis://localhost:6379/0 (empty = no cache)   CACHE_TTL_S  default 3600
+  REDIS_COOLDOWN_S    after a Redis error, skip the cache this long (circuit breaker), default 5
   COALESCE            1 (default) / 0
   BATCH_MODE          off (default) | version_a          BATCH_MAX 8 · BATCH_WINDOW_MS 50
 """
@@ -41,6 +42,7 @@ MAX_INFLIGHT = int(os.environ.get("MAX_INFLIGHT", "0"))
 MAX_QUEUE = int(os.environ.get("MAX_QUEUE", "0"))
 QUEUE_TIMEOUT_S = float(os.environ.get("QUEUE_TIMEOUT_S", "0"))
 REDIS_URL = os.environ.get("REDIS_URL", "")
+REDIS_COOLDOWN_S = float(os.environ.get("REDIS_COOLDOWN_S", "5"))   # circuit breaker: skip Redis this long after an error
 CACHE_TTL_S = int(os.environ.get("CACHE_TTL_S", "3600"))
 COALESCE = os.environ.get("COALESCE", "1") == "1"
 BATCH_MODE = os.environ.get("BATCH_MODE", "off")
@@ -122,25 +124,41 @@ async def acquire_slot(sem: asyncio.Semaphore) -> str | None:
     return None
 
 
-async def cache_get(key: str) -> str | None:
+def redis_usable():
+    """The Redis client, or None while the circuit breaker is open (recent error) or no cache is configured.
+    After the cooldown the next request simply tries again, so the cache comes back on its own."""
     r = STATE.get("redis")
+    if r is None or time.monotonic() < STATE.get("redis_down_until", 0.0):
+        return None
+    return r
+
+
+def redis_failed() -> None:
+    STATS.cache_errors += 1
+    if time.monotonic() >= STATE.get("redis_down_until", 0.0):
+        log.warning("Redis error -> cache bypassed for %.0fs", REDIS_COOLDOWN_S)
+    STATE["redis_down_until"] = time.monotonic() + REDIS_COOLDOWN_S
+
+
+async def cache_get(key: str) -> str | None:
+    r = redis_usable()
     if r is None:
         return None
     try:
         return await r.get(key)
-    except Exception:                  # cache down must never take the service down
-        STATS.cache_errors += 1
+    except Exception:                  # cache down must never take the service down (fail open)
+        redis_failed()
         return None
 
 
 async def cache_set(key: str, value: dict) -> None:
-    r = STATE.get("redis")
+    r = redis_usable()
     if r is None:
         return
     try:
         await r.set(key, json.dumps(value), ex=CACHE_TTL_S)
     except Exception:
-        STATS.cache_errors += 1
+        redis_failed()
 
 
 # ------------------------------------------------------------ backend I/O
@@ -255,20 +273,22 @@ async def lifespan(app: FastAPI):
                                         limits=httpx.Limits(max_connections=1000, max_keepalive_connections=200))
     STATE["sem"] = asyncio.Semaphore(MAX_INFLIGHT) if MAX_INFLIGHT > 0 else None
     if REDIS_URL:
+        # Keep the client even if Redis is down right now: containers start in any order and restart.
+        # redis-py reconnects by itself; the circuit breaker avoids hammering a dead Redis meanwhile.
+        STATE["redis"] = aioredis.from_url(REDIS_URL, decode_responses=True, socket_timeout=0.5,
+                                           socket_connect_timeout=0.5)
         try:
-            r = aioredis.from_url(REDIS_URL, decode_responses=True, socket_timeout=0.5,
-                                  socket_connect_timeout=0.5)
-            await r.ping()
-            STATE["redis"] = r
+            await STATE["redis"].ping()
             log.info("cache: Redis at %s (TTL %ss)", REDIS_URL, CACHE_TTL_S)
         except Exception as e:
-            log.warning("cache DISABLED: cannot reach Redis at %s (%s)", REDIS_URL, e)
+            redis_failed()
+            log.warning("cache: Redis at %s not reachable yet (%s) - serving without cache until it is", REDIS_URL, e)
     if BATCH_MODE == "version_a":
         STATE["batcher"] = MicroBatcher()
         STATE["batcher"].start()
     log.info("gateway -> %s | max_inflight=%s max_queue=%s queue_timeout=%ss | cache=%s coalesce=%s | batch=%s",
              BACKEND_URL, MAX_INFLIGHT or "unlimited", MAX_QUEUE or "unlimited", QUEUE_TIMEOUT_S or "none",
-             "on" if STATE.get("redis") else "off", COALESCE,
+             "configured" if STATE.get("redis") else "off", COALESCE,
              f"{BATCH_MODE} (max {BATCH_MAX}, window {BATCH_WINDOW_MS:.0f}ms)" if STATE.get("batcher") else "off")
     yield
     if STATE.get("batcher") and STATE["batcher"].task:
@@ -292,7 +312,17 @@ async def ready():
         ok = r.status_code == 200
     except httpx.HTTPError:
         ok = False
-    return JSONResponse({"ready": ok, "cache": bool(STATE.get("redis"))}, status_code=200 if ok else 503)
+    return JSONResponse({"ready": ok, "cache": await cache_reachable()}, status_code=200 if ok else 503)
+
+
+async def cache_reachable() -> bool:
+    r = STATE.get("redis")
+    if r is None:
+        return False
+    try:
+        return bool(await r.ping())
+    except Exception:
+        return False
 
 
 @app.get("/stats")
@@ -300,7 +330,8 @@ async def stats():
     lookups = STATS.cache_hits + STATS.cache_misses
     return {
         "backend": BACKEND_URL, "max_inflight": MAX_INFLIGHT, "max_queue": MAX_QUEUE,
-        "queue_timeout_s": QUEUE_TIMEOUT_S, "cache": bool(STATE.get("redis")), "coalesce": COALESCE,
+        "queue_timeout_s": QUEUE_TIMEOUT_S, "cache": bool(STATE.get("redis")),
+        "cache_bypassed_now": STATE.get("redis") is not None and redis_usable() is None, "coalesce": COALESCE,
         "batch_mode": BATCH_MODE if STATE.get("batcher") else "off",
         "requests": STATS.requests, "completed": STATS.completed, "errors": STATS.errors,
         "waiting": STATS.waiting, "in_flight": STATS.in_flight, "admitted": STATS.admitted,

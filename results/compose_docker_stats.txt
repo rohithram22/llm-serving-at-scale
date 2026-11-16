@@ -1,0 +1,4 @@
+NAME                     CPU %     MEM USAGE / LIMIT
+llm-serving-gateway-1    5.99%     71.84MiB / 256MiB
+llm-serving-redis-1      4.76%     3.84MiB / 320MiB
+llm-serving-llamacpp-1   201.84%   372.3MiB / 2GiB

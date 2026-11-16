@@ -107,6 +107,18 @@ rd = httpx.get(GW + "/ready").json()
 check("Redis down: requests still served, cache off", all(r[0] == 200 for r in rs) and rd == {"ready": True, "cache": False}, f"ready={rd}")
 stop(b, g)
 
+# 7b. Redis down at START, comes back later -> cache recovers by itself (circuit breaker closes)
+flag = "/tmp/fake_redis_down"; open(flag, "w").close()
+b, g = scenario("redis-recovers", {"REDIS_URL": "redis://fake", "REDIS_COOLDOWN_S": "1", "FAKE_REDIS_DOWN_FILE": flag})
+rs = asyncio.run(fire([body("rr"), body("rr")]))
+down_ok = all(r[0] == 200 for r in rs) and httpx.get(GW + "/ready").json()["cache"] is False
+os.remove(flag); time.sleep(1.5)
+asyncio.run(fire([body("rr")])); rs = asyncio.run(fire([body("rr")]))
+st = httpx.get(GW + "/stats").json()
+check("Redis down at start, then back: served throughout, cache recovers", down_ok and rs[0][1] == "HIT"
+      and httpx.get(GW + "/ready").json()["cache"] is True, f"after recovery: {rs[0][1]}, cache_errors={st['cache_errors']}")
+stop(b, g)
+
 # 8. backend down -> 502, not a crash; /ready says not ready
 g = start([sys.executable, "-m", "uvicorn", "app:app", "--app-dir", "serving/gateway", "--port", "9001", "--log-level", "warning"], GW,
           {"BACKEND_URL": "http://localhost:8099", "MAX_INFLIGHT": "2"})

@@ -1,0 +1,50 @@
+# GPU variant: swap llama.cpp for vLLM.  NOT RUNNABLE in the codespace (needs an NVIDIA GPU +
+# the NVIDIA container toolkit); kept to show that only the backend changes.
+#
+#   docker compose -f compose.yaml -f compose.vllm.yaml up -d --build
+#
+# The gateway is unchanged except BACKEND_URL / BACKEND_READY_PATH and a bigger admission limit
+# (vLLM sustained ~124-144 req/s on one T4 in Steps 6/7b, vs ~1.2 for llama.cpp on 2 CPU cores).
+services:
+  llamacpp:
+    profiles: ["disabled"]              # don't start the CPU backend
+
+  vllm:
+    image: vllm/vllm-openai:v0.18.1     # same version as the Kaggle runs
+    command: >
+      --model Qwen/Qwen2.5-0.5B-Instruct --dtype half
+      --max-model-len 4096 --gpu-memory-utilization 0.85 --max-num-seqs 256
+      --generation-config vllm
+    environment:
+      HF_TOKEN: ${HF_TOKEN:-}
+    volumes:
+      - hf-cache:/root/.cache/huggingface
+    ipc: host                           # PyTorch uses shared memory between processes
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8000/health"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+      start_period: 300s                # model download + CUDA graph capture
+    restart: unless-stopped
+
+  gateway:
+    environment:
+      BACKEND_URL: http://vllm:8000
+      MAX_INFLIGHT: ${MAX_INFLIGHT:-256}  # = --max-num-seqs
+      MAX_QUEUE: ${MAX_QUEUE:-512}
+    depends_on: !override
+      vllm:
+        condition: service_healthy
+      redis:
+        condition: service_started
+
+volumes:
+  hf-cache:
