@@ -1,0 +1,45 @@
+# Capacity-plan inputs. Change a number here, re-run `python capacity/plan.py`, get a new plan.
+# MEASURED = from this repo's load tests.  ASSUMED = a stated guess (change it if you know better).
+
+traffic:                                  # ASSUMED
+  tiers_dau: [100, 10000, 1000000]        # daily active users
+  requests_per_dau_per_day: 10            # chat messages per user per day
+  peak_to_average: 3.0                    # busiest hour vs. the daily average (diurnal pattern)
+  days_per_month: 30
+
+workloads:                                # tokens per request
+  benchmark:                              # MEASURED: our Locust prompt mix (~50 output tokens)
+    output_tokens: null                   # null = take it from the load-test results
+    note: "this repo's prompt mix: short answers, ~50 output tokens"
+  chat:                                   # ASSUMED: a typical assistant reply
+    output_tokens: 300
+    note: "typical chat reply, ~300 output tokens"
+
+planning:                                 # ASSUMED
+  target_utilization: 0.70                # run replicas at 70% of measured capacity (bursts, autoscaling lag)
+  spare_replicas: 1                       # N+1: survive one replica failing / a rolling update
+  min_replicas: 2                         # never 1: one replica = every restart is an outage (Step 9)
+  cache_hit_rates: [0.0, 0.2]             # 0 = no cache; 20% = Step 8 E2-like repeats
+  hours_per_month: 730
+
+# MEASURED capacity per replica = the LOWEST goodput (<= 15 s SLO) among these runs, i.e. conservative.
+# (Sessions varied ~15%: Step 6 vs Step 7b measured 144 vs 124 req/s on the same T4.)
+hardware:
+  cpu_llamacpp:
+    name: "llama.cpp fp16, 2 physical cores (c7i.xlarge)"
+    runs: [{label: llamacpp_fp16_np8, users: 10}, {label: gw_llamacpp_admit, users: 100},
+           {label: gw_llamacpp_admit, users: 1000}]
+    instance: c7i.xlarge                  # 4 vCPU = 2 physical cores = the codespace we measured on
+    usd_per_hour: 0.1785                  # on-demand us-east-1 (AWS, Nov 2026)
+    usd_per_hour_reserved_1y: null
+  gpu_t4_vllm:
+    name: "vLLM fp16, 1x T4 (g4dn.xlarge)"
+    runs: [{label: vllm_t4_fp16, users: 1000}]
+    instance: g4dn.xlarge
+    usd_per_hour: 0.526                   # on-demand us-east-1 (AWS, Nov 2026)
+    usd_per_hour_reserved_1y: 0.362       # 1-year reserved, us-east-1
+
+fixed_monthly_usd:                        # platform pieces that don't scale with traffic
+  kubernetes_control_plane: 73.0          # EKS standard support, $0.10/h
+  redis: 23.36                            # ElastiCache cache.t4g.small (x2 = with a replica at 1M)
+  # Not included: load balancer, data transfer, monitoring, storage, engineers.
