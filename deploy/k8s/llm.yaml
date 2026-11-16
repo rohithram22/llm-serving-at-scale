@@ -1,0 +1,109 @@
+# The serving unit: ONE pod = llama.cpp + its own gateway (a "sidecar").
+#
+# Why the gateway lives inside the pod: its admission limit (MAX_INFLIGHT) must match the slots of
+# ONE llama.cpp. With one shared gateway in front of N replicas, a fixed limit of 8 would cap the
+# whole system at 8 in flight no matter how many replicas the autoscaler adds. As a sidecar, every
+# new replica brings its own slots AND its own limit, so capacity and admission scale together.
+#
+#   client ──► Service "llm" (NodePort 30900) ──► pod 1: gateway :9000 ──► llama.cpp :8080 (localhost)
+#                                            ├──► pod 2: gateway ──► llama.cpp
+#                                            └──► pod N ...           (all pods share one Redis)
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: llm
+  namespace: llm
+spec:
+  replicas: 2                        # the HPA (hpa.yaml) takes over this number once applied
+  selector:
+    matchLabels: {app: llm}
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1                    # start 1 new pod first...
+      maxUnavailable: 0              # ...and never remove an old one before the new one is READY
+  template:
+    metadata:
+      labels: {app: llm}
+    spec:
+      # Total time allowed to shut down, INCLUDING the preStop pause below. Then SIGKILL.
+      terminationGracePeriodSeconds: 45
+      volumes:
+        - name: models
+          hostPath: {path: /models, type: Directory}     # the kind node's /models (kind-config.yaml)
+      containers:
+        - name: llamacpp
+          image: ghcr.io/ggml-org/llama.cpp:server
+          imagePullPolicy: IfNotPresent
+          args: ["-m", "/models/qwen2.5-0.5b-instruct-fp16.gguf", "--host", "0.0.0.0", "--port", "8080",
+                 "--parallel", "4", "--ctx-size", "8192", "--cont-batching",
+                 "--threads", "1", "--threads-batch", "1", "--jinja", "--metrics"]
+          ports:
+            - containerPort: 8080
+          volumeMounts:
+            - {name: models, mountPath: /models, readOnly: true}
+          resources:
+            # requests = what the scheduler reserves (and what the HPA's % is measured against)
+            # limits   = the hard cap. 1 CPU <-> --threads 1.
+            requests: {cpu: 800m, memory: 512Mi}
+            limits: {cpu: "1", memory: 2Gi}
+          # Probes are HTTP calls made by the kubelet itself: no curl needed inside the image.
+          startupProbe:              # model loading: allow up to 5 x 24 = 120 s before liveness starts
+            httpGet: {path: /health, port: 8080}
+            periodSeconds: 5
+            failureThreshold: 24
+          readinessProbe:            # only READY pods receive traffic from the Service
+            httpGet: {path: /health, port: 8080}
+            periodSeconds: 5
+            failureThreshold: 2
+          livenessProbe:             # stuck for 30 s -> restart the container
+            httpGet: {path: /health, port: 8080}
+            periodSeconds: 10
+            timeoutSeconds: 5
+            failureThreshold: 3
+          lifecycle:
+            # On shutdown, Kubernetes removes the pod from the Service AND starts this hook at the same
+            # time. Keep serving for 15 s: new traffic stops arriving, in-flight requests (~6-12 s) finish.
+            # Only then does SIGTERM arrive. (Fixes Step 9's drill B, where requests in flight died.)
+            preStop:
+              sleep: {seconds: 15}
+
+        - name: gateway
+          image: llm-gateway:step10
+          imagePullPolicy: Never     # built locally and loaded into kind; never try a registry
+          env:
+            - {name: BACKEND_URL, value: "http://localhost:8080"}   # same pod = same network namespace
+            - {name: BACKEND_READY_PATH, value: /health}
+            - {name: REDIS_URL, value: "redis://redis:6379/0"}
+            - {name: MAX_INFLIGHT, value: "4"}                       # = llama.cpp --parallel
+            - {name: MAX_QUEUE, value: "4"}
+            - {name: QUEUE_TIMEOUT_S, value: "6"}
+            - {name: CLOSE_CLIENT_CONNECTIONS, value: "1"}           # per-request balancing (see app.py)
+          ports:
+            - containerPort: 9000
+          resources:
+            requests: {cpu: 50m, memory: 64Mi}
+            limits: {cpu: 500m, memory: 256Mi}
+          readinessProbe:            # /ready = gateway up AND its llama.cpp loaded
+            httpGet: {path: /ready, port: 9000}
+            periodSeconds: 5
+            failureThreshold: 2
+          livenessProbe:
+            httpGet: {path: /health, port: 9000}
+            periodSeconds: 10
+          lifecycle:
+            preStop:
+              sleep: {seconds: 15}   # same pause, so the gateway outlives its in-flight requests
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: llm
+  namespace: llm
+spec:
+  type: NodePort
+  selector: {app: llm}
+  ports:
+    - port: 9000
+      targetPort: 9000
+      nodePort: 30900

@@ -20,6 +20,7 @@ Env:
   REDIS_COOLDOWN_S    after a Redis error, skip the cache this long (circuit breaker), default 5
   COALESCE            1 (default) / 0
   BATCH_MODE          off (default) | version_a          BATCH_MAX 8 · BATCH_WINDOW_MS 50
+  CLOSE_CLIENT_CONNECTIONS  1 = "Connection: close" on every response (per-request balancing in k8s)
 """
 import asyncio
 import hashlib
@@ -27,6 +28,7 @@ import json
 import logging
 import math
 import os
+import socket
 import time
 from contextlib import asynccontextmanager
 
@@ -48,6 +50,11 @@ COALESCE = os.environ.get("COALESCE", "1") == "1"
 BATCH_MODE = os.environ.get("BATCH_MODE", "off")
 BATCH_MAX = int(os.environ.get("BATCH_MAX", "8"))
 BATCH_WINDOW_MS = float(os.environ.get("BATCH_WINDOW_MS", "50"))
+# 1 = answer every request with "Connection: close". Kubernetes Services balance per TCP CONNECTION,
+# so a client that keeps one connection open sticks to one pod forever (new replicas get nothing).
+# Forcing a reconnect per request lets the Service spread requests over all ready pods.
+CLOSE_CLIENT_CONNECTIONS = os.environ.get("CLOSE_CLIENT_CONNECTIONS", "0") == "1"
+HOSTNAME = socket.gethostname()
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger("gateway")
@@ -61,7 +68,8 @@ class Stats:
         self.started = time.time()
         self.requests = 0
         self.completed = 0                # 200s returned (any path)
-        self.errors = 0                   # backend failures (502)
+        self.errors = 0                   # backend failures (502, or 503 backend_unavailable)
+        self.backend_unavailable = 0      # 503 because the backend could not be reached
         self.cache_hits = 0
         self.cache_misses = 0
         self.cache_errors = 0             # Redis unreachable -> treated as a miss (fail open)
@@ -171,8 +179,12 @@ async def call_backend(body: dict) -> tuple[int, dict, dict]:
         except ValueError:
             content = {"error": r.text[:300]}
         return r.status_code, content, {}
+    except (httpx.ConnectError, httpx.ConnectTimeout) as e:
+        # Backend not there (restarting, not loaded): temporary -> 503 + Retry-After, so clients and
+        # load balancers retry later / elsewhere instead of treating it as a hard failure.
+        return 503, {"error": "backend_unavailable", "reason": type(e).__name__}, {"Retry-After": "2"}
     except httpx.HTTPError as e:
-        return 502, {"error": f"backend unreachable: {type(e).__name__}"}, {}
+        return 502, {"error": f"backend error: {type(e).__name__}"}, {}
 
 
 class MicroBatcher:
@@ -261,8 +273,10 @@ async def process(body: dict, key: str | None) -> tuple[int, dict, dict]:
             STATS.admitted -= 1
     if status == 200 and key:
         await cache_set(key, content)
-    if status >= 500 and status != 503:
+    if status >= 500 and content.get("error") != "overloaded":       # load shedding is not an error
         STATS.errors += 1
+        if content.get("error") == "backend_unavailable":
+            STATS.backend_unavailable += 1
     return status, content, headers
 
 
@@ -297,6 +311,15 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(title="LLM gateway", lifespan=lifespan)
+
+
+@app.middleware("http")
+async def close_connections(request: Request, call_next):
+    response = await call_next(request)
+    response.headers["X-Served-By"] = HOSTNAME          # in Kubernetes: the pod's name
+    if CLOSE_CLIENT_CONNECTIONS:
+        response.headers["Connection"] = "close"
+    return response
 
 
 @app.get("/health")
@@ -335,6 +358,7 @@ async def stats():
         "batch_mode": BATCH_MODE if STATE.get("batcher") else "off",
         "requests": STATS.requests, "completed": STATS.completed, "errors": STATS.errors,
         "waiting": STATS.waiting, "in_flight": STATS.in_flight, "admitted": STATS.admitted,
+        "backend_unavailable": STATS.backend_unavailable,
         "rejected_queue_full": STATS.rejected_queue_full, "rejected_queue_timeout": STATS.rejected_queue_timeout,
         "cache_hits": STATS.cache_hits, "cache_misses": STATS.cache_misses, "cache_errors": STATS.cache_errors,
         "cache_hit_rate": round(STATS.cache_hits / lookups, 4) if lookups else None,

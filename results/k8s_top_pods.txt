@@ -1,0 +1,4 @@
+POD                      NAME       CPU(cores)   MEMORY(bytes)   
+llm-77d658b944-4cmml     llamacpp   932m         283Mi           
+llm-77d658b944-4wp6p     llamacpp   942m         244Mi           
+llm-77d658b944-s5dl7     llamacpp   939m         253Mi           

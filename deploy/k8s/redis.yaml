@@ -1,0 +1,40 @@
+# Shared response cache: ONE Redis for all replicas (this is why it's Redis and not a Python dict:
+# a hit stored by pod A is a hit for pod B).
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: redis
+  namespace: llm
+spec:
+  replicas: 1
+  selector:
+    matchLabels: {app: redis}
+  template:
+    metadata:
+      labels: {app: redis}
+    spec:
+      containers:
+        - name: redis
+          image: redis:7-alpine
+          imagePullPolicy: IfNotPresent
+          args: ["redis-server", "--maxmemory", "256mb", "--maxmemory-policy", "allkeys-lru",
+                 "--save", "", "--appendonly", "no"]
+          ports:
+            - containerPort: 6379
+          readinessProbe:
+            exec: {command: ["redis-cli", "ping"]}
+            periodSeconds: 5
+          resources:
+            requests: {cpu: 50m, memory: 64Mi}
+            limits: {cpu: 500m, memory: 320Mi}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: redis              # pods reach it as redis://redis:6379 (cluster DNS, like Compose)
+  namespace: llm
+spec:
+  selector: {app: redis}
+  ports:
+    - port: 6379
+      targetPort: 6379

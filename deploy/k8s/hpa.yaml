@@ -1,0 +1,37 @@
+# Horizontal Pod Autoscaler: add/remove "llm" pods based on llama.cpp's CPU use.
+#
+# Every 15 s:  desired = ceil( current_replicas x  current_CPU% / target_CPU% )
+# CPU% is measured against the container's REQUEST (800m). llama.cpp busy = ~1000m = 125%.
+#   1 busy pod -> ceil(1 x 125 / 50) = 3 wanted -> but at most +1 pod per 30 s (behavior below)
+#
+# Why CPU works here: llama.cpp on CPU is compute-bound, so CPU% tracks load well. On a GPU server
+# CPU says nothing -> you'd scale on queue length / KV-cache use (custom metrics), see the README.
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: llm
+  namespace: llm
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: llm
+  minReplicas: 1
+  maxReplicas: 4               # on purpose more than this node can fit -> watch the 4th stay Pending
+  metrics:
+    - type: ContainerResource  # only the llama.cpp container counts (not the gateway sidecar)
+      containerResource:
+        name: cpu
+        container: llamacpp
+        target:
+          type: Utilization
+          averageUtilization: 50
+  behavior:
+    scaleUp:
+      stabilizationWindowSeconds: 0        # react immediately
+      policies:
+        - {type: Pods, value: 1, periodSeconds: 30}
+    scaleDown:
+      stabilizationWindowSeconds: 90       # wait 90 s of low load before removing (default 300)
+      policies:
+        - {type: Pods, value: 1, periodSeconds: 30}

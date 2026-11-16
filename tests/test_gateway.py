@@ -122,9 +122,39 @@ stop(b, g)
 # 8. backend down -> 502, not a crash; /ready says not ready
 g = start([sys.executable, "-m", "uvicorn", "app:app", "--app-dir", "serving/gateway", "--port", "9001", "--log-level", "warning"], GW,
           {"BACKEND_URL": "http://localhost:8099", "MAX_INFLIGHT": "2"})
-rs = asyncio.run(fire([body("x")])); rd = httpx.get(GW + "/ready")
+async def one_with_headers():
+    async with httpx.AsyncClient(timeout=10) as c:
+        return await c.post(GW + "/v1/chat/completions", json=body("x"))
+r = asyncio.run(one_with_headers()); rd = httpx.get(GW + "/ready")
 st = httpx.get(GW + "/stats").json()
-check("backend down: 502 + not ready + slot released", rs[0][0] == 502 and rd.status_code == 503 and st["in_flight"] == 0)
+check("backend down: 503 + Retry-After + not ready + slot released",
+      r.status_code == 503 and r.json().get("error") == "backend_unavailable" and r.headers.get("retry-after") == "2"
+      and rd.status_code == 503 and st["in_flight"] == 0 and st["backend_unavailable"] == 1 and st["errors"] == 1,
+      f"status={r.status_code} body={r.json()} errors={st['errors']}")
 stop(g)
+
+# 9. CLOSE_CLIENT_CONNECTIONS=1 -> server really closes the TCP connection after each response
+import socket
+def two_requests_on_one_socket():
+    s = socket.create_connection(("localhost", 9001)); s.settimeout(3)
+    req = b"GET /health HTTP/1.1\r\nHost: x\r\n\r\n"
+    s.sendall(req); first = b""
+    while b"\r\n\r\n" not in first or not first.rstrip().endswith(b"}"):
+        chunk = s.recv(4096)
+        if not chunk: break
+        first += chunk
+    try:
+        s.sendall(req); second = s.recv(4096)
+    except OSError:
+        second = b""
+    s.close(); return first, second
+for flag, expect_closed in (("1", True), ("0", False)):
+    g = start([sys.executable, "-m", "uvicorn", "app:app", "--app-dir", "serving/gateway", "--port", "9001", "--log-level", "warning"],
+              GW, {"BACKEND_URL": "http://localhost:8099", "CLOSE_CLIENT_CONNECTIONS": flag})
+    first, second = two_requests_on_one_socket()
+    closed = second == b""
+    check(f"CLOSE_CLIENT_CONNECTIONS={flag}: connection {'closed' if expect_closed else 'kept'} after a response",
+          b"200 OK" in first and closed == expect_closed and ((b"connection: close" in first.lower()) == expect_closed))
+    stop(g)
 
 print(f"\n{sum(results)}/{len(results)} gateway checks passed")

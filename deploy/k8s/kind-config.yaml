@@ -1,0 +1,17 @@
+# A one-node Kubernetes cluster that runs as a Docker container inside the codespace.
+#   kind create cluster --name llm --config deploy/k8s/kind-config.yaml
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+nodes:
+  - role: control-plane
+    extraMounts:
+      # The model files: codespace folder -> the node's /models (pods mount it from there, read-only)
+      - hostPath: /workspaces/llm-serving-at-scale/models
+        containerPath: /models
+        readOnly: true
+    extraPortMappings:
+      # NodePort 30900 (the "llm" Service) -> localhost:30900 in the codespace.
+      # Going through the Service (not `kubectl port-forward`, which pins ONE pod) keeps load balancing.
+      - containerPort: 30900
+        hostPort: 30900
+        protocol: TCP

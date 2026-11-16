@@ -3,7 +3,7 @@
 Reads a Locust raw CSV (one row per request) plus the drill's event log and prints a timeline in
 5-second windows: answers from the cache (fast), answers from the model, and each kind of error.
 
-Usage: python scripts/chaos_timeline.py results/raw/drill_redis_u10.csv results/raw/drill_redis_events.txt
+Usage: python scripts/chaos_timeline.py results/raw/drill_redis_u10.csv results/raw/drill_redis_events.txt [window_s]
 Event log lines: "<unix_ts> <text>", e.g. "1763221000.5 redis STOPPED"
 """
 import sys
@@ -11,11 +11,14 @@ import sys
 import pandas as pd
 
 FAST_S = 0.2          # an answer this fast can only have come from the cache
-WINDOW_S = 5
+WINDOW_S = 5          # default; a 3rd argument overrides it
 
 
 def main() -> None:
+    global WINDOW_S
     raw, events_file = sys.argv[1], sys.argv[2]
+    if len(sys.argv) > 3:
+        WINDOW_S = int(sys.argv[3])
     df = pd.read_csv(raw, keep_default_na=False)
     t0 = df["start_ts"].min()
     df["t"] = ((df["end_ts"] - t0) // WINDOW_S * WINDOW_S).astype(int)     # bucket by completion time
@@ -28,7 +31,7 @@ def main() -> None:
     for line in open(events_file):
         ts, _, text = line.strip().partition(" ")
         if ts:
-            events.append((int((float(ts) - t0) // WINDOW_S * WINDOW_S), text))
+            events.append((int(float(ts) - t0), text))
 
     table = df.pivot_table(index="t", columns="kind", values="latency_s", aggfunc="count", fill_value=0)
     cols = [c for c in ("ok_cache", "ok_model") if c in table] + sorted(c for c in table if c.startswith("error:"))
@@ -36,7 +39,7 @@ def main() -> None:
 
     print(f"{'t (s)':>6}  " + "  ".join(f"{c:>14}" for c in cols) + "   event")
     for t, row in table.iterrows():
-        marks = "; ".join(text for et, text in events if et == t)
+        marks = "; ".join(text for et, text in events if t <= et < t + WINDOW_S or (et < 0 and t == table.index[0]))
         print(f"{t:>6}  " + "  ".join(f"{int(row[c]):>14}" for c in cols) + (f"   <-- {marks}" if marks else ""))
 
     errs = df[~ok]
